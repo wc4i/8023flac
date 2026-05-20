@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>群星閃耀 - wc4° 音樂倉庫</title>
+    <!-- 引入全局樣式（從 category/ 回到根目錄） -->
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+        /* 針對海量列表的防疲勞 BBS 風格專屬樣式 */
+        .bbs-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px; /* 卡片之間的間距 */
+            margin-top: 20px;
+        }
+
+        /* 單行極簡資源卡片 */
+        .bbs-row {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+            text-decoration: none; /* 讓整行變成可點擊的超連結 */
+            color: inherit;
+        }
+        .bbs-row:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            background-color: rgba(59, 130, 246, 0.02); /* 滑過時有極淡的藍色科技感 */
+        }
+        [data-theme="dark"] .bbs-row:hover {
+            background-color: rgba(255, 255, 255, 0.02);
+        }
+
+        /* 左側邊框色彩循環（透過 JS 自動為每列附加 color-X 類別，防止視覺疲勞） */
+        .color-0 { border-left: 4px solid #ef4444; } /* 華語紅 */
+        .color-1 { border-left: 4px solid #3b82f6; } /* 科技藍 */
+        .color-2 { border-left: 4px solid #10b981; } /* 翡翠綠 */
+        .color-3 { border-left: 4px solid #f59e0b; } /* 琥珀橙 */
+        .color-4 { border-left: 4px solid #8b5cf6; } /* 薰衣草紫 */
+
+        /* 資源標題樣式 */
+        .resource-title {
+            font-weight: 600;
+            font-size: 15px;
+            color: var(--text-color);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            flex: 1;
+            transition: color 0.2s;
+        }
+        .bbs-row:hover .resource-title {
+            color: #3b82f6; /* 滑過時標題變藍色，提示可點擊 */
+        }
+        [data-theme="dark"] .bbs-row:hover .resource-title {
+            color: #60a5fa;
+        }
+
+        /* 點擊直接跳轉的直達小圖示 */
+        .direct-go-icon {
+            font-size: 16px;
+            color: #94a3b8;
+            transition: transform 0.2s, color 0.2s;
+        }
+        .bbs-row:hover .direct-go-icon {
+            transform: translateX(4px);
+            color: #3b82f6;
+        }
+
+        /* 底部滾動加載中提示 */
+        .loading-trigger {
+            padding: 24px;
+            text-align: center;
+            font-size: 13px;
+            color: #94a3b8;
+            display: none;
+        }
+
+        /* 手機端排版優化 */
+        @media (max-width: 600px) {
+            .bbs-row {
+                padding: 14px 16px;
+            }
+            .resource-title {
+                font-size: 13.5px;
+            }
+            .direct-go-icon {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- 頂部導航 -->
+<header>
+    <a href="../index.html" class="back-btn" title="返回倉庫">⬅</a>
+    <div class="search-wrapper">
+        <!-- 海量一鍵模糊搜尋 -->
+        <input type="text" id="bbsSearch" class="search-input" placeholder="輸入關鍵字一秒檢索...">
+    </div>
+    <button class="theme-toggle" id="themeBtn">☀️</button>
+</header>
+
+<!-- 主體內容 -->
+<main class="category-main" style="padding-right: 20px; max-width: 900px;">
+    <!-- BBS 極簡貼文列表 -->
+    <div class="bbs-container" id="bbsList">
+        <!-- 數據會在此動態分頁加載 -->
+    </div>
+    <!-- 滾動解鎖觸發器 -->
+    <div class="loading-trigger" id="loadingTrigger">🔍 正在加載更多資源...</div>
+</main>
+
+<!-- 全局主題切換腳本 -->
+<script src="../js/theme.js"></script>
+<!-- 引入獨立的群星閃耀數據庫 -->
+<script src="../js/various_data.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // 確保 variousDatabase 存在（來自 js/various_data.js）
+        if (typeof variousDatabase === 'undefined') {
+            document.getElementById('bbsList').innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">⚠️ 未在 js/various_data.js 中找到數據庫！</div>';
+            return;
+        }
+
+        // 核心設計 1：將數據倒序排列（逆序，最後添加的顯示在最頂部）
+        const reversedDatabase = [...variousDatabase].reverse();
+        let filteredData = [...reversedDatabase];
+        
+        // 核心設計 2：滾動分頁加載，避免海量數據一次渲染造成手機卡死
+        const itemsPerPage = 25; // 每頁載入 25 條
+        let currentPage = 1;
+        
+        const searchInput = document.getElementById('bbsSearch');
+        const bbsList = document.getElementById('bbsList');
+        const loadingTrigger = document.getElementById('loadingTrigger');
+
+        // 渲染單頁資源的函數
+        function renderBbsPage(page, append = false) {
+            const start = (page - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageData = filteredData.slice(start, end);
+
+            if (!append) {
+                bbsList.innerHTML = '';
+            }
+
+            if (filteredData.length === 0) {
+                bbsList.innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">沒有找到相關資源 🥲</div>';
+                loadingTrigger.style.display = 'none';
+                return;
+            }
+
+            let html = '';
+            pageData.forEach((item, index) => {
+                // 核心設計 3：利用取餘數 (%) 自動為每行分配 color-0 到 color-4，產生精緻的彩色循環邊框
+                const colorClass = `color-${(start + index) % 5}`;
+
+                html += `
+                    <a href="${item.link}" class="bbs-row ${colorClass}" target="_blank" title="點擊直接開啟網盤下載">
+                        <div class="resource-title">${escapeHtml(item.title)}</div>
+                        <div class="direct-go-icon">🔗</div>
+                    </a>
+                `;
+            });
+
+            if (append) {
+                bbsList.insertAdjacentHTML('beforeend', html);
+            } else {
+                bbsList.innerHTML = html;
+            }
+
+            // 判斷是否顯示滑動加載提示
+            if (end < filteredData.length) {
+                loadingTrigger.style.display = 'block';
+            } else {
+                loadingTrigger.style.display = 'none';
+            }
+        }
+
+        // 簡單防 XSS 注入
+        function escapeHtml(str) {
+            return str.replace(/[&<>]/g, function(m) {
+                if (m === '&') return '&amp;';
+                if (m === '<') return '&lt;';
+                if (m === '>') return '&gt;';
+                return m;
+            });
+        }
+
+        // 搜尋過濾函數
+        function searchResources() {
+            const keyword = searchInput.value.trim().toLowerCase();
+            
+            if (keyword === '') {
+                filteredData = [...reversedDatabase];
+            } else {
+                filteredData = reversedDatabase.filter(item => 
+                    item.title.toLowerCase().includes(keyword)
+                );
+            }
+
+            currentPage = 1;
+            renderBbsPage(currentPage, false);
+        }
+
+        // 滾動加載監聽
+        window.addEventListener('scroll', () => {
+            if (loadingTrigger.style.display === 'none') return;
+
+            const rect = loadingTrigger.getBoundingClientRect();
+            // 當底部提示框進入螢幕範圍時，自動渲染下一頁
+            if (rect.top <= window.innerHeight + 100) {
+                currentPage++;
+                renderBbsPage(currentPage, true);
+            }
+        });
+
+        // 監聽鍵盤搜尋輸入
+        searchInput.addEventListener('input', searchResources);
+
+        // 初始載入第一頁
+        renderBbsPage(currentPage, false);
+    });
+</script>
+</body>
+</html>

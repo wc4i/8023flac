@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欧美之声 - wc4° 音乐仓库</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+<header>
+    <a href="../index.html" class="back-btn" title="返回仓库">⬅</a>
+    <div class="search-wrapper">
+        <input type="text" id="innerSearch" class="search-input" placeholder="在此搜索欧美艺人...">
+    </div>
+    <button class="theme-toggle" id="themeBtn">☀️</button>
+</header>
+
+<main class="category-main">
+    <div id="artistsContainer"></div>
+</main>
+
+<div class="alphabet-nav" id="alphabetNav"></div>
+
+<script src="../js/theme.js"></script>
+<script src="../data.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        if (typeof musicDatabase === 'undefined') {
+            console.error('未找到 musicDatabase，请检查 data.js 是否在根目录并且路径正确');
+            document.getElementById('artistsContainer').innerHTML = '<div style="text-align:center;padding:40px;">⚠️ 数据加载失败，请确认 data.js 文件存在。</div>';
+            return;
+        }
+
+        const currentCategory = '欧美之声';
+        let artists = musicDatabase.filter(artist => artist.category === currentCategory);
+
+        function getFirstLetter(pinyin) {
+            if (!pinyin || pinyin.length === 0) return '#';
+            const first = pinyin.charAt(0).toUpperCase();
+            if (/[A-Z]/.test(first)) return first;
+            return '#';
+        }
+
+        function groupArtistsByLetter(artistsList) {
+            const groups = {};
+            for (let artist of artistsList) {
+                const letter = getFirstLetter(artist.pinyin);
+                if (!groups[letter]) groups[letter] = [];
+                groups[letter].push(artist);
+            }
+            const sortedLetters = Object.keys(groups).sort((a,b) => {
+                if (a === '#') return 1;
+                if (b === '#') return -1;
+                return a.localeCompare(b);
+            });
+            return { groups, sortedLetters };
+        }
+
+        function renderArtistCard(artist) {
+            const hasAvatar = artist.avatar && artist.avatar.trim() !== '';
+            const avatarHtml = hasAvatar ? 
+                `<div class="round-avatar"><img src="${artist.avatar}" alt="${artist.name}" loading="lazy"></div>` :
+                `<div class="vinyl-record spin-target"><div class="vinyl-center">🎵</div></div>`;
+            return `
+                <a href="#" class="artist-card" data-id="${artist.id}" data-name="${artist.name}">
+                    <div class="avatar-container">
+                        ${avatarHtml}
+                    </div>
+                    <div class="artist-name">${escapeHtml(artist.name)}</div>
+                </a>
+            `;
+        }
+
+        function escapeHtml(str) {
+            return str.replace(/[&<>]/g, function(m) {
+                if (m === '&') return '&amp;';
+                if (m === '<') return '&lt;';
+                if (m === '>') return '&gt;';
+                return m;
+            });
+        }
+
+        function renderGroups(artistsList) {
+            const { groups, sortedLetters } = groupArtistsByLetter(artistsList);
+
+            let mainHtml = '';
+            let alphabetHtml = '';
+
+            for (let letter of sortedLetters) {
+                const artistsInGroup = groups[letter];
+                if (!artistsInGroup.length) continue;
+
+                mainHtml += `<div class="section-group" data-letter="${letter}" id="group-${letter}">`;
+                mainHtml += `<div class="section-title">${letter}</div>`;
+                mainHtml += `<div class="artist-grid">`;
+                artistsInGroup.forEach(artist => {
+                    mainHtml += renderArtistCard(artist);
+                });
+                mainHtml += `</div></div>`;
+
+                alphabetHtml += `<div class="alphabet-letter" data-letter="${letter}">${letter}</div>`;
+            }
+
+            document.getElementById('artistsContainer').innerHTML = mainHtml || '<div style="text-align:center;padding:40px;">暂无歌手数据</div>';
+            document.getElementById('alphabetNav').innerHTML = alphabetHtml;
+
+            document.querySelectorAll('.alphabet-letter').forEach(el => {
+                el.addEventListener('click', () => {
+                    const letter = el.getAttribute('data-letter');
+                    const targetGroup = document.getElementById(`group-${letter}`);
+                    if (targetGroup) {
+                        targetGroup.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+        }
+
+        let currentFiltered = [...artists];
+        const searchInput = document.getElementById('innerSearch');
+
+        function filterArtists() {
+            const keyword = searchInput.value.trim().toLowerCase();
+            if (keyword === '') {
+                currentFiltered = [...artists];
+            } else {
+                currentFiltered = artists.filter(artist => artist.name.toLowerCase().includes(keyword));
+            }
+            renderGroups(currentFiltered);
+        }
+
+        renderGroups(artists);
+        searchInput.addEventListener('input', filterArtists);
+
+        document.getElementById('artistsContainer').addEventListener('click', (e) => {
+            const card = e.target.closest('.artist-card');
+            if (card && card.dataset.id) {
+                e.preventDefault();
+                alert(`即将打开歌手「${card.dataset.name}」的详情页 (功能开发中)`);
+            }
+        });
+    });
+</script>
+</body>
+</html>
