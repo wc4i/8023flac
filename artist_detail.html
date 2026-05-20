@@ -61,8 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    const jsonFolder = window.location.protocol === 'file:' ? 'artists' : '/8023flac/artists';
-    fetch(`${jsonFolder}/${artistId}.json`)
+    const jsonUrl = new URL(`artists/${artistId}.json`, window.location.href).href;
+    fetch(jsonUrl)
         .then(res => {
             if (!res.ok) throw new Error('無法載入歌手數據');
             return res.json();
