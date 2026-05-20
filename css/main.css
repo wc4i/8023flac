@@ -299,6 +299,21 @@ main {
     border-radius: 50%;
     border: 1px dashed rgba(255,255,255,0.05);
 }
+.vinyl-placeholder {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 50%, #000 0%, #222 60%, #111 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+    animation: spin 6s linear infinite;
+}
 .vinyl-center {
     width: 26px;
     height: 26px;
@@ -312,6 +327,10 @@ main {
     font-size: 11px;
     border: 2px solid #000;
     z-index: 2;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 .artist-name {
     font-size: 13px;
@@ -417,4 +436,5 @@ main {
         height: 14px;
         font-size: 9px;
     }
+    
 }

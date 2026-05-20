@@ -4,57 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>歌手資料 - wc4° 音樂倉庫</title>
-    <!-- 引入主樣式表 -->
     <link rel="stylesheet" href="../css/main.css">
     <style>
         /* 頁面頂部裝飾 */
         .artist-header { padding: 30px 20px; text-align: center; }
         .artist-avatar { 
-            width: 180px; 
-            height: 180px; 
-            border-radius: 50%; 
-            object-fit: cover; 
-            margin: 0 auto 20px; 
-            border: 3px solid var(--primary);
-            box-shadow: var(--shadow-md);
+            width: 180px; height: 180px; border-radius: 50%; 
+            object-fit: cover; margin: 0 auto 20px; 
+            border: 3px solid var(--primary); box-shadow: var(--shadow-md);
         }
         .artist-header h1 { font-size: 2.5rem; margin-bottom: 12px; font-weight: 800; color: var(--text-color); }
         .artist-bio { color: #64748b; max-width: 600px; margin: 0 auto; line-height: 1.6; font-size: 15px; }
         
-        /* 單曲收錄資訊區 */
-        .single-info-box { 
-            margin: 25px auto 50px; 
-            padding: 16px 20px; 
-            background: rgba(59, 130, 246, 0.06); 
-            border: 1px solid rgba(59, 130, 246, 0.2); 
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            max-width: 500px;
-            font-size: 14px;
-            color: #3b82f6;
-            font-weight: 500;
-        }
-        .single-avatar { 
-            width: 60px; 
-            height: 60px; 
-            border-radius: 50%; 
-            flex-shrink: 0;
-            border: 2px solid #3b82f6;
-        }
-
         /* 專輯區塊樣式 */
         .group-section { margin-bottom: 60px; }
         .group-title { font-size: 1.3rem; margin-bottom: 25px; padding-left: 12px; border-left: 4px solid var(--primary); color: var(--text-color); font-weight: 700; }
         
         /* 專輯網格布局 */
         .album-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 24px; }
-        .album-card { display: block; text-decoration: none; color: inherit; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .album-card { display: block; text-decoration: none; color: inherit; transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
         .album-card:hover { transform: translateY(-8px); }
-        .album-cover { width: 100%; aspect-ratio: 1; border-radius: 12px; background: #f1f5f9; border: 1px solid var(--border-color); object-fit: cover; margin-bottom: 12px; box-shadow: var(--shadow-sm); }
+        .album-cover { width: 100%; aspect-ratio: 1; border-radius: 12px; border: 1px solid var(--border-color); object-fit: cover; margin-bottom: 12px; box-shadow: var(--shadow-sm); }
         .album-title { font-weight: 600; font-size: 14px; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .album-year { font-size: 12px; color: #94a3b8; }
+        
     </style>
 </head>
 <body>
@@ -70,85 +43,79 @@
         <img id="artistAvatar" class="artist-avatar" src="" alt="artist avatar">
         <h1 id="artistName">載入中...</h1>
         <p class="artist-bio" id="artistBio"></p>
-        <!-- 單曲資訊區 -->
-        <div id="singleInfo" class="single-info-box" style="display:none;"></div>
     </div>
     
+    <!-- 專輯區容器 -->
     <div id="detailContainer"></div>
 </main>
 
-<script src="../js/theme.js"></script>
+<script src="js/theme.js"></script>
+<script src="data.js"></script>
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const params = new URLSearchParams(window.location.search);
-        const artistId = params.get('id');
+document.addEventListener('DOMContentLoaded', () => {
+    const params = new URLSearchParams(window.location.search);
+    const artistId = params.get('id');
 
-        if (!artistId) {
-            document.body.innerHTML = '<div style="text-align:center;padding:50px;">錯誤：找不到歌手 ID</div>';
-            return;
-        }
+    if (!artistId) {
+        document.body.innerHTML = '<div style="text-align:center;padding:50px;">錯誤：找不到歌手 ID</div>';
+        return;
+    }
 
-        fetch(`../artists/${artistId}.json`)
-            .then(res => {
-                if (!res.ok) throw new Error('無法載入歌手數據');
-                return res.json();
-            })
-            .then(data => {
-                document.title = `${data.name} - wc4° 音樂倉庫`;
-                document.getElementById('artistName').innerText = data.name;
-                document.getElementById('artistBio').innerText = data.bio || '';
-                
-                // 顯示頭像
-                const avatarImg = document.getElementById('artistAvatar');
-                if (data.avatar) {
-                    avatarImg.src = data.avatar;
-                    avatarImg.onerror = () => { avatarImg.style.display = 'none'; };
-                } else {
-                    avatarImg.style.display = 'none';
-                }
-                
-                // 處理單曲收錄狀態（顯示黑膠唱片）
-                if (data.singles) {
-                    const singleBox = document.getElementById('singleInfo');
-                    singleBox.style.display = 'flex';
-                    singleBox.innerHTML = `
-                        <div class="single-avatar" style="width: 60px; height: 60px;">
-                            <div class="vinyl-record"><div class="vinyl-center">🎵</div></div>
-                        </div>
-                        <a href="${data.singles.link}" target="_blank" style="color:inherit;text-decoration:none;">🎵 最新單曲 (Singles) - 收錄至: ${data.singles.date} 🔗</a>
-                    `;
-                }
+    const jsonFolder = window.location.protocol === 'file:' ? 'artists' : '/8023flac/artists';
+    fetch(`${jsonFolder}/${artistId}.json`)
+        .then(res => {
+            if (!res.ok) throw new Error('無法載入歌手數據');
+            return res.json();
+        })
+        .then(data => {
+            document.title = `${data.name} - wc4° 音樂倉庫`;
+            document.getElementById('artistName').innerText = data.name;
+            document.getElementById('artistBio').innerText = data.bio || '';
 
-                // 處理所有專輯分類（倒序顯示）
-                const container = document.getElementById('detailContainer');
-                for (const [groupName, albums] of Object.entries(data.groups)) {
-                    const section = document.createElement('div');
-                    section.className = 'group-section';
-                    section.innerHTML = `<h2 class="group-title">${groupName}</h2>`;
-                    
-                    const grid = document.createElement('div');
-                    grid.className = 'album-grid';
-                    
-                    // 倒序顯示專輯
-                    const sortedAlbums = Array.isArray(albums) ? [...albums].reverse() : albums;
-                    
-                    (Array.isArray(sortedAlbums) ? sortedAlbums : []).forEach(item => {
-                        grid.innerHTML += `
-                            <a href="${item.link}" target="_blank" class="album-card" title="${item.title}">
-                                <img src="${item.cover || '../img/default_album.png'}" class="album-cover" onerror="this.src='../img/default_album.png'">
-                                <div class="album-title">${item.title}</div>
-                                <div class="album-year">${item.year}</div>
-                            </a>`;
-                    });
-                    section.appendChild(grid);
-                    container.appendChild(section);
-                }
-            })
-            .catch(err => {
-                document.getElementById('artistName').innerText = '載入失敗';
-                document.getElementById('artistBio').innerText = '請檢查該歌手的 JSON 檔案路徑與格式是否正確。';
-            });
-    });
+            // 處理頭像
+            const avatarImg = document.getElementById('artistAvatar');
+            if (data.avatar) {
+                avatarImg.src = data.avatar;
+                avatarImg.onerror = () => { avatarImg.style.display = 'none'; };
+            } else {
+                avatarImg.style.display = 'none';
+            }
+
+            // 遍歷所有分類（包含專輯與單曲），統一生成區塊
+            const container = document.getElementById('detailContainer');
+            for (const [groupName, albums] of Object.entries(data.groups || {})) {
+                const section = document.createElement('div');
+                section.className = 'group-section';
+                section.innerHTML = `<h2 class="group-title">${groupName}</h2>`;
+
+                const grid = document.createElement('div');
+                grid.className = 'album-grid';
+
+                const sortedAlbums = Array.isArray(albums) ? [...albums].reverse() : [];
+
+                sortedAlbums.forEach(item => {
+                    const hasCover = item.cover && item.cover.trim() !== '';
+                    const coverHtml = hasCover 
+                        ? `<img src="${item.cover}" class="album-cover" onerror="this.outerHTML='<div class=\'album-cover vinyl-placeholder\'><div class=\'vinyl-center\'>🎵</div></div>'">`
+                        : `<div class="album-cover vinyl-placeholder"><div class="vinyl-center">🎵</div></div>`;
+
+                    grid.innerHTML += `
+                        <a href="${item.link}" target="_blank" class="album-card" title="${item.title}">
+                            ${coverHtml}
+                            <div class="album-title">${item.title}</div>
+                            <div class="album-year">${item.year}</div>
+                        </a>`;
+                });
+
+                section.appendChild(grid);
+                container.appendChild(section);
+            }
+        })
+        .catch(err => {
+            document.getElementById('artistName').innerText = '載入失敗';
+            document.getElementById('artistBio').innerText = '請檢查 JSON 檔案路徑與格式是否正確。';
+        });
+});
 </script>
 </body>
 </html>
