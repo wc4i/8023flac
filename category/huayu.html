@@ -165,9 +165,7 @@
             const card = e.target.closest('.artist-card');
             if (card && card.dataset.id) {
                 e.preventDefault();
-                // 以后可跳转到 artist_detail.html?id=xxx
-                alert(`即将打开歌手「${card.dataset.name}」的详情页 (功能开发中)`);
-                // 真正跳转: window.location.href = `../artist_detail.html?id=${card.dataset.id}`;
+                window.location.href = `../artist_detail.html?id=${card.dataset.id}`;
             }
         });
     });
