@@ -1,0 +1,420 @@
+/* ========== 全局變數：亮色模式（默認） ========== */
+:root {
+    --bg-color: #f8fafc;
+    --text-color: #1e293b;
+    --header-bg: rgba(255, 255, 255, 0.9);
+    --card-bg: #ffffff;
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+    --border-color: #e2e8f0;
+    --hover-transform: translateY(-4px);
+    --transition-speed: 0.3s;
+    --primary: #ef4444;        /* 全局強調色（華語紅，其他分類可覆蓋） */
+}
+
+/* ========== 全局變數：深色模式 ========== */
+[data-theme="dark"] {
+    --bg-color: #0f172a;
+    --text-color: #f1f5f9;
+    --header-bg: rgba(15, 23, 42, 0.9);
+    --card-bg: #1e293b;
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.6);
+    --border-color: #334155;
+}
+
+/* ========== 基礎重置 & 全局 ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;   /* 為某些頁面留白，無副作用 */
+}
+
+/* ========== 頂部導航（共用） ========== */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--header-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    transition: background-color var(--transition-speed), border-color var(--transition-speed);
+}
+
+/* 首頁 logo 樣式 */
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.logo span {
+    color: #3b82f6;
+}
+
+/* 返回按鈕（分類頁面使用） */
+.back-btn {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+}
+
+/* 搜尋框（分類頁面使用） */
+.search-wrapper {
+    flex: 1;
+    max-width: 400px;
+    position: relative;
+}
+.search-input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    padding: 6px 4px;
+    font-size: 14px;
+    color: var(--text-color);
+    outline: none;
+    transition: border-color 0.3s;
+}
+.search-input::placeholder {
+    color: #94a3b8;
+}
+.search-input:focus {
+    border-bottom-color: var(--primary);
+}
+
+/* 主題切換按鈕 */
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--text-color);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+.theme-toggle:active {
+    transform: scale(0.9);
+}
+
+/* ========== 主容器（首頁 & 分類頁通用） ========== */
+main {
+    flex: 1;
+    padding: 40px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+/* 分類頁面右側為字母條留出空間 */
+.category-main {
+    padding: 20px 45px 20px 20px;
+    max-width: 1000px;
+}
+
+/* 首頁歡迎文字 */
+.welcome-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.welcome-text h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.welcome-text p {
+    color: #64748b;
+    font-size: 16px;
+}
+
+/* ========== 首頁卡片網格 ========== */
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 24px;
+}
+.card {
+    background-color: var(--card-bg);
+    border-radius: 16px;
+    padding: 32px 24px;
+    text-decoration: none;
+    color: var(--text-color);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+    transition: all var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 160px;
+}
+.card:hover {
+    transform: var(--hover-transform);
+    box-shadow: var(--shadow-md);
+    border-color: transparent;
+}
+.card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+    z-index: 1;
+}
+/* 卡片頂部彩色裝飾條 */
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: #ccc;
+    transition: height var(--transition-speed);
+}
+.card:hover::before {
+    height: 100%;
+    opacity: 0.05;
+}
+/* 各分類專屬顏色（僅首頁） */
+.c-huayu::before   { background: #ef4444; }
+.c-oumei::before   { background: #3b82f6; }
+.c-rihan::before   { background: #10b981; }
+.c-world::before   { background: #f59e0b; }
+.c-ost::before     { background: #8b5cf6; }
+.c-various::before { background: #ec4899; }
+.c-classic::before { background: #64748b; }
+
+/* ========== 分類頁面專用：歌手列表 ========== */
+.section-group {
+    margin-bottom: 32px;
+    scroll-margin-top: 80px;
+}
+.section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 12px;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 4px;
+}
+.artist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 16px;
+}
+.artist-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 16px 8px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.artist-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+/* 頭像容器 */
+.avatar-container {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 10px;
+    position: relative;
+}
+/* 黑膠動畫 */
+@keyframes disc-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.artist-card:hover .spin-target {
+    animation: disc-spin 6s linear infinite;
+}
+/* 真實頭像（圓形） */
+.round-avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--border-color);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    background-color: #e2e8f0;
+}
+.round-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 黑膠唱片樣式（無頭像時） */
+.vinyl-record {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle, #2d3748 30%, #1a202c 60%, #000000 100%);
+    border: 2px solid #1a202c;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.8), 0 4px 8px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.vinyl-record::after {
+    content: '';
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 1px dashed rgba(255,255,255,0.05);
+}
+.vinyl-center {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff7675, #ef4444);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    border: 2px solid #000;
+    z-index: 2;
+}
+.artist-name {
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+/* ========== A-Z 通訊錄側邊欄 ========== */
+.alphabet-nav {
+    position: fixed;
+    right: 8px;
+    top: 55%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    z-index: 10;
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+    padding: 8px 4px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border: 1px solid var(--border-color);
+}
+[data-theme="dark"] .alphabet-nav {
+    background-color: rgba(30,41,59,0.8);
+}
+.alphabet-letter {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background var(--transition-speed);
+    opacity: 0.6;
+}
+.alphabet-letter:hover,
+.alphabet-letter.active {
+    background-color: var(--primary);
+    color: #ffffff !important;
+    opacity: 1;
+}
+
+/* ========== 響應式：手機 ========== */
+@media (max-width: 600px) {
+    main {
+        padding: 24px 16px;
+    }
+    .welcome-text h2 {
+        font-size: 24px;
+    }
+    .category-grid {
+        gap: 16px;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .card {
+        padding: 24px 16px;
+        min-height: 120px;
+        border-radius: 12px;
+    }
+    .card h3 {
+        font-size: 16px;
+    }
+    /* 分類頁面手機適配 */
+    .category-main {
+        padding: 16px 36px 16px 12px;
+    }
+    .artist-grid {
+        grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
+        gap: 10px;
+    }
+    .artist-card {
+        padding: 12px 6px;
+        border-radius: 10px;
+    }
+    .avatar-container {
+        width: 56px;
+        height: 56px;
+    }
+    .vinyl-record::after {
+        width: 48px;
+        height: 48px;
+    }
+    .vinyl-center {
+        width: 18px;
+        height: 18px;
+        font-size: 9px;
+    }
+    .artist-name {
+        font-size: 11px;
+    }
+    .alphabet-letter {
+        width: 14px;
+        height: 14px;
+        font-size: 9px;
+    }
+}

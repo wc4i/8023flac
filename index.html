@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wc4° 音乐仓库</title>
+    <!-- 引入全局样式 -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header>
+        <a href="index.html" class="logo"><span>wc4°</span> 音乐仓库</a>
+        <button class="theme-toggle" id="themeBtn" aria-label="切换深色模式" title="切换深色模式">
+            <span id="themeIcon">☀️</span>
+        </button>
+    </header>
+
+    <!-- 主内容区 -->
+    <main>
+        <div class="welcome-text">
+            <h2>探索你的声音世界</h2>
+            <p>选择一个分类开始浏览</p>
+        </div>
+
+        <div class="category-grid">
+            <a href="category/huayu.html" class="card c-huayu">
+                <h3>华语金曲</h3>
+            </a>
+            <a href="category/oumei.html" class="card c-oumei">
+                <h3>欧美之声</h3>
+            </a>
+            <a href="category/rihan.html" class="card c-rihan">
+                <h3>日韩风潮</h3>
+            </a>
+            <a href="category/world.html" class="card c-world">
+                <h3>环球探索</h3>
+            </a>
+            <a href="category/ost.html" class="card c-ost">
+                <h3>影视原声</h3>
+            </a>
+            <a href="category/various.html" class="card c-various">
+                <h3>群星闪耀</h3>
+            </a>
+            <a href="category/classical.html" class="card c-classic">
+                <h3>古典与纯音</h3>
+            </a>
+        </div>
+    </main>
+
+    <!-- 引入全局主题切换脚本 -->
+    <script src="js/theme.js"></script>
+</body>
+</html>
