@@ -4,7 +4,7 @@
 const musicDatabase = [
     // === 华语金曲 ===
     { 
-        id: "zhoujielun",       // 唯一标识符，以后用来跳转到他的专属页面，比如 ?id=zhoujielun
+        id: "cn-zhoujielun",       // 唯一标识符，以后用来跳转到他的专属页面，比如 ?id=cn-zhoujielun
         name: "周杰伦", 
         pinyin: "Z",            // 用于 A-Z 侧边栏滑动定位
         category: "华语金曲",   // 用于页面分类过滤
@@ -18,11 +18,11 @@ const musicDatabase = [
         avatar: "https://star.kuwo.cn/star/starheads/300/37/26/3816222178.jpg" 
     },
     { 
-        id: "lizhi", 
+        id: "cn-lizhi", 
         name: "李志", 
         pinyin: "L", 
         category: "华语金曲", 
-        avatar: ""              // 没有头像，网页会自动为他生成逼格满满的“黑胶唱片”
+        avatar: ""              // 没有头像，网页会自动为他生成统一的默认占位头像
     },
     { 
         id: "wuyifan", 
@@ -32,7 +32,7 @@ const musicDatabase = [
         avatar: ""              // 黑胶唱片效果
     },
     { 
-        id: "wangfei", 
+        id: "cn-wangfei", 
         name: "王菲", 
         pinyin: "W", 
         category: "华语金曲", 
@@ -53,6 +53,13 @@ const musicDatabase = [
         pinyin: "M", 
         category: "欧美之声", 
         avatar: "" 
+    },
+    { 
+        id: "uk-judaspriest",
+        name: "Judas Priest",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://star.kuwo.cn/star/starheads/500/s4s28/65/726437609.jpg"
     }
     
 ];

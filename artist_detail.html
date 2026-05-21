@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="../css/main.css">
     <style>
         /* 頁面頂部裝飾 */
-        .artist-header { padding: 30px 20px; text-align: center; }
-        .artist-avatar { 
-            width: 180px; height: 180px; border-radius: 50%; 
-            object-fit: cover; margin: 0 auto 20px; 
-            border: 3px solid var(--primary); box-shadow: var(--shadow-md);
-        }
-        .artist-header h1 { font-size: 2.5rem; margin-bottom: 12px; font-weight: 800; color: var(--text-color); }
-        .artist-bio { color: #64748b; max-width: 600px; margin: 0 auto; line-height: 1.6; font-size: 15px; }
+        .artist-header { padding: 30px 24px; margin-bottom: 20px; border-radius: 28px; background: linear-gradient(145deg, rgba(14, 116, 144, 0.12), rgba(15, 23, 42, 0.06)); box-shadow: inset 0 0 0 1px rgba(148, 163, 184, 0.12); }
+        .artist-meta { display: grid; grid-template-columns: 140px auto; gap: 20px; align-items: center; justify-content: center; max-width: 760px; margin: 0 auto; }
+        .artist-avatar-wrap { width: 140px; height: 140px; border-radius: 28px; overflow: hidden; border: 1px solid rgba(148, 163, 184, 0.25); background: rgba(255,255,255,0.88); display: grid; place-items: center; position: relative; }
+        .artist-avatar, .artist-avatar-placeholder { width: 100%; height: 100%; }
+        .artist-avatar { object-fit: cover; display: none; }
+        .artist-avatar-placeholder { display: grid; place-items: center; }
+        .artist-name-wrap { display: grid; gap: 10px; }
+        .artist-header h1 { font-size: 2.2rem; margin: 0; font-weight: 900; color: var(--text-color); }
+        .artist-category { font-size: 0.95rem; color: #64748b; letter-spacing: 0.04em; }
+        .album-tip { font-size: 14px; color: #38bdf8; text-align: center; margin-bottom: 6px; }
+        .album-note { font-size: 12px; color: #f87171; text-align: center; margin-bottom: 15px; }
         
         /* 專輯區塊樣式 */
         .group-section { margin-bottom: 60px; }
@@ -40,12 +43,26 @@
 
 <main class="category-main" style="max-width: 1000px; margin: 0 auto; padding: 0 20px;">
     <div class="artist-header">
-        <img id="artistAvatar" class="artist-avatar" src="" alt="artist avatar">
-        <h1 id="artistName">載入中...</h1>
-        <p class="artist-bio" id="artistBio"></p>
+        <div class="artist-meta">
+            <div class="artist-avatar-wrap">
+                <img id="artistAvatar" class="artist-avatar" src="" alt="artist avatar">
+                <div id="artistAvatarPlaceholder" class="artist-avatar-placeholder myst-avatar">
+                    <div class="fog"></div>
+                    <div class="silhouette"></div>
+                </div>
+            </div>
+            <div class="artist-name-wrap">
+                <h1 id="artistName">載入中...</h1>
+                <div id="artistCategory" class="artist-category"></div>
+            </div>
+        </div>
     </div>
     
-    <!-- 專輯區容器 -->
+    <div class="album-tip">点击封面跳转下载 / Click cover to download</div>
+    <p class="album-note">
+        部分敏感资源可能需要下载后修改文件后缀为 zip，解压密码为 8023 / Some files may require renaming to zip and using password 8023
+    </p>
+
     <div id="detailContainer"></div>
 </main>
 
@@ -61,6 +78,39 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
+    const artistRecord = musicDatabase.find(item => item.id === artistId);
+    const avatarImg = document.getElementById('artistAvatar');
+    const avatarPlaceholder = document.getElementById('artistAvatarPlaceholder');
+    const categoryEl = document.getElementById('artistCategory');
+
+    function setAvatar(src) {
+        avatarImg.onload = () => {
+            avatarImg.style.display = 'block';
+            avatarPlaceholder.style.display = 'none';
+        };
+
+        avatarImg.onerror = () => {
+            avatarImg.style.display = 'none';
+            avatarPlaceholder.style.display = 'grid';
+        };
+
+        if (!src) {
+            avatarImg.style.display = 'none';
+            avatarPlaceholder.style.display = 'grid';
+            return;
+        }
+
+        avatarPlaceholder.style.display = 'grid';
+        avatarImg.style.display = 'none';
+        avatarImg.src = src;
+    }
+
+    if (artistRecord) {
+        document.getElementById('artistName').innerText = artistRecord.name;
+        categoryEl.innerText = artistRecord.category || '';
+        setAvatar(artistRecord.avatar);
+    }
+
     const jsonUrl = new URL(`artists/${artistId}.json`, window.location.href).href;
     fetch(jsonUrl)
         .then(res => {
@@ -70,18 +120,9 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             document.title = `${data.name} - wc4° 音樂倉庫`;
             document.getElementById('artistName').innerText = data.name;
-            document.getElementById('artistBio').innerText = data.bio || '';
+            categoryEl.innerText = data.category || categoryEl.innerText;
+            setAvatar(data.avatar || avatarImg.src);
 
-            // 處理頭像
-            const avatarImg = document.getElementById('artistAvatar');
-            if (data.avatar) {
-                avatarImg.src = data.avatar;
-                avatarImg.onerror = () => { avatarImg.style.display = 'none'; };
-            } else {
-                avatarImg.style.display = 'none';
-            }
-
-            // 遍歷所有分類（包含專輯與單曲），統一生成區塊
             const container = document.getElementById('detailContainer');
             for (const [groupName, albums] of Object.entries(data.groups || {})) {
                 const section = document.createElement('div');
@@ -91,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const grid = document.createElement('div');
                 grid.className = 'album-grid';
 
-                const sortedAlbums = Array.isArray(albums) ? [...albums].reverse() : [];
+                const sortedAlbums = Array.isArray(albums) ? [...albums].sort((a, b) => b.year - a.year) : [];
 
                 sortedAlbums.forEach(item => {
                     const hasCover = item.cover && item.cover.trim() !== '';
@@ -112,8 +153,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         })
         .catch(err => {
-            document.getElementById('artistName').innerText = '載入失敗';
-            document.getElementById('artistBio').innerText = '請檢查 JSON 檔案路徑與格式是否正確。';
+            document.title = '歌手資料 - wc4° 音樂倉庫';
+            document.getElementById('artistName').innerText = artistRecord ? artistRecord.name : '載入失敗';
+            const container = document.getElementById('detailContainer');
+            container.innerHTML = `<div style="text-align:center;padding:40px 20px;color:#f87171;">
+                未找到專屬資料 JSON，請確認 artists/${artistId}.json 是否存在。若僅需展示專輯，該提示可忽略。
+            </div>`;
         });
 });
 </script>

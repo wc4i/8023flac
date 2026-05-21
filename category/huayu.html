@@ -74,13 +74,13 @@
             return { groups, sortedLetters };
         }
         
-        // 渲染歌手卡片（带头像或黑胶唱片）
+        // 渲染歌手卡片（带头像或神秘剪影）
         function renderArtistCard(artist) {
             const hasAvatar = artist.avatar && artist.avatar.trim() !== '';
-            // 使用黑胶唱片还是真实头像
+            // 使用真实头像，或统一的默认神秘剪影
             const avatarHtml = hasAvatar ? 
                 `<div class="round-avatar"><img src="${artist.avatar}" alt="${artist.name}" loading="lazy"></div>` :
-                `<div class="vinyl-record spin-target"><div class="vinyl-center">🎵</div></div>`;
+                `<div class="round-avatar myst-avatar"><div class="fog"></div><div class="silhouette"></div></div>`;
             
             // 暂时不链接到详情页（后续可加 artist_data）
             return `

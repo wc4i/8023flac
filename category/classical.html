@@ -136,7 +136,7 @@
             const card = e.target.closest('.artist-card');
             if (card && card.dataset.id) {
                 e.preventDefault();
-                alert(`即将打开歌手「${card.dataset.name}」的详情页 (功能开发中)`);
+                window.location.href = `../artist_detail.html?id=${card.dataset.id}`;
             }
         });
     });
