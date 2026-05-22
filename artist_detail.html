@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>歌手資料 - wc4° 音樂倉庫</title>
+    <title>歌手数据 - wc4° 音乐仓库</title>
     <link rel="stylesheet" href="css/main.css">
     <style>
-        /* 頁面頂部裝飾 */
+        /* 页面顶部装饰 */
         .artist-header { padding: 30px 24px; margin-bottom: 20px; border-radius: 28px; background: linear-gradient(145deg, rgba(14, 116, 144, 0.12), rgba(15, 23, 42, 0.06)); box-shadow: inset 0 0 0 1px rgba(148, 163, 184, 0.12); }
         .artist-meta { display: grid; grid-template-columns: 140px auto; gap: 20px; align-items: center; justify-content: center; max-width: 760px; margin: 0 auto; }
         .artist-avatar-wrap { width: 140px; height: 140px; border-radius: 28px; overflow: hidden; border: 1px solid rgba(148, 163, 184, 0.25); background: rgba(255,255,255,0.88); display: grid; place-items: center; position: relative; }
@@ -19,24 +19,148 @@
         .album-tip { font-size: 14px; color: #38bdf8; text-align: center; margin-bottom: 6px; }
         .album-note { font-size: 12px; color: #f87171; text-align: center; margin-bottom: 15px; }
         
-        /* 專輯區塊樣式 */
+     /* ==================== 專輯區塊基礎樣式 ==================== */
         .group-section { margin-bottom: 60px; }
         .group-title { font-size: 1.3rem; margin-bottom: 25px; padding-left: 12px; border-left: 4px solid var(--primary); color: var(--text-color); font-weight: 700; }
         
-        /* 專輯網格布局 */
-        .album-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 24px; }
-        .album-card { display: block; text-decoration: none; color: inherit; transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        /* 1. 電腦端默認網格布局 */
+        .album-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); 
+            gap: 24px; 
+        }
+        .album-card { 
+            display: block; 
+            text-decoration: none; 
+            color: inherit; 
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+        }
         .album-card:hover { transform: translateY(-8px); }
-        .album-cover { width: 100%; aspect-ratio: 1; border-radius: 12px; border: 1px solid var(--border-color); object-fit: cover; margin-bottom: 12px; box-shadow: var(--shadow-sm); }
-        .album-title { font-weight: 600; font-size: 14px; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .album-cover { 
+            width: 100%; 
+            aspect-ratio: 1; 
+            border-radius: 12px; 
+            border: 1px solid var(--border-color); 
+            object-fit: cover; 
+            margin-bottom: 12px; 
+            box-shadow: var(--shadow-sm); 
+        }
+        .album-title { 
+            font-weight: 600; 
+            font-size: 14px; 
+            margin-bottom: 4px; 
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+        }
         .album-year { font-size: 12px; color: #94a3b8; }
+
+        /* ==================== 📱 手機端專屬：OST風格彩色邊框卡片 ==================== */
+        @media (max-width: 600px) {
+            /* 1. 容器改為單列垂直排列，卡片之間留出精緻間距 */
+            .group-title {
+                font-size: 15px;       /* 調整為你喜歡的大小（原為 1.3rem，約 21px） */
+                margin-bottom: 14px;   /* 減少與下方專輯列表的空隙，讓排版更緊湊 */
+                padding-left: 8px;     /* 稍微縮短左側彩色小豎條的間距 */
+            }
+            .album-grid {
+                display: flex;
+                flex-direction: column;
+                gap: 12px; 
+            }
+
+            /* 2. 重新定義卡片為「帶底色、帶陰影的獨立圓角框」 */
+            .album-card {
+                display: grid;
+                grid-template-columns: 60px 1fr 24px; /* 左圖60px，中間自適應文字，右側小圖標24px */
+                grid-template-rows: auto auto; /* 上下兩行：標題 + 年份 */
+                column-gap: 14px;
+                align-items: center;
+                
+                background-color: var(--card-bg);
+                border-radius: 10px;
+                border: 1px solid var(--border-color);
+                box-shadow: var(--shadow-sm);
+                padding: 12px; /* 舒適的內邊距，完美容納封面高度 */
+                
+                text-decoration: none;
+                color: inherit;
+                transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+            }
+
+            /* 3. 仿 ost.html：自動循環分配左側彩色邊框 */
+            .album-card:nth-child(5n+1) { border-left: 4px solid #ef4444; } /* 華語紅 */
+            .album-card:nth-child(5n+2) { border-left: 4px solid #3b82f6; } /* 科技藍 */
+            .album-card:nth-child(5n+3) { border-left: 4px solid #10b981; } /* 翡翠綠 */
+            .album-card:nth-child(5n+4) { border-left: 4px solid #f59e0b; } /* 琥珀橙 */
+            .album-card:nth-child(5n+5) { border-left: 4px solid #8b5cf6; } /* 薰衣紫 */
+
+            /* 4. 卡片點擊/懸停時的微動效 */
+            .album-card:hover {
+                transform: translateY(-2px);
+                box-shadow: var(--shadow-md);
+                background-color: rgba(59, 130, 246, 0.02);
+            }
+            [data-theme="dark"] .album-card:hover {
+                background-color: rgba(255, 255, 255, 0.02);
+            }
+
+            /* 5. 封面圖：固定在左側，佔滿上下兩行高度 */
+            .album-cover {
+                grid-column: 1;
+                grid-row: 1 / 3;
+                width: 60px;
+                height: 60px;
+                margin-bottom: 0;
+                border-radius: 6px; 
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                object-fit: cover;
+            }
+
+            /* 6. 專輯名稱（右上行） */
+            .album-title {
+                grid-column: 2;
+                grid-row: 1;
+                font-size: 15px;
+                font-weight: 600;
+                margin-bottom: 2px;
+                align-self: end; /* 靠底部對齊，離年份更近 */
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            /* 7. 發行日期/年份（右下行） */
+            .album-year {
+                grid-column: 2;
+                grid-row: 2;
+                font-size: 12px;
+                align-self: start; /* 靠頂部對齊 */
+                color: #94a3b8;
+            }
+
+            /* 8. 右側加上與 ost.html 同款的直達鏈接小圖標 */
+            .album-card::after {
+                content: "🔗";
+                grid-column: 3;
+                grid-row: 1 / 3;
+                font-size: 15px;
+                filter: grayscale(1) opacity(0.3);
+                transition: all 0.2s;
+                justify-self: center;
+            }
+            .album-card:hover::after {
+                filter: grayscale(0) opacity(1);
+                transform: translateX(2px);
+            }
+        }
         
     </style>
 </head>
 <body>
 
 <header>
-    <a href="javascript:history.back()" class="back-btn" title="返回上一頁">⬅</a>
+    <a href="javascript:history.back()" class="back-btn" title="返回上一页">⬅</a>
     <div class="search-wrapper"></div>
     <button class="theme-toggle" id="themeBtn">☀️</button>
 </header>
@@ -52,7 +176,7 @@
                 </div>
             </div>
             <div class="artist-name-wrap">
-                <h1 id="artistName">載入中...</h1>
+                <h1 id="artistName">载入中...</h1>
                 <div id="artistCategory" class="artist-category"></div>
             </div>
         </div>
@@ -74,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const artistId = params.get('id');
 
     if (!artistId) {
-        document.body.innerHTML = '<div style="text-align:center;padding:50px;">錯誤：找不到歌手 ID</div>';
+        document.body.innerHTML = '<div style="text-align:center;padding:50px;">错误：找不到歌手 ID</div>';
         return;
     }
 
@@ -114,11 +238,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const jsonUrl = new URL(`artists/${artistId}.json`, window.location.href).href;
     fetch(jsonUrl)
         .then(res => {
-            if (!res.ok) throw new Error('無法載入歌手數據');
+            if (!res.ok) throw new Error('无法加载歌手数据');
             return res.json();
         })
         .then(data => {
-            document.title = `${data.name} - wc4° 音樂倉庫`;
+            document.title = `${data.name} - wc4° 音乐仓库`;
             document.getElementById('artistName').innerText = data.name;
             categoryEl.innerText = data.category || categoryEl.innerText;
             setAvatar(data.avatar || avatarImg.src);
@@ -153,11 +277,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         })
         .catch(err => {
-            document.title = '歌手資料 - wc4° 音樂倉庫';
-            document.getElementById('artistName').innerText = artistRecord ? artistRecord.name : '載入失敗';
+            document.title = '歌手数据 - wc4° 音乐仓库';
+            document.getElementById('artistName').innerText = artistRecord ? artistRecord.name : '加载失败';
             const container = document.getElementById('detailContainer');
             container.innerHTML = `<div style="text-align:center;padding:40px 20px;color:#f87171;">
-                未找到專屬資料 JSON，請確認 artists/${artistId}.json 是否存在。若僅需展示專輯，該提示可忽略。
+                未找到专属数据 JSON，请确认 artists/${artistId}.json 是否存在。若仅需展示专辑，该提示可忽略。
             </div>`;
         });
 });

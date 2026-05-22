@@ -22,7 +22,7 @@ const musicDatabase = [
         name: "李志", 
         pinyin: "L", 
         category: "华语金曲", 
-        avatar: ""              // 没有头像，网页会自动为他生成统一的默认占位头像
+        avatar: "https://resources.tidal.com/images/12206e3d/714b/4248/92b9/05f9d4d214be/1280x1280.jpg"              // 没有头像，网页会自动为他生成统一的默认占位头像
     },
     { 
         id: "wuyifan", 
