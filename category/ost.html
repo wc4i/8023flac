@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="zh-HK">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>影視原聲 - wc4° 音樂倉庫</title>
-    <!-- 引入全局樣式（從 category/ 回到根目錄） -->
+    <title>影视原声 - wc4° 音乐仓库</title>
+    <!-- 引入全局样式（从 category/ 回到根目录） -->
     <link rel="stylesheet" href="../css/main.css">
     <style>
-        /* 針對海量列表的防疲勞 BBS 風格專屬樣式 */
+        /* 针对海量列表的防疲劳 BBS 风格专属样式 */
         .bbs-container {
             display: flex;
             flex-direction: column;
-            gap: 12px; /* 卡片之間的間距 */
+            gap: 12px; /* 卡片之间的间距 */
             margin-top: 20px;
         }
 
-        /* 單行極簡資源卡片 */
+        /* 单行极简资源卡片 */
         .bbs-row {
             background-color: var(--card-bg);
             border-radius: 10px;
@@ -27,26 +27,26 @@
             justify-content: space-between;
             gap: 16px;
             transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
-            text-decoration: none; /* 讓整行變成可點擊的超連結 */
+            text-decoration: none; /* 让整行变成可点击的超链接 */
             color: inherit;
         }
         .bbs-row:hover {
             transform: translateY(-2px);
             box-shadow: var(--shadow-md);
-            background-color: rgba(59, 130, 246, 0.02); /* 滑過時有極淡的藍色科技感 */
+            background-color: rgba(59, 130, 246, 0.02); /* 滑过时有极淡的蓝色科技感 */
         }
         [data-theme="dark"] .bbs-row:hover {
             background-color: rgba(255, 255, 255, 0.02);
         }
 
-        /* 左側邊框色彩循環（透過 JS 自動為每列附加 color-X 類別，防止視覺疲勞） */
-        .color-0 { border-left: 4px solid #ef4444; } /* 華語紅 */
-        .color-1 { border-left: 4px solid #3b82f6; } /* 科技藍 */
-        .color-2 { border-left: 4px solid #10b981; } /* 翡翠綠 */
+        /* 左侧边框色彩循环（透过 JS 自动为每列附加 color-X 类别，防止视觉疲劳） */
+        .color-0 { border-left: 4px solid #ef4444; } /* 华语红 */
+        .color-1 { border-left: 4px solid #3b82f6; } /* 科技蓝 */
+        .color-2 { border-left: 4px solid #10b981; } /* 翡翠绿 */
         .color-3 { border-left: 4px solid #f59e0b; } /* 琥珀橙 */
         .color-4 { border-left: 4px solid #8b5cf6; } /* 薰衣草紫 */
 
-        /* 資源標題樣式 */
+        /* 资源标题样式 */
         .resource-title {
             font-weight: 600;
             font-size: 15px;
@@ -58,13 +58,13 @@
             transition: color 0.2s;
         }
         .bbs-row:hover .resource-title {
-            color: #3b82f6; /* 滑過時標題變藍色，提示可點擊 */
+            color: #3b82f6; /* 滑过时标题变蓝色，提示可点击 */
         }
         [data-theme="dark"] .bbs-row:hover .resource-title {
             color: #60a5fa;
         }
 
-        /* 點擊直接跳轉的直達小圖示 */
+        /* 点击直接跳转的直达小图标 */
         .direct-go-icon {
             font-size: 16px;
             color: #94a3b8;
@@ -75,7 +75,7 @@
             color: #3b82f6;
         }
 
-        /* 底部滾動加載中提示 */
+        /* 底部滚动加载中提示 */
         .loading-trigger {
             padding: 24px;
             text-align: center;
@@ -84,7 +84,7 @@
             display: none;
         }
 
-        /* 手機端排版優化 */
+        /* 手机端排版优化 */
         @media (max-width: 600px) {
             .bbs-row {
                 padding: 14px 16px;
@@ -100,52 +100,53 @@
 </head>
 <body>
 
-<!-- 頂部導航 -->
+<!-- 顶部导航 -->
 <header>
-    <a href="../index.html" class="back-btn" title="返回倉庫">⬅</a>
+    <!-- 返回根目录首页（从 category/ 返回上级目录） -->
+    <a href="../index.html" class="back-btn" title="返回仓库">⬅</a>
     <div class="search-wrapper">
-        <!-- 海量一鍵模糊搜尋 -->
-        <input type="text" id="bbsSearch" class="search-input" placeholder="輸入關鍵字一秒檢索...">
+        <!-- 海量一键模糊搜索 -->
+        <input type="text" id="bbsSearch" class="search-input" placeholder="输入关键字一秒检索...">
     </div>
     <button class="theme-toggle" id="themeBtn">☀️</button>
 </header>
 
-<!-- 主體內容 -->
+<!-- 主体内容 -->
 <main class="category-main" style="padding-right: 20px; max-width: 900px;">
-    <!-- BBS 極簡貼文列表 -->
+    <!-- BBS 极简贴文列表 -->
     <div class="bbs-container" id="bbsList">
-        <!-- 數據會在此動態分頁加載 -->
+        <!-- 数据会在此动态分页加载 -->
     </div>
-    <!-- 滾動解鎖觸發器 -->
-    <div class="loading-trigger" id="loadingTrigger">🔍 正在加載更多資源...</div>
+    <!-- 滚动解锁触发器 -->
+    <div class="loading-trigger" id="loadingTrigger">🔍 正在加载更多资源...</div>
 </main>
 
-<!-- 全局主題切換腳本 -->
+<!-- 全局主题切换脚本 -->
 <script src="../js/theme.js"></script>
-<!-- 引入獨立的影視原聲數據庫 -->
+<!-- 引入独立的影视原声数据库 -->
 <script src="../js/ost_data.js"></script>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        // 確保 ostDatabase 存在（來自 js/ost_data.js）
+        // 确保 ostDatabase 存在（来自 js/ost_data.js）
         if (typeof ostDatabase === 'undefined') {
-            document.getElementById('bbsList').innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">⚠️ 未在 js/ost_data.js 中找到數據庫！</div>';
+            document.getElementById('bbsList').innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">⚠️ 未在 js/ost_data.js 中找到数据库！</div>';
             return;
         }
 
-        // 核心設計 1：將數據倒序排列（逆序，最後添加的顯示在最頂部）
+        // 核心设计 1：将数据倒序排列（逆序，最后添加的显示在最顶部）
         const reversedDatabase = [...ostDatabase].reverse();
         let filteredData = [...reversedDatabase];
         
-        // 核心設計 2：滾動分頁加載，避免海量數據一次渲染造成手機卡死
-        const itemsPerPage = 25; // 每頁載入 25 條
+        // 核心设计 2：滚动分页加载，避免海量数据一次渲染造成手机卡死
+        const itemsPerPage = 25; // 每页载入 25 条
         let currentPage = 1;
         
         const searchInput = document.getElementById('bbsSearch');
         const bbsList = document.getElementById('bbsList');
         const loadingTrigger = document.getElementById('loadingTrigger');
 
-        // 渲染單頁資源的函數
+        // 渲染单页资源的函数
         function renderBbsPage(page, append = false) {
             const start = (page - 1) * itemsPerPage;
             const end = start + itemsPerPage;
@@ -156,18 +157,18 @@
             }
 
             if (filteredData.length === 0) {
-                bbsList.innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">沒有找到相關資源 🥲</div>';
+                bbsList.innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">没有找到相关资源 🥲</div>';
                 loadingTrigger.style.display = 'none';
                 return;
             }
 
             let html = '';
             pageData.forEach((item, index) => {
-                // 核心設計 3：利用取餘數 (%) 自動為每行分配 color-0 到 color-4，產生精緻的彩色循環邊框
+                // 核心设计 3：利用取余数 (%) 自动为每行分配 color-0 到 color-4，产生精致的彩色循环边框
                 const colorClass = `color-${(start + index) % 5}`;
 
                 html += `
-                    <a href="${item.link}" class="bbs-row ${colorClass}" target="_blank" title="點擊直接開啟網盤下載">
+                    <a href="${item.link}" class="bbs-row ${colorClass}" target="_blank" title="点击直接开启网盘下载">
                         <div class="resource-title">${escapeHtml(item.title)}</div>
                         <div class="direct-go-icon">🔗</div>
                     </a>
@@ -180,7 +181,7 @@
                 bbsList.innerHTML = html;
             }
 
-            // 判斷是否顯示滑動加載提示
+            // 判断是否显示滑动加载提示
             if (end < filteredData.length) {
                 loadingTrigger.style.display = 'block';
             } else {
@@ -188,7 +189,7 @@
             }
         }
 
-        // 簡單防 XSS 注入
+        // 简单防 XSS 注入
         function escapeHtml(str) {
             return str.replace(/[&<>]/g, function(m) {
                 if (m === '&') return '&amp;';
@@ -198,7 +199,7 @@
             });
         }
 
-        // 搜尋過濾函數
+        // 搜索过滤函数
         function searchResources() {
             const keyword = searchInput.value.trim().toLowerCase();
             
@@ -214,22 +215,22 @@
             renderBbsPage(currentPage, false);
         }
 
-        // 滾動加載監聽
+        // 滚动加载监听
         window.addEventListener('scroll', () => {
             if (loadingTrigger.style.display === 'none') return;
 
             const rect = loadingTrigger.getBoundingClientRect();
-            // 當底部提示框進入螢幕範圍時，自動渲染下一頁
+            // 当底部提示框进入屏幕范围时，自动渲染下一页
             if (rect.top <= window.innerHeight + 100) {
                 currentPage++;
                 renderBbsPage(currentPage, true);
             }
         });
 
-        // 監聽鍵盤搜尋輸入
+        // 监听键盘搜索输入
         searchInput.addEventListener('input', searchResources);
 
-        // 初始載入第一頁
+        // 初始加载第一页
         renderBbsPage(currentPage, false);
     });
 </script>
