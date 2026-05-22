@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,7 @@
         .bbs-container {
             display: flex;
             flex-direction: column;
-            gap: 12px; /* 卡片之间的间距 */
+            gap: 12px;
             margin-top: 20px;
         }
 
@@ -27,26 +28,41 @@
             justify-content: space-between;
             gap: 16px;
             transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
-            text-decoration: none; /* 让整行变成可点击的超链接 */
+            text-decoration: none;
             color: inherit;
         }
+
         .bbs-row:hover {
             transform: translateY(-2px);
             box-shadow: var(--shadow-md);
-            background-color: rgba(59, 130, 246, 0.02); /* 滑过时有极淡的蓝色科技感 */
+            background-color: rgba(59, 130, 246, 0.02);
         }
+
         [data-theme="dark"] .bbs-row:hover {
             background-color: rgba(255, 255, 255, 0.02);
         }
 
-        /* 左侧边框色彩循环（透过 JS 自动为每列附加 color-X 类别，防止视觉疲劳） */
-        .color-0 { border-left: 4px solid #ef4444; } /* 华语红 */
-        .color-1 { border-left: 4px solid #3b82f6; } /* 科技蓝 */
-        .color-2 { border-left: 4px solid #10b981; } /* 翡翠绿 */
-        .color-3 { border-left: 4px solid #f59e0b; } /* 琥珀橙 */
-        .color-4 { border-left: 4px solid #8b5cf6; } /* 薰衣草紫 */
+        /* 左侧边框色彩循环 */
+        .color-0 {
+            border-left: 4px solid #ef4444;
+        }
 
-        /* 资源标题样式 */
+        .color-1 {
+            border-left: 4px solid #3b82f6;
+        }
+
+        .color-2 {
+            border-left: 4px solid #10b981;
+        }
+
+        .color-3 {
+            border-left: 4px solid #f59e0b;
+        }
+
+        .color-4 {
+            border-left: 4px solid #8b5cf6;
+        }
+
         .resource-title {
             font-weight: 600;
             font-size: 15px;
@@ -57,25 +73,26 @@
             flex: 1;
             transition: color 0.2s;
         }
+
         .bbs-row:hover .resource-title {
-            color: #3b82f6; /* 滑过时标题变蓝色，提示可点击 */
+            color: #3b82f6;
         }
+
         [data-theme="dark"] .bbs-row:hover .resource-title {
             color: #60a5fa;
         }
 
-        /* 点击直接跳转的直达小图标 */
         .direct-go-icon {
             font-size: 16px;
             color: #94a3b8;
             transition: transform 0.2s, color 0.2s;
         }
+
         .bbs-row:hover .direct-go-icon {
             transform: translateX(4px);
             color: #3b82f6;
         }
 
-        /* 底部滚动加载中提示 */
         .loading-trigger {
             padding: 24px;
             text-align: center;
@@ -84,155 +101,207 @@
             display: none;
         }
 
-        /* 手机端排版优化 */
         @media (max-width: 600px) {
             .bbs-row {
                 padding: 14px 16px;
             }
+
             .resource-title {
                 font-size: 13.5px;
             }
+
             .direct-go-icon {
                 font-size: 14px;
             }
         }
     </style>
 </head>
+
 <body>
 
-<!-- 顶部导航 -->
-<header>
-    <!-- 返回根目录首页（从 category/ 返回上级目录） -->
-    <a href="../index.html" class="back-btn" title="返回仓库">⬅</a>
-    <div class="search-wrapper">
-        <!-- 海量一键模糊搜索 -->
-        <input type="text" id="bbsSearch" class="search-input" placeholder="输入关键字一秒检索...">
-    </div>
-    <button class="theme-toggle" id="themeBtn">☀️</button>
-</header>
+    <header>
+        <a href="../index.html" class="back-btn" title="返回仓库">⬅</a>
+        <div class="search-wrapper">
+            <input type="text" id="bbsSearch" class="search-input" placeholder="输入关键字一秒检索...">
+        </div>
+        <button class="theme-toggle" id="themeBtn">☀️</button>
+    </header>
 
-<!-- 主体内容 -->
-<main class="category-main" style="padding-right: 20px; max-width: 900px;">
-    <!-- BBS 极简贴文列表 -->
-    <div class="bbs-container" id="bbsList">
-        <!-- 数据会在此动态分页加载 -->
-    </div>
-    <!-- 滚动解锁触发器 -->
-    <div class="loading-trigger" id="loadingTrigger">🔍 正在加载更多资源...</div>
-</main>
+    <main class="category-main" style="padding-right: 20px; max-width: 900px;">
+        <div class="bbs-container" id="bbsList"></div>
+        <div class="loading-trigger" id="loadingTrigger">🔍 正在加载更多资源...</div>
+    </main>
 
-<!-- 全局主题切换脚本 -->
-<script src="../js/theme.js"></script>
-<!-- 引入独立的影视原声数据库 -->
-<script src="../js/ost_data.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/ost_data.js"></script>
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        // 确保 ostDatabase 存在（来自 js/ost_data.js）
-        if (typeof ostDatabase === 'undefined') {
-            document.getElementById('bbsList').innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">⚠️ 未在 js/ost_data.js 中找到数据库！</div>';
-            return;
-        }
-
-        // 核心设计 1：将数据倒序排列（逆序，最后添加的显示在最顶部）
-        const reversedDatabase = [...ostDatabase].reverse();
-        let filteredData = [...reversedDatabase];
-        
-        // 核心设计 2：滚动分页加载，避免海量数据一次渲染造成手机卡死
-        const itemsPerPage = 25; // 每页载入 25 条
-        let currentPage = 1;
-        
-        const searchInput = document.getElementById('bbsSearch');
-        const bbsList = document.getElementById('bbsList');
-        const loadingTrigger = document.getElementById('loadingTrigger');
-
-        // 渲染单页资源的函数
-        function renderBbsPage(page, append = false) {
-            const start = (page - 1) * itemsPerPage;
-            const end = start + itemsPerPage;
-            const pageData = filteredData.slice(start, end);
-
-            if (!append) {
-                bbsList.innerHTML = '';
-            }
-
-            if (filteredData.length === 0) {
-                bbsList.innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">没有找到相关资源 🥲</div>';
-                loadingTrigger.style.display = 'none';
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof ostDatabase === 'undefined') {
+                document.getElementById('bbsList').innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">⚠️ 未在 js/ost_data.js 中找到数据库！</div>';
                 return;
             }
 
-            let html = '';
-            pageData.forEach((item, index) => {
-                // 核心设计 3：利用取余数 (%) 自动为每行分配 color-0 到 color-4，产生精致的彩色循环边框
-                const colorClass = `color-${(start + index) % 5}`;
+            // ---------- 核心改动：按标题中的年份降序排序（新片在前）----------
+            function extractYear(title) {
+                const match = title.match(/\b(19|20)\d{2}\b/);
+                return match ? parseInt(match[0], 10) : 0;   // 无年份的排最后（年份0）
+            }
 
-                html += `
+            // 稳定排序，年份相同则保持原顺序
+            const sortedDatabase = [...ostDatabase].sort((a, b) => {
+                const yearA = extractYear(a.title);
+                const yearB = extractYear(b.title);
+                if (yearA !== yearB) return yearB - yearA;   // 降序：大的在前
+                return 0;   // 相等则不动（保持插入顺序）
+            });
+
+            let filteredData = [...sortedDatabase];
+
+            // 分页配置
+            const itemsPerPage = 25;
+            let currentPage = 1;
+
+            const searchInput = document.getElementById('bbsSearch');
+            const bbsList = document.getElementById('bbsList');
+            const loadingTrigger = document.getElementById('loadingTrigger');
+
+            function renderBbsPage(page, append = false) {
+                const start = (page - 1) * itemsPerPage;
+                const end = start + itemsPerPage;
+                const pageData = filteredData.slice(start, end);
+
+                if (!append) bbsList.innerHTML = '';
+
+                if (filteredData.length === 0) {
+                    bbsList.innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">没有找到相关资源 🥲</div>';
+                    loadingTrigger.style.display = 'none';
+                    return;
+                }
+
+                let html = '';
+                pageData.forEach((item, idx) => {
+                    const globalIndex = start + idx;
+                    const colorClass = `color-${globalIndex % 5}`;
+                    html += `
                     <a href="${item.link}" class="bbs-row ${colorClass}" target="_blank" title="点击直接开启网盘下载">
                         <div class="resource-title">${escapeHtml(item.title)}</div>
                         <div class="direct-go-icon">🔗</div>
                     </a>
                 `;
+                });
+
+                if (append) {
+                    bbsList.insertAdjacentHTML('beforeend', html);
+                } else {
+                    bbsList.innerHTML = html;
+                }
+
+                if (end < filteredData.length) {
+                    loadingTrigger.style.display = 'block';
+                } else {
+                    loadingTrigger.style.display = 'none';
+                }
+            }
+
+            function escapeHtml(str) {
+                return str.replace(/[&<>]/g, function (m) {
+                    if (m === '&') return '&amp;';
+                    if (m === '<') return '&lt;';
+                    if (m === '>') return '&gt;';
+                    return m;
+                });
+            }
+
+            function searchResources() {
+                const keyword = searchInput.value.trim().toLowerCase();
+                if (keyword === '') {
+                    filteredData = [...sortedDatabase];
+                } else {
+                    filteredData = sortedDatabase.filter(item =>
+                        item.title.toLowerCase().includes(keyword)
+                    );
+                }
+                currentPage = 1;
+                renderBbsPage(currentPage, false);
+            }
+
+            window.addEventListener('scroll', () => {
+                if (loadingTrigger.style.display === 'none') return;
+                const rect = loadingTrigger.getBoundingClientRect();
+                if (rect.top <= window.innerHeight + 100) {
+                    currentPage++;
+                    renderBbsPage(currentPage, true);
+                }
             });
 
-            if (append) {
-                bbsList.insertAdjacentHTML('beforeend', html);
-            } else {
-                bbsList.innerHTML = html;
-            }
-
-            // 判断是否显示滑动加载提示
-            if (end < filteredData.length) {
-                loadingTrigger.style.display = 'block';
-            } else {
-                loadingTrigger.style.display = 'none';
-            }
-        }
-
-        // 简单防 XSS 注入
-        function escapeHtml(str) {
-            return str.replace(/[&<>]/g, function(m) {
-                if (m === '&') return '&amp;';
-                if (m === '<') return '&lt;';
-                if (m === '>') return '&gt;';
-                return m;
-            });
-        }
-
-        // 搜索过滤函数
-        function searchResources() {
-            const keyword = searchInput.value.trim().toLowerCase();
-            
-            if (keyword === '') {
-                filteredData = [...reversedDatabase];
-            } else {
-                filteredData = reversedDatabase.filter(item => 
-                    item.title.toLowerCase().includes(keyword)
-                );
-            }
-
-            currentPage = 1;
+            searchInput.addEventListener('input', searchResources);
             renderBbsPage(currentPage, false);
-        }
-
-        // 滚动加载监听
-        window.addEventListener('scroll', () => {
-            if (loadingTrigger.style.display === 'none') return;
-
-            const rect = loadingTrigger.getBoundingClientRect();
-            // 当底部提示框进入屏幕范围时，自动渲染下一页
-            if (rect.top <= window.innerHeight + 100) {
-                currentPage++;
-                renderBbsPage(currentPage, true);
-            }
         });
+    </script>
+    </script>
+    <footer class="site-footer">
+        <p>风险提示：本站所有资源均来自互联网公开渠道，仅供学习交流与个人研究使用，请于下载后24小时内删除。本站不存储任何实体文件，亦不赚取任何资源下载费用。若本站内容侵犯了您的权益，请立即联系邮箱处理。</p>
+        <p>联系方式 / Contact: <a href="mailto:jaytamvip@gmail.com">jaytamvip@gmail.com</a></p>
+    </footer>
 
-        // 监听键盘搜索输入
-        searchInput.addEventListener('input', searchResources);
+    <div class="sticky-bottom-bar" id="stickyBar">
+        <div class="bar-content">
+            <span class="bar-text">📢 获取最新更新资讯，点击关注微信公众号</span>
+            <div class="desktop-qr-trigger">
+                <span class="trigger-btn">👉 查看公众号二维码</span>
+                <div class="desktop-qr-dropdown">
+                    <div class="qr-box">
+                        <img src="/images/qrcode_mp.png" alt="微信公众号">
+                        <p>关注微信公众号</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        // 初始加载第一页
-        renderBbsPage(currentPage, false);
-    });
-</script>
+    <div class="mobile-modal-overlay" id="mobileModal">
+        <div class="mobile-modal-card">
+            <button class="modal-close-btn" id="closeModalBtn">&times;</button>
+            <h3>✨ 关注我们</h3>
+            <p class="modal-subtitle">获取最新更新资讯，动态不再迷路</p>
+            <div class="modal-qr-container">
+                <div class="modal-qr-item">
+                    <img src="/images/qrcode_mp.png" alt="微信公众号">
+                    <span>微信公众号</span>
+                </div>
+            </div>
+            <p class="modal-footer-tip">感谢你的陪伴与支持！</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const stickyBar = document.getElementById('stickyBar');
+            const mobileModal = document.getElementById('mobileModal');
+            const closeModalBtn = document.getElementById('closeModalBtn');
+
+            // 手机端：点击悬浮条弹出 Modal
+            stickyBar.addEventListener('click', () => {
+                if (window.innerWidth <= 600) {
+                    mobileModal.classList.add('active');
+                }
+            });
+
+            // 手机端：点击叉号关闭 Modal
+            closeModalBtn.addEventListener('click', (e) => {
+                e.stopPropagation(); // 阻止冒泡
+                mobileModal.classList.remove('active');
+            });
+
+            // 手机端：点击遮罩层空白处关闭 Modal
+            mobileModal.addEventListener('click', (e) => {
+                if (e.target === mobileModal) {
+                    mobileModal.classList.remove('active');
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>
