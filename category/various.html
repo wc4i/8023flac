@@ -2,8 +2,8 @@
 <html lang="zh-HK">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>群星閃耀 - wc4° 音樂倉庫</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>群星闪耀 - wc4° 音樂倉庫</title>
     <!-- 引入全局樣式（從 category/ 回到根目錄） -->
     <link rel="stylesheet" href="../css/main.css">
     <style>
@@ -11,11 +11,10 @@
         .bbs-container {
             display: flex;
             flex-direction: column;
-            gap: 12px; /* 卡片之間的間距 */
+            gap: 12px;
             margin-top: 20px;
         }
 
-        /* 單行極簡資源卡片 */
         .bbs-row {
             background-color: var(--card-bg);
             border-radius: 10px;
@@ -27,26 +26,26 @@
             justify-content: space-between;
             gap: 16px;
             transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
-            text-decoration: none; /* 讓整行變成可點擊的超連結 */
+            text-decoration: none;
             color: inherit;
         }
+
         .bbs-row:hover {
             transform: translateY(-2px);
             box-shadow: var(--shadow-md);
-            background-color: rgba(59, 130, 246, 0.02); /* 滑過時有極淡的藍色科技感 */
+            background-color: rgba(59, 130, 246, 0.02);
         }
+
         [data-theme="dark"] .bbs-row:hover {
             background-color: rgba(255, 255, 255, 0.02);
         }
 
-        /* 左側邊框色彩循環（透過 JS 自動為每列附加 color-X 類別，防止視覺疲勞） */
-        .color-0 { border-left: 4px solid #ef4444; } /* 華語紅 */
-        .color-1 { border-left: 4px solid #3b82f6; } /* 科技藍 */
-        .color-2 { border-left: 4px solid #10b981; } /* 翡翠綠 */
-        .color-3 { border-left: 4px solid #f59e0b; } /* 琥珀橙 */
-        .color-4 { border-left: 4px solid #8b5cf6; } /* 薰衣草紫 */
+        .color-0 { border-left: 4px solid #ef4444; }
+        .color-1 { border-left: 4px solid #3b82f6; }
+        .color-2 { border-left: 4px solid #10b981; }
+        .color-3 { border-left: 4px solid #f59e0b; }
+        .color-4 { border-left: 4px solid #8b5cf6; }
 
-        /* 資源標題樣式 */
         .resource-title {
             font-weight: 600;
             font-size: 15px;
@@ -57,25 +56,26 @@
             flex: 1;
             transition: color 0.2s;
         }
+
         .bbs-row:hover .resource-title {
-            color: #3b82f6; /* 滑過時標題變藍色，提示可點擊 */
+            color: #3b82f6;
         }
+
         [data-theme="dark"] .bbs-row:hover .resource-title {
             color: #60a5fa;
         }
 
-        /* 點擊直接跳轉的直達小圖示 */
         .direct-go-icon {
             font-size: 16px;
             color: #94a3b8;
             transition: transform 0.2s, color 0.2s;
         }
+
         .bbs-row:hover .direct-go-icon {
             transform: translateX(4px);
             color: #3b82f6;
         }
 
-        /* 底部滾動加載中提示 */
         .loading-trigger {
             padding: 24px;
             text-align: center;
@@ -84,7 +84,6 @@
             display: none;
         }
 
-        /* 手機端排版優化 */
         @media (max-width: 600px) {
             .bbs-row {
                 padding: 14px 16px;
@@ -100,60 +99,64 @@
 </head>
 <body>
 
-<!-- 頂部導航 -->
 <header>
     <a href="../index.html" class="back-btn" title="返回倉庫">⬅</a>
     <div class="search-wrapper">
-        <!-- 海量一鍵模糊搜尋 -->
         <input type="text" id="bbsSearch" class="search-input" placeholder="輸入關鍵字一秒檢索...">
     </div>
     <button class="theme-toggle" id="themeBtn">☀️</button>
 </header>
 
-<!-- 主體內容 -->
 <main class="category-main" style="padding-right: 20px; max-width: 900px;">
-    <!-- BBS 極簡貼文列表 -->
-    <div class="bbs-container" id="bbsList">
-        <!-- 數據會在此動態分頁加載 -->
-    </div>
-    <!-- 滾動解鎖觸發器 -->
+    <div class="bbs-container" id="bbsList"></div>
     <div class="loading-trigger" id="loadingTrigger">🔍 正在加載更多資源...</div>
 </main>
 
-<!-- 全局主題切換腳本 -->
 <script src="../js/theme.js"></script>
-<!-- 引入獨立的群星閃耀數據庫 -->
 <script src="../js/various_data.js"></script>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        // 確保 variousDatabase 存在（來自 js/various_data.js）
         if (typeof variousDatabase === 'undefined') {
             document.getElementById('bbsList').innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">⚠️ 未在 js/various_data.js 中找到數據庫！</div>';
             return;
         }
 
-        // 核心設計 1：將數據倒序排列（逆序，最後添加的顯示在最頂部）
-        const reversedDatabase = [...variousDatabase].reverse();
-        let filteredData = [...reversedDatabase];
-        
-        // 核心設計 2：滾動分頁加載，避免海量數據一次渲染造成手機卡死
-        const itemsPerPage = 25; // 每頁載入 25 條
+        // ---------- 新排序规则：没有年份的（合集）排在最前，有年份的按年份降序（新片在前） ----------
+        function extractYear(title) {
+            const match = title.match(/\b(19|20)\d{2}\b/);
+            return match ? parseInt(match[0], 10) : 0;   // 0 表示无年份
+        }
+
+        const sortedDatabase = [...variousDatabase].sort((a, b) => {
+            const yearA = extractYear(a.title);
+            const yearB = extractYear(b.title);
+
+            // 情况1：A 无年份 (0) 且 B 有年份 (>0) → A 排前
+            if (yearA === 0 && yearB !== 0) return -1;
+            // 情况2：A 有年份 (>0) 且 B 无年份 (0) → B 排前
+            if (yearA !== 0 && yearB === 0) return 1;
+            // 情况3：都有年份 → 按年份降序（大的在前）
+            if (yearA !== 0 && yearB !== 0) return yearB - yearA;
+            // 情况4：都无年份 → 保持原顺序（稳定排序）
+            return 0;
+        });
+
+        let filteredData = [...sortedDatabase];
+        const itemsPerPage = 25;
         let currentPage = 1;
-        
+        let isLoadingMore = false;
+
         const searchInput = document.getElementById('bbsSearch');
         const bbsList = document.getElementById('bbsList');
         const loadingTrigger = document.getElementById('loadingTrigger');
 
-        // 渲染單頁資源的函數
         function renderBbsPage(page, append = false) {
             const start = (page - 1) * itemsPerPage;
             const end = start + itemsPerPage;
             const pageData = filteredData.slice(start, end);
 
-            if (!append) {
-                bbsList.innerHTML = '';
-            }
+            if (!append) bbsList.innerHTML = '';
 
             if (filteredData.length === 0) {
                 bbsList.innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">沒有找到相關資源 🥲</div>';
@@ -162,12 +165,11 @@
             }
 
             let html = '';
-            pageData.forEach((item, index) => {
-                // 核心設計 3：利用取餘數 (%) 自動為每行分配 color-0 到 color-4，產生精緻的彩色循環邊框
-                const colorClass = `color-${(start + index) % 5}`;
-
+            pageData.forEach((item, idx) => {
+                const globalIndex = start + idx;
+                const colorClass = `color-${globalIndex % 5}`;
                 html += `
-                    <a href="${item.link}" class="bbs-row ${colorClass}" target="_blank" title="點擊直接開啟網盤下載">
+                    <a href="${escapeHtml(item.link)}" class="bbs-row ${colorClass}" target="_blank" title="點擊直接開啟網盤下載">
                         <div class="resource-title">${escapeHtml(item.title)}</div>
                         <div class="direct-go-icon">🔗</div>
                     </a>
@@ -180,15 +182,14 @@
                 bbsList.innerHTML = html;
             }
 
-            // 判斷是否顯示滑動加載提示
             if (end < filteredData.length) {
                 loadingTrigger.style.display = 'block';
             } else {
                 loadingTrigger.style.display = 'none';
             }
+            isLoadingMore = false;
         }
 
-        // 簡單防 XSS 注入
         function escapeHtml(str) {
             return str.replace(/[&<>]/g, function(m) {
                 if (m === '&') return '&amp;';
@@ -198,40 +199,100 @@
             });
         }
 
-        // 搜尋過濾函數
         function searchResources() {
             const keyword = searchInput.value.trim().toLowerCase();
-            
             if (keyword === '') {
-                filteredData = [...reversedDatabase];
+                filteredData = [...sortedDatabase];
             } else {
-                filteredData = reversedDatabase.filter(item => 
+                filteredData = sortedDatabase.filter(item =>
                     item.title.toLowerCase().includes(keyword)
                 );
             }
-
             currentPage = 1;
+            isLoadingMore = false;
             renderBbsPage(currentPage, false);
         }
 
-        // 滾動加載監聽
         window.addEventListener('scroll', () => {
             if (loadingTrigger.style.display === 'none') return;
-
+            if (isLoadingMore) return;
             const rect = loadingTrigger.getBoundingClientRect();
-            // 當底部提示框進入螢幕範圍時，自動渲染下一頁
             if (rect.top <= window.innerHeight + 100) {
+                isLoadingMore = true;
                 currentPage++;
                 renderBbsPage(currentPage, true);
             }
         });
 
-        // 監聽鍵盤搜尋輸入
         searchInput.addEventListener('input', searchResources);
-
-        // 初始載入第一頁
         renderBbsPage(currentPage, false);
     });
+</script>
+
+<footer class="site-footer">
+    <p>风险提示：本站所有资源均来自互联网公开渠道，仅供学习交流与个人研究使用，请于下载后24小时内删除。本站不存储任何实体文件，亦不赚取任何资源下载费用。若本站内容侵犯了您的权益，请立即联系邮箱处理。</p>
+    <p>联系方式 / Contact: <a href="mailto:jaytamvip@gmail.com">jaytamvip@gmail.com</a></p>
+</footer>
+
+<div class="sticky-bottom-bar" id="stickyBar">
+    <div class="bar-content">
+        <span class="bar-text">📢 获取最新更新资讯，点击关注微信公众号</span>
+        <div class="desktop-qr-trigger">
+            <span class="trigger-btn">👉 查看公众号二维码</span>
+            <div class="desktop-qr-dropdown">
+                <div class="qr-box">
+                    <img src="../images/qrcode_mp.png" alt="微信公众号">
+                    <p>关注微信公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mobile-modal-overlay" id="mobileModal">
+    <div class="mobile-modal-card">
+        <button class="modal-close-btn" id="closeModalBtn">&times;</button>
+        <h3>✨ 关注我们</h3>
+        <p class="modal-subtitle">获取最新更新资讯，动态不再迷路</p>
+        <div class="modal-qr-container">
+            <div class="modal-qr-item">
+                <img src="/images/qrcode_mp.png" alt="微信公众号">
+                <span>微信公众号</span>
+            </div>
+        </div>
+        <p class="modal-footer-tip">感谢你的陪伴与支持！</p>
+    </div>
+</div>
+
+<script>
+    (function() {
+        const stickyBar = document.getElementById('stickyBar');
+        const mobileModal = document.getElementById('mobileModal');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+
+        if (stickyBar) {
+            stickyBar.addEventListener('click', () => {
+                if (window.innerWidth <= 600) {
+                    mobileModal.classList.add('active');
+                }
+            });
+        }
+
+        if (closeModalBtn) {
+            closeModalBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                mobileModal.classList.remove('active');
+            });
+        }
+
+        if (mobileModal) {
+            mobileModal.addEventListener('click', (e) => {
+                if (e.target === mobileModal) {
+                    mobileModal.classList.remove('active');
+                }
+            });
+        }
+    })();
 </script>
 </body>
 </html>
