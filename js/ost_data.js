@@ -108,5 +108,65 @@ const ostDatabase = [
         title: "2026 人间惊鸿客 影视原声带 [24-48]",
         category: "华语区",
         link: "https://pan.baidu.com/s/1zUenuFD9tu1tvkvE5ABh8w?pwd=8023"
+    },
+    {
+        title: "1985 豆芽梦 电影原声带 [台湾复刻版]【小虫】",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/1X1HtXW7j7LYXp-5Z58R1ZQ?pwd=8023"
+    },
+    {
+        title: "1992 少年吔，安啦！电影原声带",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/1GCGwbpdbNVNDwEXM1U5D7w?pwd=8023"
+    },
+    {
+        title: "1991 葬心 阮玲玉电影原声带",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/1hmnDosfg4rpjcBmCMOCzTw?pwd=8023"
+    },
+    {
+        title: "1992 警察故事Ⅲ 超级警察 电影",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/16qvnvvMU7n2WCtHapTkkbQ?pwd=8023"
+    },
+    {
+        title: "1992 小龙人 电视",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/1oORz-RQ8ODOpQXiz3ZFaUA?pwd=8023"
+    },
+    {
+        title: "1991 紫藤恋 台视【20khz峰值】",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/1RlSs4BShUk0-Knx6nKQnwQ?pwd=8023"
+    },
+    {
+        title: "1990 六个梦电视原声带 第1辑",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/1hQDDJwEXfE1TeEzodJyJtw?pwd=8023"
+    },
+    {
+        title: "1990 8点档连续剧主题曲 1-10辑【台湾民视】",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/1nf7ogs7DJhIAqDBtnmAJTQ?pwd=8023"
+    },
+    {
+        title: "1987 红楼梦87原版 电视剧",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/14NDXLaOLCYeoIKbkazm6_g?pwd=8023"
+    },
+    {
+        title: "1972 小凤阿姨 电视剧主题曲与全部插曲",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/1dMSk1_6_KydIRuMYx2cuag?pwd=8023"
+    },
+    {
+        title: "1990 六个梦之婉君 三朵花 [日本版]",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/1dR4b3e-kt37JqiKlBBPUsA?pwd=8023"
+    },
+    {
+        title: "1992 暗恋桃花源 电影原声带",
+        category: "华语区",
+        link: "https://pan.baidu.com/s/1yZ5sM_fGcKvvVuPCLCbDDw?pwd=8023"
     }
 ];
