@@ -286,5 +286,67 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 });
 </script>
+<footer class="site-footer">
+    <p>风险提示：本站所有资源均来自互联网公开渠道，仅供学习交流与个人研究使用，请于下载后24小时内删除。本站不存储任何实体文件，亦不赚取任何资源下载费用。若本站内容侵犯了您的权益，请立即联系邮箱处理。</p>
+    <p>联系方式 / Contact: <a href="mailto:jaytamvip@gmail.com">jaytamvip@gmail.com</a></p>
+</footer>
+
+<div class="sticky-bottom-bar" id="stickyBar">
+    <div class="bar-content">
+        <span class="bar-text">📢 获取最新更新资讯，点击关注微信公众号</span>
+        <div class="desktop-qr-trigger">
+            <span class="trigger-btn">👉 查看公众号二维码</span>
+            <div class="desktop-qr-dropdown">
+                <div class="qr-box">
+                    <img src="images/qrcode_mp.png" alt="微信公众号">
+                    <p>关注微信公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mobile-modal-overlay" id="mobileModal">
+    <div class="mobile-modal-card">
+        <button class="modal-close-btn" id="closeModalBtn">&times;</button>
+        <h3>✨ 关注我们</h3>
+        <p class="modal-subtitle">获取最新更新资讯，动态不再迷路</p>
+        <div class="modal-qr-container">
+            <div class="modal-qr-item">
+                <img src="images/qrcode_mp.png" alt="微信公众号">
+                <span>微信公众号</span>
+            </div>
+        </div>
+        <p class="modal-footer-tip">感谢你的陪伴与支持！</p>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const stickyBar = document.getElementById('stickyBar');
+    const mobileModal = document.getElementById('mobileModal');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+
+    // 手机端：点击悬浮条弹出 Modal
+    stickyBar.addEventListener('click', () => {
+        if (window.innerWidth <= 600) {
+            mobileModal.classList.add('active');
+        }
+    });
+
+    // 手机端：点击叉号关闭 Modal
+    closeModalBtn.addEventListener('click', (e) => {
+        e.stopPropagation(); // 阻止冒泡
+        mobileModal.classList.remove('active');
+    });
+
+    // 手机端：点击遮罩层空白处关闭 Modal
+    mobileModal.addEventListener('click', (e) => {
+        if (e.target === mobileModal) {
+            mobileModal.classList.remove('active');
+        }
+    });
+});
+</script>
 </body>
 </html>

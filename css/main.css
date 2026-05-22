@@ -544,3 +544,247 @@ main {
         transform: translateX(2px);
     }
 }
+/* ==================== ⚙️ 底部常规页脚 & 悬浮底栏样式（纯净版） ==================== */
+
+/* 1. 随动常规页脚：放在页面最底 */
+.site-footer {
+    margin-top: auto; 
+    padding: 40px 24px 100px 24px; /* 底部留足空间，防止内容被固定底栏挡住 */
+    text-align: center;
+    font-size: 12px;
+    color: #94a3b8;
+    border-top: 1px dashed var(--border-color);
+    background-color: transparent;
+    line-height: 1.8;
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-footer a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+/* 2. 悬浮固定底栏 */
+.sticky-bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: var(--header-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid var(--border-color);
+    box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.04);
+    padding: 12px 24px;
+    transition: background-color var(--transition-speed), border-color var(--transition-speed);
+}
+[data-theme="dark"] .sticky-bottom-bar {
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.bar-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.bar-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+    letter-spacing: 0.02em;
+}
+
+/* 电脑端：悬停显图触发器 */
+.desktop-qr-trigger {
+    position: relative;
+}
+
+.trigger-btn {
+    display: inline-block;
+    background-color: var(--primary);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.trigger-btn:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+/* 电脑端：悬停上浮展开的单码卡片 */
+.desktop-qr-dropdown {
+    position: absolute;
+    bottom: calc(100% + 15px);
+    right: 0;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.desktop-qr-dropdown::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    height: 16px;
+    background: transparent;
+}
+
+.desktop-qr-trigger:hover .desktop-qr-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.qr-box {
+    text-align: center;
+    width: 130px; /* 适当放大单码宽度 */
+}
+.qr-box img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background: #ffffff;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.qr-box p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+    color: var(--text-color);
+}
+
+/* 3. 手机端全屏半透明遮罩与底部抽屉弹窗 */
+.mobile-modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    display: flex;
+    align-items: flex-end;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mobile-modal-card {
+    width: 100%;
+    background-color: var(--card-bg);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    padding: 28px 24px 34px 24px;
+    box-sizing: border-box;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    text-align: center;
+}
+.mobile-modal-overlay.active .mobile-modal-card {
+    transform: translateY(0);
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #94a3b8;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.mobile-modal-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 4px;
+}
+.modal-subtitle {
+    font-size: 12px;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+.modal-qr-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.modal-qr-item {
+    width: 140px; /* 适当放大手机端单码大小 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.modal-qr-item img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    background: #ffffff;
+    padding: 6px;
+    box-sizing: border-box;
+    box-shadow: var(--shadow-sm);
+}
+.modal-qr-item span {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.modal-footer-tip {
+    font-size: 11px;
+    color: #94a3b8;
+    font-style: italic;
+}
+
+/* 4. 📱 手机端专享响应式细节覆盖 */
+@media (max-width: 600px) {
+    .sticky-bottom-bar {
+        cursor: pointer;
+        padding: 14px 20px;
+    }
+    .bar-content {
+        justify-content: center;
+    }
+    .bar-text {
+        font-size: 13px;
+    }
+    .desktop-qr-trigger {
+        display: none;
+    }
+}
