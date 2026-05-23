@@ -60,6 +60,15 @@ const musicDatabase = [
         pinyin: "J",
         category: "欧美之声",
         avatar: "https://star.kuwo.cn/star/starheads/500/s4s28/65/726437609.jpg"
+    },
+
+    // === 日韩风尚 ===
+    { 
+        id: "kr-stella-jang",
+        name: "Stella Jang (스텔라장)",
+        pinyin: "S",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/bk-MBe0Pxl3pY0Do8JH5-g==/109951170463564554.jpg"
     }
     
 ];
