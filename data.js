@@ -69,6 +69,13 @@ const musicDatabase = [
         pinyin: "S",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/bk-MBe0Pxl3pY0Do8JH5-g==/109951170463564554.jpg"
+    },
+    { 
+        id: "cn-zhangguorong",
+        name: "张国荣",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg"
     }
     
 ];
