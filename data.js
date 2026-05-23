@@ -75,7 +75,21 @@ const musicDatabase = [
         name: "张国荣",
         pinyin: "Z",
         category: "华语金曲",
-        avatar: "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg"
+        avatar: "https://star.kuwo.cn/star/starheads/500/s4s44/6/2602790997.png"
+    },
+    { 
+        id: "jp-okamura-takako",
+        name: "岡村孝子（Okamura Takako）",
+        pinyin: "O",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/qB1cr83n_n1VqM1G39srKg==/799344953417257.jpg"
+    },
+    { 
+        id: "jp-yonekura-toshinori",
+        name: "米倉利紀（Toshinori Yonekura）",
+        pinyin: "Y",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/5G5GBxlJ2w0d0ixcbKA7uw==/3373301674943324.jpg"
     }
     
 ];
