@@ -109,6 +109,13 @@ const musicDatabase = [
         pinyin: "L",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/kfaJmPgiBP-rVpsGww5GdQ==/109951169927409880.jpg"
+    },
+    { 
+        id: "cn-xinbaodao",
+        name: "新宝岛康乐队",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6d/cd/e2/6dcde251-2de4-847b-560d-2199a3f9ec72/0723_Cover_JPG.jpg/600x600bb.jpg"
     }
     
 ];
