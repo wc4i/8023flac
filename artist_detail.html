@@ -36,6 +36,11 @@
             transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
         }
         .album-card:hover { transform: translateY(-8px); }
+        .album-cover-wrap { position: relative; width: 100%; aspect-ratio: 1; margin-bottom: 12px; border-radius: 12px; overflow: hidden; background: var(--card-bg); }
+        .album-cover-wrap .album-cover { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: 0; margin-bottom: 0; border: none; box-shadow: none; }
+        .album-cover-wrap .album-cover-blur { filter: blur(20px); transform: scale(1.1); opacity: 0.6; }
+        .album-cover-wrap .album-cover-full { opacity: 0; transition: opacity 0.4s ease; }
+        .album-cover-wrap .album-cover-full.loaded { opacity: 1; }
         .album-cover { 
             width: 100%; 
             aspect-ratio: 1; 
@@ -115,6 +120,7 @@
                 box-shadow: 0 2px 4px rgba(0,0,0,0.1);
                 object-fit: cover;
             }
+            .album-cover-wrap { width: 60px; height: 60px; margin-bottom: 0; border-radius: 6px; grid-column: 1; grid-row: 1 / 3; }
 
 
             .album-title {
@@ -260,7 +266,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 sortedAlbums.forEach(item => {
                     const hasCover = item.cover && item.cover.trim() !== '';
                     const coverHtml = hasCover 
-                        ? `<img src="${item.cover}" class="album-cover" onerror="this.outerHTML='<div class=\'album-cover vinyl-placeholder\'><div class=\'vinyl-center\'>🎵</div></div>'">`
+                        ? `<div class="album-cover-wrap">
+                            <img src="${item.cover.replace('600x600bb', '40x40bb')}" class="album-cover album-cover-blur" aria-hidden="true" loading="lazy">
+                            <img src="${item.cover}" class="album-cover album-cover-full" loading="lazy" onload="this.classList.add('loaded')" onerror="this.parentElement.outerHTML='<div class=\\'album-cover vinyl-placeholder\\'><div class=\\'vinyl-center\\'>🎵</div></div>'">
+                           </div>`
                         : `<div class="album-cover vinyl-placeholder"><div class="vinyl-center">🎵</div></div>`;
 
                     grid.innerHTML += `
