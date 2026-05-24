@@ -1,5 +1,5 @@
 // 🎵 wc4° 音乐仓库 - 全局歌手索引数据库
-// 这个文件就像是一本字典的“目录”，用于在各个分类页面（如 huayu.html）生成歌手卡片。
+// 这个文件就像是一本字典的"目录"，用于在各个分类页面（如 huayu.html）生成歌手卡片。
 
 const musicDatabase = [
     // === 华语金曲 ===
@@ -9,6 +9,13 @@ const musicDatabase = [
         pinyin: "Z",            // 用于 A-Z 侧边栏滑动定位
         category: "华语金曲",   // 用于页面分类过滤
         avatar: "https://star.kuwo.cn/star/starheads/300/s4s56/58/291211030.jpg" 
+    },
+    { 
+        id: "cn-chensheng",
+        name: "陈升",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/a8/7f/bda87f4c-79e0-be1f-380b-d3cb2234b036/4710149720412_cover.jpg/600x600bb.jpg"
     },
     { 
         id: "cn-lizhi", 
@@ -95,6 +102,13 @@ const musicDatabase = [
         pinyin: "M",
         category: "欧美之声",
         avatar: "https://p2.music.126.net/UnyFtENpPq_Q8kzd8XuNxA==/109951170645917399.jpg"
+    },
+    { 
+        id: "kr-lesserafim",
+        name: "LE SSERAFIM",
+        pinyin: "L",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/kfaJmPgiBP-rVpsGww5GdQ==/109951169927409880.jpg"
     }
     
 ];
