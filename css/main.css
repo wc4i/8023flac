@@ -188,6 +188,15 @@ main {
     margin-top: 12px;
     z-index: 1;
 }
+.card .card-en {
+    font-size: 13px;
+    color: var(--text-color);
+    opacity: 0.6;
+    margin-top: 4px;
+    z-index: 1;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
 /* 卡片頂部彩色裝飾條 */
 .card::before {
     content: '';

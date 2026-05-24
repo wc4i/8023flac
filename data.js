@@ -11,13 +11,6 @@ const musicDatabase = [
         avatar: "https://star.kuwo.cn/star/starheads/300/s4s56/58/291211030.jpg" 
     },
     { 
-        id: "chenyixun", 
-        name: "陈奕迅", 
-        pinyin: "C", 
-        category: "华语金曲", 
-        avatar: "https://star.kuwo.cn/star/starheads/300/37/26/3816222178.jpg" 
-    },
-    { 
         id: "cn-lizhi", 
         name: "李志", 
         pinyin: "L", 
@@ -25,34 +18,11 @@ const musicDatabase = [
         avatar: "https://resources.tidal.com/images/12206e3d/714b/4248/92b9/05f9d4d214be/1280x1280.jpg"              // 没有头像，网页会自动为他生成统一的默认占位头像
     },
     { 
-        id: "wuyifan", 
-        name: "吴亦凡", 
-        pinyin: "W", 
-        category: "华语金曲", 
-        avatar: ""              // 黑胶唱片效果
-    },
-    { 
         id: "cn-wangfei", 
         name: "王菲", 
         pinyin: "W", 
         category: "华语金曲", 
         avatar: "https://star.kuwo.cn/star/starheads/300/s4s8/6/707165471.png"           
-    },
-
-    // === 欧美之声 ===
-    { 
-        id: "taylorswift", 
-        name: "Taylor Swift", 
-        pinyin: "T", 
-        category: "欧美之声", 
-        avatar: "" 
-    },
-    { 
-        id: "michaeljackson", 
-        name: "Michael Jackson", 
-        pinyin: "M", 
-        category: "欧美之声", 
-        avatar: "" 
     },
     { 
         id: "uk-judaspriest",
@@ -90,6 +60,41 @@ const musicDatabase = [
         pinyin: "Y",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/5G5GBxlJ2w0d0ixcbKA7uw==/3373301674943324.jpg"
+    },
+    { 
+        id: "cn-steely-heart",
+        name: "钢心",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "https://star.kuwo.cn/star/starheads/500/82/54/2817225375.jpg"
+    },
+    { 
+        id: "ww-tangduytan",
+        name: "Tăng Duy Tân",
+        pinyin: "T",
+        category: "环球探索",
+        avatar: "https://p2.music.126.net/WCXdF7e_IbKyNUC0uJpUYw==/109951165561725696.jpg"
+    },
+    { 
+        id: "ww-pami",
+        name: "pami",
+        pinyin: "P",
+        category: "环球探索",
+        avatar: "https://p1.music.126.net/DBg-MypM9zSR7rq67kzQmQ==/109951169657893348.jpg"
+    },
+    { 
+        id: "us-michaeljackson",
+        name: "Michael Jackson",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/3Et8DQcWqKW1Ejv6SzVWWw==/109951170501526889.jpg"
+    },
+    { 
+        id: "us-miley-cyrus",
+        name: "Miley Cyrus",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/UnyFtENpPq_Q8kzd8XuNxA==/109951170645917399.jpg"
     }
     
 ];

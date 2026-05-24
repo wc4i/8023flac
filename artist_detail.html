@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>歌手数据 - wc4° 音乐仓库</title>
+    <title>歌手数据 - w西肆 音乐仓库</title>
     <link rel="stylesheet" href="css/main.css">
     <style>
         /* 页面顶部装饰 */
@@ -19,11 +19,11 @@
         .album-tip { font-size: 14px; color: #38bdf8; text-align: center; margin-bottom: 6px; }
         .album-note { font-size: 12px; color: #f87171; text-align: center; margin-bottom: 15px; }
         
-     /* ==================== 專輯區塊基礎樣式 ==================== */
+
         .group-section { margin-bottom: 60px; }
         .group-title { font-size: 1.3rem; margin-bottom: 25px; padding-left: 12px; border-left: 4px solid var(--primary); color: var(--text-color); font-weight: 700; }
         
-        /* 1. 電腦端默認網格布局 */
+
         .album-grid { 
             display: grid; 
             grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); 
@@ -55,13 +55,13 @@
         }
         .album-year { font-size: 12px; color: #94a3b8; }
 
-        /* ==================== 📱 手機端專屬：OST風格彩色邊框卡片 ==================== */
+   
         @media (max-width: 600px) {
-            /* 1. 容器改為單列垂直排列，卡片之間留出精緻間距 */
+
             .group-title {
-                font-size: 15px;       /* 調整為你喜歡的大小（原為 1.3rem，約 21px） */
-                margin-bottom: 14px;   /* 減少與下方專輯列表的空隙，讓排版更緊湊 */
-                padding-left: 8px;     /* 稍微縮短左側彩色小豎條的間距 */
+                font-size: 15px;      
+                margin-bottom: 14px;  
+                padding-left: 8px;
             }
             .album-grid {
                 display: flex;
@@ -71,8 +71,8 @@
 
             .album-card {
                 display: grid;
-                grid-template-columns: 60px 1fr 24px; /* 左圖60px，中間自適應文字，右側小圖標24px */
-                grid-template-rows: auto auto; /* 上下兩行：標題 + 年份 */
+                grid-template-columns: 60px 1fr 24px;
+                grid-template-rows: auto auto; 
                 column-gap: 14px;
                 align-items: center;
                 
@@ -80,21 +80,21 @@
                 border-radius: 10px;
                 border: 1px solid var(--border-color);
                 box-shadow: var(--shadow-sm);
-                padding: 12px; /* 舒適的內邊距，完美容納封面高度 */
+                padding: 12px;
                 
                 text-decoration: none;
                 color: inherit;
                 transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
             }
 
-            /* 3. 仿 ost.html：自動循環分配左側彩色邊框 */
+
             .album-card:nth-child(5n+1) { border-left: 4px solid #ef4444; } /* 華語紅 */
             .album-card:nth-child(5n+2) { border-left: 4px solid #3b82f6; } /* 科技藍 */
             .album-card:nth-child(5n+3) { border-left: 4px solid #10b981; } /* 翡翠綠 */
             .album-card:nth-child(5n+4) { border-left: 4px solid #f59e0b; } /* 琥珀橙 */
             .album-card:nth-child(5n+5) { border-left: 4px solid #8b5cf6; } /* 薰衣紫 */
 
-            /* 4. 卡片點擊/懸停時的微動效 */
+
             .album-card:hover {
                 transform: translateY(-2px);
                 box-shadow: var(--shadow-md);
@@ -104,7 +104,7 @@
                 background-color: rgba(255, 255, 255, 0.02);
             }
 
-            /* 5. 封面圖：固定在左側，佔滿上下兩行高度 */
+
             .album-cover {
                 grid-column: 1;
                 grid-row: 1 / 3;
@@ -116,29 +116,29 @@
                 object-fit: cover;
             }
 
-            /* 6. 專輯名稱（右上行） */
+
             .album-title {
                 grid-column: 2;
                 grid-row: 1;
                 font-size: 15px;
                 font-weight: 600;
                 margin-bottom: 2px;
-                align-self: end; /* 靠底部對齊，離年份更近 */
+                align-self: end; 
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;
             }
 
-            /* 7. 發行日期/年份（右下行） */
+
             .album-year {
                 grid-column: 2;
                 grid-row: 2;
                 font-size: 12px;
-                align-self: start; /* 靠頂部對齊 */
+                align-self: start; 
                 color: #94a3b8;
             }
 
-            /* 8. 右側加上與 ost.html 同款的直達鏈接小圖標 */
+
             .album-card::after {
                 content: "🔗";
                 grid-column: 3;

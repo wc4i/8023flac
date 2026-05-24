@@ -1,0 +1,33 @@
+{
+  "id": "ww-pami",
+  "name": "pami",
+  "bio": "泰国新生代独立唱作女歌手，以梦幻的声线和Lo-fi/卧室流行风格在泰国独立音乐圈受到关注。音乐风格融合流行、R&B和电子元素，作品充满细腻的情感表达和独特的氛围感。",
+  "avatar": "https://p1.music.126.net/DBg-MypM9zSR7rq67kzQmQ==/109951169657893348.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "puffette [24-48]",
+        "year": "2025.08",
+        "cover": "https://p1.music.126.net/7StDIS8sgJZSqL9d2v77Mw==/109951171706168539.jpg",
+        "link": "https://pan.baidu.com/s/1XlirP6x2y2kJLqUALcV-Qg?pwd=8023",
+        "password": "8023"
+      },
+      {
+        "title": "out of nowhere",
+        "year": "2024.05",
+        "cover": "https://p1.music.126.net/dzZfMNdrWUwDaE2U3BgSRQ==/109951169557809393.jpg",
+        "link": "https://pan.baidu.com/s/1WzHz0RI1kbDhiDRso9hBNw?pwd=8023",
+        "password": "8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 250318)",
+        "year": "",
+        "cover": "https://p1.music.126.net/DBg-MypM9zSR7rq67kzQmQ==/109951169657893348.jpg",
+        "link": "https://pan.baidu.com/s/1S-VZfCInXwB58UUUG_e-tA?pwd=8023",
+        "password": "8023"
+      }
+    ]
+  }
+}

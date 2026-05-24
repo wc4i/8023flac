@@ -61,7 +61,7 @@
             const hasAvatar = artist.avatar && artist.avatar.trim() !== '';
             const avatarHtml = hasAvatar ? 
                 `<div class="round-avatar"><img src="${artist.avatar}" alt="${artist.name}" loading="lazy"></div>` :
-                `<div class="vinyl-record spin-target"><div class="vinyl-center">🎵</div></div>`;
+                `<div class="round-avatar myst-avatar"><div class="fog"></div><div class="silhouette"></div></div>`;
             return `
                 <a href="#" class="artist-card" data-id="${artist.id}" data-name="${artist.name}">
                     <div class="avatar-container">
