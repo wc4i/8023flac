@@ -22,7 +22,7 @@ const musicDatabase = [
         name: "李志", 
         pinyin: "L", 
         category: "华语金曲", 
-        avatar: "https://resources.tidal.com/images/12206e3d/714b/4248/92b9/05f9d4d214be/1280x1280.jpg"              // 没有头像，网页会自动为他生成统一的默认占位头像
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/18/e5/ac18e537-3cc4-7b13-5d03-95b1fa97ccef/9787798608441.jpg/600x600bb.jpg"
     },
     { 
         id: "cn-wangfei", 
