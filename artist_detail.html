@@ -165,7 +165,16 @@
 <body>
 
 <header>
-    <a href="javascript:history.back()" class="back-btn" title="返回上一页">⬅</a>
+    <a href="javascript:void(0)" class="back-btn" title="返回" onclick="goBackOrHome()">⬅</a>
+    <script>
+function goBackOrHome() {
+    if (document.referrer && document.referrer.includes(window.location.host)) {
+        history.back();
+    } else {
+        window.location.href = 'index.html';
+    }
+}
+</script>
     <div class="search-wrapper"></div>
     <button class="theme-toggle" id="themeBtn">☀️</button>
 </header>

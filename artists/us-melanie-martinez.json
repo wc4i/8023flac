@@ -1,0 +1,40 @@
+{
+  "id": "us-melanie-martinez",
+  "name": "Melanie Martinez",
+  "bio": "American singer-songwriter known for her conceptual albums with distinctive dark pop sound and visual storytelling. Each album explores a character's journey through childhood trauma and self-discovery.",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4e/8a/da/4e8ada12-5602-fc2c-f75b-167697e140d8/075679921369.jpg/600x600bb.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "HADES [24-48]",
+        "year": "2026.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0a/01/82/0a018255-d739-00b5-b6c7-93de2a307e6e/075679587862.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1zupcl1copaCPDs1A2bc5Rg?pwd=8023"
+      },
+      {
+        "title": "PORTALS (Deluxe) [24-44.1]",
+        "year": "2023.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/51/b0/e651b09c-5869-1ffe-3180-c64e58542631/075679687753.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1jcQRiJ1CwNWVflrU4YWcvw?pwd=8023"
+      },
+      {
+        "title": "K-12 (After School - Deluxe Edition) 2CD[24-44.1]",
+        "year": "2019.09",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cd/b0/28/cdb028f8-581e-4c9f-3d95-3711db789bf9/075679802910.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1Gtz50GnayDIUlIsTkQsbMg?pwd=8023"
+      },
+      {
+        "title": "Cry Baby (Deluxe Edition) [24-44.1]",
+        "year": "2015.08",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4e/8a/da/4e8ada12-5602-fc2c-f75b-167697e140d8/075679921369.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/13uTKtYZUXlpaPMwEZkvewQ?pwd=8023"
+      },
+      {
+        "title": "Dollhouse [EP][16-44.1]",
+        "year": "2014.05",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cd/5e/ef/cd5eef29-56c4-cce5-eff5-4c0d9254f593/075679940780.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/18gK1dVvEmbiJE08SG1GltQ?pwd=8023"
+      }
+    ]
+  }
+}

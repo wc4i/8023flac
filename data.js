@@ -116,6 +116,20 @@ const musicDatabase = [
         pinyin: "X",
         category: "华语金曲",
         avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6d/cd/e2/6dcde251-2de4-847b-560d-2199a3f9ec72/0723_Cover_JPG.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-chenli",
+        name: "陈粒",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e0/f2/69/e0f26937-29a2-9be0-f8d3-99dd7de0b78a/cover.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "us-melanie-martinez",
+        name: "Melanie Martinez",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4e/8a/da/4e8ada12-5602-fc2c-f75b-167697e140d8/075679921369.jpg/600x600bb.jpg"
     }
     
 ];

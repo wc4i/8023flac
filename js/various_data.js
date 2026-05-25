@@ -193,5 +193,6 @@ const variousDatabase = [
     { title: "2009 东亚华星演唱会 3CD", link: "https://pan.baidu.com/s/1UR-QfIj2_Rr5lRbHhakg4w?pwd=8023" },
     { title: "1998 中国火Ⅲ [引进版]", link: "https://pan.baidu.com/s/1xq6DZqkovGG4bMx5HFMI4g?pwd=8023" },
     { title: "2020 海葵·赤子心", link: "https://pan.baidu.com/s/1GlyezHEF21f1rMRcJRsyuA?pwd=8023" },
-    { title: "2005 TVB儿歌 Kit Kit Kit", link: "https://pan.baidu.com/s/12DX7bZO_je34Ao9KSMlu5A?pwd=8023" }
+    { title: "2005 TVB儿歌 Kit Kit Kit", link: "https://pan.baidu.com/s/12DX7bZO_je34Ao9KSMlu5A?pwd=8023" },
+    { title: "天爱 1-6集【英皇唱片】", link: "https://pan.baidu.com/s/1VPYON6ZwceGFa_fPB2kRQQ?pwd=8023" }
 ];
