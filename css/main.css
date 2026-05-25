@@ -261,6 +261,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 0;
 }
 .artist-card:hover {
     transform: translateY(-3px);
@@ -272,6 +273,30 @@ main {
     height: 72px;
     margin-bottom: 10px;
     position: relative;
+}
+
+/* ========== 手机端：歌手卡片一排三个 ========== */
+@media (max-width: 600px) {
+    .artist-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .artist-card {
+        padding: 12px 4px;
+    }
+    .avatar-container {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 8px;
+    }
+    .artist-name {
+        font-size: 12px;
+    }
+}
+@media (max-width: 380px) {
+    .artist-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 /* 黑膠動畫 */
 @keyframes disc-spin {

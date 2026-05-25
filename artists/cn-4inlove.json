@@ -1,0 +1,22 @@
+{
+  "id": "cn-4inlove",
+  "name": "4 In Love",
+  "bio": "台湾女子演唱团体，由杨丞琳、黄小柔、张棋惠、冷嘉琳四位成员组成。2000年出道，以《Fall In Love》一曲走红，2002年因成员服役等原因解散。",
+  "avatar": "https://p2.music.126.net/wdStD0IgOe0pwtQHE6Jb1Q==/65970697683655.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Fall In Love",
+        "year": "2000.11",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/a3/ec/be/a3ecbee5-0aaa-c22e-7ddc-9e9cea7e264b/886446889672.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1yEN5cBMkx_jecCNz-0MhqA?pwd=8023"
+      },
+      {
+        "title": "谁怕谁",
+        "year": "2001.07",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/80/80/5680800f-d526-fa0a-aead-0cab4df4699c/886446889665.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1XMrjE5L94yBtVxRlvpV5Pg?pwd=8023"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "cn-f4",
+  "name": "F4",
+  "bio": "台湾男子偶像团体，由言承旭、周渝民、朱孝天、吴建豪四位成员组成。因主演电视剧《流星花园》一炮而红，被誉为华流偶像的鼻祖。",
+  "avatar": "https://p2.music.126.net/mZv6m9OsfiWnE80NHxhZSA==/109951170120538410.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "流星雨",
+        "year": "2001.08",
+        "cover": "http://p1.music.126.net/nnND8e3n0fBR0a8VSOuWMg==/109951166705124663.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1zFTEhOMUusQpyElTE3ifsg?pwd=8023"
+      },
+      {
+        "title": "烟火的季节",
+        "year": "2002.12",
+        "cover": "http://p1.music.126.net/ON90BlMBnREoyJB2JeW_YQ==/109951172473512800.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1vej57ZVFJgKc1N702c8h7w?pwd=8023"
+      },
+      {
+        "title": "在这里等你",
+        "year": "2007.12",
+        "cover": "http://p2.music.126.net/ZsFw4UsmSjg3ufXmHrS8PQ==/109951163081173606.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Su-qYETTaV-5jkvlaqp8ng?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "F4香港红磡演唱会全纪录 CD1 [WEB]",
+        "year": "2003.04",
+        "cover": "http://p2.music.126.net/QlWk6Y45P6vivfCkWm2uHw==/109951168750928974.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/12Nzxh1nK2p4NJGZs3-nEXg?pwd=8023"
+      },
+      {
+        "title": "F4香港红磡演唱会全纪录 CD2 [WEB]",
+        "year": "2003.04",
+        "cover": "http://p2.music.126.net/QlWk6Y45P6vivfCkWm2uHw==/109951168750928974.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1MBf8N89tNSgxcYYTftV1eQ?pwd=8023"
+      }
+    ]
+  }
+}

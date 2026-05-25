@@ -1,0 +1,30 @@
+{
+  "id": "kr-eugene",
+  "name": "柳真（유진, Eugene）",
+  "bio": "韩国女歌手、演员，前女子组合S.E.S成员。2003年以Solo歌手身份出道，代表作《My True Style》《810303》等。",
+  "avatar": "https://p2.music.126.net/k5sBmeVKW_wR069Biaw6Gw==/577243604604544.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "My True Style…",
+        "year": "2003.05",
+        "cover": "http://p1.music.126.net/5tJ1dapQklOxj97dWw2cLg==/109951169497287378.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1e8NINqk8HzPWWL0CSAdMNQ?pwd=8023"
+      },
+      {
+        "title": "810303",
+        "year": "2004.08",
+        "cover": "http://p1.music.126.net/c40sdf3uYixFuGENtMePVw==/727876697598938.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1HHaRHcY_7AaZYdJpBB3MwA?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles - 로맨틱 크리스마스",
+        "year": "单曲",
+        "cover": "http://p1.music.126.net/uB4VE24osJCOaGxRHJ0Y7A==/109951169577501809.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1KNppNIYcTPQ49AapQJvPZA?pwd=8023"
+      }
+    ]
+  }
+}

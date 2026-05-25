@@ -1,0 +1,36 @@
+{
+  "id": "cn-zhouxun",
+  "name": "周迅（Zhou Xun）",
+  "bio": "华语著名演员、歌手。以其独特的嗓音和文艺气质在华语乐坛独树一帜，代表作《飘摇》《偶遇》《1227》等。",
+  "avatar": "https://p1.music.126.net/1N5pnot1FD4g_9x0zG_0Kg==/261683767427790.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "夏天",
+        "year": "2003.04",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/bd/dd/8d/mzi.jiflcech.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1drZgn258PJKqvIlS8YSIYA?pwd=8023"
+      },
+      {
+        "title": "偶遇",
+        "year": "2005.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/df/32/ce/df32cefa-6795-1774-3e49-f675eaaecc48/mzi.xmfldebc.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1JLvGI5fmCTtro7AlpMErAw?pwd=8023"
+      },
+      {
+        "title": "1227",
+        "year": "2019.12",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/0d/5f/450d5fb1-d270-7fac-540f-5fce20c06f95/6976364786543.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1T1tTzzrBAgZsvrk5FqCtEA?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 240524)",
+        "year": "单曲",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1Zdhvzf-SpcVFhiWojM5nqA?pwd=8023"
+      }
+    ]
+  }
+}

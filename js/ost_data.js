@@ -782,5 +782,7 @@ const ostDatabase = [
     { title: "2014 极光之爱 电影原声带", link: "https://pan.baidu.com/s/1KS3wn8TP4LY9d_wkdmO9_Q?pwd=8023" },
     { title: "2015 相爱穿梭千年 电视剧", link: "https://pan.baidu.com/s/1XMRUf8yaifB4kbOFReligQ?pwd=8023" },
     { title: "2021 循环初恋 电视剧", link: "https://pan.baidu.com/s/1j72XTvJV9_F4V50TamNiIw?pwd=8023" },
-    { title: "2019 时间都知道 电视剧原声带", link: "https://pan.baidu.com/s/124GfDXa0LXokVX3y4wdKyw?pwd=8023" }
+    { title: "2019 时间都知道 电视剧原声带", link: "https://pan.baidu.com/s/124GfDXa0LXokVX3y4wdKyw?pwd=8023" },
+    { title: "2023 她的城 影视原声带", link: "https://pan.baidu.com/s/1N5frJPQupN7073OtbmelKg?pwd=8023" },
+    { title: "2026 志明与春娇 影视原声带", link: "https://pan.baidu.com/s/18tv400i23DcSSDGOnr-VDQ?pwd=8023" }
 ];
