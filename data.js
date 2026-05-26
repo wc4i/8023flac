@@ -230,6 +230,13 @@ const musicDatabase = [
         avatar: "https://star.kuwo.cn/star/starheads/700/99/50/824592524.jpg"
     },
     { 
+        id: "cn-lu1",
+        name: "Lu1（陆壹）",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/MV3FeGJhpYSdA7KXTZ8UXA==/109951163009178600.jpg?param=640y640"
+    },
+    { 
         id: "us-melanie-martinez",
         name: "Melanie Martinez",
         pinyin: "M",
