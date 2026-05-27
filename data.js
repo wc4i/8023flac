@@ -25,6 +25,13 @@ const musicDatabase = [
         avatar: "https://star.kuwo.cn/star/starheads/600/s4s67/8/3629759113.jpg"
     },
     { 
+        id: "cn-liuwenzheng",
+        name: "刘文正",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/UtBcXgEYiCcPT63F1lGQ4w==/910395627827793.jpg?param=640y640"
+    },
+    { 
         id: "cn-chensheng",
         name: "陈升",
         pinyin: "C",
