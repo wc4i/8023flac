@@ -146,6 +146,13 @@ const musicDatabase = [
         avatar: "https://p1.music.126.net/5G5GBxlJ2w0d0ixcbKA7uw==/3373301674943324.jpg"
     },
     { 
+        id: "jp-ayaka",
+        name: "絢香（Ayaka）",
+        pinyin: "A",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/uA3FIj5OlYSnjjW3NHO-tg==/109951171914745135.jpg?param=640y640"
+    },
+    { 
         id: "cn-sunyanzi",
         name: "孙燕姿",
         pinyin: "S",
@@ -242,6 +249,13 @@ const musicDatabase = [
         pinyin: "M",
         category: "欧美之声",
         avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4e/8a/da/4e8ada12-5602-fc2c-f75b-167697e140d8/075679921369.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "us-chantal-chamberland",
+        name: "Chantal Chamberland",
+        pinyin: "C",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/Yd89qXFLdEIOm_e6DkOPIA==/926888302215271.jpg?param=640y640"
     }
     
 ];
