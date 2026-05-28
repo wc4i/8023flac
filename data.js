@@ -263,6 +263,139 @@ const musicDatabase = [
         pinyin: "C",
         category: "欧美之声",
         avatar: "https://p1.music.126.net/Yd89qXFLdEIOm_e6DkOPIA==/926888302215271.jpg?param=640y640"
+    },
+    { 
+        id: "jp-yusuke",
+        name: "遊助（Yusuke）",
+        pinyin: "Y",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/mpQ8ekkWsgrjSzyPqBJ09g==/109951168608564026.jpg?param=640y640"
+    },
+    { 
+        id: "us-mustard",
+        name: "Mustard",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/YTgf00C2SHKF4u0dsdZBbw==/109951167855991106.jpg"
+    },
+    { 
+        id: "cn-yinyuke",
+        name: "尹毓恪",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/mrEX4tmsHaq8d_E2K07Unw==/109951173044368819.jpg"
+    },
+    { 
+        id: "cn-zhuyuexin",
+        name: "朱约信（猪头皮）",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/61/fc/6c/61fc6c64-6778-b123-d74b-2b370fea1db3/dj.mrmyvfsv.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-zhaowei",
+        name: "赵薇",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/8e/94/b78e9430-ff3d-24f6-3f14-829374c8fceb/4711140371535.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-zhangshaohan",
+        name: "张韶涵",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d0/82/d0/d082d010-818c-39e6-c5f9-eea8d2d872e3/70194_cover.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-zhengjun",
+        name: "郑钧",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/33/f2/da/33f2dae7-8d18-b88b-2dfb-db52b940ffa6/mzm.ztjmuppm.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-fama",
+        name: "农夫（FAMA）",
+        pinyin: "N",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ee/73/5e/ee735e3a-76bb-23ad-6cb3-ecc0ce820bbf/19620101123K02.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-dwagie",
+        name: "大支（Dwagie）",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0d/38/e0/0d38e068-6eb5-d640-cc44-59689838f405/4711228293452.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-liumangade",
+        name: "流氓阿德",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/ba/71/3b/ba713b81-fe8e-786b-b727-e6debccb38ff/4713616004862.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-hocc",
+        name: "何韵诗",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/6f/de/d1/6fded144-0dcc-1e1a-2b6d-2ac07741408f/825646268078.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-hepinghelang",
+        name: "和平和浪",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/8d/14/e98d14fc-1f4a-ec3b-59fc-5957c3ca6012/cover.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-xiaoyuelaoban",
+        name: "晓月老板",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/qYEmpWEADwvNy16BdQlu9g==/109951172541721854.jpg"
+    },
+    { 
+        id: "us-50cent",
+        name: "50 Cent",
+        pinyin: "F",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/VM_nVZFb3FmdTEvoXuJPsA==/109951165742073654.jpg"
+    },
+    { 
+        id: "us-dualipa",
+        name: "Dua Lipa",
+        pinyin: "D",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/AJP6zkoNdMNqJxEpP5r_vQ==/109951169044863787.jpg?param=640y640"
+    },
+    { 
+        id: "cn-xiaoyaxuan",
+        name: "萧亚轩",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/ugTD9665AQ7Dl5rJvJkQsw==/109951166194472953.jpg?param=640y640"
+    },
+    { 
+        id: "cn-liuhuan",
+        name: "刘欢",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://star.kuwo.cn/star/starheads/700/s4s21/34/1247914232.jpg"
+    },
+    { 
+        id: "cn-lironghao",
+        name: "李荣浩",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/b2/89/87b289ae-5728-6133-88a8-2a2658a535aa/196872064728.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-liangjingru",
+        name: "梁静茹",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/55/d7/93/55d793f9-1cbd-51d2-780a-b14b085111d0/4710149701770_cover.jpg/600x600bb.jpg"
     }
-    
 ];
+

@@ -1,0 +1,46 @@
+{
+  "id": "cn-liumangade",
+  "name": "流氓阿德（Ardor Huang）",
+  "bio": "台湾台语摇滚歌手，本名黄士祐。1992年以专辑《强强滚》出道，以台语摇滚和深具社会关怀的创作著称。音乐风格融合摇滚、民谣与台语歌谣，歌词充满对土地与人生的深情。2018年以《温一壶青春下酒》获得金曲奖最佳台语男歌手奖。",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/ba/71/3b/ba713b81-fe8e-786b-b727-e6debccb38ff/4713616004862.jpg/600x600bb.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "强强滚",
+        "year": "1992.01",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/10DBPnskjg40tNZg6EB8PAw?pwd=8023"
+      },
+      {
+        "title": "流氓阿德 同名专辑",
+        "year": "1998.01",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1b2opzCDpkUsf13zWzyU8uw?pwd=8023"
+      },
+      {
+        "title": "看看这个世界",
+        "year": "2000.12",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1t52E4kwvHyMw4jb3tx2jgQ?pwd=8023"
+      },
+      {
+        "title": "无路用的咖小",
+        "year": "2015.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/ba/71/3b/ba713b81-fe8e-786b-b727-e6debccb38ff/4713616004862.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1NuSIAi0TT8T2Ns4iaHILBA?pwd=8023"
+      },
+      {
+        "title": "温一壶青春下酒",
+        "year": "2018.07",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/7e/07/e27e079d-7b15-4165-b387-d1fc6c95d0c4/cover.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1D4apeDtZSHYVGtiEQLblYg?pwd=8023"
+      },
+      {
+        "title": "某乜人",
+        "year": "2024.12",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/55/b9/f055b9a2-e176-eb73-a2f0-a73de8cbc661/193017163445.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1ai98kBSmtsES77RmWB72QA?pwd=8023"
+      }
+    ]
+  }
+}

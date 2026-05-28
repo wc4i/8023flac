@@ -1,0 +1,38 @@
+{
+  "id": "cn-xiaoyuelaoban",
+  "name": "晓月老板",
+  "bio": "中国内地民谣歌手、独立音乐人，以独特的国风民谣风格著称。音乐融合传统戏曲元素与现代民谣，歌词充满诗意与江湖气息，代表作《少年弦》《武家坡》《探清水河》《思凡》等。",
+  "avatar": "https://p2.music.126.net/qYEmpWEADwvNy16BdQlu9g==/109951172541721854.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "少年弦",
+        "year": "2018.11",
+        "cover": "https://p1.music.126.net/y9nccrH2wBWHHFSJfbAJrA==/109951171415801256.jpg",
+        "link": "https://pan.baidu.com/s/1MGOIEnomXTPsTQONH11gZg?pwd=8023"
+      },
+      {
+        "title": "新乐府·人间宋词",
+        "year": "2019.12",
+        "cover": "https://img1.kuwo.cn/star/albumcover/700/s4s90/60/2208677332.jpg",
+        "link": "https://pan.baidu.com/s/1hEYzWTrPk8HafbCEnWFrVA?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "2018晓月老板少年弦专辑首唱会",
+        "year": "2018.11",
+        "cover": "https://p1.music.126.net/5yQTBH6tbiEWWYInIe5F6A==/109951171393450475.jpg",
+        "link": "https://pan.baidu.com/s/1Ijx65fVPBQLVG7mzkdIdRQ?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 260127)",
+        "year": "",
+        "cover": "https://p1.music.126.net/y9nccrH2wBWHHFSJfbAJrA==/109951171415801256.jpg",
+        "link": "https://pan.baidu.com/s/1cFC69J6Kut0OGU1ETO1-RQ?pwd=8023"
+      }
+    ]
+  }
+}

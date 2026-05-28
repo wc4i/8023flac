@@ -1,0 +1,68 @@
+{
+  "id": "us-dualipa",
+  "name": "Dua Lipa",
+  "bio": "英国流行天后，以复古舞曲风格和前卫造型著称，代表作《New Rules》《Don't Start Now》《Levitating》等。",
+  "avatar": "https://p1.music.126.net/AJP6zkoNdMNqJxEpP5r_vQ==/109951169044863787.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Dua Lipa (Complete Edition)",
+        "year": "2017.06",
+        "cover": "https://p1.music.126.net/ohzYb6fg_L_LHobawsAMAw==/109951169044872558.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1tE4jGddZQ9LcRcRc-TuAlg?pwd=8023"
+      },
+      {
+        "title": "Future Nostalgia (The Moonlight Edition)",
+        "year": "2020.03",
+        "cover": "https://p1.music.126.net/PNJSHYYjzlOwiZdvmXoPhg==/109951169044859947.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/19AvvapI2opsZAKlvU-IEfg?pwd=8023"
+      },
+      {
+        "title": "Radical Optimism",
+        "year": "2024.05",
+        "cover": "https://p1.music.126.net/OMwSNgFHEOy067Cu8_0XeQ==/109951169548628184.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/15O10xX1uVT0qNozkVRrIog?pwd=8023"
+      },
+      {
+        "title": "Radical Optimism (Extended Versions)",
+        "year": "2024.06",
+        "cover": "https://p1.music.126.net/KZAOaEjcWHk2lPc5_uN-Qg==/109951169731366101.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1xRkwdzrwWYl45RqUHFMoSQ?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "Radical Optimism Tour - USA",
+        "year": "2024.11",
+        "cover": "https://p1.music.126.net/lt4nPR0TA0AmK9omGIpnGg==/109951169579358813.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1euYVRPvNqe_yEFPdR-nPVA?pwd=8023"
+      },
+      {
+        "title": "Dua Lipa Live from the Royal Albert Hall - CD1",
+        "year": "2024.12",
+        "cover": "https://p1.music.126.net/7s2gxJhPnCOtNiCYDITZeA==/109951170217975769.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1JSn0eT3Z8_zzwyc7xlW43g?pwd=8023"
+      },
+      {
+        "title": "Dua Lipa Live from the Royal Albert Hall - CD2",
+        "year": "2024.12",
+        "cover": "https://p1.music.126.net/7s2gxJhPnCOtNiCYDITZeA==/109951170217975769.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1z-DWofJKok8ObpObB4G3Vw?pwd=8023"
+      },
+      {
+        "title": "Dua Lipa - Live From Mexico",
+        "year": "2026.05",
+        "cover": "https://p1.music.126.net/O8Ut02m4MKg31OX3243cgg==/109951173252579643.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/12d8ez37sPjO06rJ_twGksQ?pwd=8023"
+      }
+    ],
+    "Compilation / Remix (FLAC tracks)": [
+      {
+        "title": "Club Future Nostalgia (DJ Mix)",
+        "year": "2020.08",
+        "cover": "https://p2.music.126.net/h9-NyEo5ZKrvjSiCA4DzWQ==/109951169044873504.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Yzs_GPwQatyUhWNUWzFofA?pwd=8023"
+      }
+    ]
+  }
+}

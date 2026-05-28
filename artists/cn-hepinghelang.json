@@ -1,0 +1,42 @@
+{
+  "id": "cn-hepinghelang",
+  "name": "和平和浪（Peace & Wave）",
+  "bio": "来自上海的独立放克乐队，融合Funk、Disco、City Pop等元素，以轻快律动的节奏和复古质感著称。",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/8d/14/e98d14fc-1f4a-ec3b-59fc-5957c3ca6012/cover.jpg/600x600bb.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "好腰Aside[EP]",
+        "year": "2017.10",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/8d/14/e98d14fc-1f4a-ec3b-59fc-5957c3ca6012/cover.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1unJyxAYaySOWiccGD6KdQw?pwd=8023"
+      },
+      {
+        "title": "好腰Bside[EP]",
+        "year": "2017.12",
+        "cover": "https://img1.kuwo.cn/star/albumcover/700/s3s98/59/3320086589.jpg",
+        "link": "https://pan.baidu.com/s/1JR4i0A1Mz2g7arujnuQuCA?pwd=8023"
+      },
+      {
+        "title": "安福大厅",
+        "year": "2019.09",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/33/5e/83/335e83b7-4b2a-f5ae-bd28-c9df3e090c1c/193017013481.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1xLDBxo4wQPJulykaMRArfg?pwd=8023"
+      },
+      {
+        "title": "无眠夜",
+        "year": "2023.08",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/5a/e4/795ae43a-f276-90c9-8b39-33498ea7a662/cover.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1KWa7Siu7JYYojPaHjS7huQ?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 240717)",
+        "year": "单曲",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/144-PMeQq6Gy_Ea8YrVU7bQ?pwd=8023"
+      }
+    ]
+  }
+}
