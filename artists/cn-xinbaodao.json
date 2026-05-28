@@ -1,8 +1,6 @@
 {
   "id": "cn-xinbaodao",
-  "name": "新宝岛康乐队",
-  "bio": "台湾乐团，由陈升、黄连煜组成（后加入阿VON），1992年发行首张专辑。音乐风格融合客家语、台语、原住民语、国语，以台湾本土文化为根基，创作大量具有乡土情怀与社会关怀的歌曲。",
-  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6d/cd/e2/6dcde251-2de4-847b-560d-2199a3f9ec72/0723_Cover_JPG.jpg/600x600bb.jpg",
+  "name": "新宝岛康乐队","avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6d/cd/e2/6dcde251-2de4-847b-560d-2199a3f9ec72/0723_Cover_JPG.jpg/600x600bb.jpg",
   "groups": {
     "Studio Albums (FLAC tracks)": [
       {

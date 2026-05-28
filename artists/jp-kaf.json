@@ -1,0 +1,39 @@
+{
+  "id": "jp-kaf",
+  "name": "花譜（KAF）",
+  "avatar": "https://p1.music.126.net/fqd_zvSaJy_osQqBPSKJGg==/109951171354473236.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "観測",
+        "year": "2019.09",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/21/e7/d8/21e7d837-7e12-8f41-e37c-3c918ef83923/ANTCD-46500.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1nkJ5tjBRa1SWvLI0YBxm_g?pwd=8023"
+      },
+      {
+        "title": "魔法",
+        "year": "2020.12",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3c/a5/3c/3ca53c7e-b7a3-803e-ef58-0ba4e5b43c6c/ANTCD-46448.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1EsCA_pxHYVb9Yd_pZfJn9g?pwd=8023"
+      },
+      {
+        "title": "狂想 [24-48]",
+        "year": "2023.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/f1/5b/62f15b7b-0c54-c9db-ea53-1e9db6f46b7f/ANTCD-46067.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1JJHJeKtM-WNwrDVbeodaTw?pwd=8023"
+      },
+      {
+        "title": "寓話",
+        "year": "2024.12",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ac/e1/a1ace16d-3c5b-02d9-77ed-6aee4bc93e36/KTR-0177.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/14qowzMQ_7QuA-N6HxVLS2w?pwd=8023"
+      },
+      {
+        "title": "深愛",
+        "year": "2026.05",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/6b/cd/306bcd0f-803e-e271-18e6-4869d77c926a/ANTCD-A0000019888.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1IYfAAFFhFm7eP5WjP24tNw?pwd=8023"
+      }
+    ]
+  }
+}

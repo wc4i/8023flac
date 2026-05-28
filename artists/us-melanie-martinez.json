@@ -1,8 +1,6 @@
 {
   "id": "us-melanie-martinez",
-  "name": "Melanie Martinez",
-  "bio": "American singer-songwriter known for her conceptual albums with distinctive dark pop sound and visual storytelling. Each album explores a character's journey through childhood trauma and self-discovery.",
-  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4e/8a/da/4e8ada12-5602-fc2c-f75b-167697e140d8/075679921369.jpg/600x600bb.jpg",
+  "name": "Melanie Martinez","avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4e/8a/da/4e8ada12-5602-fc2c-f75b-167697e140d8/075679921369.jpg/600x600bb.jpg",
   "groups": {
     "Studio Albums (FLAC tracks)": [
       {

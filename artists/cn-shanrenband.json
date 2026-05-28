@@ -1,0 +1,35 @@
+{
+  "id": "cn-shanrenband",
+  "name": "山人乐队",
+  "avatar": "https://y.gtimg.cn/music/photo_new/T001R500x500M000003lm5tp27dxuR.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "山人乐队 同名专辑 [首版]",
+        "year": "2009.02",
+        "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000039X6wX0iyoCB.jpg",
+        "link": "https://pan.baidu.com/s/1XzbJTCZTFdiu12MdHjJ9IQ?pwd=8023"
+      },
+      {
+        "title": "听山 [首版]",
+        "year": "2013.05",
+        "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003d8M8Z1ibqP1.jpg",
+        "link": "https://pan.baidu.com/s/1lXRYs_5p5UQQ6U-lQ__2uA?pwd=8023"
+      },
+      {
+        "title": "山·道 [24-44.1]",
+        "year": "2021.06",
+        "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000012fnPk0oRsIk.jpg",
+        "link": "https://pan.baidu.com/s/1yozOYDMWZezPETBPec2cbQ?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "单曲 【截至240504】",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1J5wsmmSxYYuyMQf687A1Wg?pwd=8023"
+      }
+    ]
+  }
+}

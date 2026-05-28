@@ -1,8 +1,6 @@
 {
   "id": "us-dualipa",
-  "name": "Dua Lipa",
-  "bio": "英国流行天后，以复古舞曲风格和前卫造型著称，代表作《New Rules》《Don't Start Now》《Levitating》等。",
-  "avatar": "https://p1.music.126.net/AJP6zkoNdMNqJxEpP5r_vQ==/109951169044863787.jpg?param=640y640",
+  "name": "Dua Lipa","avatar": "https://p1.music.126.net/AJP6zkoNdMNqJxEpP5r_vQ==/109951169044863787.jpg?param=640y640",
   "groups": {
     "Studio Albums (FLAC tracks)": [
       {

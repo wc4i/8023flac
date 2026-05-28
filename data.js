@@ -272,6 +272,13 @@ const musicDatabase = [
         avatar: "https://p2.music.126.net/mpQ8ekkWsgrjSzyPqBJ09g==/109951168608564026.jpg?param=640y640"
     },
     { 
+        id: "jp-kaf",
+        name: "花譜（KAF）",
+        pinyin: "K",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/fqd_zvSaJy_osQqBPSKJGg==/109951171354473236.jpg?param=640y640"
+    },
+    { 
         id: "us-mustard",
         name: "Mustard",
         pinyin: "M",
@@ -358,7 +365,7 @@ const musicDatabase = [
     { 
         id: "us-50cent",
         name: "50 Cent",
-        pinyin: "F",
+        pinyin: "5",
         category: "欧美之声",
         avatar: "https://p2.music.126.net/VM_nVZFb3FmdTEvoXuJPsA==/109951165742073654.jpg"
     },
@@ -396,6 +403,20 @@ const musicDatabase = [
         pinyin: "L",
         category: "华语金曲",
         avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/55/d7/93/55d793f9-1cbd-51d2-780a-b14b085111d0/4710149701770_cover.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-xiaojingteng",
+        name: "萧敬腾",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/fqd_zvSaJy_osQqBPSKJGg==/109951171354473236.jpg?param=640y640"
+    },
+    { 
+        id: "cn-shanrenband",
+        name: "山人乐队",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000003lm5tp27dxuR.jpg"
     }
 ];
 
