@@ -459,6 +459,174 @@ const musicDatabase = [
         pinyin: "S",
         category: "华语金曲",
         avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000004MYVXO13qkvT.jpg"
+    },
+    { 
+        id: "cn-xuzhian",
+        name: "许志安",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000000Jh2K72nwQmN.jpg"
+    },
+    { 
+        id: "cn-xietingfeng",
+        name: "谢霆锋",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000004GPm8B362txY.jpg"
+    },
+    { 
+        id: "cn-xieanqi",
+        name: "谢安琪",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000001YZBa22LLKce.jpg"
+    },
+    { 
+        id: "cn-xiaolaohu",
+        name: "小老虎jfever",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000003sE57n3KXG4x.jpg"
+    },
+    { 
+        id: "cn-xiaoqiang",
+        name: "萧蔷",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000001HxEbI46jHPs.jpg"
+    },
+    { 
+        id: "cn-xiban",
+        name: "戏班乐队",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000004TcEdT3PBMEC.jpg"
+    },
+    { 
+        id: "cn-gongcangzhuma",
+        name: "弓藏竹马",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/9St2evEimz0Nd_60G99_BA==/109951169156856997.jpg"
+    },
+    { 
+        id: "cn-wukequn",
+        name: "吴克群",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000000BAMFw3wRg0B.jpg"
+    },
+    { 
+        id: "cn-zhuangxinyan",
+        name: "庄心妍",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000003Cn3Yh16q1MO.jpg"
+    },
+    { 
+        id: "cn-zhouyunpeng",
+        name: "周云蓬",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M0000015E1aN3zm7tO.jpg"
+    },
+    { 
+        id: "cn-zhaoyihao",
+        name: "赵一豪",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000004gFQ7n1dr6ie.jpg"
+    },
+    { 
+        id: "cn-zhaochuan",
+        name: "赵传",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000003JUs4X1xzjld.jpg"
+    },
+    { 
+        id: "cn-zhangweijian",
+        name: "张卫健",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000003TrPd01f3OYo.jpg"
+    },
+    { 
+        id: "cn-zhanghexuan",
+        name: "张赫煊",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000000SJp6n49rDgl.jpg"
+    },
+    { 
+        id: "cn-yunhaoying",
+        name: "云浩影",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/f8/35/36f83509-b210-f3bd-2be4-9c43a49f4fbf/827568003102.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-yongbang",
+        name: "永邦",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "http://imge.kugou.com/stdmusic/400/20200211/20200211032305806558.jpg"
+    },
+    { 
+        id: "cn-yinzhengyang",
+        name: "殷正洋",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "http://imge.kugou.com/stdmusic/400/20200909/20200909124339939268.jpg"
+    },
+    { 
+        id: "cn-tongange",
+        name: "童安格",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "http://imge.kugou.com/stdmusic/400/20250125/20250125121629945606.jpg"
+    },
+    { 
+        id: "cn-tangcan",
+        name: "汤灿",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "http://imge.kugou.com/stdmusic/400/20200812/20200812160504610431.jpg"
+    },
+    { 
+        id: "cn-tangbaoru",
+        name: "汤宝如",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "http://imge.kugou.com/stdmusic/400/20260305/20260305055230329554.jpg"
+    },
+    { 
+        id: "cn-tanjing",
+        name: "谭晶",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "http://imge.kugou.com/stdmusic/400/20200620/20200620060409839838.jpg"
+    },
+    { 
+        id: "cn-suyongkang",
+        name: "苏永康",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "http://imge.kugou.com/stdmusic/400/20150718/20150718194137885057.jpg"
+    },
+    { 
+        id: "cn-suyang",
+        name: "苏阳",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "http://imge.kugou.com/stdmusic/400/20200620/20200620095101704079.jpg"
+    },
+    { 
+        id: "cn-panmeichen",
+        name: "潘美辰",
+        pinyin: "P",
+        category: "华语金曲",
+        avatar: "http://imge.kugou.com/stdmusic/400/20250125/20250125121645595559.jpg"
     }
 ];
 

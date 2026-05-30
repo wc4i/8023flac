@@ -1,0 +1,33 @@
+{
+  "id": "cn-xiban",
+  "name": "戏班乐队",
+  "avatar": "https://y.gtimg.cn/music/photo_new/T001R500x500M000004TcEdT3PBMEC.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "就是这个调调",
+        "year": "2012.03",
+        "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000000aNYCL49MZKE.jpg",
+        "link": "https://pan.baidu.com/s/1CsGWLigbyIrY5OCnr2kaLA?pwd=8023"
+      },
+      {
+        "title": "五石散",
+        "year": "2014.09",
+        "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000001PEmzO1aKJ66.jpg",
+        "link": "https://pan.baidu.com/s/1qA3EBlkO5_tBX8V8KXpobg?pwd=8023"
+      },
+      {
+        "title": "太平有象",
+        "year": "2014.09",
+        "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M00000278arA2BRrcC.jpg",
+        "link": "https://pan.baidu.com/s/1wAn8mzFh8wo0X5eJn-9bIQ?pwd=8023"
+      },
+      {
+        "title": "玩皮 [WEB][24-44.1]",
+        "year": "2018.04",
+        "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003hN8e51QJWLJ.jpg",
+        "link": "https://pan.baidu.com/s/1BXzqrBc7x_QVEVR6W_A78Q?pwd=8023"
+      }
+    ]
+  }
+}
