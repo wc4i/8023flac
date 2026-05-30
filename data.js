@@ -322,14 +322,14 @@ const musicDatabase = [
     },
     { 
         id: "cn-fama",
-        name: "农夫（FAMA）",
+        name: "农夫",
         pinyin: "N",
         category: "华语金曲",
         avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ee/73/5e/ee735e3a-76bb-23ad-6cb3-ecc0ce820bbf/19620101123K02.jpg/600x600bb.jpg"
     },
     { 
         id: "cn-dwagie",
-        name: "大支（Dwagie）",
+        name: "大支",
         pinyin: "D",
         category: "华语金曲",
         avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0d/38/e0/0d38e068-6eb5-d640-cc44-59689838f405/4711228293452.jpg/600x600bb.jpg"
@@ -417,6 +417,48 @@ const musicDatabase = [
         pinyin: "S",
         category: "华语金曲",
         avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000003lm5tp27dxuR.jpg"
+    },
+    { 
+        id: "cn-chenjieyi",
+        name: "陈洁仪",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000001SzsyF0TEjf1.jpg"
+    },
+    { 
+        id: "cn-zengpeici",
+        name: "曾沛慈",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000001YzayJ1iMus1.jpg"
+    },
+    { 
+        id: "cn-yunduo",
+        name: "云朵",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000002U7Psh3e5vfz.jpg"
+    },
+    { 
+        id: "cn-huangliangyu",
+        name: "黄连煜",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/35/4b/62/354b6291-e7e2-116e-7849-95cbb6d19654/193017026689.jpg/600x600bb.jpg"
+    },
+    {
+        id: "cn-1976band",
+        name: "1976乐团",
+        pinyin: "1",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/71/ec/c6/71ecc6f4-fa1c-b4c5-157d-bed16ac977f6/cover-w.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-supaiqing",
+        name: "苏珮卿",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000004MYVXO13qkvT.jpg"
     }
 ];
 

@@ -1,0 +1,85 @@
+{
+  "id": "cn-yunduo",
+  "name": "云朵（Yunduo）",
+  "avatar": "https://y.gtimg.cn/music/photo_new/T001R500x500M000002U7Psh3e5vfz.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "全宇宙",
+        "year": "2010.05",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1QcRQj56-_HsZQcG9nWouwA?pwd=8023"
+      },
+      {
+        "title": "云朵 同名专辑",
+        "year": "2011.01",
+        "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003KcDG42vhgfG.jpg",
+        "link": "https://pan.baidu.com/s/1uEg9_yksUgsTtFFFkDOmjQ?pwd=8023"
+      },
+      {
+        "title": "倔强",
+        "year": "2013.05",
+        "cover": "https://p1.music.126.net/9DlFpuo-Ge4oR5TIn5ktag==/109951163200114076.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1DKDOgZmi-f3H1KbIJX_rBg?pwd=8023"
+      },
+      {
+        "title": "云天之音 CD1 [PCM 7.1]",
+        "year": "2017.03",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1i1OatKcGDaJnPzM6hi7_RA?pwd=8023"
+      },
+      {
+        "title": "云天之音 CD2 [PCM 7.1]",
+        "year": "2017.03",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/17QgCVqQoILBn6_9HclA90w?pwd=8023"
+      },
+      {
+        "title": "珍惜",
+        "year": "2019.01",
+        "cover": "https://img4.kuwo.cn/star/albumcover/500/s4s99/9/2323376920.jpg",
+        "link": "https://pan.baidu.com/s/1kubiAquQcFRGyxrQAMVu0A?pwd=8023"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "云朵精选 云端美音 CD1",
+        "year": "2017.01",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1djTrDd3HKZWD5BE_-8oB7A?pwd=8023"
+      },
+      {
+        "title": "云朵精选 云端美音 CD2",
+        "year": "2017.01",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1Uy8PrNxboamIP2GqCQqtsw?pwd=8023"
+      },
+      {
+        "title": "缘定今生 CD1",
+        "year": "2017.10",
+        "cover": "https://img4.kuwo.cn/star/albumcover/500/s4s13/80/680400779.jpg",
+        "link": "https://pan.baidu.com/s/1r5tJMjqKlGjrBjp5R72r_g?pwd=8023"
+      },
+      {
+        "title": "缘定今生 CD2",
+        "year": "2017.10",
+        "cover": "https://img4.kuwo.cn/star/albumcover/500/s4s13/80/680400779.jpg",
+        "link": "https://pan.baidu.com/s/1Tum0p_olp7i1dxDCdGvMjA?pwd=8023"
+      },
+      {
+        "title": "缘定今生 CD3",
+        "year": "2017.10",
+        "cover": "https://img4.kuwo.cn/star/albumcover/500/s4s13/80/680400779.jpg",
+        "link": "https://pan.baidu.com/s/1XqZ9Nzi2xloyvtjvCoLVIA?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 260224)",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1o3zPVfIrlsbghYisagxYdA?pwd=8023"
+      }
+    ]
+  }
+}
