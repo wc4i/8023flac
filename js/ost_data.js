@@ -787,5 +787,8 @@ const ostDatabase = [
     { title: "2024 仙逆 动画原声带", link: "https://pan.baidu.com/s/1nSPf6VhVWMNLqGo3xLn64Q?pwd=8023" },
     { title: "2025 凤凰台上 影视原声带 [24-48]", link: "https://pan.baidu.com/s/17AbgcrIz0HumOW2vmD3kyw?pwd=8023" },
     { title: "2026 逆天邪神年番 动漫原声带 [24-48]", link: "https://pan.baidu.com/s/1ou9hNSnFv-qcsoFt9mJwtA?pwd=8023" },
+    { title: "2024 电视剧《明日有晴天》原声带 [24-48].zip", link: "https://pan.baidu.com/s/1bjyRMGgSD24YAwIwF8HPlw?pwd=8023" },
+    { title: "2026 电影《非传统浪漫关系》原声带 [24-48].zip", link: "https://pan.baidu.com/s/1TE-4Ngzq2hfjf43PqPlfUQ?pwd=8023" },
+    { title: "2022 不期而至 影视原声带 [24-48].zip", link: "https://pan.baidu.com/s/1Yp5INYEY_CQML8ZRQieabw?pwd=8023" },
     { title: "2026 樊笼 网剧原声带", link: "https://pan.baidu.com/s/1jxP0F_Pi6yVL3CbhuI8Gng?pwd=8023" }
 ];

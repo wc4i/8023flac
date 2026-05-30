@@ -199,5 +199,16 @@ const variousDatabase = [
     { title: "1998 中国火Ⅲ [引进版]", link: "https://pan.baidu.com/s/1xq6DZqkovGG4bMx5HFMI4g?pwd=8023" },
     { title: "2020 海葵·赤子心", link: "https://pan.baidu.com/s/1GlyezHEF21f1rMRcJRsyuA?pwd=8023" },
     { title: "2005 TVB儿歌 Kit Kit Kit", link: "https://pan.baidu.com/s/12DX7bZO_je34Ao9KSMlu5A?pwd=8023" },
+    { title: "2017 宇宙没形状 [网易石头计划10].zip", link: "https://pan.baidu.com/s/1cvq0Z20jiYgr55VjCfw7bA?pwd=8023" },
+    { title: "2017 集体有意识 [网易石头计划7].zip", link: "https://pan.baidu.com/s/1hLXo4qPdPwhr6dfw2NKNcQ?pwd=8023" },
+    { title: "2017 四页景 [网易石头计划].zip", link: "https://pan.baidu.com/s/16AsM0MlHCONvMzxF6P3rFQ?pwd=8023" },
+    { title: "2024 Bare Daydream.zip", link: "https://pan.baidu.com/s/1w24YagUxeXanStsoAwNFsQ?pwd=8023" },
+    { title: "2017 灰蓝岛屿间 [网易石头计划4].zip", link: "https://pan.baidu.com/s/1dA6ZImUM3Ws2yO3UdJdW_A?pwd=8023" },
+    { title: "2017 爱后自愈反应 [网易石头计划8].zip", link: "https://pan.baidu.com/s/1yZHeTuTfkM-wR4Q2hIv-Ug?pwd=8023" },
+    { title: "2017 下个归处 [网易石头计划6].zip", link: "https://pan.baidu.com/s/1nE6vSV0qVvbBNSYO_R50mQ?pwd=8023" },
+    { title: "2017 故梦小夜集 [网易石头计划2].zip", link: "https://pan.baidu.com/s/1QxudvQYTSam2YLyvjWYLaA?pwd=8023" },
+    { title: "2017 生活长短诗 [网易石头计划3].zip", link: "https://pan.baidu.com/s/12t-KNsCc8KjioVxCvjA59g?pwd=8023" },
+    { title: "2017 奇异馆 [网易石头计划9].zip", link: "https://pan.baidu.com/s/1HXVhbHQaJFEKt7z3wgjCfg?pwd=8023" },
+    { title: "2017 活在你路过的小都市 [网易石头计划5].zip", link: "https://pan.baidu.com/s/1L6pQSShLaEzBPV2is9W_vg?pwd=8023" },
     { title: "天爱 1-6集【英皇唱片】", link: "https://pan.baidu.com/s/1VPYON6ZwceGFa_fPB2kRQQ?pwd=8023" }
 ];
