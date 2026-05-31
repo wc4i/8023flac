@@ -662,6 +662,34 @@ const musicDatabase = [
         pinyin: "G",
         category: "华语金曲",
         avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000001Pg4n80KCtxM.jpg"
+    },
+    { 
+        id: "cn-wanxiaoli",
+        name: "万晓利",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000000d55760WnzUf.jpg"
+    },
+    { 
+        id: "cn-huangsiting",
+        name: "黄思婷",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M0000032O3bw3WQit3.jpg"
+    },
+    { 
+        id: "cn-mutuigua",
+        name: "木推瓜",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000000nlQrf2K0osh.jpg"
+    },
+    { 
+        id: "hk-beyond",
+        name: "BEYOND",
+        pinyin: "B",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000002pUZT93gF4Cu.jpg"
     }
 ];
 
