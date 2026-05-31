@@ -1,0 +1,47 @@
+{
+  "id": "uk-boyzone",
+  "name": "Boyzone",
+  "avatar": "https://y.gtimg.cn/music/photo_new/T001R500x500M000002wdX0Y4EEXcH.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Thank You & Goodnight",
+        "year": "2018.11",
+        "link": "https://pan.baidu.com/s/18U7yjuZke_bYRkF4XqvLHA?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/09/2c/ab/092cabb5-3248-936e-e5f4-b34eb40036c8/190295608439.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Dublin to Detroit",
+        "year": "2014.11",
+        "link": "https://pan.baidu.com/s/1laMWC-vrL6ztYAe-J1GOXw?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a9/21/29/a9212905-4cc4-5562-21a3-351dd6a7d30c/825646194056.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Brother",
+        "year": "2010.01",
+        "link": "https://pan.baidu.com/s/1EQTSrN_Z8PkjkPRR4GIxlQ?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c5/5c/85/c55c8568-457d-20a1-a40d-9b6d9b83dd26/00602527353005.rgb.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Where We Belong",
+        "year": "1998.05",
+        "link": "https://pan.baidu.com/s/1ArRHWnl59Wp-qcJU2oXkHg?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/eb/a7/23eba76e-a66f-3179-6fa9-1692bf886fed/00602567779087.rgb.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "A Different Beat",
+        "year": "1996.12",
+        "link": "https://pan.baidu.com/s/1ZlgGwFAKGsq8_nJRO0E5Qw?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/74/a9/67/74a967a5-0f6a-e8b5-8386-9793b7ebb4c2/00602547147370.rgb.jpg/600x600bb.jpg"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "BZ20 (Deluxe Edition)",
+        "year": "2013.11",
+        "link": "https://pan.baidu.com/s/1w7QEBbKbcPMJMWcQqUODig?pwd=8023",
+        "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003krgGQ0bUvTi.jpg"
+      }
+    ]
+  }
+}

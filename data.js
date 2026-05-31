@@ -377,6 +377,13 @@ const musicDatabase = [
         avatar: "https://p1.music.126.net/AJP6zkoNdMNqJxEpP5r_vQ==/109951169044863787.jpg?param=640y640"
     },
     { 
+        id: "uk-boyzone",
+        name: "Boyzone",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000002wdX0Y4EEXcH.jpg"
+    },
+    { 
         id: "cn-xiaoyaxuan",
         name: "萧亚轩",
         pinyin: "X",
@@ -627,6 +634,34 @@ const musicDatabase = [
         pinyin: "P",
         category: "华语金曲",
         avatar: "http://imge.kugou.com/stdmusic/400/20250125/20250125121645595559.jpg"
+    },
+    { 
+        id: "cn-caijianya",
+        name: "蔡健雅",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000000hNnWC3kko2c_6.jpg"
+    },
+    { 
+        id: "cn-chenjingfei",
+        name: "陈婧霏",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000002a81Ht1RVn1m.jpg"
+    },
+    { 
+        id: "cn-katncandix2",
+        name: "棉花糖",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000000iyWae3SSKuX_2.jpg"
+    },
+    { 
+        id: "cn-gemeimeimei",
+        name: "哥哥妹妹",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000001Pg4n80KCtxM.jpg"
     }
 ];
 
