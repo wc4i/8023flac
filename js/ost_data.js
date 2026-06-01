@@ -4,6 +4,7 @@
 
 const ostDatabase = [
     { title: "1985 豆芽梦 电影原声带 [台湾复刻版]【小虫】", link: "https://pan.baidu.com/s/1X1HtXW7j7LYXp-5Z58R1ZQ?pwd=8023" },
+    { title: "2026 给阿嬷的情书 电影主题原声音乐", link: "https://pan.baidu.com/s/192dyZbDjA2vWEhWeIqbqhA?pwd=8023" },
     { title: "2014 中国好声音之为你转身 电影原声带", link: "https://pan.baidu.com/s/1jP7WL1O5Nu_KDQXQ9f28zw?pwd=8023" },
     { title: "2021 陌生的恋人 网剧影视原声带", link: "https://pan.baidu.com/s/17QHPgtpxcy4UD-iulZlYrw?pwd=8023" },
     { title: "2019 夜空中最闪亮的星 电视剧原声带", link: "https://pan.baidu.com/s/1anDDZMyJpEHUEJ_TOipHcg?pwd=8023" },
