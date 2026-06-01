@@ -4,6 +4,15 @@
 
 const ostDatabase = [
     { title: "1985 豆芽梦 电影原声带 [台湾复刻版]【小虫】", link: "https://pan.baidu.com/s/1X1HtXW7j7LYXp-5Z58R1ZQ?pwd=8023" },
+    { title: "2014 中国好声音之为你转身 电影原声带", link: "https://pan.baidu.com/s/1jP7WL1O5Nu_KDQXQ9f28zw?pwd=8023" },
+    { title: "2021 陌生的恋人 网剧影视原声带", link: "https://pan.baidu.com/s/17QHPgtpxcy4UD-iulZlYrw?pwd=8023" },
+    { title: "2019 夜空中最闪亮的星 电视剧原声带", link: "https://pan.baidu.com/s/1anDDZMyJpEHUEJ_TOipHcg?pwd=8023" },
+    { title: "2020 女世子 网剧原声专辑 [24-48]", link: "https://pan.baidu.com/s/1aYhI8Tz3tou4G6q9YLGTYA?pwd=8023" },
+    { title: "2022 你好，神枪手 影视原声专辑", link: "https://pan.baidu.com/s/1JzMvCTLBwEafiqHrdVUZtw?pwd=8023" },
+    { title: "2016 终极使命 电视剧原声带", link: "https://pan.baidu.com/s/1lloF29Amdm-S0MbWSoxBQQ?pwd=8023" },
+    { title: "2020 热血同行 影视原声带", link: "https://pan.baidu.com/s/1BuEbGiCiyqRbGYAQwCbwQA?pwd=8023" },
+    { title: "2015 北上广不相信眼泪 电视原声带", link: "https://pan.baidu.com/s/1ZVILWtX2dkZqMNQgX8UyzQ?pwd=8023" },
+    { title: "2018 火王 电视剧原声带", link: "https://pan.baidu.com/s/1p0l7Ku_azPKhNhuAS-WuOg?pwd=8023" },
     { title: "2026 K-POPS! (Music from and inspired by K-POPS! Motion Picture).zip", link: "https://pan.baidu.com/s/1eaC8Kq9mu_FewgtHzu1T-w?pwd=8023" },
     { title: "1992 少年吔，安啦！电影原声带", link: "https://pan.baidu.com/s/1GCGwbpdbNVNDwEXM1U5D7w?pwd=8023" },
     { title: "1991 葬心 阮玲玉电影原声带", link: "https://pan.baidu.com/s/1hmnDosfg4rpjcBmCMOCzTw?pwd=8023" },
@@ -107,7 +116,6 @@ const ostDatabase = [
     { title: "2011 我可能不会爱你 电视剧", link: "https://pan.baidu.com/s/1_hGbaPpbqUA67YZ6OoUd9g?pwd=8023" },
     { title: "2011 宫锁心玉 电视剧原声带", link: "https://pan.baidu.com/s/1TryZoAUQaDN2hwZZtFYtgQ?pwd=8023" },
     { title: "2012 白色之恋 电视剧", link: "https://pan.baidu.com/s/1Zxdj_sk4L7tR88JqnwAOmQ?pwd=8023" },
-    { title: "2014  电影原声带", link: "https://pan.baidu.com/s/19avW1goGEvbFUQTDzvxtcA?pwd=8023" },
     { title: "2015 哪一天我们会飞 电影原声大碟", link: "https://pan.baidu.com/s/1vFhKu_ybcVkbECmfd-nWBw?pwd=8023" },
     { title: "2014 爱情公寓4 电视剧原声带", link: "https://pan.baidu.com/s/11K0Wf8_hQyoz4e8b6HKFqA?pwd=8023" },
     { title: "2014 步步惊情 电视剧", link: "https://pan.baidu.com/s/1iHeOwGJsXtzsAfVMl04SJA?pwd=8023" },
