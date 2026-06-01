@@ -4,6 +4,7 @@
 
 const ostDatabase = [
     { title: "1985 豆芽梦 电影原声带 [台湾复刻版]【小虫】", link: "https://pan.baidu.com/s/1X1HtXW7j7LYXp-5Z58R1ZQ?pwd=8023" },
+    { title: "2026 K-POPS! (Music from and inspired by K-POPS! Motion Picture).zip", link: "https://pan.baidu.com/s/1eaC8Kq9mu_FewgtHzu1T-w?pwd=8023" },
     { title: "1992 少年吔，安啦！电影原声带", link: "https://pan.baidu.com/s/1GCGwbpdbNVNDwEXM1U5D7w?pwd=8023" },
     { title: "1991 葬心 阮玲玉电影原声带", link: "https://pan.baidu.com/s/1hmnDosfg4rpjcBmCMOCzTw?pwd=8023" },
     { title: "1992 警察故事Ⅲ 超级警察 电影", link: "https://pan.baidu.com/s/16qvnvvMU7n2WCtHapTkkbQ?pwd=8023" },
@@ -235,7 +236,7 @@ const ostDatabase = [
     { title: "2020 啊摇篮 电视剧", link: "https://pan.baidu.com/s/18GKcnj-tOG1oIFbxaC9x9g?pwd=8023" },
     { title: "2019 看见味道的你 网剧", link: "https://pan.baidu.com/s/1GkO93AOXNozo9hQ-du-PuQ?pwd=8023" },
     { title: "2019 彩虹的重力 电视【24·48】", link: "https://pan.baidu.com/s/19UfPJ7xtvgleMr2W9uaSrA?pwd=8023" },
-    { title: "2018.08 - 那些年，我们正年轻 电视剧原声带", link: "https://pan.baidu.com/s/1GS7pgZ7J9cFg-jaxYbKeXQ?pwd=8023" },
+    { title: "2018 那些年，我们正年轻 电视剧原声带", link: "https://pan.baidu.com/s/1GS7pgZ7J9cFg-jaxYbKeXQ?pwd=8023" },
     { title: "2020 半是蜜糖半是伤 影视剧【24·48】", link: "https://pan.baidu.com/s/1Wowf2nAB4eSIeSutT1VRLQ?pwd=8023" },
     { title: "2019 宸汐缘 电视剧", link: "https://pan.baidu.com/s/1TvKOD7E--yW5-F61APm6_g?pwd=8023" },
     { title: "2019 杨丽花歌仔戏·忠孝节义 电视剧", link: "https://pan.baidu.com/s/1qlBvzomY3-UMjing_0R47Q?pwd=8023" },
@@ -787,8 +788,9 @@ const ostDatabase = [
     { title: "2024 仙逆 动画原声带", link: "https://pan.baidu.com/s/1nSPf6VhVWMNLqGo3xLn64Q?pwd=8023" },
     { title: "2025 凤凰台上 影视原声带 [24-48]", link: "https://pan.baidu.com/s/17AbgcrIz0HumOW2vmD3kyw?pwd=8023" },
     { title: "2026 逆天邪神年番 动漫原声带 [24-48]", link: "https://pan.baidu.com/s/1ou9hNSnFv-qcsoFt9mJwtA?pwd=8023" },
-    { title: "2024 电视剧《明日有晴天》原声带 [24-48].zip", link: "https://pan.baidu.com/s/1bjyRMGgSD24YAwIwF8HPlw?pwd=8023" },
-    { title: "2026 电影《非传统浪漫关系》原声带 [24-48].zip", link: "https://pan.baidu.com/s/1TE-4Ngzq2hfjf43PqPlfUQ?pwd=8023" },
-    { title: "2022 不期而至 影视原声带 [24-48].zip", link: "https://pan.baidu.com/s/1Yp5INYEY_CQML8ZRQieabw?pwd=8023" },
+    { title: "2024 电视剧《明日有晴天》原声带 [24-48]", link: "https://pan.baidu.com/s/1bjyRMGgSD24YAwIwF8HPlw?pwd=8023" },
+    { title: "2026 电影《非传统浪漫关系》原声带 [24-48]", link: "https://pan.baidu.com/s/1TE-4Ngzq2hfjf43PqPlfUQ?pwd=8023" },
+    { title: "2022 不期而至 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1Yp5INYEY_CQML8ZRQieabw?pwd=8023" },
+    { title: "2026 家业 电视原声带 [24-48]", link: "https://pan.baidu.com/s/1CEX9LiUIwDwUAxxBQ9DaRQ?pwd=8023" },
     { title: "2026 樊笼 网剧原声带", link: "https://pan.baidu.com/s/1jxP0F_Pi6yVL3CbhuI8Gng?pwd=8023" }
 ];
