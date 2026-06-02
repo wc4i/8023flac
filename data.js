@@ -690,6 +690,20 @@ const musicDatabase = [
         pinyin: "B",
         category: "华语金曲",
         avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000002pUZT93gF4Cu.jpg"
+    },
+    { 
+        id: "cn-zhangwei",
+        name: "张玮",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/0LF8LFUYQDttQk3amt5FFA==/3287539767353245.jpg?param=640y640"
+    },
+    { 
+        id: "cn-dengmiaohua",
+        name: "邓妙华",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/GEhvsaEpfezL_VRcoJ7uRw==/226499395338242.jpg?param=640y640"
     }
 ];
 
