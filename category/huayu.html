@@ -114,6 +114,9 @@
                 const artistsInGroup = groups[letter];
                 if (!artistsInGroup.length) continue;
                 
+                // 组内按名字拼音首字母升序排列
+                artistsInGroup.sort((a, b) => a.name.localeCompare(b.name, 'zh-cn'));
+                
                 mainHtml += `<div class="section-group" data-letter="${letter}" id="group-${letter}">`;
                 mainHtml += `<div class="section-title">${letter}</div>`;
                 mainHtml += `<div class="artist-grid">`;

@@ -148,7 +148,7 @@ const musicDatabase = [
     { 
         id: "jp-yonekura-toshinori",
         name: "米倉利紀（Toshinori Yonekura）",
-        pinyin: "Y",
+        pinyin: "T",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/5G5GBxlJ2w0d0ixcbKA7uw==/3373301674943324.jpg"
     },
@@ -746,6 +746,27 @@ const musicDatabase = [
         pinyin: "Z",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/Y8gytSLMU9HUG9mjKZG0dw==/109951168540041383.jpg?param=640y640"
+    },
+    { 
+        id: "cn-adu",
+        name: "阿杜",
+        pinyin: "A",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/6jy6Pusup0l4txZqwR8Oqg==/109951169135330721.jpg?param=640y640"
+    },
+    { 
+        id: "cn-anu",
+        name: "阿牛",
+        pinyin: "A",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/F4euwKJc8y3SbXPyuJht8Q==/109951163402100968.jpg?param=640y640"
+    },
+    { 
+        id: "cn-benduoruru",
+        name: "本多RuRu",
+        pinyin: "B",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/-MsAqYVN3VEXpDFJF7NDyg==/452998790645525.jpg?param=640y640"
     }
 ];
 
