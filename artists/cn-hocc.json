@@ -1,6 +1,7 @@
 {
   "id": "cn-hocc",
-  "name": "何韵诗（HOCC）","avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/6f/de/d1/6fded144-0dcc-1e1a-2b6d-2ac07741408f/825646268078.jpg/600x600bb.jpg",
+  "name": "何韵诗（HOCC）",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/6f/de/d1/6fded144-0dcc-1e1a-2b6d-2ac07741408f/825646268078.jpg/600x600bb.jpg",
   "groups": {
     "Studio Albums (FLAC tracks)": [
       {
@@ -92,6 +93,12 @@
         "year": "2013.10",
         "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/9a/35/d9/9a35d9f8-4339-ca0f-2b07-b04e7256b2a2/825646270170.jpg/600x600bb.jpg",
         "link": "https://pan.baidu.com/s/1pA9TPGAFxyj05oCtPXIVuA?pwd=8023"
+      },
+      {
+        "title": "Rive-Sud, Montréal",
+        "year": "2026.04",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/4c/ba/424cbae4-cb06-38c2-6cf5-f29844f0c140/641022997901.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1i_QQwu5K-B4BvF3DhO9ohA?pwd=8023"
       }
     ],
     "Live Albums (FLAC tracks)": [
@@ -148,12 +155,6 @@
         "year": "2019.08",
         "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e4/f6/74/e4f67432-13d1-904d-dfda-c4d3c31877c7/641022997512.jpg/600x600bb.jpg",
         "link": "https://pan.baidu.com/s/1wFLOrDu-KiOIGe-9MxRuaA?pwd=8023"
-      },
-      {
-        "title": "Rive-Sud, Montréal",
-        "year": "2026.04",
-        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/4c/ba/424cbae4-cb06-38c2-6cf5-f29844f0c140/641022997901.jpg/600x600bb.jpg",
-        "link": "https://pan.baidu.com/s/1i_QQwu5K-B4BvF3DhO9ohA?pwd=8023"
       }
     ],
     "Compilation (FLAC tracks)": [

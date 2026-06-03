@@ -704,6 +704,48 @@ const musicDatabase = [
         pinyin: "D",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/GEhvsaEpfezL_VRcoJ7uRw==/226499395338242.jpg?param=640y640"
+    },
+    { 
+        id: "cn-liangbo",
+        name: "梁博",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/LaqoquOfDZnlrsEj22kehw==/109951164387670165.jpg?param=640y640"
+    },
+    { 
+        id: "cn-luorifeiche",
+        name: "落日飞车",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/9Cfn8l_nwgEJcJO06jzW0Q==/109951171831679493.jpg?param=640y640"
+    },
+    { 
+        id: "cn-lixinjie",
+        name: "李心洁",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/eTEUvjxceCjYNHNMAqh2qA==/109951168540526638.jpg?param=640y640"
+    },
+    { 
+        id: "cn-linxiaopei",
+        name: "林晓培",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/8wHazMtSZS1emgt-EC1nYg==/109951168993457751.jpg?param=640y640"
+    },
+    { 
+        id: "cn-aikebaier-tuerdi",
+        name: "艾克拜尔·吐尔地",
+        pinyin: "A",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/3Q7N0AD0zVndz72pB9pMpw==/109951172792827442.jpg?param=640y640"
+    },
+    { 
+        id: "cn-zenyuedui",
+        name: "ZEN乐队",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/Y8gytSLMU9HUG9mjKZG0dw==/109951168540041383.jpg?param=640y640"
     }
 ];
 

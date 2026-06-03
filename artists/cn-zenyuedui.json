@@ -1,0 +1,55 @@
+{
+  "id": "cn-zenyuedui",
+  "name": "ZEN乐队",
+  "avatar": "https://p2.music.126.net/Y8gytSLMU9HUG9mjKZG0dw==/109951168540041383.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Kawan",
+        "year": "2001.06",
+        "link": "https://pan.baidu.com/s/1j4EuLn7hX0OskfQqbUwAYA?pwd=8023",
+        "cover": "https://p2.music.126.net/ZhjSBy_acsAtbeWn40RLVg==/735573279027205.jpg"
+      },
+      {
+        "title": "晴天",
+        "year": "1999.10",
+        "link": "https://pan.baidu.com/s/14su1uo9nm7zIlSEEgqTThA?pwd=8023",
+        "cover": "https://p2.music.126.net/06yogT8v5i53X94uQWCRgg==/89060441864659.jpg"
+      },
+      {
+        "title": "珍惜所有",
+        "year": "1996.01",
+        "link": "https://pan.baidu.com/s/19IWmrDBWYc8Ij0bpk4Kx-A?pwd=8023",
+        "cover": "https://p2.music.126.net/Xn6GN0zLX9QDZw8zNH0MAA==/109951167191566996.jpg"
+      },
+      {
+        "title": "交织怒火",
+        "year": "1995.06",
+        "link": "https://pan.baidu.com/s/1Lxtana976C_9H4Ag0CVmUg?pwd=8023",
+        "cover": "https://p2.music.126.net/Id7PAh-xxkZYZS0mcLaoMg==/109951168502499641.jpg"
+      },
+      {
+        "title": "I Remember You",
+        "year": "1995.01",
+        "link": "https://pan.baidu.com/s/1IOBBWB6crWW5I8PL3VfKbw?pwd=8023",
+        "cover": "https://p2.music.126.net/dnt7FFiNoFnoKABK086gMg==/853221023198773.jpg"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "不熄之火 精选18首",
+        "year": "1997.01",
+        "link": "https://pan.baidu.com/s/1bokjKFMVAquJDoGZqyjeFQ?pwd=8023",
+        "cover": "https://p2.music.126.net/UaQhJV7NZ9yhciQbU0vqfw==/109951167206755966.jpg"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "单曲 愉快假期",
+        "year": "2025.08",
+        "link": "https://pan.baidu.com/s/1TB5TNohaP0rTeDvPLhUDbw?pwd=8023",
+        "cover": "https://p2.music.126.net/SejWUz2bDXVUd7I6OeIwhA==/109951171815767227.jpg"
+      }
+    ]
+  }
+}
