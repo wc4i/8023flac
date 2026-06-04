@@ -1,0 +1,41 @@
+{
+  "id": "cn-majididi",
+  "name": "麻吉弟弟（Machi DiDi）",
+  "avatar": "https://p1.music.126.net/RbLiZ4POaEYDx8oYhJNbIg==/109951169217075935.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Oh My!!",
+        "year": "2003.08",
+        "cover": "https://p1.music.126.net/RbLiZ4POaEYDx8oYhJNbIg==/109951169217075935.jpg",
+        "link": "https://pan.baidu.com/s/1zGfNSgW6hobkAn446Ws_Mw?pwd=8023"
+      },
+      {
+        "title": "I'm Back",
+        "year": "2015.10",
+        "cover": "https://p1.music.126.net/-uDo0u1zvo6MyV-sPeeTsg==/109951168870093448.jpg",
+        "link": "https://pan.baidu.com/s/1fCJew8kf9omI-SwGmuM_zA?pwd=8023"
+      },
+      {
+        "title": "大逆有道 [24-44.1]",
+        "year": "2017.10",
+        "cover": "https://p1.music.126.net/DLqKLG3iV-QFWrT-up0Thw==/109951163167871512.jpg",
+        "link": "https://pan.baidu.com/s/1VDqT1h-AZ3Pg5hliwZUl-A?pwd=8023"
+      },
+      {
+        "title": "发浪 My Wave [24-48]",
+        "year": "2019.06",
+        "cover": "https://p1.music.126.net/2hGH_toNMysxcWUMtkiOmw==/109951164146169519.jpg",
+        "link": "https://pan.baidu.com/s/17Ts9V_AO6iVlAxHI3ltwUQ?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 181231)",
+        "year": "-",
+        "cover": "https://p1.music.126.net/RbLiZ4POaEYDx8oYhJNbIg==/109951169217075935.jpg",
+        "link": "https://pan.baidu.com/s/1lo_mkCZSNhSRT5HQR281fQ?pwd=8023"
+      }
+    ]
+  }
+}

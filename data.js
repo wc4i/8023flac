@@ -767,6 +767,20 @@ const musicDatabase = [
         pinyin: "B",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/-MsAqYVN3VEXpDFJF7NDyg==/452998790645525.jpg?param=640y640"
+    },
+    { 
+        id: "kr-hyukoh",
+        name: "HYUKOH（혁오）",
+        pinyin: "H",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/nhtl5x-Y6xj47nHcdqWixQ==/2921402396910237.jpg?param=640y640"
+    },
+    { 
+        id: "cn-majididi",
+        name: "麻吉弟弟",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/RbLiZ4POaEYDx8oYhJNbIg==/109951169217075935.jpg"
     }
 ];
 
