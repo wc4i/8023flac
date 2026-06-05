@@ -921,5 +921,12 @@ const musicDatabase = [
         pinyin: "C",
         category: "华语金曲",
         avatar: "https://star.kuwo.cn/star/starheads/700/s4s39/51/353624000.jpg"
+    },
+    { 
+        id: "cn-liuyingting",
+        name: "Jer 柳应廷",
+        pinyin: "J",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/15VHkus6a8xnud78i7_nNg==/109951166161922016.jpg"
     }
 ];
