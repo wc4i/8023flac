@@ -685,7 +685,7 @@ const musicDatabase = [
         avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000000nlQrf2K0osh.jpg"
     },
     { 
-        id: "hk-beyond",
+        id: "cn-beyond",
         name: "BEYOND",
         pinyin: "B",
         category: "华语金曲",
