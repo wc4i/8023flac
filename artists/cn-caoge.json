@@ -1,63 +1,108 @@
 {
   "id": "cn-caoge",
-  "name": "Gary Chaw（曹格）",
-  "avatar": "https://p1.music.126.net/uTlPq6hGB0b9VYkO-uybpQ==/113249697679230.jpg",
+  "name": "曹格（Gary Chaw）",
+  "avatar": "http://p1.music.126.net/uTlPq6hGB0b9VYkO-uybpQ==/113249697679230.jpg?param=640y640",
   "groups": {
     "Studio Albums (FLAC tracks)": [
       {
-        "title": "Gary",
-        "year": "2005",
-        "cover": "http://p2.music.126.net/ZyLQtQvFa6eFUNT68n9IQg==/109951170955254631.jpg"
+        "title": "曹小格·Super Junior [24-44.1]",
+        "year": 2019,
+        "link": "https://pan.baidu.com/s/1HEb9qcHq6R7aSiakP-xK5w?pwd=8023",
+        "cover": "http://p1.music.126.net/RW1bcPptwnorZsOo_1wMXQ==/109951164109109761.jpg"
       },
       {
-        "title": "Super Sunshine",
-        "year": "2006",
-        "cover": "http://p2.music.126.net/c_094VESPkdcefvHOFJCZw==/107752139527257.jpg"
+        "title": "我们是朋友",
+        "year": 2016,
+        "link": "https://pan.baidu.com/s/1djRobyknEXvXmVImHZNTSw?pwd=8023",
+        "cover": "http://p1.music.126.net/kWL5WDkTnKdvZFLYBATYzw==/18674105487785052.jpg"
       },
       {
-        "title": "Superman",
-        "year": "2007",
-        "cover": "http://p2.music.126.net/eDinSMXNYMZHP9nAZ_sQkw==/48378511634444.jpg"
+        "title": "荷里活的动物园",
+        "year": 2012,
+        "link": "https://pan.baidu.com/s/1Y0-83_S8-sg-lZc0j02BJQ?pwd=8023",
+        "cover": "http://p1.music.126.net/_gcxUYNL-eUx14qbx1P0Rg==/109951172943495071.jpg"
       },
       {
-        "title": "格格Blue",
-        "year": "2008",
-        "cover": "http://p2.music.126.net/nhBy7xMdjra9XYWeR9dWeA==/109951163188719182.jpg"
-      },
-      {
-        "title": "寂寞寂寞不好",
-        "year": "2009",
-        "cover": "http://p2.music.126.net/kHq7K_Nv0-GkaW4ITg0gMA==/109951163967345354.jpg"
+        "title": "Gary Chaw Project Sensation 1 Jazz",
+        "year": 2012,
+        "link": "https://pan.baidu.com/s/1TRmVUMFlSukpl3GEtn0SzA?pwd=8023",
+        "cover": "http://p1.music.126.net/TT3aDUWNPWujTN7bHMcEgA==/109951172943483490.jpg"
       },
       {
         "title": "曹之在我",
-        "year": "2011",
-        "cover": "http://p2.music.126.net/xERMw3LJKQp7CZz6tG1_Pg==/109951172943491175.jpg"
+        "year": 2010,
+        "link": "https://pan.baidu.com/s/1aZq2-mOcEDmWWxAB8BBXTA?pwd=8023",
+        "cover": "http://p1.music.126.net/xERMw3LJKQp7CZz6tG1_Pg==/109951172943491175.jpg"
       },
       {
-        "title": "我为歌狂",
-        "year": "2012",
-        "cover": "http://p2.music.126.net/T2X0FzWeD2bhX5s7W2uJtA==/109951167921131883.jpg"
+        "title": "超级4th场",
+        "year": 2009,
+        "link": "https://pan.baidu.com/s/19zAM4SI09a4uD7WK0kWRIA?pwd=8023",
+        "cover": "http://p1.music.126.net/2pkG5ps4rzbmgA7cHV_aGQ==/115448720917192.jpg"
       },
       {
-        "title": "荷里活的動物園",
-        "year": "2014",
-        "cover": "http://p2.music.126.net/_gcxUYNL-eUx14qbx1P0Rg==/109951172943495071.jpg"
+        "title": "Super Sunshine",
+        "year": 2007,
+        "link": "https://pan.baidu.com/s/1G2xyQjtGpsKa5vg-zl4Irw?pwd=8023",
+        "cover": "http://p1.music.126.net/c_094VESPkdcefvHOFJCZw==/107752139527257.jpg"
       },
       {
-        "title": "一念成魔",
-        "year": "2016",
-        "cover": "http://p2.music.126.net/RCETidwzMb5dJYCTIEFPaw==/109951163176586042.jpg"
+        "title": "Superman",
+        "year": 2006,
+        "link": "https://pan.baidu.com/s/1lICNn4qD1m7qu58CjQdKGg?pwd=8023",
+        "cover": "http://p1.music.126.net/eDinSMXNYMZHP9nAZ_sQkw==/48378511634444.jpg"
       },
       {
-        "title": "Aku 我爱你",
-        "year": "2019",
-        "cover": "http://p2.music.126.net/1ayuX0PzBE55GZqxtR423A==/109951170354441020.jpg"
+        "title": "格格Blue",
+        "year": 2006,
+        "link": "https://pan.baidu.com/s/1HnobHBZpyj22mIWXzW99Qg?pwd=8023",
+        "cover": "http://p1.music.126.net/nhBy7xMdjra9XYWeR9dWeA==/109951163188719182.jpg"
       },
       {
-        "title": "光爱你就很忙了",
-        "year": "2024",
-        "cover": "http://p2.music.126.net/8a1lwmZiF8lRtb8w2uROIw==/109951168717300071.jpg"
+        "title": "Gary 同名专辑",
+        "year": 2001,
+        "link": "https://pan.baidu.com/s/1U-bBhbp98LOexrYg5lcRVg?pwd=8023",
+        "cover": "http://p1.music.126.net/ZyLQtQvFa6eFUNT68n9IQg==/109951170955254631.jpg"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "我为歌狂 EP.4 滚石40 粤语精选 [24-96]",
+        "year": 2022,
+        "link": "https://pan.baidu.com/s/1FZfdakzPfexZZadVXbpYdg?pwd=8023",
+        "cover": "http://p1.music.126.net/4cGSMAMWMZ8SSC-LHqWcDA==/109951167917062556.jpg"
+      },
+      {
+        "title": "我为歌狂 EP.3 滚石40 粤语精选 [24-96]",
+        "year": 2022,
+        "link": "https://pan.baidu.com/s/1i2SLSZ0GI74d9EvNZjkNQQ?pwd=8023",
+        "cover": "http://p1.music.126.net/LCCVWWNFHqIivnvcFvX4Zw==/109951167891126192.jpg"
+      },
+      {
+        "title": "我为歌狂 EP.2 滚石40 粤语精选 [24-96]",
+        "year": 2022,
+        "link": "https://pan.baidu.com/s/18LQOM8_J37PGS9rY0weDVw?pwd=8023",
+        "cover": "http://p1.music.126.net/od08lPZJZC8VNnjczZozwg==/109951167855947285.jpg"
+      },
+      {
+        "title": "我为歌狂 EP.1 滚石40 粤语精选 [24-96]",
+        "year": 2022,
+        "link": "https://pan.baidu.com/s/1GV31w8ha1YrmCrvMSMjUPw?pwd=8023",
+        "cover": "http://p1.music.126.net/QJyHrVCeBYi_m4ZwTLxIVg==/109951167852875757.jpg"
+      },
+      {
+        "title": "十年曹格「小小」特别企划数字精选 [台湾首版][WAV]",
+        "year": 2016,
+        "link": "https://pan.baidu.com/s/1qYv6Y-yZO1BecHAGNWc6LQ?pwd=8023",
+        "cover": "https://img1.kuwo.cn/star/albumcover/600/s4s86/5/3168239618.jpg"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 251231)",
+        "year": 0,
+        "link": "https://pan.baidu.com/s/1oz8Hd_KCEPx7_jMj0M9aIA?pwd=8023",
+        "cover": ""
       }
     ]
   }
