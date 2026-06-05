@@ -1,4 +1,4 @@
-// 🎵 wc4° 音乐仓库 - 全局歌手索引数据库
+﻿// 🎵 wc4° 音乐仓库 - 全局歌手索引数据库
 // 这个文件就像是一本字典的"目录"，用于在各个分类页面（如 huayu.html）生成歌手卡片。
 
 const musicDatabase = [
@@ -781,6 +781,145 @@ const musicDatabase = [
         pinyin: "M",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/RbLiZ4POaEYDx8oYhJNbIg==/109951169217075935.jpg"
+    },
+    { 
+        id: "cn-fengjiangzhou",
+        name: "丰江舟",
+        pinyin: "F",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/Lo9U0usuMuPF-Cn87-9cPA==/109951169703069709.jpg?param=640y640"
+    },
+    { 
+        id: "cn-cangying",
+        name: "苍蝇乐队",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/GY9PeiiqpK95s5jX5rQVrQ==/219902325572636.jpg?param=640y640"
+    },
+    { 
+        id: "cn-caoge",
+        name: "曹格",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/uTlPq6hGB0b9VYkO-uybpQ==/113249697679230.jpg?param=640y640"
+    },
+    { 
+        id: "cn-changshilei",
+        name: "常石磊",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/GYlqfxV6QbffewdpfIjbWg==/109951165133612151.jpg?param=640y640"
+    },
+    { 
+        id: "cn-daqiaoxiaoqiao",
+        name: "大乔小乔",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/f_YEpQIfb3gkH2B-pa4aNA==/109951163003362886.jpg?param=640y640"
+    },
+    { 
+        id: "cn-dixiaying'er",
+        name: "地下婴儿",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/aLz8-v4saOmYtVA5JXMpWg==/109951173013499295.jpg?param=640y640"
+    },
+    { 
+        id: "cn-dingshiguang",
+        name: "丁世光",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/qEiQvX73aCJyYGpcnkvdZQ==/109951170229078011.jpg?param=640y640"
+    },
+    { 
+        id: "cn-dongzhen",
+        name: "董真",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/3pzMkwtbpuYWNlaeYuSh5w==/109951165418812496.jpg?param=640y640"
+    },
+    { 
+        id: "cn-fangfang",
+        name: "方芳",
+        pinyin: "F",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/MEWZSjBrIcqIIIvxTyC79g==/109951169703392223.jpg?param=640y640"
+    },
+    { 
+        id: "cn-feixu",
+        name: "废墟乐队",
+        pinyin: "F",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/28IxHS3mHXbxdwkR49kuOA==/109951162892866590.jpg?param=640y640"
+    },
+    { 
+        id: "cn-guyu'an",
+        name: "顾于安",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/lhsmRdYxyAscx2NH2eGjtA==/109951170882647939.jpg?param=640y640"
+    },
+    { 
+        id: "cn-guanguan",
+        name: "观观Guanguan",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/aTvmKAdjlrThcBVFjbIE1w==/109951173008379447.jpg?param=640y640"
+    },
+    { 
+        id: "cn-heisa",
+        name: "黑撒乐队",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/L7Zd27J2WfwtSvF2lxRs_Q==/109951166518736849.jpg?param=640y640"
+    },
+    { 
+        id: "cn-huge",
+        name: "胡歌",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/4hZUGU95_fA_W0l_qYhe1w==/109951163139102899.jpg?param=640y640"
+    },
+    { 
+        id: "cn-huweiqi",
+        name: "胡玮琪",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/J4ax6lo-DHD2VT_rmaAVNA==/109951167060664641.jpg?param=640y640"
+    },
+    { 
+        id: "cn-huanglei",
+        name: "黄磊",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/h4wTyCmIooPKilmc7cEZLw==/1411772943116621.jpg?param=640y640"
+    },
+    { 
+        id: "cn-huangxiangyi",
+        name: "黄湘怡",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/f627N0iePd1XAHcejiGyhA==/279275953472549.jpg?param=640y640"
+    },
+    { 
+        id: "cn-huangyan",
+        name: "黄妍",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://star.kuwo.cn/star/starheads/700/s4s85/89/1290074886.jpg"
+    },
+    { 
+        id: "cn-jam",
+        name: "Jam",
+        pinyin: "J",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/YBvBifSVT1oRoL7Hs8-f8w==/109951163398529539.jpg?param=640y640"
+    },
+    { 
+        id: "cn-chenjianan",
+        name: "陈健安",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://star.kuwo.cn/star/starheads/700/s4s39/51/353624000.jpg"
     }
 ];
-

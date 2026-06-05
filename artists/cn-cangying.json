@@ -1,0 +1,29 @@
+{
+  "id": "cn-cangying",
+  "name": "苍蝇乐队（The Fly）",
+  "avatar": "http://p2.music.126.net/GY9PeiiqpK95s5jX5rQVrQ==/219902325572636.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "The Fly II",
+        "year": 2000,
+        "link": "https://pan.baidu.com/s/1VcjWTkLTYeevfVi0AK44SQ?pwd=8023",
+        "cover": "http://p1.music.126.net/8ckFImnLTkx53pIVoaYUuA==/109951172832069806.jpg"
+      },
+      {
+        "title": "The Fly I",
+        "year": 1997,
+        "link": "https://pan.baidu.com/s/1FOz21_Q6jG4TkWVKBpFEqg?pwd=8023",
+        "cover": "http://p1.music.126.net/F9WTmiiX3PVi5CkN7Wd3uw==/109951172832067761.jpg"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "宿寺：苍蝇 [LP]",
+        "year": 2023,
+        "link": "https://pan.baidu.com/s/1o6XVmZ54j23rrQS-ixAF-g?pwd=8023",
+        "cover": "http://p1.music.126.net/-saLzIMmAL4XSezrGc0h2g==/109951172803269024.jpg"
+      }
+    ]
+  }
+}

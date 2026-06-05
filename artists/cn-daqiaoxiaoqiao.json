@@ -1,0 +1,41 @@
+{
+  "id": "cn-daqiaoxiaoqiao",
+  "name": "大乔小乔",
+  "avatar": "http://p2.music.126.net/f_YEpQIfb3gkH2B-pa4aNA==/109951163003362886.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "十年如风",
+        "year": 2017,
+        "link": "https://pan.baidu.com/s/1tV2OKoDUHx7fSHtL9cYtNA?pwd=8023",
+        "cover": "http://p1.music.126.net/DIxRGXAmbsfzduaNgOWJ7Q==/109951163089954267.jpg"
+      },
+      {
+        "title": "归隐",
+        "year": 2017,
+        "link": "https://pan.baidu.com/s/13i8y2M8LHdw_-5Zmhn7MVw?pwd=8023",
+        "cover": "http://p1.music.126.net/2GhjV7mBasgPfqJ1W7JiDA==/109951163003371603.jpg"
+      },
+      {
+        "title": "渔樵问答",
+        "year": 2012,
+        "link": "https://pan.baidu.com/s/1SV_xxRhG0BYsUOg49dDr8Q?pwd=8023",
+        "cover": "http://p1.music.126.net/-gN03C1jWCByIe1H9lf3Sw==/46179488379894.jpg"
+      },
+      {
+        "title": "消失的光年",
+        "year": 2007,
+        "link": "https://pan.baidu.com/s/13c7kuXaZcyVQ7Md9fB0vPA?pwd=8023",
+        "cover": "http://p1.music.126.net/90NDnEog4zDkarfeTEWswA==/41781441867559.jpg"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "单曲【截至2018】",
+        "year": 0,
+        "link": "https://pan.baidu.com/s/1XtCKgnhn3w6r0RY6FGsk0A?pwd=8023",
+        "cover": ""
+      }
+    ]
+  }
+}
