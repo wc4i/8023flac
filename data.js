@@ -928,5 +928,75 @@ const musicDatabase = [
         pinyin: "J",
         category: "华语金曲",
         avatar: "http://p2.music.126.net/15VHkus6a8xnud78i7_nNg==/109951166161922016.jpg"
+    },
+    { 
+        id: "cn-lailaibeibei",
+        name: "來吧！焙焙！",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/de/05/efde05d0-5786-ca56-5fd6-2ad960284451/4711232867434.png/600x600bb.jpg"
+    },
+    { 
+        id: "cn-jiushiyongcha",
+        name: "九时用茶",
+        pinyin: "J",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/lAxOMVkiVVFtJxHiH7KEEA==/109951167308164939.jpg"
+    },
+    { 
+        id: "cn-dinglodejuxuetuan",
+        name: "顶楼的马戏团",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/VK_CrsiO7sfW0BVnxcH1Rg==/6004432999691458.jpg"
+    },
+    { 
+        id: "cn-lanlao",
+        name: "揽佬",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/4OCeH50gC3F91BJeixEocg==/109951168913424214.jpg"
+    },
+    { 
+        id: "cn-lengbing",
+        name: "棱镜乐队",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/VszB6N1X1ammCXe0IY-1Nw==/109951164312899254.jpg"
+    },
+    { 
+        id: "cn-liquan",
+        name: "李泉",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/EOR2SlEZpONb-NeYZOGgjw==/109951163864167618.jpg"
+    },
+    { 
+        id: "cn-lishengjie",
+        name: "李圣杰",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/EE0xBLuGaZWyLqbi1SLndQ==/109951169657753331.jpg"
+    },
+    { 
+        id: "cn-lianghanwen",
+        name: "梁汉文",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/4L7WTUSomw7B8_LEuc2EhA==/109951168896259215.jpg"
+    },
+    { 
+        id: "cn-liaoshixian",
+        name: "廖士贤",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/e7/17/77e717a8-b877-36ee-26c5-76985724014b/4710149683885.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-lincuiping",
+        name: "林翠萍",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/AV_GdD6XF43kCC9i_YV53Q==/5792227255362945.jpg"
     }
 ];

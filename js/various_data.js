@@ -153,7 +153,6 @@ const variousDatabase = [
     { title: "2022 玫瑰凭证", link: "https://pan.baidu.com/s/1CoVVmce_C5HlBjjdPLDH6w?pwd=8023" },
     { title: "2002 一人一首成名曲[太平洋影音]【10CD】", link: "https://pan.baidu.com/s/1heFIRz7qwzx4WzClf4-c0g?pwd=8023" },
     { title: "2019 猪福-孔雀群星贺新年", link: "https://pan.baidu.com/s/1VCXDdfZ1tOD_9WD2Cu4myw?pwd=8023" },
-    { title: "2014 红星20号", link: "https://pan.baidu.com/s/13kxODTwUZdYzZ8ZFiWKPrA?pwd=8023" },
     { title: "1997 摇滚北京III", link: "https://pan.baidu.com/s/1Y4ITD78VhonjY286j3u4aw?pwd=8023" },
     { title: "1992 中国火Ⅰ", link: "https://pan.baidu.com/s/1VYzQxg8n1i6pgoFqkbljIA?pwd=8023" },
     { title: "2024 not so xmas xmas, Vol. 2【华纳音乐】 [24-48]", link: "https://pan.baidu.com/s/1K9bTqOOlTVgeM2dvTo5ABA?pwd=8023" },

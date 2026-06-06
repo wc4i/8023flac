@@ -4,6 +4,15 @@
 
 const ostDatabase = [
     { title: "1985 豆芽梦 电影原声带 [台湾复刻版]【小虫】", link: "https://pan.baidu.com/s/1X1HtXW7j7LYXp-5Z58R1ZQ?pwd=8023" },
+    { title: "2024 牧神记 动画原声带 [24-48]", link: "https://pan.baidu.com/s/1PL6AI3YoWz1ytNTLNFLG3g?pwd=8023" },
+    { title: "2016 旋风少女 第二季 电视原声带", link: "https://pan.baidu.com/s/1_fKoKVT3U6ikS1KX4Na3rQ?pwd=8023" },
+    { title: "2023 云之羽 影视原声带", link: "https://pan.baidu.com/s/1UFVps8Pj1SqqXuPONzJN9A?pwd=8023" },
+    { title: "2025 长安二十四计 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1-tXQFfMXXxJbpXrW_U82_Q?pwd=8023" },
+    { title: "2022 第二次拥抱  影视原声带", link: "https://pan.baidu.com/s/1c5835k2Ui_hRwidS3vcDoQ?pwd=8023" },
+    { title: "2021 这个世界不看脸 电视剧原声带 [24-48]", link: "https://pan.baidu.com/s/1BPcuHtv9LRS8-7lQ6XbiTQ?pwd=8023" },
+    { title: "2015 旋风少女 电视剧原声带", link: "https://pan.baidu.com/s/1VLgpB-svqdpcYH3HZ74IuA?pwd=8023" },
+    { title: "2016 五鼠闹东京 电视剧原声带", link: "https://pan.baidu.com/s/1rOwvva45uudl0VVgcwiZfw?pwd=8023" },
+    { title: "2020 与晨同光 电视剧影视原声带", link: "https://pan.baidu.com/s/1tR-_anTIOpTvZ_X02IkzcA?pwd=8023" },
     { title: "2026 给阿嬷的情书 电影主题原声音乐", link: "https://pan.baidu.com/s/192dyZbDjA2vWEhWeIqbqhA?pwd=8023" },
     { title: "2014 中国好声音之为你转身 电影原声带", link: "https://pan.baidu.com/s/1jP7WL1O5Nu_KDQXQ9f28zw?pwd=8023" },
     { title: "2021 陌生的恋人 网剧影视原声带", link: "https://pan.baidu.com/s/17QHPgtpxcy4UD-iulZlYrw?pwd=8023" },

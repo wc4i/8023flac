@@ -1,0 +1,23 @@
+{
+  "id": "cn-lailaibeibei",
+  "name": "來吧！焙焙！",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/de/05/efde05d0-5786-ca56-5fd6-2ad960284451/4711232867434.png/600x600bb.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "私人經驗",
+        "year": "2014",
+        "link": "https://pan.baidu.com/s/1VEhBVkQEw0rRuhIP-98xeQ?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/de/05/efde05d0-5786-ca56-5fd6-2ad960284451/4711232867434.png/600x600bb.jpg"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "回到现在：现场录音",
+        "year": "2022",
+        "link": "https://pan.baidu.com/s/13XIATocukBEoqc9Kg823mQ?pwd=8023",
+        "cover": ""
+      }
+    ]
+  }
+}
