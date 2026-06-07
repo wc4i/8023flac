@@ -4,6 +4,10 @@
 
 const ostDatabase = [
     { title: "1985 豆芽梦 电影原声带 [台湾复刻版]【小虫】", link: "https://pan.baidu.com/s/1X1HtXW7j7LYXp-5Z58R1ZQ?pwd=8023" },
+    { title: "2026 耀眼 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1f9eb6if6pUugGg6dA1v3KA?pwd=8023" },
+    { title: "2026 灵魂摆渡·十年 影视原声带", link: "https://pan.baidu.com/s/1pg9ol54ZkZBd--2DX3MsTA?pwd=8023" },
+    { title: "2026 万人之上 动漫原声带 [24-48]", link: "https://pan.baidu.com/s/1R39J92QH0l9i8OPFQolnCw?pwd=8023" },
+    { title: "2026 剑与远征：启程之王都终幕 原声音乐专辑 [24-48]", link: "https://pan.baidu.com/s/1tIxAYSOzBbr6isbGr9_GNw?pwd=8023" },
     { title: "2024 牧神记 动画原声带 [24-48]", link: "https://pan.baidu.com/s/1PL6AI3YoWz1ytNTLNFLG3g?pwd=8023" },
     { title: "2016 旋风少女 第二季 电视原声带", link: "https://pan.baidu.com/s/1_fKoKVT3U6ikS1KX4Na3rQ?pwd=8023" },
     { title: "2023 云之羽 影视原声带", link: "https://pan.baidu.com/s/1UFVps8Pj1SqqXuPONzJN9A?pwd=8023" },
