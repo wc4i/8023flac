@@ -4,6 +4,7 @@
 
 const variousDatabase = [
     { title: "中国歌典（年代经典歌曲）（10CD）", link: "https://pan.baidu.com/s/1FB5AA4aE_jcLn0RrUOxJbA?pwd=8023" },
+    { title: "2022 爱的元宇宙Love Always", link: "https://pan.baidu.com/s/1HVb_dwutsKpyfmVcbjf-jg?pwd=8023" },
     { title: "三宝作品集", link: "https://pan.baidu.com/s/14TnJxS2GotNT7th-jQZdeg?pwd=8023" },
     { title: "摩登天空 1-9", link: "https://pan.baidu.com/s/1I6UT2_NhdpPts66_S44ZIg?pwd=8023" },
     { title: "2024 青春重置计划9新的凡人歌.zip", link: "https://pan.baidu.com/s/1ivXWIQa4HNAcoFpqkETy7A?pwd=8023" },

@@ -4,6 +4,18 @@
 
 const ostDatabase = [
     { title: "1985 豆芽梦 电影原声带 [台湾复刻版]【小虫】", link: "https://pan.baidu.com/s/1X1HtXW7j7LYXp-5Z58R1ZQ?pwd=8023" },
+    { title: "2024 烈焰 影视原声带 [24-44.1]", link: "https://pan.baidu.com/s/1sTdSnjcrs950Z1kEWJEV9A?pwd=8023" },
+    { title: "2024 使命召唤手游 5周年游戏原声精选", link: "https://pan.baidu.com/s/1ihXa-wwY-uTcyG6ABsrtKw?pwd=8023" },
+    { title: "2022 请君 影视原声带", link: "https://pan.baidu.com/s/19dC0NBx-9SdAke_xcYp-rA?pwd=8023" },
+    { title: "2025 入青云 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1fRkeA4K0tzuYxSF-W0ffFQ?pwd=8023" },
+    { title: "2024 花间令 电视剧原声带", link: "https://pan.baidu.com/s/1MxNEw9uU3PazAn0eIWH1jw?pwd=8023" },
+    { title: "2024 你的谎言也动听 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1Omi0WOCpfssWfcCFOmeWSA?pwd=8023" },
+    { title: "2023 九霄寒夜暖 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1O762f9kEFFicyc-HuOwnXg?pwd=8023" },
+    { title: "2025 亦舞之城 影视原声带 [24-48]", link: "https://pan.baidu.com/s/106Ia2jfHmr4RBx-Icfxyfg?pwd=8023" },
+    { title: "2023 点心之路 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1eijYkNH0NRCvViRcAAagqg?pwd=8023" },
+    { title: "2022 我是真的讨厌异地恋 电影原声大碟 [24-48]", link: "https://pan.baidu.com/s/1XYYJfUdl1nFSyawtRbebdg?pwd=8023" },
+    { title: "2005 孤恋花 电影原声带【陈小霞作品】 [台湾首版]", link: "https://pan.baidu.com/s/1tlZoiChxnQhix8gU01OXOw?pwd=8023" },
+    { title: "2016 一把青 电视原声带 [台湾限量首版]", link: "https://pan.baidu.com/s/1NhyW0mav9PRgyO0TBKVNrA?pwd=8023" },
     { title: "2026 耀眼 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1f9eb6if6pUugGg6dA1v3KA?pwd=8023" },
     { title: "2026 灵魂摆渡·十年 影视原声带", link: "https://pan.baidu.com/s/1pg9ol54ZkZBd--2DX3MsTA?pwd=8023" },
     { title: "2026 万人之上 动漫原声带 [24-48]", link: "https://pan.baidu.com/s/1R39J92QH0l9i8OPFQolnCw?pwd=8023" },
