@@ -998,5 +998,75 @@ const musicDatabase = [
         pinyin: "L",
         category: "华语金曲",
         avatar: "http://p1.music.126.net/AV_GdD6XF43kCC9i_YV53Q==/5792227255362945.jpg"
+    },
+    { 
+        id: "cn-chenchusheng",
+        name: "陈楚生",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/HXs1MIcM7n9V7qFDTuW71A==/109951170540755845.jpg?param=640y640"
+    },
+    { 
+        id: "cn-linyifeng",
+        name: "林一峰",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/YV47U1QLdJsI_rKiNHpQmA==/6052811511444433.jpg?param=640y640"
+    },
+    { 
+        id: "cn-liangyongqi",
+        name: "梁咏琪",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/7mjL2B3jD4YhE847NEdV-A==/109951164119703038.jpg?param=640y640"
+    },
+    { 
+        id: "cn-liuhonghua",
+        name: "刘虹桦",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/vIIK8gGgK9Cm9OMstD6UQg==/8891750534159116.jpg?param=640y640"
+    },
+    { 
+        id: "cn-luguangzhong",
+        name: "卢广仲",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/DOhZkp1I7JyCtcZ88jc2Uw==/109951166698382247.jpg?param=640y640"
+    },
+    { 
+        id: "cn-luqiaoyin",
+        name: "卢巧音",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/PmvXREt9Zck7D5huaKz9rw==/109951166093405874.jpg?param=640y640"
+    },
+    { 
+        id: "cn-luozhixiang",
+        name: "罗志祥",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/h0IAQ5qHH7QKoCOwoflJgw==/109951169138149829.jpg?param=640y640"
+    },
+    { 
+        id: "cn-lvfang",
+        name: "吕方",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/gw2d9YCLMRT2QYkpYOwN6A==/109951168896254916.jpg?param=640y640"
+    },
+    { 
+        id: "cn-mayuanshiren",
+        name: "麻园诗人",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/vSwFbMJuEmfnr6iqMUFLKw==/109951168546162023.jpg?param=640y640"
+    },
+    { 
+        id: "cn-madi",
+        name: "马頔",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/VPvzCkjpoN40-NWlpMazbw==/109951164909602490.jpg?param=640y640"
     }
 ];
