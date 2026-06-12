@@ -1,0 +1,69 @@
+{
+  "id": "cn-hush",
+  "name": "HUSH",
+  "avatar": "https://p1.music.126.net/8iKvG98galHjkr9pVmqyTw==/109951168184960778.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "机会与命运",
+        "year": "2015.10",
+        "link": "https://pan.baidu.com/s/1NhovSXurkh1NX5ws8ZCLcQ?pwd=8023",
+        "cover": "http://p2.music.126.net/8vR_3BYYj1-CFB6hJEB5_w==/109951172520655284.jpg"
+      },
+      {
+        "title": "换句话说",
+        "year": "2018.09",
+        "link": "https://pan.baidu.com/s/18d-8TgciO16b-sV6jBKgPA?pwd=8023",
+        "cover": "http://p2.music.126.net/Uo4j7F_FSGT1OW3Bm1cKnw==/109951172520640876.jpg"
+      },
+      {
+        "title": "娱乐自己",
+        "year": "2022.12",
+        "link": "https://pan.baidu.com/s/1WkTrOgP3J8DxJPBQmmm3UA?pwd=8023",
+        "cover": "http://p2.music.126.net/Wq07L26xJp8HnU0trhEwAA==/109951168181364364.jpg"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "第一人称 演唱会三部曲",
+        "year": "2015.03",
+        "link": "https://pan.baidu.com/s/1FvUTduFjGPWVQYuh2qqKvA?pwd=8023",
+        "cover": "http://p2.music.126.net/C9AGnoYmEz3kmbbd-t33AQ==/109951172520620055.jpg"
+      }
+    ],
+    "Collaborative Albums (FLAC tracks)": [
+      {
+        "title": "X",
+        "year": "2012.10",
+        "link": "https://pan.baidu.com/s/1sbz1dd6KI5buRWGN6miacQ?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/30/29/f6/3029f63d-8228-42ca-a27d-160b61c82b8b/4717954163069.png/600x600bb.jpg"
+      },
+      {
+        "title": "天文特征",
+        "year": "2012.12",
+        "link": "https://pan.baidu.com/s/1Lz9kbQue4DfcFOX7amTkYg?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/05/cd/1a/05cd1ab6-f168-4039-752c-15964135d05e/1500x1500.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "异常现象",
+        "year": "2013.12",
+        "link": "https://pan.baidu.com/s/1TYFKIlmLh320zSTD4Zdu3w?pwd=8023",
+        "cover": "http://p2.music.126.net/zmmtD5gEyRUOEpwUZQwXNg==/109951165958823058.jpg"
+      },
+      {
+        "title": "Everyone's Gonna Miss You",
+        "year": "2015.01",
+        "link": "https://pan.baidu.com/s/1XKjiHMEaR9lncHZfK8cOAQ?pwd=8023",
+        "cover": "http://p2.music.126.net/2VjpBr5xEF7cmm3nr4WItg==/109951170632916774.jpg"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 250523)",
+        "year": "",
+        "link": "https://pan.baidu.com/s/1gY3r7UbJt94epgwhSVRn0Q?pwd=8023",
+        "cover": ""
+      }
+    ]
+  }
+}

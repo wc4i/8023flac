@@ -1,0 +1,49 @@
+{
+  "id": "cn-nuomituan",
+  "name": "糯米团",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/63/1b/dd631bcc-15b7-e100-8b27-cb2f723527e2/094639109654.jpg/600x600bb.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "青春鸟王",
+        "year": "2000.11",
+        "link": "https://pan.baidu.com/s/1sKx05TuF2zgd1kuMNR09Yg?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/94/f7/5a/94f75a5f-9a90-f430-a830-70f7c9ba69ec/MSD-085.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "糯米团 同名专辑",
+        "year": "2007.11",
+        "link": "https://pan.baidu.com/s/1Y9CbRHXxSfitWUUlFWL2Nw?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/63/1b/dd631bcc-15b7-e100-8b27-cb2f723527e2/094639109654.jpg/600x600bb.jpg"
+      }
+    ],
+    "EP (FLAC tracks)": [
+      {
+        "title": "Super",
+        "year": "2001.07",
+        "link": "https://pan.baidu.com/s/1u9XPEbuTahjQYlvJkfC_iw?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music19/v4/94/f6/5c/94f65ca0-b714-eefa-c849-4f411d26a458/mzm.nvfcgarz.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "迷你专辑 (贰)",
+        "year": "2003.01",
+        "link": "https://pan.baidu.com/s/1q8RRPukV9zeOPaf1ytJrPQ?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/93/c5/1e/93c51e12-50da-c9f0-f46d-43ae7357870f/ROD-5305.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "别急着说爱我到天长地久 20",
+        "year": "2017.03",
+        "link": "https://pan.baidu.com/s/19mjSJVU7NKHcwZvAKC8H7A?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ef/1b/9e/ef1b9e72-3415-d29e-4533-946f9ea8ca61/190295048266.jpg/600x600bb.jpg"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "903 id club 拉阔音乐会",
+        "year": "2003.06",
+        "link": "https://pan.baidu.com/s/1fhDSdelwm8KCltcsEmGHxg?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/6a/b6/03/6ab6035c-2047-1bd7-08ea-da4a93682328/ROD-5316_Cover1400.jpg/600x600bb.jpg"
+      }
+    ]
+  }
+}

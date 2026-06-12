@@ -1,0 +1,29 @@
+{
+  "id": "cn-fuke",
+  "name": "浮克",
+  "avatar": "http://p2.music.126.net/JGSmo_FhjXeLie55veyMPg==/109951165091397813.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "西行路上",
+        "year": "1998.01",
+        "link": "https://pan.baidu.com/s/1MuVrjLs3q4QXOdoF7cMf6w?pwd=8023",
+        "cover": "http://p2.music.126.net/YlGPU9y8-milohqVXk9prQ==/109951173062688801.jpg"
+      },
+      {
+        "title": "东郭先生",
+        "year": "2025.07",
+        "link": "https://pan.baidu.com/s/19bJex4upygwXb3BONPn3fQ?pwd=8023",
+        "cover": "http://p2.music.126.net/G9iAxmNP5Jf5V7eqKzrkQA==/36283883722022.jpg"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 171231)",
+        "year": "",
+        "link": "https://pan.baidu.com/s/15P3mlU_AzMbuvmF3s4SVHA?pwd=8023",
+        "cover": ""
+      }
+    ]
+  }
+}

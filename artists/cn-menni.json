@@ -1,0 +1,35 @@
+{
+  "id": "cn-menni",
+  "name": "门尼",
+  "avatar": "http://img3.kuwo.cn/star/starheads/120/s4s18/47/3557555491.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "门尼 (MONEY) 同名专辑",
+        "year": "2023.09",
+        "link": "https://pan.baidu.com/s/1dsAkY8xP3aiiiiRiZvbBFA?pwd=8023",
+        "cover": "http://img1.kuwo.cn/star/albumcover/400/s3s42/57/369749394.jpg"
+      },
+      {
+        "title": "门尼Ⅱ：剧场",
+        "year": "2024.09",
+        "link": "https://pan.baidu.com/s/1NtREauyLpq_GLfcGheAGJg?pwd=8023",
+        "cover": "http://img2.kuwo.cn/star/albumcover/400/s4s4/75/379604571.jpg"
+      },
+      {
+        "title": "门尼Ⅲ：贵族",
+        "year": "2026.04",
+        "link": "https://pan.baidu.com/s/1pnJyHBamfQA8h6c-wXpDcw?pwd=8023",
+        "cover": "http://img4.kuwo.cn/star/albumcover/400/s4s87/2/2148475719.jpg"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 260331)",
+        "year": "",
+        "link": "https://pan.baidu.com/s/1MF7AlfL1Np5y6eFkFXQhkg?pwd=8023",
+        "cover": ""
+      }
+    ]
+  }
+}

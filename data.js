@@ -1,4 +1,4 @@
-﻿// 🎵 wc4° 音乐仓库 - 全局歌手索引数据库
+// 🎵 wc4° 音乐仓库 - 全局歌手索引数据库
 // 这个文件就像是一本字典的"目录"，用于在各个分类页面（如 huayu.html）生成歌手卡片。
 
 const musicDatabase = [
@@ -1068,5 +1068,194 @@ const musicDatabase = [
         pinyin: "M",
         category: "华语金曲",
         avatar: "http://p1.music.126.net/VPvzCkjpoN40-NWlpMazbw==/109951164909602490.jpg?param=640y640"
+    },
+    { 
+        id: "cn-nuomituan",
+        name: "糯米团",
+        pinyin: "N",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/63/1b/dd631bcc-15b7-e100-8b27-cb2f723527e2/094639109654.jpg/600x600bb.jpg"
+    },
+    { 
+        id: "cn-chenshian",
+        name: "陈势安",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/QERlEcERis13rR7QjUKlhw==/109951169891927091.jpg"
+    },
+    { 
+        id: "cn-hush",
+        name: "HUSH",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/8iKvG98galHjkr9pVmqyTw==/109951168184960778.jpg"
+    },
+    { 
+        id: "cn-huangyiling",
+        name: "黄乙玲",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/0reNICNJht_-A5heB7PjdQ==/168225279066836.jpg"
+    },
+    { 
+        id: "cn-guojialu",
+        name: "郭嘉璐",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/XWdRjt63F7gn-QFEmxYZaQ==/692692325533729.jpg"
+    },
+    { 
+        id: "cn-dawenxi",
+        name: "达闻西乐队",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/p4GJ1GFnJxesHfEaYxkjzA==/109951167879607853.jpg"
+    },
+    { 
+        id: "cn-wangjingwen",
+        name: "王靖雯",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/PNwEsWnrV2TpAKNadSAOFQ==/109951167493044841.jpg"
+    },
+    { 
+        id: "cn-chenxiaoxia",
+        name: "陈小霞",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "http://img1.kuwo.cn/star/starheads/120/s4s1/31/4049697152.jpg"
+    },
+    { 
+        id: "cn-fuke",
+        name: "浮克",
+        pinyin: "F",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/JGSmo_FhjXeLie55veyMPg==/109951165091397813.jpg"
+    },
+    { 
+        id: "cn-hanlei",
+        name: "韩磊",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://star.kuwo.cn/star/starheads/500/73/32/3277426859.jpg"
+    },
+    { 
+        id: "cn-heshisi",
+        name: "何雁诗",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/XcxpvYc4luzPvLmEVaqaPA==/1418370007006063.jpg"
+    },
+    { 
+        id: "cn-huangweijie",
+        name: "黄玮杰",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "http://img3.kuwo.cn/star/starheads/120/58/89/3040272758.jpg"
+    },
+    { 
+        id: "cn-menni",
+        name: "门尼",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "http://img3.kuwo.cn/star/starheads/120/s4s18/47/3557555491.jpg"
+    },
+    { 
+        id: "cn-miankong",
+        name: "面孔乐队",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/z39kgwcyz_frg1zAlrfHKQ==/109951164103448574.jpg"
+    },
+    { 
+        id: "cn-muma",
+        name: "木马乐队",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/gY-xeEpFiG-vA1cX5DflUw==/109951169858490975.jpg"
+    },
+    { 
+        id: "cn-yexier",
+        name: "叶喜儿",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "http://p1.music.126.net/HPy7BsTDDM93rjB3M2kPEQ==/109951168165804287.jpg"
+    },
+    { 
+        id: "jp-chico-with-honeyworks",
+        name: "CHiCO with HoneyWorks",
+        pinyin: "C",
+        category: "日韩风尚",
+        avatar: "http://p1.music.126.net/V_rHOoPJJaGVyOJmkhk6cA==/109951167614385149.jpg"
+    },
+    { 
+        id: "jp-lisa",
+        name: "織部里沙（LiSA）",
+        pinyin: "L",
+        category: "日韩风尚",
+        avatar: "http://p2.music.126.net/fVan92q3iVeKokI5qWScCA==/109951172697725495.jpg"
+    },
+    { 
+        id: "jp-e-girls",
+        name: "E-girls",
+        pinyin: "E",
+        category: "日韩风尚",
+        avatar: "http://p2.music.126.net/dmdWFYyQW2nNz-RBs0HWgQ==/109951165557469620.jpg"
+    },
+    { 
+        id: "jp-sawai-miku",
+        name: "沢井美空（Miku Sawai）",
+        pinyin: "M",
+        category: "日韩风尚",
+        avatar: "http://p2.music.126.net/jJk_S5opGqnvOtGB7azsEA==/109951170914509870.jpg"
+    },
+    { 
+        id: "jp-oda-kazumasa",
+        name: "小田和正（Kazumasa Oda）",
+        pinyin: "K",
+        category: "日韩风尚",
+        avatar: "http://p1.music.126.net/-0-AScu0n0xKF1OOUSUKQg==/109951170213987839.jpg"
+    },
+    { 
+        id: "jp-ozaki-yutaka",
+        name: "尾崎豊（Yutaka Ozaki）",
+        pinyin: "Y",
+        category: "日韩风尚",
+        avatar: "http://p1.music.126.net/YE_KmM4WfIOAYxm603TkuA==/109951172050846523.jpg"
+    },
+    { 
+        id: "jp-x-japan",
+        name: "X JAPAN",
+        pinyin: "X",
+        category: "日韩风尚",
+        avatar: "http://p2.music.126.net/tdpQPqlxwov2_QXDPZircg==/3406287028705257.jpg"
+    },
+    { 
+        id: "jp-ishikawa-sayuri",
+        name: "石川さゆり（Sayuri Ishikawa）",
+        pinyin: "S",
+        category: "日韩风尚",
+        avatar: "http://p2.music.126.net/NjcGGTWGsTmxdlFRq8IVnw==/109951172381870952.jpg"
+    },
+    { 
+        id: "jp-ueno-yuuka",
+        name: "上野優華（Yuuka Ueno）",
+        pinyin: "Y",
+        category: "日韩风尚",
+        avatar: "http://p2.music.126.net/eYUyCvY1U4yPRrsoTZ9obA==/109951167442602150.jpg"
+    },
+    { 
+        id: "jp-ken-hirai",
+        name: "平井堅（Ken Hirai）",
+        pinyin: "K",
+        category: "日韩风尚",
+        avatar: "http://p2.music.126.net/wdQdPTA4nt8AHsBR0VX91w==/109951170363391359.jpg"
+    },
+    { 
+        id: "jp-joe-hisaishi",
+        name: "久石譲（Joe Hisaishi）",
+        pinyin: "J",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/lmPikYrlW4U52Ytq4S4Bzg==/109951166214498925.jpg"
     }
 ];

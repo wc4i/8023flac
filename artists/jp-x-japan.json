@@ -1,0 +1,69 @@
+{
+  "id": "jp-x-japan",
+  "name": "X JAPAN",
+  "avatar": "http://p2.music.126.net/tdpQPqlxwov2_QXDPZircg==/3406287028705257.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Vanishing Vision",
+        "year": "1988.04",
+        "link": "https://pan.baidu.com/s/1Da_OdkP84NP33nkFDdtueQ?pwd=8023",
+        "cover": "http://p2.music.126.net/PRBwi0EHc4HKp7u4F50Hcw==/109951165671795700.jpg"
+      },
+      {
+        "title": "Blue Blood",
+        "year": "1989.04",
+        "link": "https://pan.baidu.com/s/1eEOnSU4YeGQtjWISi-ZZZg?pwd=8023",
+        "cover": "http://p2.music.126.net/3bHpGOzgOQTyhghnRLO_-Q==/109951172084678725.jpg"
+      },
+      {
+        "title": "Jealousy",
+        "year": "1991.07",
+        "link": "https://pan.baidu.com/s/14CBOyX5CUPyhaIxHoC2LGg?pwd=8023",
+        "cover": "http://p1.music.126.net/jS_VAbisTgFOFeOfg2OpXw==/109951166198211927.jpg"
+      },
+      {
+        "title": "DAHLIA",
+        "year": "1996.11",
+        "link": "https://pan.baidu.com/s/1WNLxE6ar938IODU0W_eIRg?pwd=8023",
+        "cover": "http://p2.music.126.net/N1htF9fYj3JemfSHXcOwCg==/109951171536394894.jpg"
+      }
+    ],
+    "Soundtrack (FLAC tracks)": [
+      {
+        "title": "We Are X (Original Soundtrack)",
+        "year": "2025.07",
+        "link": "https://pan.baidu.com/s/1Xy53KtA_xrHBuvCQwzqpoQ?pwd=8023",
+        "cover": ""
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "B.O.X.CD－Best of X- CD1",
+        "year": "1996.03",
+        "link": "https://pan.baidu.com/s/1MYJ9GT1us-ZNPthxO-eC9A?pwd=8023",
+        "cover": ""
+      },
+      {
+        "title": "B.O.X.CD－Best of X- CD2",
+        "year": "1996.03",
+        "link": "https://pan.baidu.com/s/1kqRBJ8NXFlUNl0lGEMdW3A?pwd=8023",
+        "cover": ""
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Art of Life (Extended Play)",
+        "year": "1993.08",
+        "link": "https://pan.baidu.com/s/1FR6_4jERWvjmU2PMSXxX7w?pwd=8023",
+        "cover": ""
+      },
+      {
+        "title": "Singles (as of 230728)",
+        "year": "",
+        "link": "https://pan.baidu.com/s/1oACAIXbsQuYLhb62TZ7Z1w?pwd=8023",
+        "cover": ""
+      }
+    ]
+  }
+}
