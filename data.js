@@ -48,7 +48,7 @@ const musicDatabase = [
     { 
         id: "cn-lizhi", 
         name: "李志", 
-        pinyin: "L", 
+        pinyin: "L",
         category: "华语金曲", 
         avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/18/e5/ac18e537-3cc4-7b13-5d03-95b1fa97ccef/9787798608441.jpg/600x600bb.jpg"
     },
@@ -748,6 +748,13 @@ const musicDatabase = [
         avatar: "https://p2.music.126.net/Y8gytSLMU9HUG9mjKZG0dw==/109951168540041383.jpg?param=640y640"
     },
     { 
+        id: "cn-xiemingyou",
+        name: "谢铭佑",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/41/8d/e2418d98-56fa-25ed-c5bd-374d21ec5e70/4711385815054.jpg/600x600bb.jpg"
+    },
+    { 
         id: "cn-adu",
         name: "阿杜",
         pinyin: "A",
@@ -1257,5 +1264,26 @@ const musicDatabase = [
         pinyin: "J",
         category: "日韩风尚",
         avatar: "https://p2.music.126.net/lmPikYrlW4U52Ytq4S4Bzg==/109951166214498925.jpg"
+    },
+    { 
+        id: "jp-lilas-ikuta",
+        name: "幾田りら（Lilas Ikuta）",
+        pinyin: "L",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/_yvA0fWvumukn5N03_llvw==/109951167527656544.jpg"
+    },
+    { 
+        id: "jp-sekitori-hana",
+        name: "関取花（Hana Sekitori）",
+        pinyin: "H",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/00f59WO0WX8zpaEo8UEp_g==/109951165674577299.jpg"
+    },
+    { 
+        id: "jp-nagabuchi-tsuyoshi",
+        name: "長渕剛（Tsuyoshi Nagabuchi）",
+        pinyin: "N",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/T0zRxI9tppyLSqST97s2sA==/5698768766889112.jpg"
     }
 ];
