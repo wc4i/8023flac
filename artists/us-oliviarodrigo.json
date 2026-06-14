@@ -1,0 +1,51 @@
+{
+  "id": "us-oliviarodrigo",
+  "name": "Olivia Rodrigo",
+  "avatar": "https://p1.music.126.net/8vwdxsZ0nZkHnhdY78Kxqw==/109951173373022088.jpg",
+  "groups": {
+    "Studio Albums": [
+      {
+        "title": "SOUR",
+        "year": "2021.05",
+        "cover": "https://p2.music.126.net/wnG_nE3aNVtJUW6Q75ZFMQ==/109951169026716028.jpg",
+        "link": "https://pan.baidu.com/s/1W4YHuwIiUcwK6ycgMOC9zg?pwd=8023"
+      },
+      {
+        "title": "GUTS (spilled)",
+        "year": "2024.03",
+        "cover": "https://p2.music.126.net/3HvcgOFcCSfTxT81TDHZuA==/109951169432532012.jpg",
+        "link": "https://pan.baidu.com/s/1neE4ADvU0TkEd6bpE6nQLQ?pwd=8023"
+      },
+      {
+        "title": "you seem pretty sad for a girl so in love",
+        "year": "2026.06",
+        "cover": "https://p2.music.126.net/m-MhdlXwnV7IwoHGCHU1sg==/109951173380403022.jpg",
+        "link": "https://pan.baidu.com/s/1D5dbqAdbGJkIHpBsdZBalg?pwd=8023"
+      }
+    ],
+    "Live Albums": [
+      {
+        "title": "Live From Glastonbury (A BBC Recording)",
+        "year": "2025.12",
+        "cover": "https://p2.music.126.net/IvL7ncrssomvgf4-JD646w==/109951172386484264.jpg",
+        "link": "https://pan.baidu.com/s/180isrUv9nJPXPgK7wAMtkw?pwd=8023"
+      }
+    ],
+    "Soundtrack": [
+      {
+        "title": "Best of High School Musical The Musical：The Series",
+        "year": "2021.07",
+        "cover": "https://p2.music.126.net/2CBwpLMYouDKcF5vROvY8w==/109951168146284778.jpg",
+        "link": "https://pan.baidu.com/s/120qHsbSu66qwKYRgXLQhhw?pwd=8023"
+      }
+    ],
+    "Singles": [
+      {
+        "title": "Singles (as of 231231)",
+        "year": "",
+        "cover": "https://p1.music.126.net/8vwdxsZ0nZkHnhdY78Kxqw==/109951173373022088.jpg",
+        "link": "https://pan.baidu.com/s/1jl7l3GxrymnWALUCjosk_Q?pwd=8023"
+      }
+    ]
+  }
+}

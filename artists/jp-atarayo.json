@@ -1,0 +1,47 @@
+{
+  "id": "jp-atarayo",
+  "name": "あたらよ（Atarayo）",
+  "avatar": "https://p1.music.126.net/pOvQ6UmQwWgE2LZ6jkBarQ==/109951172591881444.jpg",
+  "groups": {
+    "Studio Albums": [
+      {
+        "title": "夜明け前",
+        "year": "2021.10",
+        "cover": "http://img3.kuwo.cn/star/albumcover/400/73/86/3513877216.jpg",
+        "link": "https://pan.baidu.com/s/1RDxBRHqFo77yuleBPdf4pw?pwd=8023"
+      },
+      {
+        "title": "極夜において月は語らず",
+        "year": "2022.03",
+        "cover": "http://img4.kuwo.cn/star/albumcover/400/s4s59/63/3833740227.jpg",
+        "link": "https://pan.baidu.com/s/1XxVNhEkrwEFTcnCwEfD9MQ?pwd=8023"
+      },
+      {
+        "title": "季億の箱",
+        "year": "2023.08",
+        "cover": "http://img2.kuwo.cn/star/albumcover/400/s4s92/61/2874834361.jpg",
+        "link": "https://pan.baidu.com/s/1V2mMuJF9Ydycj1aY5f3xXg?pwd=8023"
+      },
+      {
+        "title": "朝露は木漏れ日に溶けて",
+        "year": "2024.09",
+        "cover": "http://img3.kuwo.cn/star/albumcover/400/s4s34/34/407821671.jpg",
+        "link": "https://pan.baidu.com/s/127lYnxQW8N8u7xUyjUdTxg?pwd=8023"
+      },
+      {
+        "title": "泡沫の夢は幻に",
+        "year": "2025.10",
+        "cover": "http://img4.kuwo.cn/star/albumcover/400/s4s80/32/1959673066.jpg",
+        "link": "https://pan.baidu.com/s/1UlyGorVEL_PmXmj0qeWfVg?pwd=8023"
+      }
+    ],
+    "Live Albums": [
+      {
+        "title": "Acoustic Session",
+        "year": "2022.07",
+        "cover": "http://img3.kuwo.cn/star/albumcover/400/s4s14/7/4019710142.jpg",
+        "link": "https://pan.baidu.com/s/1VVK2tVLmGaDR-pKMbRQEuw?pwd=8023"
+      }
+    ]
+  }
+}

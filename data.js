@@ -775,12 +775,33 @@ const musicDatabase = [
         category: "华语金曲",
         avatar: "https://p2.music.126.net/-MsAqYVN3VEXpDFJF7NDyg==/452998790645525.jpg?param=640y640"
     },
-    { 
+    {
         id: "kr-hyukoh",
         name: "HYUKOH（혁오）",
         pinyin: "H",
         category: "日韩风尚",
         avatar: "https://p2.music.126.net/nhtl5x-Y6xj47nHcdqWixQ==/2921402396910237.jpg?param=640y640"
+    },
+    {
+        id: "kr-irene",
+        name: "IRENE (아이린)",
+        pinyin: "I",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/JO1rjIaX20hZbmNDdTKEzg==/109951170175638969.jpg"
+    },
+    {
+        id: "kr-t-ara",
+        name: "T-ara (티아라)",
+        pinyin: "T",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/A51VTHI5Y-B3iy1UB2fi0w==/109951166779380660.jpg"
+    },
+    {
+        id: "kr-yves",
+        name: "Yves (이브)",
+        pinyin: "Y",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/lRacigZTmd600nStf4xYWw==/109951169597595123.jpg"
     },
     { 
         id: "cn-majididi",
@@ -1285,5 +1306,96 @@ const musicDatabase = [
         pinyin: "N",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/T0zRxI9tppyLSqST97s2sA==/5698768766889112.jpg"
+    },
+    {
+        id: "us-oliviarodrigo",
+        name: "Olivia Rodrigo",
+        pinyin: "O",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/8vwdxsZ0nZkHnhdY78Kxqw==/109951173373022088.jpg"
+    },
+    {
+        id: "jp-maaya-sakamoto",
+        name: "坂本真綾（Maaya Sakamoto）",
+        pinyin: "M",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/9iPJkVxXumluIsITDK8fXA==/109951172454927114.jpg"
+    },
+    {
+        id: "jp-ryuichi-sakamoto",
+        name: "坂本龍一（Ryuichi Sakamoto）",
+        pinyin: "R",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/LENEH5ZOuBlW8RCOz-1BUw==/109951170035050707.jpg"
+    },
+    {
+        id: "jp-yellow-magic-orchestra",
+        name: "Yellow Magic Orchestra",
+        pinyin: "Y",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/Fi66jjBP17cJQLHgkl5DNA==/109951164923060890.jpg"
+    },
+    {
+        id: "jp-kishida-kyodan",
+        name: "岸田教団＆THE明星ロケッツ（Kishida Kyodan & The Akeboshi Rockets）",
+        pinyin: "K",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/8iJWTUPfddY86idYCuD6OQ==/109951163508931190.jpg"
+    },
+    {
+        id: "jp-riria",
+        name: "りりあ。（riria.）",
+        pinyin: "R",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/WL2YQstp9_ni9sNDkXzJDw==/109951170213930591.jpg"
+    },
+    {
+        id: "jp-kerakera",
+        name: "ケラケラ（KERAKERA）",
+        pinyin: "K",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/XCmHbVh8i05EzcNDnuY1Cw==/5957153999437622.jpg"
+    },
+    {
+        id: "jp-atarayo",
+        name: "あたらよ（Atarayo）",
+        pinyin: "A",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/pOvQ6UmQwWgE2LZ6jkBarQ==/109951172591881444.jpg"
+    },
+    {
+        id: "jp-yoasobi",
+        name: "YOASOBI",
+        pinyin: "Y",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/Af267FCGfOlv8b48PukVUg==/109951172064237298.jpg"
+    },
+    {
+        id: "jp-girl-next-door",
+        name: "girl next door",
+        pinyin: "G",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/lUvnzATLm0HNnj3mO0p6fg==/864216139455670.jpg"
+    },
+    {
+        id: "kr-aespa",
+        name: "aespa",
+        pinyin: "A",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/8nKTd5vdBthCmfJotzjcGA==/109951171467169368.jpg"
+    },
+    {
+        id: "kr-akmu",
+        name: "AKMU",
+        pinyin: "A",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/j4YuIJj-_sPyETBa_ULsuA==/109951173021669505.jpg"
+    },
+    {
+        id: "kr-boa",
+        name: "BoA",
+        pinyin: "B",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/Nr2G9r6xy5i8mM3e4FkuMg==/109951169431818675.jpg"
     }
 ];

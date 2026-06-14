@@ -1,38 +1,40 @@
 {
   "id": "kr-hyukoh",
-  "name": "HYUKOH（혁오）",
-  "avatar": "https://p2.music.126.net/nhtl5x-Y6xj47nHcdqWixQ==/2921402396910237.jpg?param=640y640",
+  "name": "HYUKOH",
+  "avatar": "https://p2.music.126.net/AamAGT8uuGM73yPe7KaZLw==/7968160768044801.jpg",
   "groups": {
-    "Studio Albums (FLAC tracks)": [
+    "Full Albums": [
       {
         "title": "24：How to find true love and happiness",
         "year": "2018.05",
-        "link": "https://pan.baidu.com/s/1VIkO2Fbx3xB9C4CrayStAg?pwd=8023",
-        "cover": "https://p2.music.126.net/KFGhs0ezYgiJBN4BPq7SHw==/109951163325618095.jpg"
+        "cover": "http://img2.sycdn.kuwo.cn/star/albumcover/400/64/27/4177182873.jpg",
+        "link": "https://pan.baidu.com/s/1kFZOzhTSWJNdd8BosmjfHQ?pwd=8023"
       },
       {
-        "title": "23",
-        "year": "2017.04",
-        "link": "https://pan.baidu.com/s/1JqvbjuXWdwIcZlPmMmTpZw?pwd=8023",
-        "cover": "https://p2.music.126.net/UPny8fU1E_SJucyOktgauw==/18926993160633418.jpg"
+        "title": "through love",
+        "year": "2020.01",
+        "cover": "http://p1.music.126.net/6ocDmEEjmf9SeQ2VJHWBnA==/109951168205274837.jpg",
+        "link": "https://pan.baidu.com/s/1knNPA7UA2qqZkdBQqbpRSg?pwd=8023"
       },
       {
         "title": "22",
         "year": "2015.05",
-        "link": "https://pan.baidu.com/s/1AeDnEAh4EQwcGNeOUpLnug?pwd=8023",
-        "cover": "https://p1.music.126.net/Q-cHkuMoXQd356TICcSdpw==/7722969674384861.jpg"
+        "cover": "http://img1.sycdn.kuwo.cn/star/albumcover/400/s4s45/65/4212570943.jpg",
+        "link": "https://pan.baidu.com/s/19rG80Yuh1Mq6ET_yy55a3Q?pwd=8023"
       },
       {
-        "title": "20",
-        "year": "2014.09",
-        "link": "https://pan.baidu.com/s/1C4OielrZUMGVQy5mdcIoBw?pwd=8023",
-        "cover": "https://p1.music.126.net/35r30IkPkMQw52P23PG1OQ==/18365142719528784.jpg"
-      },
+        "title": "23",
+        "year": "2017.04",
+        "cover": "http://img3.sycdn.kuwo.cn/star/albumcover/400/80/0/2707700642.jpg",
+        "link": "https://pan.baidu.com/s/1TJTS9p6THfaTe4Kn9cb7PA?pwd=8023"
+      }
+    ],
+    "EPs & Singles": [
       {
-        "title": "through love [24-48]",
-        "year": "2020.01",
-        "link": "https://pan.baidu.com/s/1WhWk8PTR3jNLx2jLbw2pOg?pwd=8023",
-        "cover": "https://p2.music.126.net/6ocDmEEjmf9SeQ2VJHWBnA==/109951168205274837.jpg"
+        "title": "Panda Bear",
+        "year": "2015.01",
+        "cover": "http://img1.sycdn.kuwo.cn/star/albumcover/400/s4s4/93/1431864517.jpg",
+        "link": "https://pan.baidu.com/s/1PvIcTe_lZTtN39w3YqV-WA?pwd=8023"
       }
     ]
   }
