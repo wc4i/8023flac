@@ -1572,5 +1572,61 @@ const musicDatabase = [
         pinyin: "J",
         category: "欧美之声",
         avatar: "https://p1.music.126.net/QTCKZvpPwk9bzvmG67EYqQ==/775155697593571.jpg"
+    },
+    {
+        id: "us-justintimberlake",
+        name: "Justin Timberlake",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/eGhHFk8lcU1FIi5vxv9iIQ==/109951169357770419.jpg"
+    },
+    {
+        id: "cn-huishengtuan",
+        name: "回声乐团",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/22/2b/0e/222b0e48-7cde-19f5-6fd1-1ff37d1b8446/4710243778067.png/600x600bb.jpg"
+    },
+    {
+        id: "us-kehlani",
+        name: "Kehlani",
+        pinyin: "K",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/46/23/97462320-3dc5-f1ce-1436-725e4ddf9862/075679908612.jpg/600x600bb.jpg"
+    },
+    {
+        id: "uk-kingcrimson",
+        name: "King Crimson",
+        pinyin: "K",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/a8/5d/d3/a85dd370-ed7e-1e6f-f2ee-5464f7b3a978/Red_2500px.jpg/600x600bb.jpg"
+    },
+    {
+        id: "no-kygo",
+        name: "Kygo",
+        pinyin: "K",
+        category: "欧美之声",
+        avatar: "http://p1.music.126.net/mIe-yAeryxEfZIz4aBuc8w==/109951169682732902.jpg"
+    },
+    {
+        id: "us-lauv",
+        name: "Lauv",
+        pinyin: "L",
+        category: "欧美之声",
+        avatar: "http://p1.music.126.net/gDluJB24iEH4sHETa1qYXQ==/109951169612657729.jpg"
+    },
+    {
+        id: "us-lilnasx",
+        name: "Lil Nass X",
+        pinyin: "L",
+        category: "欧美之声",
+        avatar: "http://p2.music.126.net/gHFnAwGcFApPN4cahzeFEQ==/109951169727325996.jpg"
+    },
+    {
+        id: "us-littlerichard",
+        name: "Little Richard",
+        pinyin: "L",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/6a/59/ba/6a59ba83-b62c-0aba-afdf-70112572352d/00888072025745.rgb.jpg/600x600bb.jpg"
     }
 ];

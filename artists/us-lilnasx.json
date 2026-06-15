@@ -1,0 +1,26 @@
+{
+  "id": "us-lilnasx",
+  "name": "Lil Nas X",
+  "avatar": "http://p2.music.126.net/gHFnAwGcFApPN4cahzeFEQ==/109951169727325996.jpg",
+  "groups": {
+    "Studio Albums": [
+      {
+        "title": "MONTERO (With Commentary)",
+        "year": "2021",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/cf/dc/9fcfdc19-7a61-3836-defb-35d817529b25/886449511440.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Days Before Dreamboy",
+        "year": "2025",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/c9/da/4fc9da6a-418d-5af6-7ae2-0ae6faca01d3/196873019833.jpg/600x600bb.jpg"
+      }
+    ],
+    "EP & Singles": [
+      {
+        "title": "7 EP",
+        "year": "2019",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/d4/c3/07d4c33e-b793-d78f-bb1b-52f1e224da88/886447788264.jpg/600x600bb.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "us-lauv",
+  "name": "Lauv",
+  "avatar": "http://p1.music.126.net/gDluJB24iEH4sHETa1qYXQ==/109951169612657729.jpg",
+  "groups": {
+    "Studio Albums": [
+      {
+        "title": "I met you when I was 18. (the playlist)",
+        "year": "2018",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/3d/e5/5c3de510-1123-0da6-9531-318d9597159c/5056167107347_Cover.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "~how i'm feeling~",
+        "year": "2020",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cc/ad/f1/ccadf18b-590a-9cdc-bb66-bcd42d6a367f/5056167113867_1.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "All 4 Nothing",
+        "year": "2022",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/04/99/55/04995508-c4d6-4c5a-79fe-cc71e53a34ac/22UMGIM33632.rgb.jpg/600x600bb.jpg"
+      }
+    ],
+    "EP & Singles": [
+      {
+        "title": "There's No Way - EP",
+        "year": "2018",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/8a/e7/778ae759-cfe6-4c08-1d06-53d7706470a2/5056167109921_1.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Without You - EP",
+        "year": "2020",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/9c/6c/559c6c7f-c964-abab-9455-310f7099b53e/5056167125723_1.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Because Of You - EP",
+        "year": "2024",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/db/e8/a3/dbe8a3dc-e5ab-6bb8-df95-85716c2e3948/198846566887.jpg/600x600bb.jpg"
+      }
+    ]
+  }
+}

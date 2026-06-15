@@ -1,0 +1,56 @@
+{
+  "id": "us-kehlani",
+  "name": "Kehlani",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/46/23/97462320-3dc5-f1ce-1436-725e4ddf9862/075679908612.jpg/600x600bb.jpg",
+  "groups": {
+    "Studio Albums": [
+      {
+        "title": "SweetSexySavage (Deluxe)",
+        "year": "2017",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/46/23/97462320-3dc5-f1ce-1436-725e4ddf9862/075679908612.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "It Was Good Until It Wasn't",
+        "year": "2020",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9a/5b/cc/9a5bccbb-e46a-5fc1-1ff9-155d4f90d42b/075679821706.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "blue water road",
+        "year": "2022",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/66/75/04/667504c5-b502-0d70-e12a-5db22c5541ae/075679779724.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "CRASH",
+        "year": "2024",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/31/d3/3e31d322-8e5e-af1e-02e8-4f5ecbec0392/075679659781.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Kehlani",
+        "year": "2026",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/ea/6c/daea6c92-0990-d691-3283-6f019c4c8529/075679584670.jpg/600x600bb.jpg"
+      }
+    ],
+    "EP & Singles": [
+      {
+        "title": "Cloud 19",
+        "year": "2014",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1d/d2/47/1dd24753-cca0-76da-d4cc-ec8c13805dee/075679770288.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "You Should Be Here",
+        "year": "2015",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d6/3d/10/d63d10e2-f1d6-5cc2-9ad4-824529f91306/075679691545.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "While We Wait",
+        "year": "2019",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/ad/b2/77adb2d1-800e-6ddf-240a-59ed1739b6e8/075679855497.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "While We Wait 2",
+        "year": "2024",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d6/f9/d9/d6f9d930-d425-1941-7dd6-15ce2621906d/075679634672.jpg/600x600bb.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "no-kygo",
+  "name": "Kygo",
+  "avatar": "http://p1.music.126.net/mIe-yAeryxEfZIz4aBuc8w==/109951169682732902.jpg",
+  "groups": {
+    "Studio Albums": [
+      {
+        "title": "Cloud Nine",
+        "year": "2016",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b5/69/ad/b569ad82-3ac0-54a8-bafc-baf349491541/0617465690853.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Kids in Love",
+        "year": "2017",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/48/61/dd/4861dd68-2c7f-89d8-d93a-05f1583e6afd/0617465915253.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Golden Hour",
+        "year": "2020",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/45/0d/7e450def-fa0d-02c1-5cff-206534f88faf/886448458449.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Thrill Of The Chase",
+        "year": "2022",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/96/c7/1b/96c71bf7-7d5d-9dc0-1643-d241c9ca4b6c/196589585011.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "KYGO",
+        "year": "2024",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/08/30/c0083014-4172-a1ac-6daf-4542085dbfd0/196872030136.jpg/600x600bb.jpg"
+      }
+    ],
+    "Compilation": [
+      {
+        "title": "Kids in Love (Remixes)",
+        "year": "2017",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/48/61/dd/4861dd68-2c7f-89d8-d93a-05f1583e6afd/0617465915253.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "KYGO (The Remixes)",
+        "year": "2024",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/31/8f/28318f59-b675-51e5-e425-ce9b0e74a458/196872428155.jpg/600x600bb.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "us-justintimberlake",
+  "name": "Justin Timberlake",
+  "avatar": "https://p1.music.126.net/eGhHFk8lcU1FIi5vxv9iIQ==/109951169357770419.jpg",
+  "groups": {
+    "Studio Albums": [
+      {
+        "title": "Justified",
+        "year": "2002",
+        "link": "https://music.apple.com/us/album/justified/1039992630",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f9/76/d2/f976d242-4e68-1919-6576-ef4c869c077a/dj.umvqrvup.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "FutureSex/LoveSounds (Deluxe Edition)",
+        "year": "2006",
+        "link": "https://music.apple.com/us/album/futuresex-lovesounds-deluxe-edition/1039992799",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4c/44/30/4c4430dd-150b-d393-ec70-4894975f4b16/888880422095.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "The 20/20 Experience (Deluxe Version)",
+        "year": "2013",
+        "link": "https://music.apple.com/us/album/the-20-20-experience-deluxe-version/638282845",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/74/c9/5374c99e-cff1-61a6-ca0f-fa1219d050a0/886443854406.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "The 20/20 Experience - 2 of 2 (Deluxe)",
+        "year": "2013",
+        "link": "https://music.apple.com/us/album/the-20-20-experience-2-of-2-deluxe/638283393",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b8/d4/6e/b8d46eaf-afbf-c90d-9307-e2212177ec33/886444128278.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Man of the Woods",
+        "year": "2018",
+        "link": "https://music.apple.com/us/album/man-of-the-woods/1440871361",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9b/3d/a7/9b3da71d-0a60-69f0-41db-a33a60651a69/886446900759.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Everything I Thought It Was",
+        "year": "2024",
+        "link": "https://music.apple.com/us/album/everything-i-thought-it-was/1731589833",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/bf/33/66bf3383-c668-88ed-6d72-732a253d577b/196871926942.jpg/600x600bb.jpg"
+      }
+    ],
+    "Soundtrack": [
+      {
+        "title": "The Book of Love (Original Motion Picture Soundtrack)",
+        "year": "2017",
+        "link": "https://music.apple.com/us/album/the-book-of-love-original-motion-picture-soundtrack/1233163775",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/75/9b/7d/759b7de6-38a7-67d4-d73c-487f04d0718f/886446290850.jpg/600x600bb.jpg"
+      }
+    ],
+    "Compilation": [
+      {
+        "title": "12\" Masters - The Essential Mixes: Justin Timberlake",
+        "year": "2010",
+        "link": "https://music.apple.com/us/album/12-masters-the-essential-mixes-justin-timberlake/369761048",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8f/9b/2a/8f9b2a51-bd48-0216-5583-70a1c5dc3d83/mzi.cinbbbor.jpg/600x600bb.jpg"
+      }
+    ],
+    "Singles": [
+      {
+        "title": "Singles (as of 231231)",
+        "year": "",
+        "link": "",
+        "cover": "https://p1.music.126.net/eGhHFk8lcU1FIi5vxv9iIQ==/109951169357770419.jpg"
+      }
+    ]
+  }
+}
