@@ -1537,5 +1537,40 @@ const musicDatabase = [
         pinyin: "D",
         category: "欧美之声",
         avatar: "https://p2.music.126.net/IYf_pG2T5Ld89EqdIrr5cw==/109951172373878970.jpg"
+    },
+    {
+        id: "us-him",
+        name: "HIM",
+        pinyin: "H",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/AQfposGX0y1caqI5iu74nw==/109951164017439563.jpg"
+    },
+    {
+        id: "us-imaginedragons",
+        name: "Imagine Dragons",
+        pinyin: "I",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/lWRDGFJAq-VcUIiQjDq4ow==/109951170483989765.jpg"
+    },
+    {
+        id: "us-jamesbrown",
+        name: "James Brown",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/BD-gfB4tFCkVDm9sIOGVsg==/177021372091863.jpg"
+    },
+    {
+        id: "us-jessiej",
+        name: "Jessie J",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/SR_oLcRJyLnD_OFSkhF8hw==/109951168272063214.jpg"
+    },
+    {
+        id: "us-joanosborne",
+        name: "Joan Osborne",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/QTCKZvpPwk9bzvmG67EYqQ==/775155697593571.jpg"
     }
 ];
