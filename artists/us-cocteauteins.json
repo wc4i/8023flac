@@ -1,0 +1,87 @@
+{
+  "id": "us-cocteauteins",
+  "name": "Cocteau Twins",
+  "avatar": "https://p2.music.126.net/917sb-NJacP7pZLErsdCog==/736672790644834.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Garlands",
+        "year": "1982.06",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/09/85/fd/0985fdd0-d6eb-bc8a-c5a6-c2401ced71d0/652637021189.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1TVOZhiKKVmc57u8GTxUCzw?pwd=8023"
+      },
+      {
+        "title": "Head Over Heels",
+        "year": "1983.08",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/de/eb/56deeb65-2cc1-d303-0fe7-9917960d24ef/652637031300.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1fL6jbeYtGk7FsHFqjNVXiA?pwd=8023"
+      },
+      {
+        "title": "Treasure",
+        "year": "1984.10",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/93/da/8893da24-c559-a08a-b750-07185eb9960a/652637041200.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1bPD4Ek8ouJQaD1O6gvmkRQ?pwd=8023"
+      },
+      {
+        "title": "Victorialand",
+        "year": "1986.04",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/76/1f/55/761f5585-2cc4-b442-2fcf-eeb9e74976fb/652637060201.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/18sTFOpdxMmAiYVdUIXN7DA?pwd=8023"
+      },
+      {
+        "title": "Blue Bell Knoll",
+        "year": "1988.09",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/1a/e0/ea1ae0ab-7a1e-96eb-b2d0-e6878d81c94a/652637080780.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1CvOxXPR-dQkkn0-AkcP3qA?pwd=8023"
+      },
+      {
+        "title": "Heaven or Las Vegas",
+        "year": "1990.09",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/76/cd/61/76cd61e7-0714-dce5-c48e-0f05f8fcb84b/652637001280.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1x3FThNCIoZ5LPohFVCgDxA?pwd=8023"
+      },
+      {
+        "title": "Four-Calendar Café (2024 Remaster)",
+        "year": "1993.10",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/1e/06/751e0664-902e-6b59-4fe1-84bd13aa0715/191400061767.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1mZJeL8FmDD35RIZ7yz2djg?pwd=8023"
+      },
+      {
+        "title": "Milk & Kisses",
+        "year": "1996.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f4/08/22/f40822b5-df76-02d3-09cb-fcf6cde589c6/191400071568.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/11Tuo58QL-xe3gt3cmePdbw?pwd=8023"
+      }
+    ],
+    "Collaborative Albums (FLAC tracks)": [
+      {
+        "title": "The Moon And The Melodies (ft. Harold Budd)",
+        "year": "1986.11",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/20/96/39/2096390c-a094-aecb-1f54-e093d680b16c/652637061185.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1-Qtttm0OhTCgqcFqk_gyWw?pwd=8023"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "The Pink Opaque",
+        "year": "1986.01",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/93/b3/e093b33c-c7d5-4169-6525-45cd5b8fa12c/652637051384.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1POeMjyupXS50nE5fwfjQTQ?pwd=8023"
+      },
+      {
+        "title": "Cocteau Twins Singles Collection",
+        "year": "1991.11",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/57/0e/4e/570e4e6b-5fcd-3109-baf8-84ed1f4a8879/609008279465.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/10VXbcV1fywHbLJV2L3WpUg?pwd=8023"
+      }
+    ],
+    "EPs & Singles (FLAC tracks)": [
+      {
+        "title": "Tiny Dynamine / Echoes In A Shallow Bay",
+        "year": "1985.11",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/79/9a/c3/799ac30a-293d-0322-3168-c738255a7e0d/652637051049.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/16qfn134_DZ3LgLLyDSyMhQ?pwd=8023"
+      }
+    ]
+  }
+}

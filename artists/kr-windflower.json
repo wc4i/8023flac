@@ -1,0 +1,27 @@
+{
+  "id": "kr-windflower",
+  "name": "바람꽃 (Wind Flower)",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ee/2a/eb/ee2aeb86-b068-476d-4c90-52d38a570782/8809829705798.jpg/600x600bb.jpg",
+  "groups": {
+    "Full Albums": [
+      {
+        "title": "Vol. 1 [Rain and Loneliness]",
+        "year": "1989.04",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ee/2a/eb/ee2aeb86-b068-476d-4c90-52d38a570782/8809829705798.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/178sdsYi8zj6Q2TSyHEZP9g?pwd=8023"
+      },
+      {
+        "title": "The 2nd Album of Wind Flower",
+        "year": "1994.07",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/68/cb/e0/68cbe0d9-b764-edb4-d142-d6ef6702e281/8806184704978.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1ZiPgNX2DwAhtJkzh-yVR0g?pwd=8023"
+      },
+      {
+        "title": "The 3rd Album of Wind Flower",
+        "year": "1997.02",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/53/67/bc/5367bcac-71d4-e40e-69e3-dfeb5602c531/8806184704985.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1Izb9C7PAQyMuOnC7TyXZPA?pwd=8023"
+      }
+    ]
+  }
+}

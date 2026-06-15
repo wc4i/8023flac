@@ -1397,5 +1397,145 @@ const musicDatabase = [
         pinyin: "B",
         category: "日韩风尚",
         avatar: "https://p2.music.126.net/Nr2G9r6xy5i8mM3e4FkuMg==/109951169431818675.jpg"
+    },
+    {
+        id: "kr-windflower",
+        name: "바람꽃 (Wind Flower)",
+        pinyin: "W",
+        category: "日韩风尚",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ee/2a/eb/ee2aeb86-b068-476d-4c90-52d38a570782/8809829705798.jpg/600x600bb.jpg"
+    },
+    {
+        id: "cn-maniexian",
+        name: "马念先",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/YSekgfzZeo_Fd6ecnZ_rzQ==/922490255729842.jpg"
+    },
+    {
+        id: "cn-zhangxingchan",
+        name: "张醒婵",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/NVPoXBkZ8ckRLZkVdkbm3A==/109951165399673170.jpg"
+    },
+    {
+        id: "cn-tuhonggang",
+        name: "屠洪刚",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/wSIQU5TOcnM97kZ_AXr4aQ==/81363860473416.jpg"
+    },
+    {
+        id: "cn-luodayou",
+        name: "罗大佑",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/RG7o5BwKjIVK5-PHlPtlNA==/109951172024531494.jpg"
+    },
+    {
+        id: "us-adele",
+        name: "Adele",
+        pinyin: "A",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/X_tH0bklGF5AjWeTafL5bw==/109951172373873368.jpg"
+    },
+    {
+        id: "us-alanismorissette",
+        name: "Alanis Morissette",
+        pinyin: "A",
+        category: "欧美之声",
+        avatar: "http://p1.music.126.net/6Ch6jL1O8etWaoiIWQ6X0g==/109951165956624935.jpg"
+    },
+    {
+        id: "us-avicii",
+        name: "Avicii",
+        pinyin: "A",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/VFIh-ZZhVwiXL6h_pxd44A==/109951166128779931.jpg"
+    },
+    {
+        id: "us-bbking",
+        name: "B.B. King",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/K6IQ56JaWn_soX5lz0hjmw==/195713069764080.jpg"
+    },
+    {
+        id: "us-benjaminclementine",
+        name: "Benjamin Clementine",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/tsViiCpd2JdI9mqhCiNmig==/6621259022761077.jpg"
+    },
+    {
+        id: "us-boardsofcanada",
+        name: "Boards of Canada",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/xtAGiRmy6BkzxQFtjXJIxQ==/5929666209037542.jpg"
+    },
+    {
+        id: "us-bobdylan",
+        name: "Bob Dylan",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/0tY_34MqhE6VayPfvxeVfw==/109951168271930969.jpg"
+    },
+    {
+        id: "us-bossmandlow",
+        name: "Bossman Dlow",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/X4zALgwSopYXGd1g-fIxPA==/109951168009598315.jpg"
+    },
+    {
+        id: "us-boywithuke",
+        name: "BoyWithUke",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/hoD43Ts-TR7zUgzM-pSefA==/109951166605982853.jpg"
+    },
+    {
+        id: "us-britneyspears",
+        name: "Britney Spears",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/ht2XsOngjArNSBuk4lNGLA==/109951166541216410.jpg"
+    },
+    {
+        id: "us-christinaaguilera",
+        name: "Christina Aguilera",
+        pinyin: "C",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/ZGR9siPMonIMPcJzbpKqyA==/109951167948237353.jpg"
+    },
+    {
+        id: "us-cocteauteins",
+        name: "Cocteau Twins",
+        pinyin: "C",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/917sb-NJacP7pZLErsdCog==/736672790644834.jpg"
+    },
+    {
+        id: "us-danielcaesar",
+        name: "Daniel Caesar",
+        pinyin: "D",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/fjQ50mbu7inIjr4DXaSTHA==/109951172201677466.jpg"
+    },
+    {
+        id: "us-dio",
+        name: "Dio",
+        pinyin: "D",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/gQNbF_UJiOqPMXqpBMQxMA==/733374255761151.jpg"
+    },
+    {
+        id: "us-drake",
+        name: "Drake",
+        pinyin: "D",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/IYf_pG2T5Ld89EqdIrr5cw==/109951172373878970.jpg"
     }
 ];

@@ -1,0 +1,41 @@
+{
+  "id": "us-adele",
+  "name": "Adele",
+  "avatar": "https://p2.music.126.net/X_tH0bklGF5AjWeTafL5bw==/109951172373873368.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "19",
+        "year": "2008.01",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/93/3b/dd/933bddde-bd73-0fd2-70f5-f4cf683c34f7/191404093863.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/14wUeON2UGbrnKv_ZBD-M6A?pwd=8023"
+      },
+      {
+        "title": "21",
+        "year": "2011.01",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1jTYRsNm7acT4DY8thIIiHg?pwd=8023"
+      },
+      {
+        "title": "25",
+        "year": "2015.11",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/08/8c/24/088c2405-2e33-801b-5c38-e967f2c01e69/191404113974.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1zYH_dFmhWXiX6yyvLL9RPg?pwd=8023"
+      },
+      {
+        "title": "30",
+        "year": "2021.11",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/6d/7c/736d7cfb-c79d-c9a9-4170-5e71d008dea1/886449666430.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1FvY599FDHfYXiRcTMpYJBw?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Skyfall",
+        "year": "",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b3/fe/cf/b3fecf76-0359-8e14-0651-4b101fc68a3f/886443673632.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1_XNErf_iU1hQBBO0w0wHEQ?pwd=8023"
+      }
+    ]
+  }
+}

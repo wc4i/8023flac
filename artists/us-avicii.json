@@ -1,0 +1,47 @@
+{
+  "id": "us-avicii",
+  "name": "Avicii",
+  "avatar": "https://p2.music.126.net/VFIh-ZZhVwiXL6h_pxd44A==/109951166128779931.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "True (Bonus Edition)",
+        "year": "2013.09",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/de/65/6c/de656c04-da50-4be1-1d3d-b0bb32667f52/20UMGIM76790.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/18uHyu4JCInxHj9p5w1A3gw?pwd=8023"
+      },
+      {
+        "title": "Stories",
+        "year": "2015.10",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e0/f4/25/e0f425ba-2848-f1c2-e102-9ddcef5e9d9d/15UMGIM35223.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1HAMmvRQPsCUESNYoQGEmSA?pwd=8023"
+      },
+      {
+        "title": "AVĪCI (01)",
+        "year": "2017.08",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/97/ec/23/97ec23c0-cb32-5da3-b8ec-b04b2c2c3333/17UM1IM17510.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1Xwpbp0O4voPW8EM6WiQxKg?pwd=8023"
+      },
+      {
+        "title": "TIM",
+        "year": "2019.06",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/29/9e/8f/299e8f03-3a49-6a5c-9bec-32c0964c2832/19UMGIM41833.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1fkX8yOMLrvhgHpN2_aJ4Xw?pwd=8023"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "Live A Life You Will Remember",
+        "year": "2021.05",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/36/cb/e4/36cbe4c1-725b-80db-283e-04ee57911867/21UMGIM91133.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1cA64XhR1SN0fBxbNz-5afg?pwd=8023"
+      },
+      {
+        "title": "Avicii Forever",
+        "year": "2025.05",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/50/b8/4d50b864-b336-7616-a422-50e18f04022c/25UMGIM53730.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/11M1aO0Xj2PZgY9gYUcTbEQ?pwd=8023"
+      }
+    ]
+  }
+}

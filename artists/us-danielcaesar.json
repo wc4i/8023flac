@@ -1,0 +1,41 @@
+{
+  "id": "us-danielcaesar",
+  "name": "Daniel Caesar",
+  "avatar": "https://p2.music.126.net/fjQ50mbu7inIjr4DXaSTHA==/109951172201677466.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Freudian",
+        "year": "2017.08",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/cd/1a/b6cd1a5b-83af-a1e2-0ad7-ea530fcf2522/859722261219.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1jtANVR3K5wK1LBFEyP0p0Q?pwd=8023"
+      },
+      {
+        "title": "CASE STUDY 01",
+        "year": "2019.06",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/16/83/aa1683e3-6b82-e14c-8c56-2dad38d3dd02/193483999333.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/13H_p9TKZoz6RdyMc9G7ilQ?pwd=8023"
+      },
+      {
+        "title": "NEVER ENOUGH (Bonus Version)",
+        "year": "2023.04",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/e3/8e/36e38e7e-94ec-dbcd-f23c-0890e1a9518f/22UM1IM44821.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1o4tNXqGz9VciH7NlgRdTBw?pwd=8023"
+      },
+      {
+        "title": "Son Of Spergy",
+        "year": "2025.10",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/c0/c5/3bc0c51d-33f2-ee19-e148-6d8f2c50df24/25UMGIM90843.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/167n-69EENmhJOx4NOr7h9w?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "Up Next Live From Apple Covent Garden (Live)",
+        "year": "2025.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6e/4f/69/6e4f69f4-a732-256d-bf23-f5245ab174bd/859734199319.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1o4zwPufWe12LkJK4z9aVvw?pwd=8023"
+      }
+    ]
+  }
+}
