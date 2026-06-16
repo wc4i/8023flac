@@ -95,7 +95,7 @@ const musicDatabase = [
         avatar: "https://p2.music.126.net/mZv6m9OsfiWnE80NHxhZSA==/109951170120538410.jpg"
     },
     {
-        id: "uk-judaspriest",
+        id: "us-judaspriest",
         name: "Judas Priest",
         pinyin: "J",
         category: "欧美之声",
@@ -377,7 +377,7 @@ const musicDatabase = [
         avatar: "https://p1.music.126.net/AJP6zkoNdMNqJxEpP5r_vQ==/109951169044863787.jpg?param=640y640"
     },
     { 
-        id: "uk-boyzone",
+        id: "us-boyzone",
         name: "Boyzone",
         pinyin: "B",
         category: "欧美之声",
@@ -1595,14 +1595,14 @@ const musicDatabase = [
         avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/46/23/97462320-3dc5-f1ce-1436-725e4ddf9862/075679908612.jpg/600x600bb.jpg"
     },
     {
-        id: "uk-kingcrimson",
+        id: "us-kingcrimson",
         name: "King Crimson",
         pinyin: "K",
         category: "欧美之声",
         avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/a8/5d/d3/a85dd370-ed7e-1e6f-f2ee-5464f7b3a978/Red_2500px.jpg/600x600bb.jpg"
     },
     {
-        id: "no-kygo",
+        id: "us-kygo",
         name: "Kygo",
         pinyin: "K",
         category: "欧美之声",
@@ -1775,5 +1775,12 @@ const musicDatabase = [
         pinyin: "H",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/hcNsr-uW6nVK-POnRO-5VA==/109951169164941727.jpg"
+    },
+    {
+        id: "cn-yujiayun",
+        name: "余佳运",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/ZcTOs-OTtuaSK0Ie5We1EQ==/109951165432652393.jpg"
     }
 ];
