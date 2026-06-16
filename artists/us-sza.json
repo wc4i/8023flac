@@ -1,0 +1,47 @@
+{
+  "id": "us-sza",
+  "name": "SZA",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a2/bc/ad/a2bcad46-b389-4be1-8bac-5a0959b0b8e4/886446548449.jpg/600x600bb.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Ctrl (Deluxe) [24-44.1]",
+        "year": "2022.06",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a2/bc/ad/a2bcad46-b389-4be1-8bac-5a0959b0b8e4/886446548449.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/18m16-xy02qLrHutDQYcQbw?pwd=8023"
+      },
+      {
+        "title": "SOS Deluxe：LANA [24-44.1]",
+        "year": "2025.02",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/05/7d/73057d8f-846c-01b8-2760-6d3c3071c48a/196872790276.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1ABhj1m0Re1SgkkREeMkRWw?pwd=8023"
+      }
+    ],
+    "EP & Singles (FLAC tracks / mp3)": [
+      {
+        "title": "See.SZA.Run [mp3]",
+        "year": "2012.10",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/11wB3Ks5QlVtJRhVx8ewDWQ?pwd=8023"
+      },
+      {
+        "title": "S [mp3]",
+        "year": "2013.10",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1maUVju4fg3jMd4qnAM8cxw?pwd=8023"
+      },
+      {
+        "title": "Z",
+        "year": "2014.04",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/86/70/d8867099-c280-065b-8617-53096e63fd55/859712300362_cover.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1Tk-iYpAF6BcLs57U8k3f-Q?pwd=8023"
+      },
+      {
+        "title": "Singles (as of 260415)",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/113hm69eS6hYGVs51mSO3Gw?pwd=8023"
+      }
+    ]
+  }
+}

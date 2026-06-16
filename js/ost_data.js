@@ -3,6 +3,18 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2026 翘楚 电视剧影视原声带 [24-48]", link: "https://pan.baidu.com/s/12fzY2TGXKagPmb1qU6Xkpw?pwd=8023" },
+    { title: "2021 启航：当风起时 影视剧原声专辑 [24-48]", link: "https://pan.baidu.com/s/182UVyVtTiR0lDSpZV1jmKw?pwd=8023" },
+    { title: "2021 我在他乡挺好的 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1Q51-sujYDQaAAkW55dq2PQ?pwd=8023" },
+    { title: "2022 我要和你做兄弟 影视剧原声带 [24-48]", link: "https://pan.baidu.com/s/1etQuAb4zUHFjAkjsVpAF1w?pwd=8023" },
+    { title: "2023 无与伦比的美丽 电视剧原声专辑", link: "https://pan.baidu.com/s/1j1Xd19NfnObEcOPO2bW0aA?pwd=8023" },
+    { title: "2019 我的莫格利男孩 音乐恋爱指南OST", link: "https://pan.baidu.com/s/1IPTqDS2X-WRcHHp4dE2CHQ?pwd=8023" },
+    { title: "2021 世界微尘里 影视原声带", link: "https://pan.baidu.com/s/1weUA_TEMapQ_pxkaCPiupA?pwd=8023" },
+    { title: "2026 迷墙 电视剧原声带 [24-48]", link: "https://pan.baidu.com/s/1TfLdeOHqHsd54APpdYLXGQ?pwd=8023" },
+    { title: "2026 阿松与阿暖 戏剧原声带", link: "https://pan.baidu.com/s/1ZKejDflDQf5pQn4HLsPnFA?pwd=8023" },
+    { title: "2026 长安大国医 音乐剧原声带 [24-48]", link: "https://pan.baidu.com/s/1P1unaJBfuibTvXW95HH3bw?pwd=8023" },
+    { title: "2026 南部档案 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1_FVTEvITrqbmpwyzROweDg?pwd=8023" },
+    { title: "2026 将夜 动画原声带 [24-48]", link: "https://pan.baidu.com/s/1b77ceKbqNuMknvxzQv2NjQ?pwd=8023" },
     { title: "1985 豆芽梦 电影原声带 [台湾复刻版]【小虫】", link: "https://pan.baidu.com/s/1X1HtXW7j7LYXp-5Z58R1ZQ?pwd=8023" },
     { title: "2024 正港分局 影集原声带 [24-48]", link: "https://pan.baidu.com/s/19XvDth9fU2_6RA8hLbi52w?pwd=8023" },
     { title: "2019 老大人 电影原声带 [24-44.1]", link: "https://pan.baidu.com/s/1WS1Bq6Dw7J4kTM6NLRP5-w?pwd=8023" },

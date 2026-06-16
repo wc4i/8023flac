@@ -1,0 +1,43 @@
+{
+  "id": "us-m2m",
+  "name": "M2M",
+  "avatar": "https://p1.music.126.net/k7AXAA4DG9Y9M2ldOh7mQA==/109951165884543825.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Shades of Purple",
+        "year": "2000.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f6/64/47/f66447d5-8862-8a92-94e9-e4afb50e9fa1/mzi.dvbeqcxa.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1JuKya59cbj3SMo5ev_rzbw?pwd=8023"
+      },
+      {
+        "title": "The Big Room",
+        "year": "2002.02",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/12/99/10/1299107f-3d97-96e9-56d6-9b69861e3d39/mzi.cbawlslj.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1fUcsAuZml0ykygH0plNs_g?pwd=8023"
+      }
+    ],
+    "EP & Singles (FLAC tracks)": [
+      {
+        "title": "The Acoustic EP",
+        "year": "2019.04",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/da/5b/e2/da5be240-87d6-a582-f640-18beffd346cd/842474119365.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1cg8AkQv8-AKLXJ0mSMqhWw?pwd=8023"
+      },
+      {
+        "title": "Still in my dreams",
+        "year": "2025.05",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/9a/a7/b29aa7ef-e7a4-9345-ad16-f4475425a237/5021732763136.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/14vlmkBG9CNYr0wXuIBYaaA?pwd=8023"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "The Day You Went Away",
+        "year": "2018.06",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/0b/f7/10/0bf71096-2ebe-6941-b95a-3f918fdfee82/842474182116.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1hvEwk5Gerye59CGK5mYEyQ?pwd=8023"
+      }
+    ]
+  }
+}

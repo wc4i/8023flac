@@ -1,0 +1,41 @@
+{
+  "id": "us-zaralarsson",
+  "name": "Zara Larsson",
+  "avatar": "https://p1.music.126.net/TI10egalrtcV4SVI7ow-og==/109951169268320918.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "1",
+        "year": "2014.10",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/3b/0e/a63b0e43-b09e-eb6c-aa1f-011402691cf2/886444881715.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1vUwnGCyHD1VaoMgwGZ60AA?pwd=8023"
+      },
+      {
+        "title": "So Good",
+        "year": "2017.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7f/9d/34/7f9d3481-9cef-5a0a-7b7b-ab5f948596cb/886446414188.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1AyMfkht-d-FU5iuVQ2SR0Q?pwd=8023"
+      },
+      {
+        "title": "Poster Girl [24-44.1]",
+        "year": "2021.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/28/10/542810ed-4606-57c5-68c0-adf242b65cd6/886449020447.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1_qEXatulY6i5ONAxo95axA?pwd=8023"
+      },
+      {
+        "title": "VENUS [24-44.1]",
+        "year": "2024.02",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/fa/3a/59fa3a30-ea9e-7796-4f1c-336862db266c/196871905244.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1hwnvhPke-gTwxk6DLyrA8g?pwd=8023"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "Midnight Sun：Girls Trip 2CD [24-48]",
+        "year": "2026.05",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/77/0f/43770f19-e3ea-98d0-abf1-abe396197cd5/196874161357.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1gl7sBr3PTudmAgcXWV1qvw?pwd=8023"
+      }
+    ]
+  }
+}

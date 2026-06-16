@@ -1,0 +1,79 @@
+{
+  "id": "us-samcooke",
+  "name": "Sam Cooke",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f0/77/d7/f077d7c0-6d93-d3c0-1b39-e2b9f3859bc5/dj.rvvxgagv.jpg/600x600bb.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Cooke's Tour",
+        "year": "1960.05",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f0/77/d7/f077d7c0-6d93-d3c0-1b39-e2b9f3859bc5/dj.rvvxgagv.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1RVXQVo-53pARydUa4jn2cQ?pwd=8023"
+      },
+      {
+        "title": "My Kind Of Blues",
+        "year": "1961.01",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ea/97/b7/ea97b794-aede-4381-18f0-92771f80cca2/886443347793.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1jpg7ZB1FbRvDe_WrLJ32zw?pwd=8023"
+      },
+      {
+        "title": "Swing Low",
+        "year": "1961.10",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/60/70/2c/60702ce6-6fed-9f19-f9e1-4350e23f719e/dj.tcjrykhj.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1BN_jtgmfib8AKCD5-xeHsA?pwd=8023"
+      },
+      {
+        "title": "Mr. Soul",
+        "year": "1963.02",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/7e/84/f2/7e84f232-e285-fafb-e2e0-a8675ad10d0c/23UMGIM01472.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1njzpACFjLz1qkxMbztcn9A?pwd=8023"
+      },
+      {
+        "title": "Night Beat",
+        "year": "1963.09",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/15/1c/a0/151ca03b-1538-197f-bed9-9eafe9f6b253/dj.zeovvcvm.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1WKaTQOmT3hDtHks9X91MkA?pwd=8023"
+      },
+      {
+        "title": "Ain't That Good News",
+        "year": "1964.01",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/00/41/47/004147b7-823c-eddb-3311-a36eb9ad284b/15ABKIM00035.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1l8zXUp9saicZINYQDE8lEw?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "One Nights Stand - Sam Cooke Live At The Harlem Square Club, 1963",
+        "year": "1963.08",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/b1/80/5e/b1805ee4-39d3-32d6-0aef-e07595ec218a/dj.xndujmfn.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1OQgSULl2sZ-BGIG466Ocbw?pwd=8023"
+      },
+      {
+        "title": "Sam Cooke At The Copa (Live)",
+        "year": "1964.01",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/4d/00/474d0063-12a9-d94b-0cb0-b8baa5e04343/15ABKIM00034.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1PmurWIcehjTF12V48orIMQ?pwd=8023"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "Keep Movin' On",
+        "year": "2002.01",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/4c/4b/ca4c4b3e-f9b9-ac7d-4f1a-af2e0a82d3d5/2520ABK00755.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1ICbqIBMFjREPpYMOX3lIAg?pwd=8023"
+      },
+      {
+        "title": "The Golden Gospel Voice",
+        "year": "2010.05",
+        "cover": "https://img4.kuwo.cn/star/albumcover/500/91/66/2492951471.jpg",
+        "link": "https://pan.baidu.com/s/1UzA9d0YsBzXX446l4WsMZg?pwd=8023"
+      },
+      {
+        "title": "Portrait of a Legend 1951–1964",
+        "year": "2024.06",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/b1/00/16b10046-9d5d-4ec8-4c29-75adafc4956d/15ABKIM00069.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1H1g3jLmX0mZDVJJfbSxpPg?pwd=8023"
+      }
+    ]
+  }
+}

@@ -1628,5 +1628,152 @@ const musicDatabase = [
         pinyin: "L",
         category: "欧美之声",
         avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/6a/59/ba/6a59ba83-b62c-0aba-afdf-70112572352d/00888072025745.rgb.jpg/600x600bb.jpg"
+    },
+    {
+        id: "us-katyperry",
+        name: "Katy Perry",
+        pinyin: "K",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/A1SLzv04GMv_X8JYT5TW1Q==/109951169774663460.jpg"
+    },
+    {
+        id: "us-m2m",
+        name: "M2M",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/k7AXAA4DG9Y9M2ldOh7mQA==/109951165884543825.jpg"
+    },
+    {
+        id: "us-meghantrainor",
+        name: "Meghan Trainor",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/4a8krjUR58H3DkkBcm3nwg==/109951172272245131.jpg"
+    },
+    {
+        id: "us-nellyfurtado",
+        name: "Nelly Furtado",
+        pinyin: "N",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/G6IDt-_E4d5VyYLIm9v9CQ==/109951165904557994.jpg"
+    },
+    {
+        id: "us-pnk",
+        name: "P!nk",
+        pinyin: "P",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/0Bg1_h_HH2Q5i8g5khFgGg==/109951169421885142.jpg"
+    },
+    {
+        id: "us-raycharles",
+        name: "Ray Charles",
+        pinyin: "R",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/31/f6/ed/31f6edc2-e415-a854-f634-07086e2a079c/112819.jpg/600x600bb.jpg"
+    },
+    {
+        id: "us-rush",
+        name: "Rush",
+        pinyin: "R",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/wZ2TFyVGy9t9RI-RR7QvKA==/109951172685785075.jpg?param=640y640"
+    },
+    {
+        id: "us-thechainsmokers",
+        name: "The Chainsmokers",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://img4.kuwo.cn/star/albumcover/500/s4s43/20/3957268027.jpg"
+    },
+    {
+        id: "us-samcooke",
+        name: "Sam Cooke",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f0/77/d7/f077d7c0-6d93-d3c0-1b39-e2b9f3859bc5/dj.rvvxgagv.jpg/600x600bb.jpg"
+    },
+    {
+        id: "us-sonnyboywilliamson",
+        name: "Sonny Boy Williamson II",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a4/d2/6b/a4d26bbc-97a7-76d4-a70f-36e104e7c9eb/96297031063.jpg/600x600bb.jpg"
+    },
+    {
+        id: "us-sophia",
+        name: "SOPHIA",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/ZbRa33e57uMk13kMCSbdvw==/109951171706541394.jpg"
+    },
+    {
+        id: "us-sting",
+        name: "Sting",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/a4/a2/e2a4a265-f581-e336-5276-36fd694f9217/25UMGIM57592.rgb.jpg/600x600bb.jpg"
+    },
+    {
+        id: "us-thepolice",
+        name: "The Police",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/47/de/29/47de29d9-5109-2020-d296-1021a7378574/16UMGIM60880.rgb.jpg/600x600bb.jpg"
+    },
+    {
+        id: "us-sza",
+        name: "SZA",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a2/bc/ad/a2bcad46-b389-4be1-8bac-5a0959b0b8e4/886446548449.jpg/600x600bb.jpg"
+    },
+    {
+        id: "us-the1975",
+        name: "The 1975",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7f/3b/6e/7f3b6e0f-ac35-98ff-f27f-fc51db0efea4/13UAAIM67470.rgb.jpg/600x600bb.jpg"
+    },
+    {
+        id: "us-thundercat",
+        name: "Thundercat",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/EG2VR55aggqBss74_X-n-w==/109951168980519544.jpg?param=640y640"
+    },
+    {
+        id: "us-zaralarsson",
+        name: "Zara Larsson",
+        pinyin: "Z",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/TI10egalrtcV4SVI7ow-og==/109951169268320918.jpg"
+    },
+    {
+        id: "us-zayn",
+        name: "ZAYN",
+        pinyin: "Z",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/_Ytc6Z6gZqZTebOnnTextQ==/109951172912561175.jpg"
+    },
+    {
+        id: "us-helenerolles",
+        name: "Hélène Rollès",
+        pinyin: "H",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/mB0khpfrEkiNJ1wC_2dEhQ==/5918671092742764.jpg"
+    },
+    {
+        id: "cn-huangqiusheng",
+        name: "黄秋生",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fe/93/05/fe930568-eaf5-7eed-a07e-20aba057845e/ROD-5128.jpg/600x600bb.jpg"
+    },
+    {
+        id: "cn-huangdawei",
+        name: "黄大炜",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/hcNsr-uW6nVK-POnRO-5VA==/109951169164941727.jpg"
     }
 ];

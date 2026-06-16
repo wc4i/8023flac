@@ -1,0 +1,72 @@
+{
+  "id": "us-katyperry",
+  "name": "Katy Perry",
+  "avatar": "https://p1.music.126.net/A1SLzv04GMv_X8JYT5TW1Q==/109951169774663460.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Katy Hudson",
+        "year": "2001.10",
+        "cover": "http://p2.music.126.net/dyHzqEATMqwZ7lFUXSXKUw==/109951164880516785.jpg",
+        "link": "https://pan.baidu.com/s/1hFlc2zQXCoJox7W05Om5fw?pwd=8023"
+      },
+      {
+        "title": "One Of The Boys",
+        "year": "2008.09",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/57/dc/18/57dc1854-4483-52b2-fe7c-8a221edf9e88/13UABIM48773.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1ZdSB7gSjphY-ZzjhOHo26w?pwd=8023"
+      },
+      {
+        "title": "Teenage Dream: The Complete Confection",
+        "year": "2012.03",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/31/57/b3/3157b3d9-6551-e44e-46c0-488686998a05/13UABIM58339.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1zRw9nm1iabVugXqhyzcj_Q?pwd=8023"
+      },
+      {
+        "title": "PRISM (Deluxe Version)",
+        "year": "2013.10",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/21/81/36218129-51b4-df22-cafb-8e9503b53147/13UAAIM70445.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1RM_pfHPmE8ZmoKhWLScWQg?pwd=8023"
+      },
+      {
+        "title": "Witness (Deluxe)",
+        "year": "2017.06",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/57/db/cb57db27-9b61-52a6-0009-e56ed5d98ef4/17UMGIM99424.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1_VpjU6XsiaovWDUbATEknw?pwd=8023"
+      },
+      {
+        "title": "Smile",
+        "year": "2020.08",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a1/09/bc/a109bc6a-21d2-53c5-248a-be19b20ba9da/20UMGIM53351.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/12UY-w7NZ-oxM_A9Ye2UAKA?pwd=8023"
+      },
+      {
+        "title": "1432",
+        "year": "2024.12",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7a/3b/b0/7a3bb0c2-50d6-bc82-4d3c-fcdb1500c9f1/24UM1IM36819.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1A9RlNgemJZujFuXiS5yFig?pwd=8023"
+      },
+      {
+        "title": "The Ones That Got The Plays",
+        "year": "2026.05",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/5f/75/025f7599-f64d-db4f-4609-1bd9e4ccbef2/26UMGIM57800.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1eNkful1XH8WD-gPsRVJZDg?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "MTV Unplugged",
+        "year": "2009.11",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/76/4c/c9/764cc9e4-aa86-15c1-507b-f10a9d8f4e3f/13UABIM55824.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1sgBiGujDbI3HIDbXCbVPkw?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 251231)",
+        "year": "2025",
+        "link": "https://pan.baidu.com/s/1BgcI01qy_tx92ZaO_owQYA?pwd=8023"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cn-huangqiusheng",
+  "name": "黄秋生",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fe/93/05/fe930568-eaf5-7eed-a07e-20aba057845e/ROD-5128.jpg/600x600bb.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "支离疏",
+        "year": "1995",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/f4/e8/66/f4e86621-5aa5-3fba-4dfd-f4d6a613dc1e/ROD-5131.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/12uQSzsrf_ZBeFbjBMHaKNg?pwd=8023"
+      },
+      {
+        "title": "地踎摇滚",
+        "year": "1996",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fe/93/05/fe930568-eaf5-7eed-a07e-20aba057845e/ROD-5128.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1z9-ibi_N9GFNtz8YN5y4xw?pwd=8023"
+      },
+      {
+        "title": "Bad Taste - But I Smell Good",
+        "year": "2002",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1Faqu2DwD7QUmahcnCtRPLA?pwd=8023"
+      }
+    ],
+    "Compilations (FLAC tracks)": [
+      {
+        "title": "乐坛神棍之习作",
+        "year": "2001",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1nHoH2PtIwVGXxRZZpG89Vw?pwd=8023"
+      }
+    ]
+  }
+}
