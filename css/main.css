@@ -275,6 +275,15 @@ main {
     position: relative;
 }
 
+/* ========== 轻量提示文案 ========== */
+.password-tip {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 8px 0 0;
+}
+
 /* ========== 手机端：歌手卡片一排三个 ========== */
 @media (max-width: 600px) {
     .artist-grid {
