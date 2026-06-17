@@ -3,6 +3,10 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2015 Halo：Spartan Strike (Original Soundtrack)", link: "https://pan.baidu.com/s/1GaX3vWhnIXvHcRu4TeGGHA?pwd=8023" },
+    { title: "2002 Halo：Combat Evolved (Original Soundtrack)", link: "https://pan.baidu.com/s/1a2X9MWs1pg9sbk6kTxjOQw?pwd=8023" },
+    { title: "2013 Halo：Spartan Assault (Original Soundtrack)", link: "https://pan.baidu.com/s/1ixLo3LFZffK5XlZkJWbmlw?pwd=8023" },
+    { title: "2015 Halo：The Fall of Reach (Original Soundtrack)", link: "https://pan.baidu.com/s/1LsEN689b8oGGkLCZHQvD7w?pwd=8023" },
     { title: "2014 Halo 2 Anniversary (Original Soundtrack)", link: "https://pan.baidu.com/s/1Oyfr9ZnlgNiMEILfiptoyQ?pwd=8023" },
     { title: "2012 Halo 4 (Original Soundtrack)", link: "https://pan.baidu.com/s/1763IT14XYPiTTIgnYuVCnQ?pwd=8023" },
     { title: "2010 Halo：Reach (Original Soundtrack)", link: "https://pan.baidu.com/s/1o3JVZPHyLGFkoDj1SHtPqw?pwd=8023" },
