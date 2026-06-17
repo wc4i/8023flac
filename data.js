@@ -1782,5 +1782,26 @@ const musicDatabase = [
         pinyin: "Y",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/ZcTOs-OTtuaSK0Ie5We1EQ==/109951165432652393.jpg"
+    },
+    {
+        id: "cn-sunyue",
+        name: "孙悦",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/h8M-IvZvw_yFuMO6CKao3w==/109951169164929751.jpg"
+    },
+    {
+        id: "cn-guyapi",
+        name: "谷娅溦",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/BBmNEH_oO2ziaqXSbfC71A==/109951171892208268.jpg"
+    },
+    {
+        id: "us-bjork",
+        name: "Björk",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/56/e0/a8/56e0a842-83d8-b1e7-1748-93d48591de7f/5016958101497.jpg/600x600bb.jpg"
     }
 ];

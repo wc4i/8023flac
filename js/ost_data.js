@@ -3,6 +3,11 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2014 Halo 2 Anniversary (Original Soundtrack)", link: "https://pan.baidu.com/s/1Oyfr9ZnlgNiMEILfiptoyQ?pwd=8023" },
+    { title: "2012 Halo 4 (Original Soundtrack)", link: "https://pan.baidu.com/s/1763IT14XYPiTTIgnYuVCnQ?pwd=8023" },
+    { title: "2010 Halo：Reach (Original Soundtrack)", link: "https://pan.baidu.com/s/1o3JVZPHyLGFkoDj1SHtPqw?pwd=8023" },
+    { title: "2007 Halo 3 (Original Soundtrack)", link: "https://pan.baidu.com/s/1oHEVViH-tSctkergrKp47g?pwd=8023" },
+    { title: "2015 Halo 5：Guardians (Original Soundtrack)", link: "https://pan.baidu.com/s/1pG3u_NMc_tKuU9Vk0ty4Fw?pwd=8023" },
     { title: "2026 翘楚 电视剧影视原声带 [24-48]", link: "https://pan.baidu.com/s/12fzY2TGXKagPmb1qU6Xkpw?pwd=8023" },
     { title: "2021 启航：当风起时 影视剧原声专辑 [24-48]", link: "https://pan.baidu.com/s/182UVyVtTiR0lDSpZV1jmKw?pwd=8023" },
     { title: "2021 我在他乡挺好的 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1Q51-sujYDQaAAkW55dq2PQ?pwd=8023" },
