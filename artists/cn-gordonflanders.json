@@ -1,0 +1,35 @@
+{
+  "id": "cn-gordonflanders",
+  "name": "Gordon Flanders",
+  "avatar": "http://p2.music.126.net/S1vlz95EimBGPOcTuKyXbQ==/109951168715185084.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "FLANDERS",
+        "year": "2023.12",
+        "link": "https://pan.baidu.com/s/1108RrdQOuW3-3-aPm7Q9xg?pwd=8023",
+        "cover": "http://p1.music.126.net/YtNK6h_S0KJ1QSPdo80QUA==/109951169154517425.jpg"
+      },
+      {
+        "title": "New Classics",
+        "year": "2026.04",
+        "link": "https://pan.baidu.com/s/1mQpCPKmKfzMEPLnKOcPCMA?pwd=8023",
+        "cover": "http://p2.music.126.net/LMy6boUlgrP5Gj11fLdjow==/109951173008054497.jpg"
+      }
+    ],
+    "EP & Singles (FLAC tracks)": [
+      {
+        "title": "Homemade [EP]",
+        "year": "2020.12",
+        "link": "https://pan.baidu.com/s/13LfJFBxStdEhgknR5y-nxQ?pwd=8023",
+        "cover": "http://p1.music.126.net/Dncv8tme3UIH4GggwIRhTQ==/109951165561076881.jpg"
+      },
+      {
+        "title": "Singles (as of 260409)",
+        "year": "2026.04",
+        "link": "https://pan.baidu.com/s/1-eQrpv86H8sZyNPXAU522Q?pwd=8023",
+        "cover": "http://p2.music.126.net/Sk8wFBqUKKKGfxEIqIrTVQ==/109951172576757814.jpg"
+      }
+    ]
+  }
+}

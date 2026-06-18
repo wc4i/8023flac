@@ -3,6 +3,7 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const variousDatabase = [
+    { title: "2024 我们来自不同地方：海峡回声 [24-44.1+]", link: "https://pan.baidu.com/s/1lTVZ3CqXUtgKLiu1yK1DLA?pwd=8023" },
     { title: "中国歌典（年代经典歌曲）（10CD）", link: "https://pan.baidu.com/s/1FB5AA4aE_jcLn0RrUOxJbA?pwd=8023" },
     { title: "2021 逆时针三分钟 [24-96]", link: "https://pan.baidu.com/s/1hM91JqAQ_QFSGCzUA6DMww?pwd=8023" },
     { title: "2022 爱的元宇宙Love Always", link: "https://pan.baidu.com/s/1HVb_dwutsKpyfmVcbjf-jg?pwd=8023" },

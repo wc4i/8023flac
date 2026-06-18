@@ -1803,5 +1803,12 @@ const musicDatabase = [
         pinyin: "B",
         category: "欧美之声",
         avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/56/e0/a8/56e0a842-83d8-b1e7-1748-93d48591de7f/5016958101497.jpg/600x600bb.jpg"
+    },
+    {
+        id: "cn-gordonflanders",
+        name: "Gordon Flanders",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/S1vlz95EimBGPOcTuKyXbQ==/109951168715185084.jpg"
     }
 ];
