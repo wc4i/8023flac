@@ -1,0 +1,35 @@
+{
+  "id": "cn-mastamic",
+  "name": "MastaMic",
+  "avatar": "https://p2.music.126.net/RAW1Ep5It_G66HGs8Yv4kg==/109951168429547882.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "流行反击战 [24-44.1]",
+        "year": "2013.03",
+        "cover": "https://p2.music.126.net/X2jZ3EFfwoVD_X0Bf1vBGQ==/2399134371864035.jpg?param=500y500",
+        "link": "https://pan.baidu.com/s/1sfx2glyyzDJRKJJiulXfwQ?pwd=8023"
+      },
+      {
+        "title": "MASTAPIECE [24-44.1]",
+        "year": "2018.03",
+        "cover": "https://p2.music.126.net/UR9DB-kD3NeguEgZFdo-9w==/109951164078355355.jpg?param=500y500",
+        "link": "https://pan.baidu.com/s/1ZXCGEc66e8ZECT4BSbRhEA?pwd=8023"
+      }
+    ],
+    "EP & Singles (FLAC tracks)": [
+      {
+        "title": "Masta Rhyme [EP]",
+        "year": "2015.04",
+        "cover": "https://p1.music.126.net/XYKkG8HLfN4udcYcS_2p1w==/109951164078390921.jpg?param=500y500",
+        "link": "https://pan.baidu.com/s/1UAlkqMAJ2QgXzkapsC1ZtA?pwd=8023"
+      },
+      {
+        "title": "Singles (as of 240502)",
+        "year": "",
+        "cover": "https://p2.music.126.net/RAW1Ep5It_G66HGs8Yv4kg==/109951168429547882.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1NTe-gz_PNRSCG_XaXaZmMQ?pwd=8023"
+      }
+    ]
+  }
+}

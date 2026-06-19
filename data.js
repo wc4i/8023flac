@@ -1810,5 +1810,47 @@ const musicDatabase = [
         pinyin: "G",
         category: "华语金曲",
         avatar: "http://p2.music.126.net/S1vlz95EimBGPOcTuKyXbQ==/109951168715185084.jpg"
+    },
+    {
+        id: "cn-nanzhengbeizhan-nzbz",
+        name: "南征北战NZBZ",
+        pinyin: "N",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/HllZQm_iL5njBnKjKRdy0w==/109951171490949106.jpg?param=640y640"
+    },
+    {
+        id: "cn-liuruoying",
+        name: "刘若英",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/lkPWuNPoa9ood4pJiXURxA==/109951167974416547.jpg?param=640y640"
+    },
+    {
+        id: "cn-mastamic",
+        name: "MastaMic",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/RAW1Ep5It_G66HGs8Yv4kg==/109951168429547882.jpg?param=640y640"
+    },
+    {
+        id: "us-hmltd",
+        name: "HMLTD",
+        pinyin: "H",
+        category: "欧美之声",
+        avatar: "https://star.kuwo.cn/star/starheads/700/s4s38/5/3811667018.jpg"
+    },
+    {
+        id: "us-karynwhite",
+        name: "Karyn White",
+        pinyin: "K",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/YOHHitiwqQoKEJkZEA1XgA==/815837627810133.jpg?param=640y640"
+    },
+    {
+        id: "cn-mixueweiqi",
+        name: "蜜雪薇琪",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/YbM9cxSM-kl0ybxY6gfuZw==/109951168454289395.jpg?param=640y640"
     }
 ];

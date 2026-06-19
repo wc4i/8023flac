@@ -1,0 +1,43 @@
+{
+  "id": "us-hmltd",
+  "name": "HMLTD",
+  "avatar": "https://star.kuwo.cn/star/starheads/700/s4s38/5/3811667018.jpg",
+  "groups": {
+    "Studio Albums": [
+      {
+        "title": "West of Eden [24-44.1]",
+        "year": "2020.02",
+        "cover": "https://p2.music.126.net/yOMkpShz4zX3UmCBu6kELg==/109951164672466843.jpg?param=500y500",
+        "link": "https://pan.baidu.com/s/1gjWb2M5f1HT3Innjvls3CQ?pwd=8023"
+      },
+      {
+        "title": "The Worm [24-44.1]",
+        "year": "2023.04",
+        "cover": "https://p2.music.126.net/lCM1l_uc99j4T-dDOjHYXQ==/109951168123585532.jpg?param=500y500",
+        "link": "https://pan.baidu.com/s/1WEpqswGhZIhWsDMZlMUZzg?pwd=8023"
+      }
+    ],
+    "EP": [
+      {
+        "title": "Don't Leave Me [EP][24-44.1]",
+        "year": "2021.04",
+        "cover": "https://p2.music.126.net/m1aWl1rH-sHPP6nmXRjSRA==/109951165847808516.jpg?param=500y500",
+        "link": "https://pan.baidu.com/s/1de7xTEWh1eTzlHNVXhM8Ww?pwd=8023"
+      },
+      {
+        "title": "Hate Music Last Time Delete [EP][24-44.1]",
+        "year": "2018.07",
+        "cover": "https://p2.music.126.net/C7nsusPXJ4gnPhL0qDFpeA==/109951165984244967.jpg?param=500y500",
+        "link": "https://pan.baidu.com/s/1W2u905OC4pvqBHJ52XIVLQ?pwd=8023"
+      }
+    ],
+    "Singles": [
+      {
+        "title": "Flex (feat. Xvoto.Delete)",
+        "year": "",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ce/5f/6d/ce5f6df2-a35c-9d35-3d10-a5f08619953b/5053760045571.png/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1AMyXWwogP4udExdTxiEAaw?pwd=8023"
+      }
+    ]
+  }
+}
