@@ -14,8 +14,7 @@
         }
     };
     const saved = localStorage.getItem('theme');
-    const prefers = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    setTheme(saved === 'dark' || (!saved && prefers) ? 'dark' : 'light');
+    setTheme(saved === 'dark' || (!saved) ? 'dark' : 'light');
     const btn = document.getElementById('themeBtn');
     if (btn) btn.addEventListener('click', () => {
         const cur = document.documentElement.getAttribute('data-theme');
