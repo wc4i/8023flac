@@ -1,15 +1,15 @@
 /* ========== 全局變數：亮色模式（默認） ========== */
 :root {
-    --bg-color: #f8fafc;
-    --text-color: #1e293b;
-    --header-bg: rgba(255, 255, 255, 0.9);
+    --bg-color: #f6f2eb;
+    --text-color: #24303e;
+    --header-bg: rgba(255, 255, 255, 0.92);
     --card-bg: #ffffff;
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
-    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
-    --border-color: #e2e8f0;
+    --shadow-sm: 0 2px 10px rgba(36, 48, 62, 0.08);
+    --shadow-md: 0 8px 24px rgba(36, 48, 62, 0.12);
+    --border-color: #e6dccf;
     --hover-transform: translateY(-4px);
     --transition-speed: 0.3s;
-    --primary: #ef4444;        /* 全局強調色（華語紅，其他分類可覆蓋） */
+    --primary: #b77f4f;        /* 全局強調色（華語紅，其他分類可覆蓋） */
 }
 
 /* ========== 全局變數：深色模式 ========== */
@@ -710,7 +710,7 @@ main {
     aspect-ratio: 1;
     border-radius: 8px;
     border: 1px solid var(--border-color);
-    background: #ffffff;
+    background: var(--card-bg);
     padding: 4px;
     box-sizing: border-box;
 }
@@ -798,7 +798,7 @@ main {
     aspect-ratio: 1;
     border-radius: 12px;
     border: 1px solid var(--border-color);
-    background: #ffffff;
+    background: var(--card-bg);
     padding: 6px;
     box-sizing: border-box;
     box-shadow: var(--shadow-sm);
