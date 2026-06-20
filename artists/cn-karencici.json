@@ -1,0 +1,33 @@
+{
+    "id": "cn-karencici",
+    "name": "Karencici",
+    "avatar": "https://p2.music.126.net/dMlXYoIp5JoeEN2RZQ88kQ==/109951163427690580.jpg?param=640y640",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "Made For You",
+                "year": "2024.12",
+                "link": "https://pan.baidu.com/s/1ldNDu-W0bqx_EsOHsYEtnA?pwd=8023",
+                "cover": "https://p1.music.126.net/s9F2H9sXmqx4eFW2smTkcQ==/109951170303396771.jpg?param=640y640"
+            },
+            {
+                "title": "SHA YAN",
+                "year": "2018.12",
+                "link": "https://pan.baidu.com/s/1qdTUFURbTjNTNJtkqacIPA?pwd=8023",
+                "cover": "https://p1.music.126.net/qwscJgI5_aZO3CgKBazCCw==/109951163736779190.jpg?param=640y640"
+            },
+            {
+                "title": "Loser.",
+                "year": "2026.06",
+                "link": "https://pan.baidu.com/s/1_hNBV08q_uP43TdghOHdoA?pwd=8023",
+                "cover": "https://p1.music.126.net/f5y9gozKog7GOsR8-lnvwA==/109951173398384788.jpg?param=640y640"
+            },
+            {
+                "title": "99% Angel",
+                "year": "2021.12",
+                "link": "https://pan.baidu.com/s/1r-0kMcK3B4KHFbozHKlRpQ?pwd=8023",
+                "cover": "https://p1.music.126.net/4JLi-DBvlGdBUC2fMpLNZw==/109951166723929594.jpg?param=640y640"
+            }
+        ]
+    }
+}

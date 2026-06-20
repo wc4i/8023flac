@@ -1852,5 +1852,61 @@ const musicDatabase = [
         pinyin: "M",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/YbM9cxSM-kl0ybxY6gfuZw==/109951168454289395.jpg?param=640y640"
+    },
+    {
+        id: "cn-karencici",
+        name: "Karencici",
+        pinyin: "K",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/dMlXYoIp5JoeEN2RZQ88kQ==/109951163427690580.jpg?param=640y640"
+    },
+    {
+        id: "us-dannyocean",
+        name: "Danny Ocean",
+        pinyin: "D",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/PiCZ6RuzUy9l0QsVn3d4Fw==/109951163020665915.jpg?param=640y640"
+    },
+    {
+        id: "cn-zhongzhentao",
+        name: "钟镇涛",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/jSxj3HoTIM3-Tjy9s7hYpQ==/109951168299155561.jpg?param=640y640"
+    },
+    {
+        id: "us-tierrawhack",
+        name: "Tierra Whack",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/IM6JwG1de7mZv_0L63AYJQ==/109951163709095026.jpg"
+    },
+    {
+        id: "cn-wennaband",
+        name: "温拿乐队",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/ri-3th7pqz-Anp1swzFamg==/109951165592462809.jpg?param=640y640"
+    },
+    {
+        id: "cn-chenzhuoxuan",
+        name: "陈卓璇",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/aTDJFruqkAn7oWalmUHU5w==/109951168226803296.jpg?param=640y640"
+    },
+    {
+        id: "cn-dengruixia",
+        name: "邓瑞霞",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/gpGv8VK2puzHNEIoWDsszg==/57174604661995.jpg?param=640y640"
+    },
+    {
+        id: "cn-wangzeyan",
+        name: "王泽言",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/N8_WSVtJSv5XUiZWFc3p4w==/109951168785257954.jpg?param=640y640"
     }
 ];

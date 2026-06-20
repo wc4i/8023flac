@@ -3,6 +3,7 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2017 寻人大师 电视剧原声带 [24-48]", link: "https://pan.baidu.com/s/1nCbchM_vIiYbjEvyLBmHNw?pwd=8023" },
     { title: "2003 梁山伯与祝英台 电影原声带 [台湾首版]", link: "https://pan.baidu.com/s/1vlNR7Ak98CigE42t1mbu4A?pwd=8023" },
     { title: "2002 涩女郎 电视剧原声带 [台湾首版]", link: "https://pan.baidu.com/s/1CDg658Orp69Q75ZjC8SelQ?pwd=8023" },
     { title: "2004 天下无贼 电影原声大碟 [引进版]", link: "https://pan.baidu.com/s/1v2e4zUGD6M_C9EXTRBXW0w?pwd=8023" },
