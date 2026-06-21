@@ -615,6 +615,13 @@ const musicDatabase = [
         avatar: "http://imge.kugou.com/stdmusic/400/20200620/20200620060409839838.jpg"
     },
     { 
+        id: "cn-tanjiayi",
+        name: "谭嘉仪",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/rbxek77t6VmeGpM0t2-z1g==/109951165588530236.jpg"
+    },
+    { 
         id: "cn-suyongkang",
         name: "苏永康",
         pinyin: "S",
