@@ -1915,5 +1915,12 @@ const musicDatabase = [
         pinyin: "W",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/N8_WSVtJSv5XUiZWFc3p4w==/109951168785257954.jpg?param=640y640"
+    },
+    {
+        id: "us-johnlegend",
+        name: "John Legend",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/BLJCTP_I0qt14h64cE7kZg==/109951170406569499.jpg?param=640y640"
     }
 ];
