@@ -1,0 +1,53 @@
+{
+  "id": "us-badbunny",
+  "name": "Bad Bunny",
+  "avatar": "https://p2.music.126.net/3EP-Sa5IniDHJ7d9EeS0Kg==/109951169172608009.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "X 100PRE",
+        "year": "2018.12",
+        "link": "https://pan.baidu.com/s/1yEOl6J8HZe6lektL3iNBkg?pwd=8023",
+        "cover": "https://p1.music.126.net/sdfGSBpx4IQM_-mi8HKR6w==/109951167893127586.jpg?param=600y600"
+      },
+      {
+        "title": "YHLQMDLG",
+        "year": "2020.02",
+        "link": "https://pan.baidu.com/s/1LtwB_w1MxIy3YY7Y7YJfwQ?pwd=8023",
+        "cover": "https://p2.music.126.net/VHZ9_DFOh-H7CEfN7_-95A==/109951165816422652.jpg?param=600y600"
+      },
+      {
+        "title": "Un Verano Sin Ti",
+        "year": "2020.05",
+        "link": "https://pan.baidu.com/s/1zOd6g07AhfrSSwJBx_pyEA?pwd=8023",
+        "cover": "https://p2.music.126.net/w6PbUE79Nmv3u9lgRC2j_A==/109951167634858806.jpg?param=600y600"
+      },
+      {
+        "title": "EL ÚLTIMO TOUR DEL MUNDO",
+        "year": "2020.11",
+        "link": "https://pan.baidu.com/s/1_abeZl25kEMSTmNQKPEL2Q?pwd=8023",
+        "cover": "https://p2.music.126.net/CE9s9aEjMTYB6MwRSAgDGw==/109951165500291580.jpg?param=600y600"
+      },
+      {
+        "title": "nadie sabe lo que va a pasar mañana",
+        "year": "2023.10",
+        "link": "https://pan.baidu.com/s/1185oZOy4qJJEdRmbDuXwlg?pwd=8023",
+        "cover": "https://p2.music.126.net/dzyk3izZuBRDLzuS0dhJaQ==/109951168980227293.jpg?param=600y600"
+      },
+      {
+        "title": "DeBÍ TiRAR MáS FOToS [24-44.1]",
+        "year": "2025.01",
+        "link": "https://pan.baidu.com/s/1_xU-vMNHMdeaEpw3JilFyQ?pwd=8023",
+        "cover": "https://p1.music.126.net/ez9UcG34HmAjmeRnmjqcVQ==/109951170352784296.jpg?param=600y600"
+      }
+    ],
+    "Collaborative Albums (FLAC tracks)": [
+      {
+        "title": "OASIS (ft.J Balvin)",
+        "year": "2019.06",
+        "link": "https://pan.baidu.com/s/1_cKv4hyVgyGGPWRS5p8uqw?pwd=8023",
+        "cover": "https://p1.music.126.net/06KHLE1ILaOtOIMtOv7_Yg==/109951164178976183.jpg?param=600y600"
+      }
+    ]
+  }
+}

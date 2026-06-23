@@ -2,7 +2,6 @@
 // 这个文件就像是一本字典的"目录"，用于在各个分类页面（如 huayu.html）生成歌手卡片。
 
 const musicDatabase = [
-    // === 华语金曲 ===
     { 
         id: "cn-zhoujielun",       // 唯一标识符，以后用来跳转到他的专属页面，比如 ?id=cn-zhoujielun
         name: "周杰伦", 
@@ -101,8 +100,41 @@ const musicDatabase = [
         category: "欧美之声",
         avatar: "https://star.kuwo.cn/star/starheads/500/s4s28/65/726437609.jpg"
     },
-
-    // === 日韩风尚 ===
+    {
+        id: "us-badbunny",
+        name: "Bad Bunny",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/3EP-Sa5IniDHJ7d9EeS0Kg==/109951169172608009.jpg?param=600y600"
+    },
+    {
+        id: "us-lanadelrey",
+        name: "Lana Del Rey",
+        pinyin: "L",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/Qa3QYSpZ2A205_IC8F7YgA==/109951168471196428.jpg?param=600y600"
+    },
+    {
+        id: "cn-yangkun",
+        name: "杨坤",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/CwMFlqjWxXWU5Ygc-apn0Q==/109951172350766096.jpg?param=600y600"
+    },
+    {
+        id: "cn-lonelychinaday",
+        name: "Lonely China Day（寂寞.夏.日）",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/NF6y82uTNNQnDlsyNL1GJw==/109951162901320270.jpg?param=600y600"
+    },
+    {
+        id: "cn-jirujing",
+        name: "纪如璟",
+        pinyin: "J",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/j04WWYlqdHBjllU_zeRz9Q==/152832116277493.jpg?param=600y600"
+    },
     { 
         id: "kr-stella-jang",
         name: "Stella Jang (스텔라장)",
@@ -1922,5 +1954,12 @@ const musicDatabase = [
         pinyin: "J",
         category: "欧美之声",
         avatar: "https://p2.music.126.net/BLJCTP_I0qt14h64cE7kZg==/109951170406569499.jpg?param=640y640"
+    },
+    {
+        id: "cn-chenyixun",
+        name: "陈奕迅",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/jj0EasWfUZpf1LW2SFeN-A==/109951173289562420.jpg?param=600y600"
     }
 ];
