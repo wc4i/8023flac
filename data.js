@@ -1961,5 +1961,12 @@ const musicDatabase = [
         pinyin: "C",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/jj0EasWfUZpf1LW2SFeN-A==/109951173289562420.jpg?param=600y600"
+    },
+    {
+        id: "cn-stepjad",
+        name: "step.jad依加",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/LeuepDaZSrwdlvGlhBka2A==/109951171176645005.jpg?param=600y600"
     }
 ];
