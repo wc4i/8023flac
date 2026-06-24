@@ -1,0 +1,53 @@
+{
+  "id": "cn-echo",
+  "name": "ECHO",
+  "avatar": "https://p1.music.126.net/bH0A94rbLFo8-bIL8BuUAA==/31885837206788.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "战场 [日本三菱1B1版]",
+        "year": "1989.08",
+        "link": "https://pan.baidu.com/s/1mErOBfhYVXIgdUgwaJ3w2A?pwd=8023",
+        "cover": "https://p1.music.126.net/bH0A94rbLFo8-bIL8BuUAA==/31885837206788.jpg"
+      },
+      {
+        "title": "准许我爱你 [日本天龙1A1首版]",
+        "year": "1990.04",
+        "link": "https://pan.baidu.com/s/1Yy9iL1RnD68Xpb5GkZM82w?pwd=8023",
+        "cover": "https://p1.music.126.net/dnvwTvI6CXbsUPqD4qg-9Q==/120946279056551.jpg"
+      },
+      {
+        "title": "你是爱我还是需要我 [台湾首版]",
+        "year": "1991.04",
+        "link": "https://pan.baidu.com/s/1UvBrssgq34DTa2ccjh9MbA?pwd=8023",
+        "cover": "https://p1.music.126.net/pmrj3dvTKFbiKfz-usw8Ww==/60473139539918.jpg"
+      },
+      {
+        "title": "不再纠缠 [法国首版]",
+        "year": "1991.05",
+        "link": "https://pan.baidu.com/s/1TG88w70ShKSBd5HZ6UdJdQ?pwd=8023",
+        "cover": "https://p1.music.126.net/Bonczfk7UYEYK1cy1qsNjg==/34084860473059.jpg"
+      },
+      {
+        "title": "JAJA JAMMIN ON A GROOVY WAVE [香港首版]",
+        "year": "1991.06",
+        "link": "https://pan.baidu.com/s/1Rp5jxjU58BeDS0aWx4YKTw?pwd=8023",
+        "cover": "https://p1.music.126.net/FhruWsq2QpbgcNLh9ca_hg==/98956046511915.jpg"
+      },
+      {
+        "title": "GOODBYE SUMMER [美国首版]",
+        "year": "1991.08",
+        "link": "https://pan.baidu.com/s/1KWMlLNRLrwfThlkO3J7O6A?pwd=8023",
+        "cover": "https://p1.music.126.net/rgNqdOrd5mLBXoekFF_GPQ==/125344325567568.jpg"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "精选回响 [香港首版]",
+        "year": "1993.09",
+        "link": "https://pan.baidu.com/s/11iilbYzC_mdX8shvobQ6Gg?pwd=8023",
+        "cover": "https://p1.music.126.net/fQEmIlhrb4uh1CJNPAIa_A==/34084860473057.jpg"
+      }
+    ]
+  }
+}

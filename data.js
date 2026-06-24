@@ -1968,5 +1968,47 @@ const musicDatabase = [
         pinyin: "S",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/LeuepDaZSrwdlvGlhBka2A==/109951171176645005.jpg?param=600y600"
+    },
+    {
+        id: "us-jerryleelewis",
+        name: "Jerry Lee Lewis",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/eoP-4Oe6Pj9w_rIZUG90cw==/637716744113661.jpg?param=600y600"
+    },
+    {
+        id: "cn-echo",
+        name: "ECHO",
+        pinyin: "E",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/bH0A94rbLFo8-bIL8BuUAA==/31885837206788.jpg?param=600y600"
+    },
+    {
+        id: "cn-lihuimin",
+        name: "李蕙敏",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/eV-UaZmKWju1ECWqYNj9pw==/67070209312409.jpg?param=600y600"
+    },
+    {
+        id: "cn-yinlin",
+        name: "银临",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/mMZvNruOjEa4XNL6-lWjNg==/109951168919647064.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhoufeige",
+        name: "周菲戈",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/RTHG3fanK6lOl0MubW6lRQ==/109951170215742652.jpg?param=600y600"
+    },
+    {
+        id: "jp-angelaaki",
+        name: "アンジェラ・アキ（Angela Aki）",
+        pinyin: "A",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/3mGC7cEFuWCDJp25hkAQmw==/3283141725898006.jpg?param=600y600"
     }
 ];

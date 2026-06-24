@@ -4,6 +4,7 @@
 
 const ostDatabase = [
     { title: "2017 寻人大师 电视剧原声带 [24-48]", link: "https://pan.baidu.com/s/1nCbchM_vIiYbjEvyLBmHNw?pwd=8023" },
+    { title: "1998 - 西游记Ⅱ主题曲原声大碟 [香港首版]", link: "https://pan.baidu.com/s/1cXB22IUKI87JigfaQUWAmw?pwd=8023" },
     { title: "1991 乱世香港 电视剧主题曲精选国语版", link: "https://pan.baidu.com/s/1s5uoX84V-Um9qDYu6twZGw?pwd=8023" },
     { title: "2024 孤舟 电视原声带", link: "https://pan.baidu.com/s/1ZKKX3uQuI7GHKaXwHLjeSA?pwd=8023" },
     { title: "2021 天龙八部 电视剧原声大碟", link: "https://pan.baidu.com/s/1a9LTlxbTFIsrJN3CkBKLYQ?pwd=8023" },
