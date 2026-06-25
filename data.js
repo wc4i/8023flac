@@ -2010,5 +2010,26 @@ const musicDatabase = [
         pinyin: "A",
         category: "日韩风尚",
         avatar: "https://p2.music.126.net/3mGC7cEFuWCDJp25hkAQmw==/3283141725898006.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhangaijia",
+        name: "张艾嘉",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/BsRkHhbtfLzdVzQtahUl4A==/109951167090748217.jpg?param=600y600"
+    },
+    {
+        id: "cn-huhongjun",
+        name: "胡鸿钧",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/GKpceQ7dezV7D3Mjn2a5gg==/109951169007391432.jpg?param=600y600"
+    },
+    {
+        id: "us-babyface",
+        name: "Babyface",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/DziRCqNcsPqLKIc8rfFaMQ==/579442627871254.jpg?param=600y600"
     }
 ];
