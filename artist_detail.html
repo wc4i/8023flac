@@ -270,7 +270,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 const grid = document.createElement('div');
                 grid.className = 'album-grid';
 
-                const sortedAlbums = Array.isArray(albums) ? [...albums].sort((a, b) => b.year - a.year) : [];
+                const sortedAlbums = Array.isArray(albums) ? [...albums].sort((a, b) => {
+                    // Handle empty years
+                    if (!a.year && !b.year) return 0;
+                    if (!a.year) return 1;
+                    if (!b.year) return -1;
+                    // Convert years to numbers for comparison
+                    const yearA = parseFloat(a.year.replace('.', '')) || 0;
+                    const yearB = parseFloat(b.year.replace('.', '')) || 0;
+                    return yearB - yearA;
+                }) : [];
 
                 sortedAlbums.forEach(item => {
                     const hasCover = item.cover && item.cover.trim() !== '';

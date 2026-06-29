@@ -1,0 +1,77 @@
+{
+  "id": "us-neworder",
+  "name": "New Order",
+  "avatar": "https://p2.music.126.net/2MuM5Ma_yhEpHz9q2HHRCg==/109951170099236776.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Movement",
+        "year": "1981.11",
+        "link": "https://pan.baidu.com/s/1b8LDZiPXvX6-zK8DUipqNw?pwd=8023",
+        "cover": "https://p1.music.126.net/jV6NfEVNZWU0fdXW0UWGmg==/109951168086420830.jpg"
+      },
+      {
+        "title": "Power, Corruption & Lies",
+        "year": "1983.05",
+        "link": "https://pan.baidu.com/s/1GkrOZDseSo4hBRyTtSwoLw?pwd=8023",
+        "cover": "https://p2.music.126.net/pZ7PD846FCiVFrCILoKe8g==/109951163572773846.jpg"
+      },
+      {
+        "title": "Low-Life",
+        "year": "1985.05",
+        "link": "https://pan.baidu.com/s/1hqGOTN9IDoHYAF1A885fSA?pwd=8023",
+        "cover": "https://p1.music.126.net/DWcjcrlhzrlRR7N3GnVzLA==/109951166198526139.jpg"
+      },
+      {
+        "title": "Brotherhood",
+        "year": "1986.09",
+        "link": "https://pan.baidu.com/s/1iharCQa9AyNAZOBE3ZaIGg?pwd=8023",
+        "cover": "https://p2.music.126.net/ws5IXu_-x31u0texVGvtbQ==/109951163572779597.jpg"
+      },
+      {
+        "title": "Technique",
+        "year": "1989.01",
+        "link": "https://pan.baidu.com/s/1Dr6WR7MmIcl_YKrnGDKFqg?pwd=8023",
+        "cover": "https://p2.music.126.net/a2EYtrlMmh18kLLCT6HdxA==/109951163615810388.jpg"
+      },
+      {
+        "title": "Republic",
+        "year": "1993.05",
+        "link": "https://pan.baidu.com/s/1IglF6qH84Gcju9FvdME5GQ?pwd=8023",
+        "cover": "https://p2.music.126.net/DkrIGfvNy_E5McS9iLi3TA==/109951172203291720.jpg"
+      },
+      {
+        "title": "Get Ready",
+        "year": "2001.08",
+        "link": "https://pan.baidu.com/s/1dVPaloZSwZf-12GfSMV_Ew?pwd=8023",
+        "cover": "https://p2.music.126.net/th1t4Bx3EQIxjBHPdSMXpQ==/109951163984005128.jpg"
+      },
+      {
+        "title": "Waiting for the Sirens' Call",
+        "year": "2005.03",
+        "link": "https://pan.baidu.com/s/1CurBhMFoVY3-EiqQq4_SMg?pwd=8023",
+        "cover": "https://p2.music.126.net/7hzSCpOGHbDdXwWsAXI-gQ==/109951164077389111.jpg"
+      },
+      {
+        "title": "Lost Sirens",
+        "year": "2013.01",
+        "link": "https://pan.baidu.com/s/18DsQp0t93ntGS-IWDbi7sw?pwd=8023",
+        "cover": "https://p2.music.126.net/acd70a0voPtJqCc8V31NOQ==/109951167096206800.jpg"
+      },
+      {
+        "title": "Music Complete",
+        "year": "2015.11",
+        "link": "https://pan.baidu.com/s/1SIRfFiAFVwc1Pz0vYI9ODw?pwd=8023",
+        "cover": "https://p2.music.126.net/Z7NHZ9clqDJR34o0oa7drw==/109951163534184697.jpg"
+      }
+    ],
+    "Collaborative Albums (FLAC tracks)": [
+      {
+        "title": "Never Cry Another Tear (Bad Lieutenant)",
+        "year": "2009.10",
+        "link": "https://pan.baidu.com/s/1luGtgXulm2J6YYwxKcHyWA?pwd=8023",
+        "cover": "https://p1.music.126.net/Ybmh9HVYWC_BoxHBrEbv_Q==/109951163420653485.jpg?param=600y600"
+      }
+    ]
+  }
+}

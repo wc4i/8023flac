@@ -2031,5 +2031,82 @@ const musicDatabase = [
         pinyin: "B",
         category: "欧美之声",
         avatar: "https://p1.music.126.net/DziRCqNcsPqLKIc8rfFaMQ==/579442627871254.jpg?param=600y600"
+    },
+    {
+        id: "us-neworder",
+        name: "New Order",
+        pinyin: "N",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/2MuM5Ma_yhEpHz9q2HHRCg==/109951170099236776.jpg?param=600y600"
+    },
+    {
+        id: "cn-linmo",
+        name: "林默",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/B1L4IDDiAMN6mnMyta-P5A==/5885685743803849.jpg?param=640y640"
+    },
+    {
+        id: "us-marillion",
+        name: "Marillion",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/X6PChwIbxa92_cULb0Crbg==/223200860459690.jpg?param=600y600"
+    },
+    {
+        id: "cn-huyanbin",
+        name: "胡彦斌",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/w_z5B6inCOmfdmOXLLK6NA==/109951169374772275.jpg?param=600y600"
+    },
+    {
+        id: "jp-msooja",
+        name: "Ms.OOJA",
+        pinyin: "M",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/n_BWf8ABnFMCUaS15OgifA==/109951172241421541.jpg?param=600y600"
+    },
+    {
+        id: "im-caizhizhan",
+        name: "蔡志展",
+        pinyin: "C",
+        category: "古典与纯音",
+        avatar: "https://p2.music.126.net/HNANo3FcQFjXHIg38P9fig==/109951165531515964.jpg?param=600y600"
+    },
+    {
+        id: "ww-ruel",
+        name: "Ruel",
+        pinyin: "R",
+        category: "环球探索",
+        avatar: "https://p2.music.126.net/W2gPgMCQAG3fFQOpbBvSkA==/109951172903890890.jpg?param=640y640"
+    },
+    {
+        id: "cn-libihua",
+        name: "李碧华",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/cY-f_YTxnR9kqYIGK5HZbA==/465093418551735.jpg?param=640y640"
+    },
+    {
+        id: "cn-yuzhouren",
+        name: "宇宙人",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/ppMpj3fwgy4c4KXtqxkWMg==/109951172185272247.jpg?param=640y640"
+    },
+    {
+        id: "us-nas",
+        name: "Nas",
+        pinyin: "N",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/CEytlTs8ywFlVR6CGocj-A==/109951168733350411.jpg?param=640y640"
+    },
+    {
+        id: "kr-jangyoonjung",
+        name: "장윤정（Jang Yoonjung;张允瀞）",
+        pinyin: "J",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/Qk0pzbzu4y8nDN21-QBOOw==/109951168044872307.jpg?param=640y640"
     }
 ];

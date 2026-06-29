@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>综艺集锦 - wc4° 音乐仓库</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+        .bbs-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .bbs-row {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .bbs-row:hover {
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .resource-title {
+            font-weight: 500;
+            font-size: 14px;
+            color: var(--text-color);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            flex: 1;
+            opacity: 0.85;
+            transition: opacity 0.2s;
+        }
+
+        .bbs-row:hover .resource-title {
+            opacity: 1;
+        }
+
+        .direct-go-icon {
+            font-size: 14px;
+            color: #cbd5e1;
+            transition: color 0.2s;
+        }
+
+        .bbs-row:hover .direct-go-icon {
+            color: #94a3b8;
+        }
+
+        .loading-trigger {
+            padding: 24px;
+            text-align: center;
+            font-size: 13px;
+            color: #94a3b8;
+            display: none;
+        }
+
+        .password-tip {
+            display: block !important;
+            text-align: center !important;
+            color: var(--text-color) !important;
+            font-size: 12px !important;
+            line-height: 1.6 !important;
+            margin: 8px 0 12px !important;
+            padding: 8px 10px !important;
+            border-radius: 10px !important;
+            background: rgba(148, 163, 184, 0.08) !important;
+            border: 1px solid rgba(148, 163, 184, 0.2) !important;
+            font-weight: 500 !important;
+        }
+
+        @media (max-width: 600px) {
+            .bbs-row {
+                padding: 14px 16px;
+            }
+
+            .resource-title {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html" class="back-btn" title="返回仓库">⬅</a>
+        <div class="search-wrapper">
+            <input type="text" id="bbsSearch" class="search-input" placeholder="输入关键字一秒检索...">
+        </div>
+        <button class="theme-toggle" id="themeBtn">☀️</button>
+    </header>
+
+    <main class="category-main" style="padding-right: 20px; max-width: 900px;">
+        <p class="password-tip">If a password is required for extraction, please use: 8023 / 如遇解压密码，请使用：8023</p>
+        <div class="bbs-container" id="bbsList"></div>
+        <div class="loading-trigger" id="loadingTrigger">🔍 正在加载更多资源...</div>
+    </main>
+
+    <script src="../js/theme.js"></script>
+    <script src="../js/variety_data.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof varietyDatabase === 'undefined') {
+                document.getElementById('bbsList').innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">⚠️ 未在 js/variety_data.js 中找到数据库！</div>';
+                return;
+            }
+
+            function extractYear(title) {
+                const match = title.match(/\b(19|20)\d{2}\b/);
+                return match ? parseInt(match[0], 10) : 0;
+            }
+
+            const sortedDatabase = [...varietyDatabase].sort((a, b) => {
+                const yearA = extractYear(a.title);
+                const yearB = extractYear(b.title);
+                if (yearA !== yearB) return yearB - yearA;
+                return 0;
+            });
+
+            let filteredData = [...sortedDatabase];
+            const itemsPerPage = 25;
+            let currentPage = 1;
+
+            const searchInput = document.getElementById('bbsSearch');
+            const bbsList = document.getElementById('bbsList');
+            const loadingTrigger = document.getElementById('loadingTrigger');
+
+            function renderBbsPage(page, append = false) {
+                const start = (page - 1) * itemsPerPage;
+                const end = start + itemsPerPage;
+                const pageData = filteredData.slice(start, end);
+
+                if (!append) bbsList.innerHTML = '';
+
+                if (filteredData.length === 0) {
+                    bbsList.innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">没有找到相关资源 🥲</div>';
+                    loadingTrigger.style.display = 'none';
+                    return;
+                }
+
+                let html = '';
+                pageData.forEach((item) => {
+                    html += `
+                    <a href="${item.link}" class="bbs-row" target="_blank" title="点击直接开启网盘下载">
+                        <div class="resource-title">${escapeHtml(item.title)}</div>
+                        <div class="direct-go-icon">🔗</div>
+                    </a>
+                `;
+                });
+
+                if (append) {
+                    bbsList.insertAdjacentHTML('beforeend', html);
+                } else {
+                    bbsList.innerHTML = html;
+                }
+
+                loadingTrigger.style.display = end < filteredData.length ? 'block' : 'none';
+            }
+
+            function escapeHtml(str) {
+                return str.replace(/[&<>]/g, function (m) {
+                    if (m === '&') return '&amp;';
+                    if (m === '<') return '&lt;';
+                    if (m === '>') return '&gt;';
+                    return m;
+                });
+            }
+
+            function searchResources() {
+                const keyword = searchInput.value.trim().toLowerCase();
+                filteredData = keyword === '' ? [...sortedDatabase] : sortedDatabase.filter(item => item.title.toLowerCase().includes(keyword));
+                currentPage = 1;
+                renderBbsPage(currentPage, false);
+            }
+
+            window.addEventListener('scroll', () => {
+                if (loadingTrigger.style.display === 'none') return;
+                const rect = loadingTrigger.getBoundingClientRect();
+                if (rect.top <= window.innerHeight + 100) {
+                    currentPage++;
+                    renderBbsPage(currentPage, true);
+                }
+            });
+
+            searchInput.addEventListener('input', searchResources);
+            renderBbsPage(currentPage, false);
+        });
+    </script>
+
+    <footer class="site-footer">
+        <p>风险提示：本站所有资源均来自互联网公开渠道，仅供学习交流与个人研究使用，请于下载后24小时内删除。本站不存储任何实体文件。若本站内容侵犯了您的权益，请立即联系邮箱处理。</p>
+        <p>联系方式 / Contact: <a href="mailto:jaytamvip@gmail.com">jaytamvip@gmail.com</a></p>
+    </footer>
+
+    <div class="sticky-bottom-bar" id="stickyBar">
+        <div class="bar-content">
+            <span class="bar-text">📢 获取最新更新资讯，点击关注微信公众号</span>
+            <div class="desktop-qr-trigger">
+                <span class="trigger-btn">👉 查看公众号二维码</span>
+                <div class="desktop-qr-dropdown">
+                    <div class="qr-box">
+                        <img src="../images/qrcode_mp.png" alt="微信公众号">
+                        <p>关注微信公众号</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-modal-overlay" id="mobileModal">
+        <div class="mobile-modal-card">
+            <button class="modal-close-btn" id="closeModalBtn">&times;</button>
+            <h3>✨ 关注我们</h3>
+            <p class="modal-subtitle">获取最新更新资讯，动态不再迷路</p>
+            <div class="modal-qr-container">
+                <div class="modal-qr-item">
+                    <img src="/images/qrcode_mp.png" alt="微信公众号">
+                    <span>微信公众号</span>
+                </div>
+            </div>
+            <p class="modal-footer-tip">感谢你的陪伴与支持！</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const stickyBar = document.getElementById('stickyBar');
+            const mobileModal = document.getElementById('mobileModal');
+            const closeModalBtn = document.getElementById('closeModalBtn');
+
+            stickyBar.addEventListener('click', () => {
+                if (window.innerWidth <= 600) {
+                    mobileModal.classList.add('active');
+                }
+            });
+
+            closeModalBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                mobileModal.classList.remove('active');
+            });
+
+            mobileModal.addEventListener('click', (e) => {
+                if (e.target === mobileModal) {
+                    mobileModal.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -220,6 +220,7 @@ main {
 .c-ost::before     { background: #8b5cf6; }
 .c-various::before { background: #ec4899; }
 .c-classic::before { background: #64748b; }
+.c-variety::before { background: #78716c; }
 
 /* ========== 分類頁面專用：歌手列表 ========== */
 .section-group {
@@ -286,6 +287,22 @@ main {
 
 /* ========== 手机端：歌手卡片一排三个 ========== */
 @media (max-width: 600px) {
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    .card {
+        padding: 20px 12px;
+        min-height: 100px;
+    }
+    .card h3 {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .card .card-en {
+        font-size: 11px;
+        margin-top: 2px;
+    }
     .artist-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
