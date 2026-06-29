@@ -2108,5 +2108,33 @@ const musicDatabase = [
         pinyin: "J",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/Qk0pzbzu4y8nDN21-QBOOw==/109951168044872307.jpg?param=640y640"
+    },
+    {
+        id: "jp-kenshi-yonezu",
+        name: "米津玄師（Kenshi Yonezu）",
+        pinyin: "K",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/zQum8YKDJPI6mHBT1GkGoQ==/109951173415376229.jpg?param=640y640"
+    },
+    {
+        id: "jp-mirei",
+        name: "當山みれい（MIREI）",
+        pinyin: "M",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/u5hzAQAemS0YYBgWsGupeQ==/109951169854895296.jpg?param=640y640"
+    },
+    {
+        id: "us-conangray",
+        name: "Conan Gray",
+        pinyin: "C",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/KAOGpYYOGQ-fzM20p8i1XA==/109951171068360407.jpg?param=640y640"
+    },
+    {
+        id: "cn-daoyuxinqing",
+        name: "岛屿心情",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/-IqE7wACwLUTisI2ObgNnw==/109951166195864785.jpg?param=640y640"
     }
 ];

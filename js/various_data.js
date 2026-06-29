@@ -4,6 +4,8 @@
 
 const variousDatabase = [
     { title: "2024 我们来自不同地方：海峡回声 [24-44.1+]", link: "https://pan.baidu.com/s/1lTVZ3CqXUtgKLiu1yK1DLA?pwd=8023" },
+    { title: "2023.12 JUMP!TOMATO [24-48]", link: "https://pan.baidu.com/s/18Yv3SpepDfJyNM6JSxwAJA?pwd=8023" },
+    { title: "2019.12 砳", link: "https://pan.baidu.com/s/1Xk0V-7Ev168ylxLqvcUXCw?pwd=8023" },
     { title: "2000 - 12夜12首 [香港版]", link: "https://pan.baidu.com/s/1-IPXRftLT1ch9AFATKKWwg?pwd=8023" },
     { title: "1998 最好关系 [香港首版]", link: "https://pan.baidu.com/s/1HfBTeXgN_VS97DRxbgNJag?pwd=8023" },
     { title: "中国歌典（年代经典歌曲）（10CD）", link: "https://pan.baidu.com/s/1FB5AA4aE_jcLn0RrUOxJbA?pwd=8023" },
