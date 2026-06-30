@@ -1,0 +1,29 @@
+{
+  "id": "us-thecalling",
+  "name": "The Calling",
+  "avatar": "https://p2.music.126.net/cSljwrJeMVisNNBBVkPEuA==/5899979394974067.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Camino Palmero",
+        "year": "2001.07",
+        "link": "https://pan.baidu.com/s/1Czvki2Wxs-jq91OCWPRAMw?pwd=8023",
+        "cover": "https://p2.music.126.net/DuZ62te3ITP8JBCO_8EVXg==/109951165991770171.jpg?param=640y640"
+      },
+      {
+        "title": "Two",
+        "year": "2004.06",
+        "link": "https://pan.baidu.com/s/1CBjCn_TY1cbnVfqKkHLacg?pwd=8023",
+        "cover": "https://p2.music.126.net/Io8858A6t5r6ioYB5iDPig==/109951165686262791.jpg?param=640y640"
+      }
+    ],
+    "Singles (as of 040330)": [
+      {
+        "title": "单曲合集",
+        "year": "",
+        "link": "https://pan.baidu.com/s/1HopVeFfgCQh15PqVYOCfgA?pwd=8023",
+        "cover": "https://p2.music.126.net/cSljwrJeMVisNNBBVkPEuA==/5899979394974067.jpg?param=640y640"
+      }
+    ]
+  }
+}

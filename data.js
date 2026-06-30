@@ -2157,5 +2157,12 @@ const musicDatabase = [
         pinyin: "L",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/HCTOqlgnRbG37YbNIvdbUw==/109951169038474808.jpg?param=640y640"
+    },
+    {
+        id: "us-thecalling",
+        name: "The Calling",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/cSljwrJeMVisNNBBVkPEuA==/5899979394974067.jpg?param=640y640"
     }
 ];
