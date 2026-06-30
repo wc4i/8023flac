@@ -2132,9 +2132,16 @@ const musicDatabase = [
     },
     {
         id: "cn-daoyuxinqing",
-        name: "岛屿心情",
+        name: "宀涘笨蹇冩儏",
         pinyin: "D",
-        category: "华语金曲",
+        category: "鍗庤閲戞洸",
         avatar: "https://p1.music.126.net/-IqE7wACwLUTisI2ObgNnw==/109951166195864785.jpg?param=640y640"
+    },
+    {
+        id: "cn-songdongye",
+        name: "宋冬野",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/FRS2qHabnha-ZlYyfduX7g==/109951162811536835.jpg?param=640y640"
     }
 ];
