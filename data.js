@@ -1582,7 +1582,14 @@ const musicDatabase = [
         name: "HIM",
         pinyin: "H",
         category: "欧美之声",
-        avatar: "https://p1.music.126.net/AQfposGX0y1caqI5iu74nw==/109951164017439563.jpg"
+        avatar: "https://p2.music.126.net/8nKTd5vdBthCmfJotzjcGA==/109951171467169368.jpg"
+    },
+    {
+        id: "cn-xusong",
+        name: "许嵩",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/GzUNS4BEQXP6ElMqLmLfow==/109951169440820668.jpg?param=640y640"
     },
     {
         id: "us-imaginedragons",
@@ -2132,9 +2139,9 @@ const musicDatabase = [
     },
     {
         id: "cn-daoyuxinqing",
-        name: "宀涘笨蹇冩儏",
+        name: "岛屿心情",
         pinyin: "D",
-        category: "鍗庤閲戞洸",
+        category: "华语金曲",
         avatar: "https://p1.music.126.net/-IqE7wACwLUTisI2ObgNnw==/109951166195864785.jpg?param=640y640"
     },
     {
@@ -2143,5 +2150,12 @@ const musicDatabase = [
         pinyin: "S",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/FRS2qHabnha-ZlYyfduX7g==/109951162811536835.jpg?param=640y640"
+    },
+    {
+        id: "cn-linzhiying",
+        name: "林志颖",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/HCTOqlgnRbG37YbNIvdbUw==/109951169038474808.jpg?param=640y640"
     }
 ];
