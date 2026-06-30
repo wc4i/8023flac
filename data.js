@@ -2164,5 +2164,12 @@ const musicDatabase = [
         pinyin: "T",
         category: "欧美之声",
         avatar: "https://p2.music.126.net/cSljwrJeMVisNNBBVkPEuA==/5899979394974067.jpg?param=640y640"
+    },
+    {
+        id: "cn-zhongshuman",
+        name: "钟舒漫",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/V8OkFf7ulsJXQCAYj1Jt_A==/109951169300341434.jpg?param=640y640"
     }
 ];
