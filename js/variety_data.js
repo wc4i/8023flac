@@ -1,6 +1,16 @@
 // 综艺集锦资源数据库
 const varietyDatabase = [
-    { title: "乐队的夏天 第1季 2019", link: "https://pan.baidu.com/s/1QPkcPQauh5uoykqXN3zAPw?pwd=8023" },
-    { title: "乐队的夏天 第2季 2020", link: "https://pan.baidu.com/s/1hgQ8KAS9I0PJWwNTk794Zg?pwd=8023" },
-    { title: "乐队的夏天 第3季 2023", link: "https://pan.baidu.com/s/1wxmYRmcF8hUemUeq6mwQQA?pwd=8023" },
+    { title: "2023 乐队的夏天 第3季", link: "https://pan.baidu.com/s/1wxmYRmcF8hUemUeq6mwQQA?pwd=8023" },
+    { title: "2020 乐队的夏天 第2季", link: "https://pan.baidu.com/s/1hgQ8KAS9I0PJWwNTk794Zg?pwd=8023" },
+    { title: "2019 乐队的夏天 第1季", link: "https://pan.baidu.com/s/1QPkcPQauh5uoykqXN3zAPw?pwd=8023" },
+    { title: "2016 我是歌手 第4季", link: "https://pan.baidu.com/s/1zvAceatb0sTpsvjsyFXRXA?pwd=8023" },
+    { title: "2015 我是歌手 第3季", link: "https://pan.baidu.com/s/1MMyJ5Bq-3u7HIip8vqP6Ag?pwd=8023" },
+    { title: "2014 我是歌手 第2季", link: "https://pan.baidu.com/s/1Z2ka-RuHYQYVlXnwLjojAg?pwd=8023" },
+    { title: "2013 我是歌手 第1季", link: "https://pan.baidu.com/s/1AZlJg61zQI3seRnuAShV9w?pwd=8023" },
+    { title: "2020 歌手·当打之年", link: "https://pan.baidu.com/s/1L4ijr_6C5QDw0B6ybgTdyw?pwd=8023" },
+    { title: "2019 歌手2019", link: "https://pan.baidu.com/s/1McBvbAncKfQA-sRu5UcsRw?pwd=8023" },
+    { title: "2018 歌手2018", link: "https://pan.baidu.com/s/1KUmeSn0r3hPiLUI39sE22Q?pwd=8023" },
+    { title: "2017 歌手2017", link: "https://pan.baidu.com/s/1VI01gNRno_d8JJyFVaEkDQ?pwd=8023" },
+    { title: "2024 歌手2024", link: "https://pan.baidu.com/s/1hgsw-wFv_mYL4bdS6Cr1vQ?pwd=8023" },
+    { title: "2025 歌手2025", link: "https://pan.baidu.com/s/1fuD_Ex6J1qH2k-yXyYW42w?pwd=8023" },
 ];

@@ -156,18 +156,17 @@
                 return;
             }
 
-            // ---------- 核心改动：按标题中的年份降序排序（新片在前）----------
+            // ---------- 综艺页：按标题中的年份倒序排序 ----------
             function extractYear(title) {
                 const match = title.match(/\b(19|20)\d{2}\b/);
-                return match ? parseInt(match[0], 10) : 0;   // 无年份的排最后（年份0）
+                return match ? parseInt(match[0], 10) : 0;
             }
 
-            // 稳定排序，年份相同则保持原顺序
             const sortedDatabase = [...varietyDatabase].sort((a, b) => {
                 const yearA = extractYear(a.title);
                 const yearB = extractYear(b.title);
-                if (yearA !== yearB) return yearB - yearA;   // 降序：大的在前
-                return 0;   // 相等则不动（保持插入顺序）
+                if (yearA !== yearB) return yearB - yearA;
+                return 0; // 相等则保持原顺序
             });
 
             let filteredData = [...sortedDatabase];
