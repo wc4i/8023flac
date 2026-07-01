@@ -7,6 +7,7 @@
     <title>综艺集锦 - wc4° 音乐仓库</title>
     <link rel="stylesheet" href="../css/main.css">
     <style>
+        /* 针对海量列表的防疲劳 BBS 风格专属样式 */
         .bbs-container {
             display: flex;
             flex-direction: column;
@@ -14,6 +15,7 @@
             margin-top: 20px;
         }
 
+        /* 单行极简资源卡片 */
         .bbs-row {
             background-color: var(--card-bg);
             border-radius: 10px;
@@ -24,40 +26,70 @@
             align-items: center;
             justify-content: space-between;
             gap: 16px;
-            transition: transform 0.2s, box-shadow 0.2s;
+            transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
             text-decoration: none;
             color: inherit;
         }
 
         .bbs-row:hover {
-            transform: translateY(-1px);
+            transform: translateY(-2px);
             box-shadow: var(--shadow-md);
+            background-color: rgba(59, 130, 246, 0.02);
+        }
+
+        [data-theme="dark"] .bbs-row:hover {
+            background-color: rgba(255, 255, 255, 0.02);
+        }
+
+        /* 左侧边框色彩循环 */
+        .color-0 {
+            border-left: 4px solid #ef4444;
+        }
+
+        .color-1 {
+            border-left: 4px solid #3b82f6;
+        }
+
+        .color-2 {
+            border-left: 4px solid #10b981;
+        }
+
+        .color-3 {
+            border-left: 4px solid #f59e0b;
+        }
+
+        .color-4 {
+            border-left: 4px solid #8b5cf6;
         }
 
         .resource-title {
-            font-weight: 500;
-            font-size: 14px;
+            font-weight: 600;
+            font-size: 15px;
             color: var(--text-color);
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
             flex: 1;
-            opacity: 0.85;
-            transition: opacity 0.2s;
-        }
-
-        .bbs-row:hover .resource-title {
-            opacity: 1;
-        }
-
-        .direct-go-icon {
-            font-size: 14px;
-            color: #cbd5e1;
             transition: color 0.2s;
         }
 
-        .bbs-row:hover .direct-go-icon {
+        .bbs-row:hover .resource-title {
+            color: #3b82f6;
+        }
+
+        [data-theme="dark"] .bbs-row:hover .resource-title {
+            color: #60a5fa;
+        }
+
+        .direct-go-icon {
+            font-size: 16px;
             color: #94a3b8;
+            transition: transform 0.2s, color 0.2s;
+        }
+
+        .bbs-row:hover .direct-go-icon {
+            transform: translateX(4px);
+            color: #3b82f6;
         }
 
         .loading-trigger {
@@ -77,9 +109,9 @@
             margin: 8px 0 12px !important;
             padding: 8px 10px !important;
             border-radius: 10px !important;
-            background: rgba(148, 163, 184, 0.08) !important;
-            border: 1px solid rgba(148, 163, 184, 0.2) !important;
-            font-weight: 500 !important;
+            background: rgba(245, 158, 11, 0.08) !important;
+            border: 1px solid rgba(245, 158, 11, 0.22) !important;
+            font-weight: 600 !important;
         }
 
         @media (max-width: 600px) {
@@ -88,7 +120,11 @@
             }
 
             .resource-title {
-                font-size: 13px;
+                font-size: 13.5px;
+            }
+
+            .direct-go-icon {
+                font-size: 14px;
             }
         }
     </style>
@@ -120,19 +156,23 @@
                 return;
             }
 
+            // ---------- 核心改动：按标题中的年份降序排序（新片在前）----------
             function extractYear(title) {
                 const match = title.match(/\b(19|20)\d{2}\b/);
-                return match ? parseInt(match[0], 10) : 0;
+                return match ? parseInt(match[0], 10) : 0;   // 无年份的排最后（年份0）
             }
 
+            // 稳定排序，年份相同则保持原顺序
             const sortedDatabase = [...varietyDatabase].sort((a, b) => {
                 const yearA = extractYear(a.title);
                 const yearB = extractYear(b.title);
-                if (yearA !== yearB) return yearB - yearA;
-                return 0;
+                if (yearA !== yearB) return yearB - yearA;   // 降序：大的在前
+                return 0;   // 相等则不动（保持插入顺序）
             });
 
             let filteredData = [...sortedDatabase];
+
+            // 分页配置
             const itemsPerPage = 25;
             let currentPage = 1;
 
@@ -154,9 +194,11 @@
                 }
 
                 let html = '';
-                pageData.forEach((item) => {
+                pageData.forEach((item, idx) => {
+                    const globalIndex = start + idx;
+                    const colorClass = `color-${globalIndex % 5}`;
                     html += `
-                    <a href="${item.link}" class="bbs-row" target="_blank" title="点击直接开启网盘下载">
+                    <a href="${item.link}" class="bbs-row ${colorClass}" target="_blank" title="点击直接开启网盘下载">
                         <div class="resource-title">${escapeHtml(item.title)}</div>
                         <div class="direct-go-icon">🔗</div>
                     </a>
@@ -169,7 +211,11 @@
                     bbsList.innerHTML = html;
                 }
 
-                loadingTrigger.style.display = end < filteredData.length ? 'block' : 'none';
+                if (end < filteredData.length) {
+                    loadingTrigger.style.display = 'block';
+                } else {
+                    loadingTrigger.style.display = 'none';
+                }
             }
 
             function escapeHtml(str) {
@@ -183,7 +229,13 @@
 
             function searchResources() {
                 const keyword = searchInput.value.trim().toLowerCase();
-                filteredData = keyword === '' ? [...sortedDatabase] : sortedDatabase.filter(item => item.title.toLowerCase().includes(keyword));
+                if (keyword === '') {
+                    filteredData = [...sortedDatabase];
+                } else {
+                    filteredData = sortedDatabase.filter(item =>
+                        item.title.toLowerCase().includes(keyword)
+                    );
+                }
                 currentPage = 1;
                 renderBbsPage(currentPage, false);
             }
