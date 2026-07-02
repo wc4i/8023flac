@@ -3,6 +3,13 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2023 后浪 影视原声大碟 [24-48]", link: "https://pan.baidu.com/s/1kOVHr3co-sXMuaDCBm4_nQ?pwd=8023" },
+    { title: "2023 长月烬明 电视剧原声专辑", link: "https://pan.baidu.com/s/1K8r5c8Yo_yW6SS1dfe8HzA?pwd=8023" },
+    { title: "2023 云襄传 电视原声带 [24-48]", link: "https://pan.baidu.com/s/14X7s63GMZFgAiCzAqtglaA?pwd=8023" },
+    { title: "2023 赘婿 动画原声带 [24-48]", link: "https://pan.baidu.com/s/1nyC8TsgDhS8c2e-f3imtiQ?pwd=8023" },
+    { title: "2023 择君记 电视剧原声带 [24-48]", link: "https://pan.baidu.com/s/1vrHGMPARJDkhA27JzgurXQ?pwd=8023" },
+    { title: "2023 向风而行 影视剧原声带", link: "https://pan.baidu.com/s/1Ef7whg8m7M_iknpzqUnCfw?pwd=8023" },
+    { title: "2023 重紫 电视剧原声大碟 [24-48]", link: "https://pan.baidu.com/s/1crvZuHQL1ZOa851l3kbAEg?pwd=8023" },
     { title: "2017 寻人大师 电视剧原声带 [24-48]", link: "https://pan.baidu.com/s/1nCbchM_vIiYbjEvyLBmHNw?pwd=8023" },
     { title: "2022 女士的法则 影视原声专辑", link: "https://pan.baidu.com/s/1TW3cDSxWJGzAnQMhL_UHsw?pwd=8023" },
     { title: "2022 盛装 影视剧原声带 [24-48]", link: "https://pan.baidu.com/s/1vjUW6P_Q_MQKrIl_Zg8HUA?pwd=8023" },
