@@ -2171,5 +2171,19 @@ const musicDatabase = [
         pinyin: "Z",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/V8OkFf7ulsJXQCAYj1Jt_A==/109951169300341434.jpg?param=640y640"
+    },
+    {
+        id: "cn-dasangjiacuo",
+        name: "达桑嘉措",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/clnpF5Q-WRjVKYneYhfaPQ==/109951172514774585.jpg?param=640y640"
+    },
+    {
+        id: "cn-wangziming",
+        name: "王子鸣",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/o8qoMHRIXpTv8Y985I4jxg==/109951169106526587.jpg?param=640y640"
     }
 ];
