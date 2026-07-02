@@ -4,6 +4,9 @@
 
 const variousDatabase = [
     { title: "2024 我们来自不同地方：海峡回声 [24-44.1+]", link: "https://pan.baidu.com/s/1lTVZ3CqXUtgKLiu1yK1DLA?pwd=8023" },
+    { title: "2026 上海迪士尼度假区10岁生日庆典 - 加你更奇妙", link: "https://pan.baidu.com/s/1Mxsl7oJULbn_5MmrwOkPvA?pwd=8023" },
+    { title: "2024 脱壳 星辰集词曲创作营·第八季 [24-48]", link: "https://pan.baidu.com/s/1X54V7fcTSGW76AXQEh5m4w?pwd=8023" },
+    { title: "2024 合流·暗夜潮汐 星辰集词曲创作营·第九季", link: "https://pan.baidu.com/s/1hNvVYays4l-PDxAPjL0mDQ?pwd=8023" },
     { title: "1999 今年会更好 [香港首版]", link: "https://pan.baidu.com/s/1MJmTL7B5FxDPFGdwJWXAqg?pwd=8023" },
     { title: "2023.12 JUMP!TOMATO [24-48]", link: "https://pan.baidu.com/s/18Yv3SpepDfJyNM6JSxwAJA?pwd=8023" },
     { title: "2019.12 砳", link: "https://pan.baidu.com/s/1Xk0V-7Ev168ylxLqvcUXCw?pwd=8023" },

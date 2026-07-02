@@ -1,5 +1,6 @@
 // 综艺集锦资源数据库
 const varietyDatabase = [
+    { title: "2026 国乐无双", link: "https://pan.baidu.com/s/1JmSGpMOuPzBV8LHMNmJUIw?pwd=8023" },
     { title: "2023 乐队的夏天 第3季", link: "https://pan.baidu.com/s/1wxmYRmcF8hUemUeq6mwQQA?pwd=8023" },
     { title: "2020 乐队的夏天 第2季", link: "https://pan.baidu.com/s/1hgQ8KAS9I0PJWwNTk794Zg?pwd=8023" },
     { title: "2019 乐队的夏天 第1季", link: "https://pan.baidu.com/s/1QPkcPQauh5uoykqXN3zAPw?pwd=8023" },
@@ -13,4 +14,8 @@ const varietyDatabase = [
     { title: "2017 歌手2017", link: "https://pan.baidu.com/s/1VI01gNRno_d8JJyFVaEkDQ?pwd=8023" },
     { title: "2024 歌手2024", link: "https://pan.baidu.com/s/1hgsw-wFv_mYL4bdS6Cr1vQ?pwd=8023" },
     { title: "2025 歌手2025", link: "https://pan.baidu.com/s/1fuD_Ex6J1qH2k-yXyYW42w?pwd=8023" },
+    { title: "2026 歌手2026", link: "https://pan.baidu.com/s/1FnN8ZHImK8BC_kzEVFWXQg?pwd=8023" },
+    { title: "2021 披荆斩棘的哥哥", link: "https://pan.baidu.com/s/1-xyJr6waT5iJijZJmSr1CA?pwd=8023" },
+    { title: "2023 披荆斩棘3", link: "https://pan.baidu.com/s/1o8bJg04--d3Cdx6nNZ2oFA?pwd=8023" },
+    { title: "2024 披荆斩棘4", link: "https://pan.baidu.com/s/1mifQhLfmy3xftAnX_jS-7g?pwd=8023" },
 ];
