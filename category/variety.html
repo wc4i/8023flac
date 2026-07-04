@@ -7,89 +7,143 @@
     <title>综艺集锦 - wc4° 音乐仓库</title>
     <link rel="stylesheet" href="../css/main.css">
     <style>
-        /* 针对海量列表的防疲劳 BBS 风格专属样式 */
-        .bbs-container {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            margin-top: 20px;
+        .variety-shell {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 20px 40px;
         }
 
-        /* 单行极简资源卡片 */
-        .bbs-row {
-            background-color: var(--card-bg);
-            border-radius: 10px;
-            border: 1px solid var(--border-color);
-            box-shadow: var(--shadow-sm);
-            padding: 16px 20px;
+        .variety-hero {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            gap: 20px;
+            padding: 24px 26px;
+            margin: 18px 0 14px;
+            border-radius: 24px;
+            background: linear-gradient(135deg, rgba(14, 116, 144, 0.14), rgba(15, 23, 42, 0.06));
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06);
+        }
+
+        .variety-kicker {
+            margin: 0 0 6px;
+            font-size: 12px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: #38bdf8;
+            font-weight: 700;
+        }
+
+        .variety-hero h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--text-color);
+        }
+
+        .variety-description {
+            margin: 8px 0 0;
+            color: var(--secondary-text-color, #64748b);
+            font-size: 14px;
+            line-height: 1.6;
+            max-width: 620px;
+        }
+
+        .variety-count {
+            margin: 6px 0 16px;
+            font-size: 13px;
+            color: #64748b;
+        }
+
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
             gap: 16px;
-            transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+            margin-top: 10px;
+        }
+
+        .resource-card {
+            display: block;
             text-decoration: none;
             color: inherit;
+            border-radius: 18px;
+            overflow: hidden;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
         }
 
-        .bbs-row:hover {
-            transform: translateY(-2px);
+        .resource-card:hover {
+            transform: translateY(-4px);
             box-shadow: var(--shadow-md);
-            background-color: rgba(59, 130, 246, 0.02);
+            border-color: rgba(59, 130, 246, 0.34);
         }
 
-        [data-theme="dark"] .bbs-row:hover {
-            background-color: rgba(255, 255, 255, 0.02);
+        .resource-cover-wrap {
+            aspect-ratio: 1;
+            background: linear-gradient(145deg, rgba(56, 189, 248, 0.18), rgba(15, 23, 42, 0.06));
+            display: grid;
+            place-items: center;
+            position: relative;
+            overflow: hidden;
         }
 
-        /* 左侧边框色彩循环 */
-        .color-0 {
-            border-left: 4px solid #ef4444;
+        .resource-cover {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
         }
 
-        .color-1 {
-            border-left: 4px solid #3b82f6;
+        .cover-placeholder {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            place-items: center;
+            font-size: 2rem;
+            font-weight: 800;
+            color: #0f172a;
+            background: linear-gradient(135deg, rgba(59,130,246,0.2), rgba(16,185,129,0.18));
         }
 
-        .color-2 {
-            border-left: 4px solid #10b981;
+        [data-theme="dark"] .cover-placeholder {
+            color: #f8fafc;
         }
 
-        .color-3 {
-            border-left: 4px solid #f59e0b;
-        }
-
-        .color-4 {
-            border-left: 4px solid #8b5cf6;
+        .resource-content {
+            padding: 6px 8px 8px;
+            position: relative;
         }
 
         .resource-title {
-            font-weight: 600;
+            font-weight: 700;
             font-size: 15px;
             color: var(--text-color);
-            white-space: nowrap;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
             overflow: hidden;
-            text-overflow: ellipsis;
-            flex: 1;
-            transition: color 0.2s;
+            line-height: 1.2;
+            min-height: 2.4em;
+            margin: 0;
+            padding: 0;
         }
 
-        .bbs-row:hover .resource-title {
-            color: #3b82f6;
+        .resource-meta {
+            position: absolute;
+            right: 8px;
+            bottom: 6px;
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            color: #64748b;
+            line-height: 1;
         }
 
-        [data-theme="dark"] .bbs-row:hover .resource-title {
-            color: #60a5fa;
-        }
-
-        .direct-go-icon {
-            font-size: 16px;
-            color: #94a3b8;
-            transition: transform 0.2s, color 0.2s;
-        }
-
-        .bbs-row:hover .direct-go-icon {
-            transform: translateX(4px);
-            color: #3b82f6;
+        .resource-year {
+            font-weight: 600;
         }
 
         .loading-trigger {
@@ -114,17 +168,64 @@
             font-weight: 600 !important;
         }
 
-        @media (max-width: 600px) {
-            .bbs-row {
-                padding: 14px 16px;
+        @media (max-width: 700px) {
+            .variety-shell {
+                padding: 0 12px 24px;
+            }
+
+            .variety-hero {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 16px 16px 18px;
+                margin: 12px 0 10px;
+            }
+
+            .variety-hero h1 {
+                font-size: 1.45rem;
+            }
+
+            .variety-description {
+                font-size: 13px;
+            }
+
+            .resource-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 12px;
+            }
+
+            .resource-content {
+                padding: 12px 12px 13px;
+            }
+
+            .resource-meta {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .variety-shell {
+                padding: 0 10px 20px;
+            }
+
+            .resource-grid {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+                gap: 8px;
+            }
+
+            .resource-cover-wrap {
+                aspect-ratio: 1 / 1;
             }
 
             .resource-title {
-                font-size: 13.5px;
+                font-size: 13px;
+                -webkit-line-clamp: 2;
+                min-height: 2.4em;
             }
 
-            .direct-go-icon {
-                font-size: 14px;
+            .resource-card {
+                border-radius: 14px;
             }
         }
     </style>
@@ -140,9 +241,18 @@
         <button class="theme-toggle" id="themeBtn">☀️</button>
     </header>
 
-    <main class="category-main" style="padding-right: 20px; max-width: 900px;">
+    <main class="category-main variety-shell">
+        <section class="variety-hero">
+            <div>
+                <p class="variety-kicker">Variety Collection</p>
+                <h1>综艺集锦</h1>
+                <p class="variety-description">按年份倒序整理，点击封面或标题即可直达下载。封面图为网络视觉素材展示，所有链接均指向对应节目或季集的完整资源包。</p>
+            </div>
+        </section>
+
         <p class="password-tip">If a password is required for extraction, please use: 8023 / 如遇解压密码，请使用：8023</p>
-        <div class="bbs-container" id="bbsList"></div>
+        <div class="variety-count" id="resourceCount">正在加载资源...</div>
+        <div class="resource-grid" id="bbsList"></div>
         <div class="loading-trigger" id="loadingTrigger">🔍 正在加载更多资源...</div>
     </main>
 
@@ -156,15 +266,22 @@
                 return;
             }
 
-            // ---------- 综艺页：按标题中的年份倒序排序 ----------
-            function extractYear(title) {
-                const match = title.match(/\b(19|20)\d{2}\b/);
-                return match ? parseInt(match[0], 10) : 0;
+            // ---------- 综艺页：优先使用 year 字段排序，兼容旧数据 ----------
+            function extractYear(item) {
+                if (item && item.year) {
+                    const match = String(item.year).match(/\d{4}/);
+                    if (match) return parseInt(match[0], 10);
+                }
+                if (item && item.title) {
+                    const match = String(item.title).match(/\b(19|20)\d{2}\b/);
+                    return match ? parseInt(match[0], 10) : 0;
+                }
+                return 0;
             }
 
             const sortedDatabase = [...varietyDatabase].sort((a, b) => {
-                const yearA = extractYear(a.title);
-                const yearB = extractYear(b.title);
+                const yearA = extractYear(a);
+                const yearB = extractYear(b);
                 if (yearA !== yearB) return yearB - yearA;
                 return 0; // 相等则保持原顺序
             });
@@ -178,6 +295,30 @@
             const searchInput = document.getElementById('bbsSearch');
             const bbsList = document.getElementById('bbsList');
             const loadingTrigger = document.getElementById('loadingTrigger');
+            const resourceCount = document.getElementById('resourceCount');
+
+            function escapeHtml(str) {
+                return String(str || '').replace(/[&<>]/g, function (m) {
+                    if (m === '&') return '&amp;';
+                    if (m === '<') return '&lt;';
+                    if (m === '>') return '&gt;';
+                    return m;
+                });
+            }
+
+            function getYearLabel(item) {
+                const year = extractYear(item);
+                return year ? `${year}` : '未知年份';
+            }
+
+            function getCoverMarkup(item) {
+                if (item.cover) {
+                    return `<img class="resource-cover" src="${item.cover}" alt="${escapeHtml(item.title)}" loading="lazy">`;
+                }
+
+                const initials = (item.title || '资源').replace(/[^\w\u4e00-\u9fff]/g, '').slice(0, 2).toUpperCase() || 'R';
+                return `<div class="cover-placeholder"><span>${escapeHtml(initials)}</span></div>`;
+            }
 
             function renderBbsPage(page, append = false) {
                 const start = (page - 1) * itemsPerPage;
@@ -188,18 +329,24 @@
 
                 if (filteredData.length === 0) {
                     bbsList.innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">没有找到相关资源 🥲</div>';
+                    resourceCount.textContent = '共 0 条资源';
                     loadingTrigger.style.display = 'none';
                     return;
                 }
 
                 let html = '';
-                pageData.forEach((item, idx) => {
-                    const globalIndex = start + idx;
-                    const colorClass = `color-${globalIndex % 5}`;
+                pageData.forEach((item) => {
                     html += `
-                    <a href="${item.link}" class="bbs-row ${colorClass}" target="_blank" title="点击直接开启网盘下载">
-                        <div class="resource-title">${escapeHtml(item.title)}</div>
-                        <div class="direct-go-icon">🔗</div>
+                    <a href="${item.link}" class="resource-card" target="_blank" title="点击直接开启网盘下载">
+                        <div class="resource-cover-wrap">
+                            ${getCoverMarkup(item)}
+                        </div>
+                        <div class="resource-content">
+                            <div class="resource-title">${escapeHtml(item.title)}</div>
+                            <div class="resource-meta">
+                                <span class="resource-year">${escapeHtml(getYearLabel(item))}</span>
+                            </div>
+                        </div>
                     </a>
                 `;
                 });
@@ -210,20 +357,13 @@
                     bbsList.innerHTML = html;
                 }
 
+                resourceCount.textContent = `共 ${filteredData.length} 条资源`;
+
                 if (end < filteredData.length) {
                     loadingTrigger.style.display = 'block';
                 } else {
                     loadingTrigger.style.display = 'none';
                 }
-            }
-
-            function escapeHtml(str) {
-                return str.replace(/[&<>]/g, function (m) {
-                    if (m === '&') return '&amp;';
-                    if (m === '<') return '&lt;';
-                    if (m === '>') return '&gt;';
-                    return m;
-                });
             }
 
             function searchResources() {

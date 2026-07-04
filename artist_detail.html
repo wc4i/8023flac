@@ -249,12 +249,28 @@ document.addEventListener('DOMContentLoaded', () => {
         setAvatar(artistRecord.avatar);
     }
 
-    const jsonUrl = new URL(`artists/${artistId}.json`, window.location.href).href;
-    fetch(jsonUrl)
-        .then(res => {
-            if (!res.ok) throw new Error('无法加载歌手数据');
-            return res.json();
-        })
+    const candidateJsonUrls = [
+        new URL(`artists/${artistId}.json`, window.location.href).href,
+        new URL(`./artists/${artistId}.json`, window.location.href).href,
+        `${window.location.origin}${window.location.pathname.replace(/[^/]+$/, '')}artists/${artistId}.json`
+    ];
+
+    async function loadArtistData() {
+        let lastError = null;
+        for (const url of candidateJsonUrls) {
+            try {
+                const res = await fetch(url, { cache: 'no-store' });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const text = await res.text();
+                return JSON.parse(text);
+            } catch (err) {
+                lastError = err;
+            }
+        }
+        throw lastError || new Error('无法加载歌手数据');
+    }
+
+    loadArtistData()
         .then(data => {
             document.title = `${data.name} - wc4° 音乐仓库`;
             document.getElementById('artistName').innerText = data.name;
