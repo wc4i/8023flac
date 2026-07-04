@@ -25,4 +25,6 @@ const varietyDatabase = [
     { title: "乘风2025", year: "2025", link: "https://pan.baidu.com/s/1PGadZD_MQPvy5qPiu-rrDw?pwd=8023", cover: "https://p2.music.126.net/9rJ9IOl5HRYNz53tdYHdJw==/109951170708463922.jpg?param=640y640" },
     { title: "乘风破浪的姐姐2", year: "2021", link: "https://pan.baidu.com/s/1-J6a5o2JGJSIpKzUVGiJlg?pwd=8023", cover: "https://star.kuwo.cn/star/starheads/500/s4s65/64/4052225098.jpg" },
     { title: "乘风2023", year: "2023", link: "https://pan.baidu.com/s/16hZEa0BMkLh1zUD_J4V-Rg?pwd=8023", cover: "https://p1.music.126.net/8hFieF6t56rWDbyPRhT8Ng==/109951168705533119.jpg?param=640y640" },
+    { title: "说唱巅峰对决2026", year: "2026", link: "https://pan.baidu.com/s/1vlO-1GoBVCvqaFzKnxvPSQ?pwd=8023", cover: "https://star.kuwo.cn/star/starheads/500/s4s38/77/3874181438.jpg" },
+    { title: "天赐的声音第七季", year: "2026", link: "https://pan.baidu.com/s/1AgFYNgJBePBJ735QfxirTw?pwd=8023", cover: "https://star.kuwo.cn/star/starheads/500/s4s14/76/2126922215.jpg" },
 ];
