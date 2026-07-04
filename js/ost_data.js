@@ -3,6 +3,16 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2000 雷霆战警 电影原声大碟 [台湾首版]", link: "https://pan.baidu.com/s/19S38Ou6989NGqk_RX3cBEQ?pwd=8023" },
+    { title: "2024 紫川·光明三杰 影视原声专辑", link: "https://pan.baidu.com/s/1M2h0UHewmB29W5yQ1ljSHQ?pwd=8023" },
+    { title: "2023 西出玉门 网剧音乐原声带", link: "https://pan.baidu.com/s/1E52jjWNsjiT7mDp1RJhd_A?pwd=8023" },
+    { title: "2023 南风知我意 电视剧原声专辑", link: "https://pan.baidu.com/s/1SN0svl-wWeyAEp864u1LtA?pwd=8023" },
+    { title: "2023 微雨燕双飞 影视剧原声带", link: "https://pan.baidu.com/s/16kc9TvrahCDC-brWZiPC0w?pwd=8023" },
+    { title: "2023 护心 电视剧原声带", link: "https://pan.baidu.com/s/1XpZmLcbk2W4oMAE7kHzBPw?pwd=8023" },
+    { title: "2023 大主宰 年番动画原声带 [24-48]", link: "https://pan.baidu.com/s/1SEo5xGeuBwQ5EcdrCiEZaw?pwd=8023" },
+    { title: "2023 做自己的光 电视剧影视原声带", link: "https://pan.baidu.com/s/1PFHRYlnTpkBrIID0-r-dpA?pwd=8023" },
+    { title: "2023 暮色心约 电视剧原声带 [24-48]", link: "https://pan.baidu.com/s/1qx0TkLhBxcsIdofahHBZ4Q?pwd=8023" },
+    { title: "2023 我的人间烟火 电视剧原声带", link: "https://pan.baidu.com/s/15fX1DyWoDAxu_Fc_Uk39Sw?pwd=8023" },
     { title: "2023 后浪 影视原声大碟 [24-48]", link: "https://pan.baidu.com/s/1kOVHr3co-sXMuaDCBm4_nQ?pwd=8023" },
     { title: "2023 长月烬明 电视剧原声专辑", link: "https://pan.baidu.com/s/1K8r5c8Yo_yW6SS1dfe8HzA?pwd=8023" },
     { title: "2023 云襄传 电视原声带 [24-48]", link: "https://pan.baidu.com/s/14X7s63GMZFgAiCzAqtglaA?pwd=8023" },

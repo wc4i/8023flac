@@ -2185,5 +2185,54 @@ const musicDatabase = [
         pinyin: "W",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/o8qoMHRIXpTv8Y985I4jxg==/109951169106526587.jpg?param=640y640"
+    },
+    {
+        id: "us-madonna",
+        name: "Madonna",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/9FG8yfkWzx3gQsFTz0kpTw==/109951173132197100.jpg?param=640y640"
+    },
+    {
+        id: "cn-xuliang",
+        name: "徐良",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/gGl5n50qGIRjlNVrjie4KQ==/109951170120539554.jpg?param=640y640"
+    },
+    {
+        id: "cn-lanyibang",
+        name: "蓝奕邦",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/qktYGKJ31_kWzm3l8iAoBA==/109951167550642611.jpg?param=640y640"
+    },
+    {
+        id: "cn-wangxinping",
+        name: "王馨平",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/hSZx4Gv25_i2DjVG6kWS6w==/109951167325184697.jpg?param=640y640"
+    },
+    {
+        id: "us-2pac",
+        name: "2Pac",
+        pinyin: "2",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/iKFLjOU1VqELzsNuB2t7yg==/109951168930774652.jpg?param=640y640"
+    },
+    {
+        id: "cn-kuangwenxun",
+        name: "邝文珣",
+        pinyin: "K",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/vi2lzBw0wf-UB96R0SWupQ==/72567767451227.jpg?param=640y640"
+    },
+    {
+        id: "cn-wanglihong",
+        name: "王力宏",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/T5eZ-cn4-_JAdsnB_WtHzQ==/109951170336953174.jpg?param=640y640"
     }
 ];
