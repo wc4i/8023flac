@@ -2234,5 +2234,40 @@ const musicDatabase = [
         pinyin: "W",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/T5eZ-cn4-_JAdsnB_WtHzQ==/109951170336953174.jpg?param=640y640"
+    },
+    {
+        id: "cn-cailier",
+        name: "蔡立儿",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/5yCStExfZN1eoxE0laHjXw==/109951169951696013.jpg?param=640y640"
+    },
+    {
+        id: "jp-yanoakiko",
+        name: "矢野顕子（Akiko Yano）",
+        pinyin: "A",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/YEVdHNhiwwrnAqx4duOdwQ==/109951166208529916.jpg?param=640y640"
+    },
+    {
+        id: "kr-v8",
+        name: "V8",
+        pinyin: "V",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/XOqJpRgum9b7k0iW_HK0EA==/109951173477720364.jpg?param=640y640"
+    },
+    {
+        id: "cn-yaoshisan",
+        name: "尧十三",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/2y_iNqvJcQyartL9m9Vyog==/109951164107862130.jpg?param=640y640"
+    },
+    {
+        id: "cn-zhangyixing",
+        name: "张艺兴",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/_Akf4ptADF0vwoCPvoOw8Q==/109951172494556946.jpg?param=640y640"
     }
 ];

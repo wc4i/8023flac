@@ -3,6 +3,14 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2026 成何体统 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1kd_ANthO1wqRLVnLJnCEdg?pwd=8023" },
+    { title: "2026 风过留痕 影视原声带", link: "https://pan.baidu.com/s/1NSGDPa4LkxDLyGAdT4xcWA?pwd=8023" },
+    { title: "2025 玉茗茶骨 影视原声带", link: "https://pan.baidu.com/s/1Vo2cl-iPqXPcwecsWPcI-g?pwd=8023" },
+    { title: "2026 有罪之身 悬疑原声大碟 [24-48]", link: "https://pan.baidu.com/s/1rN7t-z9rkc_86SZ8LuRjhQ?pwd=8023" },
+    { title: "2026 她的盛焰 影视原声带 [16-48]", link: "https://pan.baidu.com/s/1Decc5E0UxY0gIOeg2agjVw?pwd=8023" },
+    { title: "2026 我的山与海 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1j8UgynNsPFf5iLTTHkdZjw?pwd=8023" },
+    { title: "2026 飞驰人生3 电影原声带 (Pegasus 3 Original Motion Picture Soundtrack) [24-48]", link: "https://pan.baidu.com/s/1vzS1IqXKvX1XkE7u-eyhzw?pwd=8023" },
+    { title: "2026 太平年 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1msttQeELR9NBZtDFnwhuTQ?pwd=8023" },
     { title: "2000 雷霆战警 电影原声大碟 [台湾首版]", link: "https://pan.baidu.com/s/19S38Ou6989NGqk_RX3cBEQ?pwd=8023" },
     { title: "2024 紫川·光明三杰 影视原声专辑", link: "https://pan.baidu.com/s/1M2h0UHewmB29W5yQ1ljSHQ?pwd=8023" },
     { title: "2023 西出玉门 网剧音乐原声带", link: "https://pan.baidu.com/s/1E52jjWNsjiT7mDp1RJhd_A?pwd=8023" },
