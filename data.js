@@ -2325,5 +2325,33 @@ const musicDatabase = [
         pinyin: "M",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/2tUvX8P9lc6TSGj2_Bm5PQ==/109951169959787959.jpg?param=640y640"
+    },
+    {
+        id: "cn-liuxiaohui",
+        name: "刘小慧",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/0lqZE2s9DpBXLGtrZE0tKw==/109951168314006703.jpg?param=640y640"
+    },
+    {
+        id: "cn-kouchouching",
+        name: "拷秋勤",
+        pinyin: "K",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music/57/74/b7/mzi.zomayelm.tif/600x600bb.jpg"
+    },
+    {
+        id: "cn-laodongfuwu",
+        name: "劳动服务",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/LADD4JewRxC5uyj4hhWHkQ==/1396379775681587.jpg?param=640y640"
+    },
+    {
+        id: "cn-zhuoshuixigongshe",
+        name: "浊水溪公社",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://i.discogs.com/ftXGEEUHSi9Ri0hKDPood5gDPABoa3lkKxGfSgJGQQE/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MTM4/ODYtMTM3NjMzOTI4/Mi02OTU1LmpwZWc.jpeg"
     }
 ];
