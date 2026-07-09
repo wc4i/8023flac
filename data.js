@@ -2269,5 +2269,61 @@ const musicDatabase = [
         pinyin: "Z",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/_Akf4ptADF0vwoCPvoOw8Q==/109951172494556946.jpg?param=640y640"
+    },
+    {
+        id: "cn-youdaoshe",
+        name: "诱导社",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/pqTMlSB4HdPBnbwreFu5Tw==/660806488319984.jpg?param=640y640"
+    },
+    {
+        id: "cn-dingxiaoqin",
+        name: "丁小芹",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/8Wlpue9ipVsWtO1D_libaw==/118747255818642.jpg?param=640y640"
+    },
+    {
+        id: "cn-wenlan",
+        name: "温岚",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/jPNVrYi_5I4GmWVkpPaADQ==/109951165687773622.jpg?param=640y640"
+    },
+    {
+        id: "cn-luanzheng",
+        name: "乱徵",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/3p_jB06rQI7_4pHWIlQWOQ==/109951171833048474.jpg?param=640y640"
+    },
+    {
+        id: "cn-qiqin",
+        name: "齐秦",
+        pinyin: "Q",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/5VEZjCGZ-3KMrHpmfwG71w==/109951165592430252.jpg?param=640y640"
+    },
+    {
+        id: "cn-wangsulong",
+        name: "汪苏泷",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/rr0okZOQwSxTlVeLj8bKcQ==/109951172494698800.jpg?param=640y640"
+    },
+    {
+        id: "jp-everylittlething",
+        name: "Every Little Thing（小事乐团）",
+        pinyin: "E",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/XH9PBvmMkZC4uMpgMFFnWw==/866415162711274.jpg?param=640y640"
+    },
+    {
+        id: "jp-nakaemitsuki",
+        name: "中恵光城（Mitsuki Nakae）",
+        pinyin: "M",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/2tUvX8P9lc6TSGj2_Bm5PQ==/109951169959787959.jpg?param=640y640"
     }
 ];

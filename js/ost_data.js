@@ -3,6 +3,7 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2015 莫非，这就是爱情 电视剧原声带", link: "https://pan.baidu.com/s/1BiWUgq6IIBVVTMMyVVcfNA?pwd=8023" },
     { title: "2026 成何体统 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1kd_ANthO1wqRLVnLJnCEdg?pwd=8023" },
     { title: "2026 风过留痕 影视原声带", link: "https://pan.baidu.com/s/1NSGDPa4LkxDLyGAdT4xcWA?pwd=8023" },
     { title: "2025 玉茗茶骨 影视原声带", link: "https://pan.baidu.com/s/1Vo2cl-iPqXPcwecsWPcI-g?pwd=8023" },
