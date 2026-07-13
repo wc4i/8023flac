@@ -2360,5 +2360,33 @@ const musicDatabase = [
         pinyin: "N",
         category: "日韩风尚",
         avatar: "https://p2.music.126.net/pU_06PC40yUYqw1oAkTffg==/109951168160491323.jpg?param=640y640"
+    },
+    {
+        id: "cn-huhuizhong",
+        name: "胡慧中",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/1q7_y_LSaPLOHW6tZww_iQ==/158329674415720.jpg?param=640y640"
+    },
+    {
+        id: "cn-kolor",
+        name: "Kolor",
+        pinyin: "K",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/i7lHrb3GyCDnzrJLUES-oQ==/109951162809972119.jpg?param=640y640"
+    },
+    {
+        id: "cn-tookoo",
+        name: "TOOKOO",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/8gKnkSjCoZ9h_t0njEGFFQ==/109951169502032673.jpg?param=640y640"
+    },
+    {
+        id: "cn-yuwenwen",
+        name: "于文文",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/qqP7T57ifBhLU_a2ZtfqfA==/109951170187640451.jpg?param=640y640"
     }
 ];

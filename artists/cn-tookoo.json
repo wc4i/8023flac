@@ -1,0 +1,55 @@
+{
+  "id": "cn-tookoo",
+  "name": "TOOKOO",
+  "avatar": "https://p1.music.126.net/8gKnkSjCoZ9h_t0njEGFFQ==/109951169502032673.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Dance For Yourself",
+        "year": "2006.06",
+        "link": "https://pan.baidu.com/s/1OxDSHt1dmVor0mbbOwHKbg?pwd=8023",
+        "cover": "https://p1.music.126.net/we8ZIGW3usy2ZV_ygjiJyA==/70368744193212.jpg?param=600y600"
+      },
+      {
+        "title": "Mountain And Ocean (山与海) [24-48]",
+        "year": "2026.06",
+        "link": "https://pan.baidu.com/s/17er4vZSwsN5xUfeN1ojlbA?pwd=8023",
+        "cover": "https://p2.music.126.net/V15Jk13Rcx74GWRzi_L5Zg==/109951173460057263.jpg?param=600y600"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "Live @ Nameless Highland",
+        "year": "2008.11",
+        "link": "https://pan.baidu.com/s/132l___tn__YRoQ_PJALpoQ?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/45/c4/b0/mzi.cvwratmo.tif/600x600bb.jpg"
+      },
+      {
+        "title": "Live @ New Get Lucky",
+        "year": "2008.11",
+        "link": "https://pan.baidu.com/s/1yTHXIj3TZXinOvWr8N1Bqg?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/36/ef/10/mzi.emwukloh.tif/600x600bb.jpg"
+      }
+    ],
+    "EPs": [
+      {
+        "title": "Crystal Beat On The Dirty Dance",
+        "year": "2009.05",
+        "link": "https://pan.baidu.com/s/1dsFZKfLf4J5dBoSugyZCEQ?pwd=8023",
+        "cover": "https://p1.music.126.net/5npzV7qlTZuL923BJjPgiw==/28587302336713.jpg?param=600y600"
+      },
+      {
+        "title": "Tattoo [24-48]",
+        "year": "2024.08",
+        "link": "https://pan.baidu.com/s/1bFveYNQ5ey1HvG0hJFwsmg?pwd=8023",
+        "cover": "https://p1.music.126.net/FG_NMPq7ElMD41XxdUk3Qg==/109951169894760145.jpg?param=600y600"
+      },
+      {
+        "title": "Emoh [24-48]",
+        "year": "2024.12",
+        "link": "https://pan.baidu.com/s/1ZQB6OhGVYAdT1TLKi3uOKw?pwd=8023",
+        "cover": "https://p1.music.126.net/IVGGcF1uSuNf4JIl67I9qQ==/109951170297713127.jpg?param=600y600"
+      }
+    ]
+  }
+}
