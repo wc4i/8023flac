@@ -3,6 +3,8 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const variousDatabase = [
+    { title: "2026 同脉 · 百年守护 [24-48]", link: "https://pan.baidu.com/s/13auMCl-EScNGV-v1Oi8fwA?pwd=8023" },
+    { title: "2026 作为花我从来没败过", link: "https://pan.baidu.com/s/14xh7lnNxF_JXd42kZNQ9JA?pwd=8023" },
     { title: "1996 两情相乐 [曲目7为mp3]", link: "https://pan.baidu.com/s/1n-e-XXHLi3eaBuD7-TWb1w?pwd=8023" },
     { title: "2009 拷秋勤 Present：无名英雄", link: "https://pan.baidu.com/s/1bR9Gq9u2X3VTK597qcfGbA?pwd=8023" },
     { title: "2006 爱情攻略 [引进版]", link: "https://pan.baidu.com/s/1PGyo9anVIMELfrIE5T6Kow?pwd=8023" },
@@ -33,7 +35,7 @@ const variousDatabase = [
     { title: "世纪歌典 20CD【中唱唱片】", link: "https://pan.baidu.com/s/1IWO_Wij2FFIbO1cV0sh9NQ?pwd=8023" },
     { title: "2020 万物：与动物相遇.zip", link: "https://pan.baidu.com/s/19qfy4VLYYmfs5JmymeTZLg?pwd=8023" },
     { title: "New Music Best Collection 01-18【18CD合集】【日】", link: "https://pan.baidu.com/s/1H51tK5E2BcDjr0SQyE6Xng?pwd=8023" },
-    { title: "邻家诗话 1-5季", link: "https://pan.baidu.com/s/1KT-jR1JrN7SU11BFM6Ning?pwd=8023" }, 
+    { title: "邻家诗话 1-5季", link: "https://pan.baidu.com/s/1KT-jR1JrN7SU11BFM6Ning?pwd=8023" },
     { title: "2002 Pretty Happy & Gay【人山人海】", link: "https://pan.baidu.com/s/1OrR9Zlr4xtkqzkyTIyFntg?pwd=8023" },
     { title: "1985 华星影视新节奏 第二辑", link: "https://pan.baidu.com/s/1o-k8K3yujAz-lgM7L4D49Q?pwd=8023" },
     { title: "2022 国风新潮合辑壹·飞趋清漪赋 [24-48]", link: "https://pan.baidu.com/s/1RU9AmdxCnZonCJUxgl195g?pwd=8023" },

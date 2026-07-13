@@ -1,0 +1,37 @@
+{
+  "id": "kr-newjeans",
+  "name": "NewJeans",
+  "avatar": "https://p2.music.126.net/pU_06PC40yUYqw1oAkTffg==/109951168160491323.jpg?param=640y640",
+  "groups": {
+    "Mini Albums": [
+      {
+        "title": "NewJeans 1st EP 'New Jeans'",
+        "year": "2022.08",
+        "link": "https://pan.baidu.com/s/17hasOmHeqZ3jdePQ06qIkA?pwd=8023",
+        "cover": "https://p2.music.126.net/RN5oF-NouCEPlSdVC06LTQ==/109951169165007858.jpg?param=640y640"
+      },
+      {
+        "title": "NewJeans 2nd EP 'Get Up'",
+        "year": "2023.07",
+        "link": "https://pan.baidu.com/s/1U3EDyCLvTCyb1aOjEEdjZQ?pwd=8023",
+        "cover": "https://p1.music.126.net/Mm3SZ9CFy4OmpCvX1Mge1w==/109951168721615754.jpg?param=640y640"
+      }
+    ],
+    "Collaborative Albums": [
+      {
+        "title": "NJWMX",
+        "year": "2023.12",
+        "link": "https://pan.baidu.com/s/1gYYc5ThoJX1zgoccrxUCAw?pwd=8023",
+        "cover": "https://p1.music.126.net/LUFD56qxH53EsdcAQLzhBw==/109951169174828710.jpg?param=640y640"
+      }
+    ],
+    "Singles (as of 240621)": [
+      {
+        "title": "单曲合集",
+        "year": "",
+        "link": "https://pan.baidu.com/s/10YDhGlj3BBHv52OMPWVGYA?pwd=8023",
+        "cover": ""
+      }
+    ]
+  }
+}

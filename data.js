@@ -2353,5 +2353,12 @@ const musicDatabase = [
         pinyin: "Z",
         category: "华语金曲",
         avatar: "https://i.discogs.com/ftXGEEUHSi9Ri0hKDPood5gDPABoa3lkKxGfSgJGQQE/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MTM4/ODYtMTM3NjMzOTI4/Mi02OTU1LmpwZWc.jpeg"
+    },
+    {
+        id: "kr-newjeans",
+        name: "NewJeans",
+        pinyin: "N",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/pU_06PC40yUYqw1oAkTffg==/109951168160491323.jpg?param=640y640"
     }
 ];
