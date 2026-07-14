@@ -2388,5 +2388,12 @@ const musicDatabase = [
         pinyin: "Y",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/qqP7T57ifBhLU_a2ZtfqfA==/109951170187640451.jpg?param=640y640"
+    },
+    {
+        id: "cn-liuyuning",
+        name: "刘宇宁",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/k4W8F47fvoSsU8GYqIvJ5A==/109951164250458475.jpg?param=640y640"
     }
 ];
