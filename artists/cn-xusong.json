@@ -5,10 +5,74 @@
   "groups": {
     "Studio Albums (FLAC tracks)": [
       {
+        "title": "自定义",
+        "year": "2009.01",
+        "link": "https://pan.baidu.com/s/16UfMFLCtu8hMHhF9y57nkg?pwd=8023",
+        "cover": "https://p1.music.126.net/Zg4XDfsiRi5vawjSWPP8Ng==/109951172899966259.jpg?param=600y600"
+      },
+      {
+        "title": "寻雾启示",
+        "year": "2010.01",
+        "link": "https://pan.baidu.com/s/13qz6fz7MQmkyJBR2ww15gA?pwd=8023",
+        "cover": "https://p1.music.126.net/ZVHx7BNaaMCJcgg8wQHOBw==/109951172202579057.jpg?param=600y600"
+      },
+      {
+        "title": "苏格拉没有底",
+        "year": "2011.04",
+        "link": "https://pan.baidu.com/s/12X0zvJHBURHN0TaXmBrs5w?pwd=8023",
+        "cover": "https://p1.music.126.net/MWVtVi3bgq65_DB5jiExJQ==/109951172321467110.jpg?param=600y600"
+      },
+      {
+        "title": "梦游计",
+        "year": "2012.07",
+        "link": "https://pan.baidu.com/s/1FVhXHdVaK2tVXIAy1nnzjw?pwd=8023",
+        "cover": "https://p1.music.126.net/7X3irAHmXIkyZKu1OzDZdQ==/109951172321460834.jpg?param=600y600"
+      },
+      {
+        "title": "不如吃茶去",
+        "year": "2014.08",
+        "link": "https://pan.baidu.com/s/1aKCNsFbYraeUkKLWxriqGA?pwd=8023",
+        "cover": "https://p1.music.126.net/NBjIuSJ7LRugXdATt3j8AA==/109951172321467418.jpg?param=600y600"
+      },
+      {
+        "title": "青年报",
+        "year": "2016.06",
+        "link": "https://pan.baidu.com/s/1H0zHfKEw3BtLzJSBvBeVPw?pwd=8023",
+        "cover": "https://p1.music.126.net/Wcs2dbukFx3TUWkRuxVCpw==/3431575794705764.jpg?param=600y600"
+      },
+      {
+        "title": "寻宝游戏",
+        "year": "2018.07",
+        "link": "https://pan.baidu.com/s/1hlgQ9G7xzYvtQRp680cMEw?pwd=8023",
+        "cover": "https://p1.music.126.net/BUFZLieG5a6E3ZVpkHP6fA==/109951163402069754.jpg?param=600y600"
+      },
+      {
+        "title": "呼吸之野",
+        "year": "2021.05",
+        "link": "https://pan.baidu.com/s/1cFnudpM9de-XIa2TCQJqgQ?pwd=8023",
+        "cover": "https://p1.music.126.net/m2PS8jiSCytmliJF27trKA==/109951168113919773.jpg?param=600y600"
+      },
+      {
         "title": "安泊猜想",
         "year": "2026.02",
         "link": "https://pan.baidu.com/s/1HSW_mbUxvBOmx3YXHK63LQ?pwd=8023",
-        "cover": "https://p2.music.126.net/K23SLth_R-gbroAN51_XIQ==/109951173390154569.jpg?param=640y640"
+        "cover": "https://p2.music.126.net/K23SLth_R-gbroAN51_XIQ==/109951173390154569.jpg?param=600y600"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "2006-2009许嵩早期单曲集",
+        "year": "",
+        "link": "https://pan.baidu.com/s/1B86PzSfPQM5dgsBoL3Lu-g?pwd=8023",
+        "cover": "https://p2.music.126.net/q6LhHJxJw21aGDN13HcyKg==/109951172188951978.jpg?param=600y600"
+      }
+    ],
+    "Singles (as of 250414)": [
+      {
+        "title": "单曲合集",
+        "year": "",
+        "link": "https://pan.baidu.com/s/1Wlh6DU28hZNM2k3HjjAXPQ?pwd=8023",
+        "cover": "https://p1.music.126.net/GzUNS4BEQXP6ElMqLmLfow==/109951169440820668.jpg?param=600y600"
       }
     ]
   }
