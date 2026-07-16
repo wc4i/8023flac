@@ -2395,5 +2395,40 @@ const musicDatabase = [
         pinyin: "L",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/k4W8F47fvoSsU8GYqIvJ5A==/109951164250458475.jpg?param=640y640"
+    },
+    {
+        id: "cn-mamuermamer",
+        name: "马木尔Mamer & IZ乐队",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/HZ4YN6D6pbgxz1Y8ki4MBg==/109951169874258811.jpg?param=640y640"
+    },
+    {
+        id: "us-cherylcole",
+        name: "Cheryl",
+        pinyin: "C",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/nZja0CR8pJRh_m3DjT47GA==/432108069721929.jpg?param=640y640"
+    },
+    {
+        id: "jp-yorushika",
+        name: "ヨルシカ（Yorushika）",
+        pinyin: "Y",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/XjrBOsnaNc-65_7MXnn73A==/18994063370037362.jpg?param=640y640"
+    },
+    {
+        id: "cn-wangjunjie",
+        name: "王俊杰",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/07/4c/76/074c7686-43f7-8e3f-629b-f314a7784c08/3.png/600x600bb.jpg"
+    },
+    {
+        id: "us-westlife",
+        name: "Westlife",
+        pinyin: "W",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/xCxLPdzfgIzDWket3FspHg==/109951166900372807.jpg?param=640y640"
     }
 ];
