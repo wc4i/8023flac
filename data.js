@@ -2430,5 +2430,40 @@ const musicDatabase = [
         pinyin: "W",
         category: "欧美之声",
         avatar: "https://p2.music.126.net/xCxLPdzfgIzDWket3FspHg==/109951166900372807.jpg?param=640y640"
+    },
+    {
+        id: "us-tyla",
+        name: "Tyla",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/z79Ae2wy95PI-bLgsj5JtQ==/109951173193275023.jpg?param=640y640"
+    },
+    {
+        id: "us-charlixcx",
+        name: "Charli xcx",
+        pinyin: "C",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/lOBdiY6LIBgJhAbaTt1KjA==/109951173389151238.jpg?param=640y640"
+    },
+    {
+        id: "cn-luoyunxi",
+        name: "罗云熙",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/dXc5XlW0A8iPlMgQegzl5Q==/109951173580504612.jpg?param=640y640"
+    },
+    {
+        id: "cn-zhanghuimei",
+        name: "张惠妹",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/cSAmmAvsKhm3N-zxWg7QcQ==/109951168490195225.jpg?param=640y640"
+    },
+    {
+        id: "us-taylorswift",
+        name: "Taylor Swift",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/3hF43Um3IacRCBnG0Gi30A==/109951173322708990.jpg?param=640y640"
     }
 ];
