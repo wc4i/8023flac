@@ -2465,5 +2465,12 @@ const musicDatabase = [
         pinyin: "T",
         category: "欧美之声",
         avatar: "https://p2.music.126.net/3hF43Um3IacRCBnG0Gi30A==/109951173322708990.jpg?param=640y640"
+    },
+    {
+        id: "cn-xujun",
+        name: "许钧",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/l-yWitWorgzJQKIzMvAMjg==/109951173528127436.jpg?param=640y640"
     }
 ];
