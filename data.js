@@ -2472,5 +2472,12 @@ const musicDatabase = [
         pinyin: "X",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/l-yWitWorgzJQKIzMvAMjg==/109951173528127436.jpg?param=640y640"
+    },
+    {
+        id: "cn-zhangbozhi",
+        name: "张柏芝",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/example-placeholder.jpg?param=600y600"
     }
 ];
