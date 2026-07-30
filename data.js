@@ -2478,6 +2478,6 @@ const musicDatabase = [
         name: "张柏芝",
         pinyin: "Z",
         category: "华语金曲",
-        avatar: "https://p2.music.126.net/example-placeholder.jpg?param=600y600"
+        avatar: "https://p1.music.126.net/RTWboutPFD-0Q3g7XN_SKw==/109951165663137742.jpg?param=600y600"
     }
 ];
