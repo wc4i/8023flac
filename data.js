@@ -2479,5 +2479,26 @@ const musicDatabase = [
         pinyin: "Z",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/RTWboutPFD-0Q3g7XN_SKw==/109951165663137742.jpg?param=600y600"
+    },
+    {
+        id: "us-arianagrande",
+        name: "Ariana Grande",
+        pinyin: "A",
+        category: "欧美之声",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000004eTCF03KvBOE.jpg"
+    },
+    {
+        id: "us-steps",
+        name: "Steps",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/9jrHGlrn-hB1PiFzyyuhkQ==/109951167580805848.jpg?param=640y640"
+    },
+    {
+        id: "jp-135",
+        name: "135（いち・さん・ご）",
+        pinyin: "1",
+        category: "日韩风尚",
+        avatar: "http://p2.music.126.net/f7X4unwdl5JMWaAxvx97Rw==/109951165285082860.jpg?param=640y640"
     }
 ];
