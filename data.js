@@ -2500,5 +2500,19 @@ const musicDatabase = [
         pinyin: "1",
         category: "日韩风尚",
         avatar: "http://p2.music.126.net/f7X4unwdl5JMWaAxvx97Rw==/109951165285082860.jpg?param=640y640"
+    },
+    {
+        id: "cn-sunhuiying",
+        name: "孙慧莹",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/HU1J_iimaY2mthFO4y4txA==/109951169946623861.jpg?param=640y640"
+    },
+    {
+        id: "kr-lee-hyori",
+        name: "李孝利（이효리；Lee Hyori）",
+        pinyin: "L",
+        category: "日韩风尚",
+        avatar: "http://p1.music.126.net/NqY3H7mr5TPse888LUfI7w==/18703792302055808.jpg?param=640y640"
     }
 ];

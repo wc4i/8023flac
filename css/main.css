@@ -177,6 +177,68 @@ main {
     text-align: center;
     min-height: 160px;
 }
+.announcement-banner {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    border-radius: 18px;
+    padding: 20px 22px;
+    margin: 28px auto 0;
+    max-width: 1000px;
+    color: var(--text-color);
+    transition: background-color var(--transition-speed), border-color var(--transition-speed);
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+.announcement-banner {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    border-radius: 18px;
+    padding: 18px 22px;
+    margin: 28px auto 0;
+    max-width: 1000px;
+    color: var(--text-color);
+    transition: background-color var(--transition-speed), border-color var(--transition-speed);
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.announcement-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(183,127,79,0.08);
+    border: 1px solid rgba(183,127,79,0.16);
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+}
+.announcement-icon {
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(183,127,79,0.18);
+    font-size: 14px;
+}
+.announcement-text {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text-color);
+    white-space: pre-wrap;
+    margin: 0;
+    flex: 1;
+    min-width: 240px;
+}
 .card:hover {
     transform: var(--hover-transform);
     box-shadow: var(--shadow-md);
