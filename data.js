@@ -2369,6 +2369,13 @@ const musicDatabase = [
         avatar: "https://p1.music.126.net/1q7_y_LSaPLOHW6tZww_iQ==/158329674415720.jpg?param=640y640"
     },
     {
+        id: "cn-houdejian",
+        name: "侯德健",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "http://p2.music.126.net/n8Qx5nVRNA1EJf7U4D1FyA==/605830906930728.jpg?param=640y640"
+    },
+    {
         id: "cn-kolor",
         name: "Kolor",
         pinyin: "K",
@@ -2514,5 +2521,12 @@ const musicDatabase = [
         pinyin: "L",
         category: "日韩风尚",
         avatar: "http://p1.music.126.net/NqY3H7mr5TPse888LUfI7w==/18703792302055808.jpg?param=640y640"
+    },
+    {
+        id: "kr-redvelvet",
+        name: "Red Velvet",
+        pinyin: "R",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/_orn5sSfaUVOXsYqkul1Ow==/109951170290688256.jpg?param=640y640"
     }
 ];
