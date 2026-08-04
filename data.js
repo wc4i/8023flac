@@ -2528,5 +2528,11 @@ const musicDatabase = [
         pinyin: "R",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/_orn5sSfaUVOXsYqkul1Ow==/109951170290688256.jpg?param=640y640"
-    }
-];
+    },
+    {
+        id: "us-everlybrothers",
+        name: "The Everly Brothers",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "http://p2.music.126.net/9k85aj3td-IzRwf7wH7-kQ==/109951166032486676.jpg?param=640y640"
+    }];
