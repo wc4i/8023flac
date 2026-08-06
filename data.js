@@ -2522,6 +2522,7 @@ const musicDatabase = [
         category: "日韩风尚",
         avatar: "http://p1.music.126.net/NqY3H7mr5TPse888LUfI7w==/18703792302055808.jpg?param=640y640"
     },
+    // 2026-08-06 更新
     {
         id: "kr-redvelvet",
         name: "Red Velvet",
@@ -2535,4 +2536,25 @@ const musicDatabase = [
         pinyin: "T",
         category: "欧美之声",
         avatar: "http://p2.music.126.net/9k85aj3td-IzRwf7wH7-kQ==/109951166032486676.jpg?param=640y640"
+    },
+    {
+        id: "jp-isekaijoucho",
+        name: "ヰ世界情緒（ISEKAI JOUCHO）",
+        pinyin: "I",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/PiFKcF_24j3IcEboOhqhdQ==/109951170267963587.jpg?param=640y640"
+    },
+    {
+        id: "cn-suzixu",
+        name: "苏紫旭&The Paramecia",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/CvcX6nLxJGX_B9pZ5JwiNA==/109951165809535589.jpg?param=640y640"
+    },
+    {
+        id: "kr-picheolin",
+        name: "Picheolin (피철인)",
+        pinyin: "P",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/CNay7DPPeYpAMkeVtuw2tQ==/109951173570813078.jpg?param=640y640"
     }];
