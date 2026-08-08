@@ -1,0 +1,49 @@
+{
+  "id": "kr-nmixx",
+  "name": "NMIXX",
+  "avatar": "https://p2.music.126.net/pn6yQsHeACNoysl4Vh4C_w==/109951173189077888.jpg?param=640y640",
+  "groups": {
+    "Full Albums": [
+      {
+        "title": "Blue Valentine",
+        "year": "2025.10",
+        "cover": "https://p2.music.126.net/wRDGhwhhzJuUkWMrjrPwKw==/109951172137146717.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1zM8w8XWmH3HKkfHn0rdaQA?pwd=8023"
+      }
+    ],
+    "Mini Albums": [
+      {
+        "title": "expérgo",
+        "year": "2023.03",
+        "cover": "https://p2.music.126.net/7VbJhgwwdaZnjPk5i1TUlQ==/109951168483903090.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1ryQ7yPJMR8EsCxUtQUemfQ?pwd=8023"
+      },
+      {
+        "title": "Fe3O4: BREAK",
+        "year": "2024.01",
+        "cover": "https://p2.music.126.net/5tJzpo0e9DoNKSp5d-3Oqg==/109951169261472921.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1_Wsq6ujYjKUsKM9aV2n2CA?pwd=8023"
+      },
+      {
+        "title": "Fe3O4: FORWARD [24-48]",
+        "year": "2025.03",
+        "cover": "https://p2.music.126.net/Y7mI4NpwoCxQiVnSOJN1zA==/109951170607144555.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1AbOhOhTkFp2loElvIxMU-g?pwd=8023"
+      },
+      {
+        "title": "Heavy Serenade",
+        "year": "2026.05",
+        "cover": "https://p2.music.126.net/rZ17a9iXgXT5rPjluO0MEw==/109951173188823207.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1nUrsFP8vpPdNYnF0YYoamA?pwd=8023"
+      }
+    ],
+    "Singles (as of 260226)": [
+      {
+        "title": "Singles (as of 260226)",
+        "year": "2026.02",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1nn3jeCcATkvpDg_g5H6uoQ?pwd=8023"
+      }
+    ]
+  }
+}

@@ -3,6 +3,7 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2014.07 Begin Again - Music From And Inspired By The Original Motion Picture [24-44.1]【美】", link: "https://pan.baidu.com/s/1Ur1PMoxU2F_MKNbIxgaU0w?pwd=8023" },
     { title: "2026 马腾你别走 电影原声带", link: "https://pan.baidu.com/s/1ZbmMMvE_ezNHirv1EHBfkA?pwd=8023" },
     { title: "2024 金枝演社《西来庵》剧场音乐集", link: "https://pan.baidu.com/s/1OJuhDAMgaMdOWCbw1Bznfg?pwd=8023" },
     { title: "2020 最美逆行者 原声大碟", link: "https://pan.baidu.com/s/1CWovyt-FB1Nn2kmqVldleg?pwd=8023" },

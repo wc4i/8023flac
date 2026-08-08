@@ -3,6 +3,8 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const variousDatabase = [
+    { title: "2021.12 - 亲爱的我 [女性合辑企划第2季]", link: "https://pan.baidu.com/s/1Au3Nn2fsI2Q-C6iuOWG9gQ?pwd=8023" },
+    { title: "2025.09 谢谢你·摇滚季", link: "https://pan.baidu.com/s/13GY84McPGyxIZeexe4H3hQ?pwd=8023" },
     { title: "2021 CONNECTED OVER THE DIMENSION【日本】", link: "https://pan.baidu.com/s/1D6ddJHHMM9Y-t2340wku8Q?pwd=8023" },
     { title: "2026 同脉 · 百年守护 [24-48]", link: "https://pan.baidu.com/s/13auMCl-EScNGV-v1Oi8fwA?pwd=8023" },
     { title: "2026 作为花我从来没败过", link: "https://pan.baidu.com/s/14xh7lnNxF_JXd42kZNQ9JA?pwd=8023" },

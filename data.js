@@ -2557,4 +2557,26 @@ const musicDatabase = [
         pinyin: "P",
         category: "日韩风尚",
         avatar: "https://p2.music.126.net/CNay7DPPeYpAMkeVtuw2tQ==/109951173570813078.jpg?param=640y640"
-    }];
+    },
+    {
+        id: "us-gavinturek",
+        name: "Gavin Turek",
+        pinyin: "G",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/kNV07sD5FV47fapaKsQkaA==/109951163935047614.jpg?param=640y640"
+    },
+    {
+        id: "kr-nmixx",
+        name: "NMIXX",
+        pinyin: "N",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/pn6yQsHeACNoysl4Vh4C_w==/109951173189077888.jpg?param=640y640"
+    },
+    {
+        id: "cn-paiweijun",
+        name: "派伟俊",
+        pinyin: "P",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/rBZX11-OtL-LBbOI_cgVAA==/109951173669652360.jpg?param=640y640"
+    }
+];
