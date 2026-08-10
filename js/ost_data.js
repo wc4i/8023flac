@@ -3,6 +3,10 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2002.01 - 少林足球 电影原声带 [日本版]", link: "https://pan.baidu.com/s/1l4dPk0U_5UGQhaPT0goXVg?pwd=8023" },
+    { title: "1989.03 - 7匹狼 电影原声带", link: "https://pan.baidu.com/s/1kKWT0wMeacaYdvlZYtUp7A?pwd=8023" },
+    { title: "1990.08 - 异域 电影原声带 [台湾首版]", link: "https://pan.baidu.com/s/1_IpsnCQcLQiKM84Qo9FTHA?pwd=8023" },
+    { title: "1993.01 - 异域Ⅱ 孤军 电影原声带 [台湾K1首版]", link: "https://pan.baidu.com/s/1FJa4Zzw9x-ClfSFLZP2WIg?pwd=8023" },
     { title: "2014.07 Begin Again - Music From And Inspired By The Original Motion Picture [24-44.1]【美】", link: "https://pan.baidu.com/s/1Ur1PMoxU2F_MKNbIxgaU0w?pwd=8023" },
     { title: "2026 马腾你别走 电影原声带", link: "https://pan.baidu.com/s/1ZbmMMvE_ezNHirv1EHBfkA?pwd=8023" },
     { title: "2024 金枝演社《西来庵》剧场音乐集", link: "https://pan.baidu.com/s/1OJuhDAMgaMdOWCbw1Bznfg?pwd=8023" },

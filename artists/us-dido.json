@@ -1,0 +1,47 @@
+{
+  "id": "us-dido",
+  "name": "Dido",
+  "avatar": "https://p1.music.126.net/fXUXMh2UvIaKNPyeXnnINw==/109951165894777063.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "No Angel",
+        "year": "1999.06",
+        "cover": "https://p1.music.126.net/wwKAfUTcgrjNVkGSijLgsQ==/18853325881506892.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1K2RXYLyWZ2qew9U3RGXm-Q?pwd=8023"
+      },
+      {
+        "title": "Life for Rent",
+        "year": "2003.09",
+        "cover": "https://p1.music.126.net/C7vWiCHxcSYQOddbisy08g==/109951165965527296.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1eC7x903j2sexwPI7BxjM8A?pwd=8023"
+      },
+      {
+        "title": "Safe Trip Home",
+        "year": "2008.11",
+        "cover": "https://p1.music.126.net/DhF99Bgh_-fWCT9b_iWJLw==/109951165992786843.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1KsAbDX713h8LvlpEDvtiTQ?pwd=8023"
+      },
+      {
+        "title": "Girl Who Got Away (Deluxe)",
+        "year": "2013.03",
+        "cover": "https://p2.music.126.net/3SjNz9R5VwccH4soQkm9zg==/109951165967516858.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1sHEGmOvqFpweCliRhC0ITg?pwd=8023"
+      },
+      {
+        "title": "Still on My Mind (Deluxe Edition)",
+        "year": "2019.03",
+        "cover": "https://p2.music.126.net/IhdQ1b0owPFYfe-akL3QVA==/109951172622196845.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1GQMxCqy2_Bv7lknmz2lJxw?pwd=8023"
+      }
+    ],
+    "Collaborative Albums (FLAC tracks)": [
+      {
+        "title": "The Last Summer (ft.R Plus)(Deluxe Edition)",
+        "year": "2020.06",
+        "cover": "https://p1.music.126.net/T9SK0LDzF8Tb1_kL9cV8bA==/109951173503495863.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1MHkUggHF-uHH2Z6rPAHl_A?pwd=8023"
+      }
+    ]
+  }
+}

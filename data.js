@@ -2578,5 +2578,54 @@ const musicDatabase = [
         pinyin: "P",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/rBZX11-OtL-LBbOI_cgVAA==/109951173669652360.jpg?param=640y640"
+    },
+    {
+        id: "cn-caiguoquan",
+        name: "蔡国权",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/VLrMA5vW1Uyl3gh7b72vpg==/68169720940211.jpg?param=640y640"
+    },
+    {
+        id: "cn-wangweima",
+        name: "王喂马",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/R7gVBr4KACJNLZ2vOjXLxw==/109951169707238106.jpg?param=640y640"
+    },
+    {
+        id: "cn-kozhendong",
+        name: "柯震东",
+        pinyin: "K",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/c9/22/42/c92242ee-0d6e-e682-89be-0e46a8f4b3d3/dj.gmeotvmt.jpg/600x600bb.jpg"
+    },
+    {
+        id: "cn-guocaijie",
+        name: "郭采洁",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/5BDarIS0WI2C5ZhKTeJOug==/109951165686224951.jpg?param=640y640"
+    },
+    {
+        id: "cn-zhuzhengting",
+        name: "朱正廷",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/iyWCeL1z0WZyxpb_fUBBOw==/109951169569700768.jpg?param=640y640"
+    },
+    {
+        id: "us-dido",
+        name: "Dido",
+        pinyin: "D",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/fXUXMh2UvIaKNPyeXnnINw==/109951165894777063.jpg?param=640y640"
+    },
+    {
+        id: "cn-luguanting",
+        name: "卢冠廷",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/zfGJ3B2VkiIO8kq7lKYY2Q==/109951169019728857.jpg?param=640y640"
     }
 ];

@@ -3,6 +3,7 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const variousDatabase = [
+    { title: "1986.01 - 蚌的启示 [百代黑胶版]", link: "https://pan.baidu.com/s/1iQchH2BAKV_3Fp1mO9hTtA?pwd=8023" },
     { title: "2021.12 - 亲爱的我 [女性合辑企划第2季]", link: "https://pan.baidu.com/s/1Au3Nn2fsI2Q-C6iuOWG9gQ?pwd=8023" },
     { title: "2025.09 谢谢你·摇滚季", link: "https://pan.baidu.com/s/13GY84McPGyxIZeexe4H3hQ?pwd=8023" },
     { title: "2021 CONNECTED OVER THE DIMENSION【日本】", link: "https://pan.baidu.com/s/1D6ddJHHMM9Y-t2340wku8Q?pwd=8023" },
@@ -200,7 +201,6 @@ const variousDatabase = [
     { title: "2020 一首歌一个故事·赵英俊某些作品重唱企划 [24-48]", link: "https://pan.baidu.com/s/1HXc9XVjXk1hcy0AR19FlLA?pwd=8023" },
     { title: "2023 以2023之名", link: "https://pan.baidu.com/s/1cDslgpWI_6EklCTASRX-9Q?pwd=8023" },
     { title: "2019 北欧回声：中国听见Sebastian【腾讯音乐人&北欧音乐】", link: "https://pan.baidu.com/s/17tRWygDPMHVyODb4YYZpfg?pwd=8023" },
-    { title: "2021 亲爱的我【网易音乐人】", link: "https://pan.baidu.com/s/1-ky3z8uUNkY0rivTZ9XUJg?pwd=8023" },
     { title: "2014 势在必行2-Everything Changes [24-48]", link: "https://pan.baidu.com/s/1Jy-m0xAK9jxOqDxMifSaJw?pwd=8023" },
     { title: "1989 新乐园【大右音乐】", link: "https://pan.baidu.com/s/1kwRGu98NEv73yI3R0ReYYg?pwd=8023" },
     { title: "2023 到此一游 (彭学斌作品辑)", link: "https://pan.baidu.com/s/15rWBTS0XAax3uWa_DH98fQ?pwd=8023" },
