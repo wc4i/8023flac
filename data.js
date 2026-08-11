@@ -2627,5 +2627,12 @@ const musicDatabase = [
         pinyin: "L",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/zfGJ3B2VkiIO8kq7lKYY2Q==/109951169019728857.jpg?param=640y640"
+    },
+    {
+        id: "cn-wangjie",
+        name: "王杰",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/tlBP6POjJ8LB1mjKug0NPw==/109951169045458223.jpg?param=640y640"
     }
 ];
