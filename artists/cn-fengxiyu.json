@@ -1,0 +1,39 @@
+{
+  "id": "cn-fengxiyu",
+  "name": "冯曦妤",
+  "pinyin": "F",
+  "category": "华语金曲",
+  "avatar": "https://p1.music.126.net/XgeUW3w5OX7Py7MAEH92Ig==/109951163353512621.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "A Little Love",
+        "year": "2008.05",
+        "cover": "https://p1.music.126.net/qrnzjC5PF-umv5LwTPMyDg==/109951165958443417.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1qE8yZz-3WJMq6ZNJyZQ7Ag?pwd=8023"
+      },
+      {
+        "title": "Sweet Melody",
+        "year": "2010.06",
+        "cover": "https://p1.music.126.net/eDwCnwKb1yTa3CzI05Dh3Q==/109951169061006431.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1NWysNawaGqrnB0yb8xjXqQ?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "Fiona Fung (Live 2010)【MP3】",
+        "year": "2010.10",
+        "cover": "https://p2.music.126.net/MuHjjMWeUzkv4M3OTxYXfg==/18353048091611329.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1mtFhSMjEIAHN87m2hnoxvA?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 230511)",
+        "year": "2023.05",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1YG9mEvjYH7NOk_rb0G0qYQ?pwd=8023"
+      }
+    ]
+  }
+}

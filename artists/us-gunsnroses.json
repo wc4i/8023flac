@@ -1,0 +1,61 @@
+{
+  "id": "us-gunsnroses",
+  "name": "Guns N' Roses",
+  "avatar": "https://p2.music.126.net/5MvIXE07KNbEP29diMTV-w==/109951166031889573.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Appetite For Destruction",
+        "year": "1987.07",
+        "cover": "https://p1.music.126.net/MtmX7mE3IeuLq9IynxOKAA==/109951166778388415.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1rt7unoDALB-2-0LsPf8EFg?pwd=8023"
+      },
+      {
+        "title": "G N' R Lies",
+        "year": "1988.11",
+        "cover": "https://p1.music.126.net/j6_ipDxXeO1CU0eEDCmF3Q==/109951165134155828.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1uzirMmP-ieuqIlG_OhQCxA?pwd=8023"
+      },
+      {
+        "title": "Use Your Illusion I",
+        "year": "1991.09",
+        "cover": "https://p1.music.126.net/AdHzlPZ7lM595PLweCekWw==/109951165416103681.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1VV7upIA2SsDZnXaZMXcHtg?pwd=8023"
+      },
+      {
+        "title": "Use Your Illusion II",
+        "year": "1991.09",
+        "cover": "https://p1.music.126.net/5nhikM-uQuOMvXiawnP8Jg==/109951163326693570.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/14dZ-i_ObMWmatz9QwNJnzQ?pwd=8023"
+      },
+      {
+        "title": "The Spaghetti Incident?",
+        "year": "1993.11",
+        "cover": "https://p1.music.126.net/ZG_IctOGd6ryLy1koOWx8w==/6620159511655718.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/14Q8k47W9kOgun3bIHhrubQ?pwd=8023"
+      },
+      {
+        "title": "Chinese Democracy",
+        "year": "2008.11",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cd/7d/bb/cd7dbb63-491a-3d65-0b29-61886ef2cd84/00602517906099.rgb.jpg/640x640bb.jpg",
+        "link": "https://pan.baidu.com/s/1mBJfCm5cWAvffrVQd2yCoQ?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "Live Era '87-'93",
+        "year": "1999.11",
+        "cover": "https://p1.music.126.net/zQwhTkXifpNBuvZT1VWDjQ==/109951165134157485.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1xbC8yVIc-EkAnGVS8DxfWw?pwd=8023"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "Use Your Illusion I & II (Super Deluxe)",
+        "year": "2022.11",
+        "cover": "https://p1.music.126.net/7FopYP_5ZMB_GU_FKFCcRA==/109951168049927771.jpg?param=400y400",
+        "link": "https://pan.baidu.com/s/1NC2qHsvE5_xi0DvT_iC6BA?pwd=8023"
+      }
+    ]
+  }
+}

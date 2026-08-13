@@ -1,0 +1,23 @@
+{
+  "id": "kr-exom",
+  "name": "EXO-M",
+  "pinyin": "E",
+  "category": "日韩风尚",
+  "avatar": "https://p1.music.126.net/LcowfK1TOr4vzCBiQ8LBzg==/5925268162301672.jpg?param=640y640",
+  "groups": {
+    "Mini Albums": [
+      {
+        "title": "'MAMA' EXO-M The 1st Mini Album",
+        "year": "2012.04",
+        "cover": "https://p1.music.126.net/7ZLbcT-dhypzcsP57KJjmw==/109951168273986279.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1RzyC3hKU5G8hrSb5QNjVTA?pwd=8023"
+      },
+      {
+        "title": "The 2nd Mini Album '上瘾 (Overdose)'",
+        "year": "2014.05",
+        "cover": "https://p1.music.126.net/JHSWaZSL5cSfINPkpbQ9kQ==/6031920790319487.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1poFNhODV9iBQt2jXBcybgA?pwd=8023"
+      }
+    ]
+  }
+}

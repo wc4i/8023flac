@@ -1,0 +1,29 @@
+{
+  "id": "jp-goodmorningpancake",
+  "name": "Goodmorning Pancake",
+  "avatar": "https://p2.music.126.net/_FnjAvk5rlOP5_7NPlYCQg==/109951168928810436.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Good Morning Christmas",
+        "year": "2025.12",
+        "cover": "https://p1.music.126.net/vFSgUomnfHeFFm-cxb2Ymw==/109951172414083992.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1oPOgwZCyCkz_Fb_Dn8OudQ?pwd=8023"
+      },
+      {
+        "title": "Ah!Chim! [24-48]",
+        "year": "2025.08",
+        "cover": "https://p1.music.126.net/stkQ_Fs_8XvCTIpZ7V9dBg==/109951171797521038.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1btTH0kC5YsjTHvrmEiAfVA?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/17XLUTodgSZNDvUmry9PMGQ?pwd=8023"
+      }
+    ]
+  }
+}

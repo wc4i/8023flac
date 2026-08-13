@@ -1,0 +1,23 @@
+{
+  "id": "kr-exok",
+  "name": "EXO-K",
+  "pinyin": "E",
+  "category": "日韩风尚",
+  "avatar": "https://p2.music.126.net/R-u1kRACMXO3BF4hBtTDKQ==/5989039836611074.jpg?param=640y640",
+  "groups": {
+    "Mini Albums": [
+      {
+        "title": "'MAMA' EXO-K The 1st Mini Album",
+        "year": "2012.04",
+        "cover": "https://p2.music.126.net/iIjDUhCUa6eOxITbbwrX5A==/109951168273981943.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1QrtvGUVh0AmEyAwj7hpUCQ?pwd=8023"
+      },
+      {
+        "title": "The 2nd Mini Album '중독 (Overdose)'",
+        "year": "2014.05",
+        "cover": "https://p2.music.126.net/YwrF8PYwZxOwZv9TpQAehw==/5994537394848353.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1fLLVrBAKXTwn66xAh2uXXg?pwd=8023"
+      }
+    ]
+  }
+}

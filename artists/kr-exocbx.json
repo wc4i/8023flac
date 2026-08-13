@@ -1,0 +1,31 @@
+{
+  "id": "kr-exocbx",
+  "name": "EXO-CBX",
+  "pinyin": "E",
+  "category": "日韩风尚",
+  "avatar": "https://p1.music.126.net/G7c6MtYNZxbbJzOhtoEc6g==/109951165770594931.jpg?param=640y640",
+  "groups": {
+    "Mini Albums": [
+      {
+        "title": "Hey Mama! - The 1st Mini Album",
+        "year": "2016.10",
+        "cover": "https://p2.music.126.net/BnNA4PgbSjxzdngmNEddrw==/109951168271739191.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1lYApOJjYrbdzjK6G6dr2qg?pwd=8023"
+      },
+      {
+        "title": "Blooming Days - The 2nd Mini Album",
+        "year": "2018.04",
+        "cover": "https://p2.music.126.net/fPkTdnNPUMqEBnVKPXrQBA==/109951168210663758.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1XnOXiTVszli76fFCQt_huA?pwd=8023"
+      }
+    ],
+    "EPs & Singles": [
+      {
+        "title": "Singles (as of 190717)",
+        "year": "2019.07",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1XSOHWpnR6orWyxwebMFLbw?pwd=8023"
+      }
+    ]
+  }
+}

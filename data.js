@@ -2634,5 +2634,82 @@ const musicDatabase = [
         pinyin: "W",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/tlBP6POjJ8LB1mjKug0NPw==/109951169045458223.jpg?param=640y640"
+    },
+    {
+        id: "us-gunsnroses",
+        name: "Guns N' Roses",
+        pinyin: "G",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/5MvIXE07KNbEP29diMTV-w==/109951166031889573.jpg?param=640y640"
+    },
+    {
+        id: "kr-exo",
+        name: "EXO",
+        pinyin: "E",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/vY_0HYqgraysBLWXuJ5tIQ==/109951168721913427.jpg?param=640y640"
+    },
+    {
+        id: "kr-exocbx",
+        name: "EXO-CBX",
+        pinyin: "E",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/G7c6MtYNZxbbJzOhtoEc6g==/109951165770594931.jpg?param=640y640"
+    },
+    {
+        id: "kr-exosc",
+        name: "EXO-SC",
+        pinyin: "E",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/aCBHw_FpHzT0P7MIhYofqw==/109951165770616579.jpg?param=640y640"
+    },
+    {
+        id: "kr-exok",
+        name: "EXO-K",
+        pinyin: "E",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/R-u1kRACMXO3BF4hBtTDKQ==/5989039836611074.jpg?param=640y640"
+    },
+    {
+        id: "kr-exom",
+        name: "EXO-M",
+        pinyin: "E",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/LcowfK1TOr4vzCBiQ8LBzg==/5925268162301672.jpg?param=640y640"
+    },
+    {
+        id: "cn-fengxiyu",
+        name: "冯曦妤",
+        pinyin: "F",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/XgeUW3w5OX7Py7MAEH92Ig==/109951163353512621.jpg?param=640y640"
+    },
+    {
+        id: "kr-cortis",
+        name: "CORTIS",
+        pinyin: "C",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/xtKsfKqCv3_XEgTvvBHPWg==/109951173182997264.jpg?param=640y640"
+    },
+    {
+        id: "jp-backnumber",
+        name: "back number",
+        pinyin: "B",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/P30I1hSwOjODMN5wRHzgQQ==/109951168223970336.jpg?param=640y640"
+    },
+    {
+        id: "jp-goodmorningpancake",
+        name: "Goodmorning Pancake",
+        pinyin: "G",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/_FnjAvk5rlOP5_7NPlYCQg==/109951168928810436.jpg?param=640y640"
+    },
+    {
+        id: "kr-wayv",
+        name: "威神V(WayV)",
+        pinyin: "W",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/6wHB5UJcrjT-c1d8ddcnzQ==/109951170178729369.jpg?param=640y640"
     }
 ];

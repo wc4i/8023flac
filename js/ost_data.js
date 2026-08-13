@@ -3,6 +3,13 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2019 - 陈情令 国风音乐专辑", link: "https://pan.baidu.com/s/1WSWUERvhoAI1usb09xCHkQ?pwd=8023" },
+    { title: "2022 - 余生，请多指教 电视剧影视原声带 [24-48]", link: "https://pan.baidu.com/s/13ehkzSycjS5UhIMEXU4jqA?pwd=8023" },
+    { title: "2021 - 斗罗大陆 电视剧原声专辑", link: "https://pan.baidu.com/s/1mjlzQL33_2LohHZs-209iw?pwd=8023" },
+    { title: "2022 - 王牌部队 电视剧原声带", link: "https://pan.baidu.com/s/1TKk4csIzFkJn6PbMiG0yQQ?pwd=8023" },
+    { title: "2019 - 诛仙I 电影原声带 [24-48]", link: "https://pan.baidu.com/s/1q3Bs6kIOBxjbVBZ5KGFwdQ?pwd=8023" },
+    { title: "2019 - 电影《两只老虎》原声大碟", link: "https://pan.baidu.com/s/1eDdq3x3JyTSNDLWVA2GfwA?pwd=8023" },
+    { title: "2023.05 - 电影《人生路不熟》原声专辑", link: "https://pan.baidu.com/s/1VUyvUyuV8T0u6teAn1bHKg?pwd=8023" },
     { title: "2002.01 - 少林足球 电影原声带 [日本版]", link: "https://pan.baidu.com/s/1l4dPk0U_5UGQhaPT0goXVg?pwd=8023" },
     { title: "1989.03 - 7匹狼 电影原声带", link: "https://pan.baidu.com/s/1kKWT0wMeacaYdvlZYtUp7A?pwd=8023" },
     { title: "1990.08 - 异域 电影原声带 [台湾首版]", link: "https://pan.baidu.com/s/1_IpsnCQcLQiKM84Qo9FTHA?pwd=8023" },

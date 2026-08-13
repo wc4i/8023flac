@@ -1,0 +1,67 @@
+{
+  "id": "jp-backnumber",
+  "name": "back number",
+  "pinyin": "B",
+  "category": "日韩风尚",
+  "avatar": "https://p2.music.126.net/P30I1hSwOjODMN5wRHzgQQ==/109951168223970336.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "逃した魚",
+        "year": "2009.02",
+        "cover": "https://p2.music.126.net/1uB0QLz5RBq58ZgzGyiIgA==/796046418533927.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1Yh7vxe-yZKWw8ayCZ1hHYA?pwd=8023"
+      },
+      {
+        "title": "あとのまつり",
+        "year": "2010.06",
+        "cover": "https://p2.music.126.net/34hrUrWu-iiNcc8HdtbV_A==/591537255765762.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1eqoOmvId6C0j6RfGJH2bgA?pwd=8023"
+      },
+      {
+        "title": "スーパースター",
+        "year": "2011.10",
+        "cover": "https://p2.music.126.net/g0-6AiC8anQoHRLipmv9HA==/109951165568716342.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1AQvxfG1bZwsPZERA-cA6yA?pwd=8023"
+      },
+      {
+        "title": "blues",
+        "year": "2012.11",
+        "cover": "https://p2.music.126.net/a9d2pivraJLlB6NrZXGcgQ==/109951165443463562.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1JzsIkaOtRBq27XCUlde4CA?pwd=8023"
+      },
+      {
+        "title": "ラブストーリー",
+        "year": "2014.03",
+        "cover": "https://p2.music.126.net/ON7epH61PsDrGUsYv6pxWA==/109951165443453951.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/19560WxLMlQIXik7-XoCzjA?pwd=8023"
+      },
+      {
+        "title": "シャンデリア",
+        "year": "2015.12",
+        "cover": "https://p2.music.126.net/ziTf-UwvXzuRtISmg754CA==/109951167961594126.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1GnY5xGjYToPVSj33bRtRhg?pwd=8023"
+      },
+      {
+        "title": "MAGIC",
+        "year": "2019.03",
+        "cover": "https://p1.music.126.net/7ARQBXFX_6oLHmzddW6NRA==/109951163954660081.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1m3Z3Zv7SS6X0LsTqHuwSRA?pwd=8023"
+      },
+      {
+        "title": "ユーモア",
+        "year": "2023.01",
+        "cover": "https://p1.music.126.net/91korVh-T7Sj_-UxQN5fIw==/109951168241413862.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/14vPfp-nAJ27C_gJry61Nrg?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 251227)",
+        "year": "2025.12",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/17RTyIJtsgTuv7Nz6FtD0og?pwd=8023"
+      }
+    ]
+  }
+}

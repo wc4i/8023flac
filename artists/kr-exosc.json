@@ -1,0 +1,25 @@
+{
+  "id": "kr-exosc",
+  "name": "EXO-SC",
+  "pinyin": "E",
+  "category": "日韩风尚",
+  "avatar": "https://p1.music.126.net/aCBHw_FpHzT0P7MIhYofqw==/109951165770616579.jpg?param=640y640",
+  "groups": {
+    "Full Albums": [
+      {
+        "title": "10亿点击 (1 Billion Views) - The 1st Album",
+        "year": "2020.07",
+        "cover": "https://p2.music.126.net/SrhLPuN-hj9ClVqysgXGXA==/109951167713703359.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1XRJgr-ZqN3AJWHe2EVfsnw?pwd=8023"
+      }
+    ],
+    "Mini Albums": [
+      {
+        "title": "What a life - The 1st Mini Album",
+        "year": "2019.07",
+        "cover": "https://p2.music.126.net/24Q8XpjjsPWGdmWtxdI8MA==/109951167793706392.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1zebyrb62MgqTA-U3yYF5hQ?pwd=8023"
+      }
+    ]
+  }
+}

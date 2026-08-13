@@ -3,6 +3,10 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const variousDatabase = [
+    { title: "2019 - 《青春为祖国歌唱》第一辑经典篇", link: "https://pan.baidu.com/s/1IIwbvELubW1dct7WHFs5Eg?pwd=8023" },
+    { title: "2019 - 《青春为祖国歌唱》第二辑原创篇", link: "https://pan.baidu.com/s/1gPCmkPElTSp7jvxRBQuM2A?pwd=8023" },
+    { title: "2019 - 《青春为祖国歌唱》第二辑经典篇", link: "https://pan.baidu.com/s/1i6ZFEhfA73fy7-KJvSvr3w?pwd=8023" },
+    { title: "2019 - 《青春为祖国歌唱》第一辑原创篇", link: "https://pan.baidu.com/s/1vNJiaFqOPkr2J4hcu1Z5oA?pwd=8023" },
     { title: "1986.01 - 蚌的启示 [百代黑胶版]", link: "https://pan.baidu.com/s/1iQchH2BAKV_3Fp1mO9hTtA?pwd=8023" },
     { title: "2021.12 - 亲爱的我 [女性合辑企划第2季]", link: "https://pan.baidu.com/s/1Au3Nn2fsI2Q-C6iuOWG9gQ?pwd=8023" },
     { title: "2025.09 谢谢你·摇滚季", link: "https://pan.baidu.com/s/13GY84McPGyxIZeexe4H3hQ?pwd=8023" },
