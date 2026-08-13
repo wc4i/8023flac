@@ -1,0 +1,43 @@
+{
+  "id": "us-haim",
+  "name": "HAIM",
+  "pinyin": "H",
+  "category": "欧美之声",
+  "avatar": "https://p1.music.126.net/PutEK2nhzV382Kw3uzZozg==/109951165095867952.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Days Are Gone [24-48]",
+        "year": "2013.09",
+        "cover": "https://p2.music.126.net/KgcNGoWtQ9WRtuAySQ8BiQ==/109951170381095244.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/17cuwFF_z0AKXIlt0ovHI3w?pwd=8023"
+      },
+      {
+        "title": "Something To Tell You [24-96]",
+        "year": "2017.07",
+        "cover": "https://p2.music.126.net/uanw28CeD0vAHPQzgf44GQ==/109951170565034479.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1RfN-7hzoZBDzD6rMd9SAYw?pwd=8023"
+      },
+      {
+        "title": "Women In Music Pt. III (Expanded Edition) [24-96]",
+        "year": "2020.06",
+        "cover": "https://p1.music.126.net/K2ICr5mbbkvPIJHlbnzFwQ==/109951170559440894.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1UGPH_CcxOwC5NiljELzH3A?pwd=8023"
+      },
+      {
+        "title": "I quit (deluxe) [24-96]",
+        "year": "2025.10",
+        "cover": "https://p1.music.126.net/A8D0nqlDhcJHkOtHtexWrQ==/109951172205158827.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/17UgQVIAKzH_tG65Lqu7apQ?pwd=8023"
+      }
+    ],
+    "EPs (FLAC tracks)": [
+      {
+        "title": "Forever EP",
+        "year": "2012.07",
+        "cover": "https://p2.music.126.net/lPGBaGdHzLoeBkSwOlBRiw==/747667906897043.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1v5AzN-zbQrN5EKJfOMDlXg?pwd=8023"
+      }
+    ]
+  }
+}

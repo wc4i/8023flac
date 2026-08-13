@@ -2711,5 +2711,26 @@ const musicDatabase = [
         pinyin: "W",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/6wHB5UJcrjT-c1d8ddcnzQ==/109951170178729369.jpg?param=640y640"
+    },
+    {
+        id: "cn-she",
+        name: "S.H.E",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/XoTGFFpQoqG2mUuXPnXyJg==/109951172282377954.jpg?param=640y640"
+    },
+    {
+        id: "cn-xiaozhan",
+        name: "肖战",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/aMn6gp_RA0RzcBqbmG6xEw==/109951170333965063.jpg?param=640y640"
+    },
+    {
+        id: "us-haim",
+        name: "HAIM",
+        pinyin: "H",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/PutEK2nhzV382Kw3uzZozg==/109951165095867952.jpg?param=640y640"
     }
 ];

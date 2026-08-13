@@ -1,0 +1,25 @@
+{
+  "id": "cn-xiaozhan",
+  "name": "肖战",
+  "pinyin": "X",
+  "category": "华语金曲",
+  "avatar": "https://p1.music.126.net/aMn6gp_RA0RzcBqbmG6xEw==/109951170333965063.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "我们 [24-48]",
+        "year": "2024.11",
+        "cover": "http://imge.kugou.com/stdmusic/800/20241112/20241112095943920917.jpg",
+        "link": "https://pan.baidu.com/s/10uPjG1qQkDhLa-X2IuaNrA?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 251218)",
+        "year": "2025.12",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1TumlGWfLXa751xznGQ8aLQ?pwd=8023"
+      }
+    ]
+  }
+}

@@ -3,6 +3,8 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2024.11 - Wicked：The Soundtrack [24-48]", link: "https://pan.baidu.com/s/1dyDh3lAYcJjxJfIkdt0W9g?pwd=8023" },
+    { title: "2005.11 - 真命天女 电视原声带 [台湾版]", link: "https://pan.baidu.com/s/15LD86BeGq_HJzoWm2wDU4g?pwd=8023" },
     { title: "2019 - 陈情令 国风音乐专辑", link: "https://pan.baidu.com/s/1WSWUERvhoAI1usb09xCHkQ?pwd=8023" },
     { title: "2022 - 余生，请多指教 电视剧影视原声带 [24-48]", link: "https://pan.baidu.com/s/13ehkzSycjS5UhIMEXU4jqA?pwd=8023" },
     { title: "2021 - 斗罗大陆 电视剧原声专辑", link: "https://pan.baidu.com/s/1mjlzQL33_2LohHZs-209iw?pwd=8023" },
