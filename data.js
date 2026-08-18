@@ -2732,5 +2732,54 @@ const musicDatabase = [
         pinyin: "H",
         category: "欧美之声",
         avatar: "https://p1.music.126.net/PutEK2nhzV382Kw3uzZozg==/109951165095867952.jpg?param=640y640"
+    },
+    {
+        id: "cn-zhangyadong",
+        name: "张亚东",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/Kg1UI5gt5ITP12rPEBZjKQ==/240793046499909.jpg?param=640y640"
+    },
+    {
+        id: "cn-zhangjingxuan",
+        name: "张敬轩",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/98uUK1YePbXX539Q1IXQzA==/109951170702713741.jpg?param=640y640"
+    },
+    {
+        id: "us-suzannevega",
+        name: "Suzanne Vega",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/5BKH9cDIqg4ojfBKvLM5vw==/780653255724479.jpg?param=600y600"
+    },
+    {
+        id: "cn-wangwen",
+        name: "惘闻",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/j7JFeQI9G0KZisDYEeUAsQ==/3385396307063442.jpg?param=600y600"
+    },
+    {
+        id: "jp-aimyon",
+        name: "あいみょん（Aimyon）",
+        pinyin: "A",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/BMnQHTK3l1XUts6NXPBbDA==/109951172189017747.jpg?param=600y600"
+    },
+    {
+        id: "kr-leesooyoung",
+        name: "이수영（李秀英）",
+        pinyin: "L",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/KGUMrZo-VTxqbo8XNEVLcg==/5958253510933247.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhengxiuwen",
+        name: "郑秀文",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/WQXkUr5I-Top7A26UXInzw==/109951168608663012.jpg?param=600y600"
     }
 ];

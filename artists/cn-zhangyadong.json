@@ -1,0 +1,25 @@
+{
+  "id": "cn-zhangyadong",
+  "name": "张亚东",
+  "pinyin": "Z",
+  "category": "华语金曲",
+  "avatar": "https://p1.music.126.net/Kg1UI5gt5ITP12rPEBZjKQ==/240793046499909.jpg?param=640y640",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Ya Tung 同名专辑",
+        "year": "1998.01",
+        "cover": "https://p2.music.126.net/CVwMFgP0QNSCfsVNEpYwfQ==/109951170118027589.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/11PI_zBOc9qS9qctJNsL6uw?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "自然之声",
+        "year": "",
+        "cover": "https://p2.music.126.net/nWNyX7GUXeo2kMvcmzN-cQ==/109951173621804054.jpg?param=640y640",
+        "link": "https://pan.baidu.com/s/1-O_32dQ_y4qY9LsMdm8ACg?pwd=8023"
+      }
+    ]
+  }
+}

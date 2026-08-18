@@ -5,10 +5,72 @@
   "groups": {
     "Studio Albums (FLAC tracks)": [
       {
+        "title": "Yours Truly",
+        "year": "2013.09",
+        "link": "https://pan.baidu.com/s/1CCg4PrHmY8O-Qq_PtzThpw?pwd=8023",
+        "cover": "https://p1.music.126.net/PAIhXGyxYx7T_iI2wtafjw==/109951169265193850.jpg?param=600y600"
+      },
+      {
+        "title": "Christmas Kisses",
+        "year": "2013.12",
+        "link": "https://pan.baidu.com/s/1VKQ4OsJrWh1I0BDw_auXoQ?pwd=8023",
+        "cover": "https://p1.music.126.net/57rYNm6DSeJrf_rxiX_Hhw==/109951169948353634.jpg?param=600y600"
+      },
+      {
+        "title": "My Everything",
+        "year": "2014.08",
+        "link": "https://pan.baidu.com/s/1UrSx1eU2I37MSZV6pKMvtg?pwd=8023",
+        "cover": "https://p1.music.126.net/DEJ5SkRv2LNUtfeT5qNl_g==/109951169256432536.jpg?param=600y600"
+      },
+      {
+        "title": "Dangerous Woman",
+        "year": "2016.05",
+        "link": "https://pan.baidu.com/s/1_VWUqlHWrLLMWzfLy82G-g?pwd=8023",
+        "cover": "https://p1.music.126.net/RBjCRxEfTSFDUJo5n5ACGQ==/109951173012437590.jpg?param=600y600"
+      },
+      {
+        "title": "Sweetener [24-44.1]",
+        "year": "2018.08",
+        "link": "https://pan.baidu.com/s/1fE8nSJCKCrIpfeGUiT5dnA?pwd=8023",
+        "cover": "https://p2.music.126.net/lfuMqgjdYeLRg5P5GnwGog==/109951173012512989.jpg?param=600y600"
+      },
+      {
+        "title": "thank u, next [24-44.1]",
+        "year": "2019.02",
+        "link": "https://pan.baidu.com/s/1sWaNBA9k_PSSPdBwPmSR4w?pwd=8023",
+        "cover": "https://p2.music.126.net/Y44z8bO6CgHwk0fbwAlz7w==/109951165347857138.jpg?param=600y600"
+      },
+      {
+        "title": "Positions [24-44.1]",
+        "year": "2021.02",
+        "link": "https://pan.baidu.com/s/16t6Zz8ofNa2ptbkMHyk1nQ?pwd=8023",
+        "cover": "https://p2.music.126.net/G4HIWXvyzneVNjZPxwt00Q==/109951165741355057.jpg?param=600y600"
+      },
+      {
+        "title": "eternal sunshine deluxe: brighter days ahead [24-48]",
+        "year": "2025.03",
+        "link": "https://pan.baidu.com/s/1ySO2kcCtxEQFcJTXLLqsMA?pwd=8023",
+        "cover": "https://p2.music.126.net/WVjI32apdn0uQVH19MDBlg==/109951170660962550.jpg?param=600y600"
+      },
+      {
         "title": "petal",
         "year": "2026.07",
         "link": "https://pan.baidu.com/s/1pUDqntRDtih_kW9cs133Gg?pwd=8023",
         "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "petal – the a cappellas [24-48]",
+        "year": "2026.08",
+        "link": "https://pan.baidu.com/s/1Ft7ND24AYR8owo3b1S8_SA?pwd=8023",
+        "cover": "https://p2.music.126.net/QJ6X-OYIVZAuAvK9EfbhZg==/109951173708605229.jpg?param=600y600"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 221118)",
+        "year": "2022.11",
+        "link": "https://pan.baidu.com/s/1Q0NnkImSseGmhs7QqkznqA?pwd=8023",
+        "cover": ""
       }
     ]
   }
