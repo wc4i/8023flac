@@ -2781,5 +2781,61 @@ const musicDatabase = [
         pinyin: "Z",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/WQXkUr5I-Top7A26UXInzw==/109951168608663012.jpg?param=600y600"
+    },
+    {
+        id: "cn-xuzhepei",
+        name: "许哲佩",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/nd0X3GtDD32LIQbpJm7vig==/109951171955791218.jpg?param=600y600"
+    },
+    {
+        id: "cn-danke",
+        name: "弹壳Danko",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/Gc4qmlH3l2olNuPH9xtwHA==/109951173028746722.jpg?param=600y600"
+    },
+    {
+        id: "cn-caifenghua",
+        name: "蔡枫华",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/naaGs0_oXxLRmx7ewIaXZQ==/85761906984561.jpg?param=600y600"
+    },
+    {
+        id: "cn-jiajiatio",
+        name: "假假条",
+        pinyin: "J",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/XXMvMmO0OiUiWhqNARVMgQ==/109951168256383881.jpg?param=600y600"
+    },
+    {
+        id: "cn-xuhuaiyu",
+        name: "徐怀钰",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/Wy8LffNep20V8NbrvgCn_A==/109951172803853973.jpg?param=600y600"
+    },
+    {
+        id: "us-kimpetras",
+        name: "Kim Petras",
+        pinyin: "K",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/3SHBzfCcGMShcKWsIr-rBg==/109951164042845791.jpg?param=600y600"
+    },
+    {
+        id: "us-playboicarti",
+        name: "Playboi Carti",
+        pinyin: "P",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/7TiS9d0rp3Iv7qog46y5Hg==/109951171594185284.jpg?param=600y600"
+    },
+    {
+        id: "cn-heiniao",
+        name: "黑鸟",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg?param=600y600"
     }
 ];
