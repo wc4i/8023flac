@@ -2837,5 +2837,54 @@ const musicDatabase = [
         pinyin: "H",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg?param=600y600"
+    },
+    {
+        id: "cn-tianfuzhen",
+        name: "田馥甄",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/iptZuWmkVWkh6935MYhB0Q==/109951170731896909.jpg?param=600y600"
+    },
+    {
+        id: "cn-dengziqi",
+        name: "邓紫棋",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/oJorrgJ3IotZUAbZkBMuFw==/109951167771736533.jpg?param=600y600"
+    },
+    {
+        id: "cn-caiminyou",
+        name: "蔡旻佑",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/bDeYFCnWcflYUCR81ghLCg==/109951173734575593.jpg?param=600y600"
+    },
+    {
+        id: "jp-kimurataka",
+        name: "木村拓哉（Takuya Kimura）",
+        pinyin: "T",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/YV48nubY8fqvcMcYDfRlRQ==/109951173317747556.jpg?param=600y600"
+    },
+    {
+        id: "kr-davichi",
+        name: "다비치（Davichi）",
+        pinyin: "D",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/IjIF_PbjGHdOzE3VIRJylQ==/109951165496037729.jpg?param=600y600"
+    },
+    {
+        id: "us-kanyewest",
+        name: "Kanye West（Ye (侃爷)）",
+        pinyin: "K",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/o4e2hBeX1NgeF0wE0iaF6w==/109951169505053571.jpg?param=600y600"
+    },
+    {
+        id: "cn-xietianxiao",
+        name: "谢天笑",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/c8BkCY_GidzMZcDRj3fJcg==/109951163368782319.jpg?param=600y600"
     }
 ];

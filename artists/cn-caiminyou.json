@@ -1,0 +1,61 @@
+{
+  "id": "cn-caiminyou",
+  "name": "蔡旻佑",
+  "pinyin": "C",
+  "category": "华语金曲",
+  "avatar": "https://p1.music.126.net/bDeYFCnWcflYUCR81ghLCg==/109951173734575593.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "蔡旻佑首张创作专辑 19 [台湾首版]",
+        "year": "2006.10",
+        "cover": "https://p2.music.126.net/Z32augnztQxs2URTekMk3g==/109951165958684942.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1hU16a8Y6SpspjyTWE5WTIw?pwd=8023"
+      },
+      {
+        "title": "搜寻蔡旻佑 [台湾首版]",
+        "year": "2008.07",
+        "cover": "https://p2.music.126.net/1EU6QpoSe8OKJViLoGnpLQ==/109951165958717283.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1N_E1MBD_kT0EEBWiEU6J9A?pwd=8023"
+      },
+      {
+        "title": "寂寞，好了 [台湾首版]",
+        "year": "2009.10",
+        "cover": "https://p2.music.126.net/4UqA9U3dU7sklj_mOhA7Ng==/109951167304468626.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1UHbUuUNQkcKyaP1-i4Ur9w?pwd=8023"
+      },
+      {
+        "title": "超级右脑 [台湾首版]",
+        "year": "2012.09",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/c3/80/5ac380c0-8213-a53e-ce0d-9f856971a03b/4718622112341.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/1IPz9jKY6JqcNw2wx6sfN7Q?pwd=8023"
+      },
+      {
+        "title": "我和我的布拉姆斯 [台湾首版]",
+        "year": "2015.12",
+        "cover": "https://p2.music.126.net/7e7Yo9aY1Y3gyaKh5yKieg==/109951164023040345.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1CQeTr-K7nNG1MBl_sViwvA?pwd=8023"
+      },
+      {
+        "title": "变心记 Metamorphosis [台湾首版]",
+        "year": "2019.08",
+        "cover": "https://p2.music.126.net/BFZl_LdDWCCTnCOyQ019-g==/109951164313888646.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/192MeL82OcDqmgZfdk1eYqg?pwd=8023"
+      },
+      {
+        "title": "快乐有时有 [24-48]",
+        "year": "2026.08",
+        "cover": "https://p1.music.126.net/IfHmtwQFzfyjhMXRgRU-fw==/109951173782034842.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1uLKEgiVYus5qnXnkedl1Sw?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 250430)",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1NvVgX-Euno1OM6lqdfoNAw?pwd=8023"
+      }
+    ]
+  }
+}
