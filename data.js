@@ -2886,5 +2886,47 @@ const musicDatabase = [
         pinyin: "X",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/c8BkCY_GidzMZcDRj3fJcg==/109951163368782319.jpg?param=600y600"
+    },
+    {
+        id: "cn-shenjiarun",
+        name: "沈佳润",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/Kd5YqAoroQAZa5kqBh3n9Q==/109951171891353521.jpg?param=600y600"
+    },
+    {
+        id: "cn-zengbiyte",
+        name: "曾比特",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/X1QOBDNxTmEL2IX8e3rTYw==/109951165639457753.jpg?param=600y600"
+    },
+    {
+        id: "cn-caofang",
+        name: "曹方",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/hyYO8Z4808wV3R-Y_tzSYA==/109951167877094423.jpg?param=600y600"
+    },
+    {
+        id: "us-twostepsfromhell",
+        name: "Two Steps From Hell",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/nG3AaqQN4fMQ-Xwhf19Trg==/6027522744141514.jpg?param=600y600"
+    },
+    {
+        id: "us-thomasbergesen",
+        name: "Thomas Bergersen",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/knnQenRDT-etgmWENOOPog==/109951169793342465.jpg?param=600y600"
+    },
+    {
+        id: "us-nightwish",
+        name: "Nightwish",
+        pinyin: "N",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/TYC_rHbsp08Mxsya_k2GDw==/109951166725972492.jpg?param=600y600"
     }
 ];

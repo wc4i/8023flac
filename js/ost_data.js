@@ -3,6 +3,18 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2005.06 - Batman Begins (Original Motion Picture Soundtrack)", link: "https://pan.baidu.com/s/1FUtKp1zhKT3F45hKCiMSBw?pwd=8023" },
+    { title: "2019.03 - Dunkirk (Original Motion Picture Soundtrack)", link: "https://pan.baidu.com/s/1PiLFK0E3nLuYJKaLJI0saw?pwd=8023" },
+    { title: "2014.11 - Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]", link: "https://pan.baidu.com/s/1yGJZj6rGCD2bqMo5ey07vg?pwd=8023" },
+    { title: "2012.07 - The Dark Knight Rises", link: "https://pan.baidu.com/s/181GTkraDKHfdA6EuZVct9Q?pwd=8023" },
+    { title: "2022 - 两个人的小森林 影视原声专辑", link: "https://pan.baidu.com/s/1tphDfKY0hCw1scELM5L-0g?pwd=8023" },
+    { title: "2023.07 - Oppenheimer (Original Motion Picture Soundtrack)", link: "https://pan.baidu.com/s/1unq2ptCBSOMihpvUBaL6lQ?pwd=8023" },
+    { title: "2008.07 - The Dark Knight (Original Motion Picture Soundtrack)", link: "https://pan.baidu.com/s/1JxUaGfqFAOPfwuS9sUUwLg?pwd=8023" },
+    { title: "2006.10 - The Prestige", link: "https://pan.baidu.com/s/1LXTDqFUo70RgOFsKTINyyA?pwd=8023" },
+    { title: "2010.07 - Inception (Music from the Motion Picture)", link: "https://pan.baidu.com/s/1FmT7JTfIDHVTb05wfJG4DQ?pwd=8023" },
+    { title: "2020.09 - TENET (Original Motion Picture Soundtrack)", link: "https://pan.baidu.com/s/1XYHz23LMFK1TMSRTu3zPIA?pwd=8023" },
+    { title: "2026.07 - The Odyssey (Original Motion Picture Soundtrack)", link: "https://pan.baidu.com/s/1tlIZ3HL7k0czsh6xSXH4Vg?pwd=8023" },
+    { title: "2002.01 - Insomnia", link: "https://pan.baidu.com/s/118GK9ek42-awML6fwCVHFQ?pwd=8023" },
     { title: "2026 - 魔方小姐 电影原声音乐专辑", link: "https://pan.baidu.com/s/1Q-BwhS_b2iUGAhkdGwpirQ?pwd=8023" },
     { title: "2026 - 雀骨 影视原声带", link: "https://pan.baidu.com/s/1kycqPrhO6htWX1JzOo2hjg?pwd=8023" },
     { title: "2026 - 想你了 电影原声专辑", link: "https://pan.baidu.com/s/17-Wv_uyOeGUAHaitk1gVLg?pwd=8023" },

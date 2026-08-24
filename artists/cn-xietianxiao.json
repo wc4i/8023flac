@@ -7,10 +7,92 @@
   "groups": {
     "Studio Albums (FLAC tracks)": [
       {
+        "title": "冷血动物",
+        "year": "2000.06",
+        "cover": "https://p2.music.126.net/NWdW2RhwY4MLtr8rZUsETA==/109951170074966136.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1BsHdOoD65uIVCeYwlTB9Vg?pwd=8023"
+      },
+      {
+        "title": "谢天笑与冷血动物",
+        "year": "2005.03",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1LFHg-BpeGz_H_fqGwEHp9A?pwd=8023"
+      },
+      {
+        "title": "只有一个愿望",
+        "year": "2008.04",
+        "cover": "https://p2.music.126.net/vWRtO5HsH370qp6__nALEQ==/109951165208196897.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1-Yrgn_ZO3mQ7gg3BxPDfyA?pwd=8023"
+      },
+      {
+        "title": "古筝雷鬼",
+        "year": "2009.12",
+        "cover": "https://p2.music.126.net/LBCm2VGWleZiuyYn5QGNYg==/50577534890015.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/18yMmpenVYcSflPLlFWgrsg?pwd=8023"
+      },
+      {
+        "title": "幻觉[台湾首版]",
+        "year": "2013.03",
+        "cover": "https://p2.music.126.net/oR_eI0gAyEdxCHSlY_Bzjw==/109951172945886286.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1ofQ7g1K9HCtvpLOgdNIyPg?pwd=8023"
+      },
+      {
+        "title": "那不是我",
+        "year": "2017.07",
+        "cover": "https://p2.music.126.net/Ii6_nyoY0rbHmyJuC2izsg==/109951172945835007.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1R4taZ54vA5RASoQskAe1fQ?pwd=8023"
+      },
+      {
+        "title": "再次来临",
+        "year": "2020.07",
+        "cover": "https://p2.music.126.net/GpAltg8gXBlNRsCj7zFuHA==/109951165121450255.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Ku9yZ6366N9ZD_8MFtHz3Q?pwd=8023"
+      },
+      {
+        "title": "哈哈大笑[WEB]",
+        "year": "2021.04",
+        "cover": "https://p2.music.126.net/P5SbfQBysxKSqLlX6FK3gw==/109951165904683859.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1n1XJNYoZmIFm8VyduC-wMA?pwd=8023"
+      },
+      {
+        "title": "谢谢你·摇滚季",
+        "year": "2025.09",
+        "cover": "https://p2.music.126.net/dJ3_WXcvhdw2fQWIHktGEQ==/109951172063512467.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1uy8OZ9KFV1tWyxwwewjT9g?pwd=8023"
+      },
+      {
         "title": "火烧云 [24-48]",
         "year": "2026.08",
         "cover": "https://p2.music.126.net/D6nLAF35m719pPCMkifVlQ==/109951173711202500.jpg?param=600y600",
         "link": "https://pan.baidu.com/s/1cT8RKK8jW-PuAZ67-qsOeA?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "摇滚与交响 (Live)【24·48】",
+        "year": "2022.05",
+        "cover": "https://p2.music.126.net/tgmT1FVPSwEnLcwAm-dmlA==/109951167409768276.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/12WvCAyazK7hO4-chNMernw?pwd=8023"
+      },
+      {
+        "title": "那不是我 演唱会LIVE精选辑【24·48】",
+        "year": "2023.03",
+        "cover": "https://p2.music.126.net/LMI2arpoJNGumun0mBnsyg==/109951168476069760.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1RWEVaDhXckI_3crrnL8nSA?pwd=8023"
+      },
+      {
+        "title": "超级本能LIVE【24·48】",
+        "year": "2025.04",
+        "cover": "https://p2.music.126.net/JlLIF_459LlYIc-fD5RO5g==/109951170778853638.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1GN3C_mUF2Km_fGjZRCFoaQ?pwd=8023"
+      }
+    ],
+    "Singles (as of 251231)": [
+      {
+        "title": "Singles (as of 251231)",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/188shlwFtrYKIgxB6I5q5oA?pwd=8023"
       }
     ]
   }
