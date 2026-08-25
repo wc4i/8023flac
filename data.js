@@ -2928,5 +2928,40 @@ const musicDatabase = [
         pinyin: "N",
         category: "欧美之声",
         avatar: "https://p2.music.126.net/TYC_rHbsp08Mxsya_k2GDw==/109951166725972492.jpg?param=600y600"
+    },
+    {
+        id: "cn-shidaishaoniantuan",
+        name: "时代少年团",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/zfX5bzdzPBSflfDMA2o0TA==/109951173207132556.jpg?param=600y600"
+    },
+    {
+        id: "cn-ziyu",
+        name: "梓渝",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/rXqy1LFWdEhQGbJ9pCH_gQ==/109951171709522200.jpg?param=600y600"
+    },
+    {
+        id: "us-phoebebridgers",
+        name: "Phoebe Bridgers",
+        pinyin: "P",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/OBwGbQfCYZS8WhaknMoELQ==/109951165646180608.jpg?param=600y600"
+    },
+    {
+        id: "us-boygenius",
+        name: "boygenius",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/U-pRAzMIZFcAJ4pDVR2sCg==/109951168272188538.jpg?param=600y600"
+    },
+    {
+        id: "us-aliceinchains",
+        name: "Alice in Chains",
+        pinyin: "A",
+        category: "欧美之声",
+        avatar: "https://y.gtimg.cn/music/photo_new/T001R300x300M000001rPmcg0bYZhj_1.jpg?max_age=2592000"
     }
 ];

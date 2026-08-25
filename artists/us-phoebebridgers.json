@@ -1,0 +1,55 @@
+{
+    "id": "us-phoebebridgers",
+    "name": "Phoebe Bridgers",
+    "avatar": "https://p2.music.126.net/OBwGbQfCYZS8WhaknMoELQ==/109951165646180608.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "Stranger in the Alps (Deluxe Edition)",
+                "year": "2018.10",
+                "cover": "https://p1.music.126.net/jnR7jUmaZkZVLGse39tqUg==/109951172594984037.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1eqE0gb8mgm8v_YQtnHInjA?pwd=8023"
+            },
+            {
+                "title": "Punisher [24-48]",
+                "year": "2020.06",
+                "cover": "https://p1.music.126.net/qkBfyZ2oB1dM-UWxfE3J_w==/109951164845891971.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1qqA0C-64nMjoV6X19P6eNQ?pwd=8023"
+            },
+            {
+                "title": "Lost Weekend",
+                "year": "2026.08",
+                "cover": "https://p2.music.126.net/XrwiKU6xgxETyxkFkrppxw==/109951173750366712.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1OoEwbUbkahcZGsNiiZi9hg?pwd=8023"
+            }
+        ],
+        "EPs": [
+            {
+                "title": "Killer [EP]",
+                "year": "2014.03",
+                "cover": "https://p1.music.126.net/xLyLCxSvPEQjS0Ytop7ZQA==/6667438510910467.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/15QsVrRDTodqAqwIgG0FROQ?pwd=8023"
+            },
+            {
+                "title": "So Much Wine",
+                "year": "2022.11",
+                "cover": "https://p2.music.126.net/kkW7VM2XKIw2fvzwIA77Lw==/109951168083853469.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/140mi4lYM7KKBgoI34OxD8A?pwd=8023"
+            },
+            {
+                "title": "Day After Tomorrow",
+                "year": "2021.11",
+                "cover": "https://p2.music.126.net/jwJtBw6ebpa69l9Oil-bfw==/109951166674779541.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1CLwi9egT_47N-otU11FQvQ?pwd=8023"
+            }
+        ],
+        "Collaborative Albums": [
+            {
+                "title": "Copycat Killer (feat. Rob Moose) [EP]",
+                "year": "2020.11",
+                "cover": "https://p2.music.126.net/MFN8Nj6tqibrRndU99eT5Q==/109951165427080155.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/19IzBr69vaO_yqG2cJ0NXwQ?pwd=8023"
+            }
+        ]
+    }
+}

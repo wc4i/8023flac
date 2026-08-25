@@ -1,6 +1,8 @@
 // 综艺集锦资源数据库
 const varietyDatabase = [
-    { title: "国乐无双", year: "2026", link: "https://pan.baidu.com/s/1JmSGpMOuPzBV8LHMNmJUIw?pwd=8023", cover: "https://star.kuwo.cn/star/starheads/500/s4s0/71/592385441.jpg" },
+    { title: "音你而来 第1季（全季）", year: "2025", link: "https://pan.baidu.com/s/1riQm8-yfRq10KIRSISb2CQ?pwd=8023", cover: "https://img1.kuwo.cn/star/albumcover/300/s3s33/74/1645411317.jpg" },
+    { title: "音你而来 第3季（全季）", year: "2026", link: "https://pan.baidu.com/s/1NgQeLZqNw1HQHHpNmoyZpg?pwd=8023", cover: "https://img1.kuwo.cn/star/albumcover/300/s4s31/59/3336212017.jpg" },
+    { title: "国乐无双（全季）", year: "2026", link: "https://pan.baidu.com/s/1JmSGpMOuPzBV8LHMNmJUIw?pwd=8023", cover: "https://star.kuwo.cn/star/starheads/500/s4s0/71/592385441.jpg" },
     { title: "乐队的夏天 第3季（全季）", year: "2023", link: "https://pan.baidu.com/s/1wxmYRmcF8hUemUeq6mwQQA?pwd=8023", cover: "https://star.kuwo.cn/star/starheads/500/s4s44/59/662099729.png" },
     { title: "乐队的夏天 第2季（全季）", year: "2020", link: "https://pan.baidu.com/s/1hgQ8KAS9I0PJWwNTk794Zg?pwd=8023", cover: "https://star.kuwo.cn/star/starheads/500/s4s44/59/662099729.png" },
     { title: "乐队的夏天 第1季（全季）", year: "2019", link: "https://pan.baidu.com/s/1QPkcPQauh5uoykqXN3zAPw?pwd=8023", cover: "https://star.kuwo.cn/star/starheads/500/s4s44/59/662099729.png" },
@@ -14,7 +16,7 @@ const varietyDatabase = [
     { title: "歌手2017（全季）", year: "2017", link: "https://pan.baidu.com/s/1VI01gNRno_d8JJyFVaEkDQ?pwd=8023", cover: "https://p2.music.126.net/i1PClaCCh3YRQFSzfTUKTg==/109951166580171056.jpg?param=640y640" },
     { title: "歌手2024（全季）", year: "2024", link: "https://pan.baidu.com/s/1hgsw-wFv_mYL4bdS6Cr1vQ?pwd=8023", cover: "https://p2.music.126.net/f093yDVxA1h0wjlPZUo-aw==/109951169589596404.jpg?param=640y640" },
     { title: "歌手2025（全季）", year: "2025", link: "https://pan.baidu.com/s/1fuD_Ex6J1qH2k-yXyYW42w?pwd=8023", cover: "https://p1.music.126.net/upQ080sTQCLy_-Ay7sfK_A==/109951171015406100.jpg?param=640y640" },
-    { title: "歌手2026", year: "2026", link: "https://pan.baidu.com/s/1FnN8ZHImK8BC_kzEVFWXQg?pwd=8023", cover: "https://img1.kuwo.cn/star/albumcover/500/s4s2/35/3151374485.jpg" },
+    { title: "歌手2026（全季）", year: "2026", link: "https://pan.baidu.com/s/1FnN8ZHImK8BC_kzEVFWXQg?pwd=8023", cover: "https://img1.kuwo.cn/star/albumcover/500/s4s2/35/3151374485.jpg" },
     { title: "披荆斩棘的哥哥（全季）", year: "2021", link: "https://pan.baidu.com/s/1-xyJr6waT5iJijZJmSr1CA?pwd=8023", cover: "https://p1.music.126.net/_P0SkRBK-BGkU73tdtTkXA==/109951166280381667.jpg?param=640y640" },
     { title: "披荆斩棘3（全季）", year: "2023", link: "https://pan.baidu.com/s/1o8bJg04--d3Cdx6nNZ2oFA?pwd=8023", cover: "https://p1.music.126.net/zOcO0P_7xzMFcXt8mljnMw==/109951168914317275.jpg?param=640y640" },
     { title: "披荆斩棘4（全季）", year: "2024", link: "https://pan.baidu.com/s/1mifQhLfmy3xftAnX_jS-7g?pwd=8023", cover: "https://p1.music.126.net/WvPb-mS9c-SpykF6tAQlXw==/109951169877289893.jpg?param=640y640" },

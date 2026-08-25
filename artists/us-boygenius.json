@@ -1,0 +1,37 @@
+{
+    "id": "us-boygenius",
+    "name": "boygenius",
+    "avatar": "https://p1.music.126.net/U-pRAzMIZFcAJ4pDVR2sCg==/109951168272188538.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "the record [24-48]",
+                "year": "2023.03",
+                "cover": "https://p2.music.126.net/Cf_KMlWOL1nHH7iJ8YJcnQ==/109951168508669967.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1dQSrLJA4NrHnWAyaMdGKZA?pwd=8023"
+            }
+        ],
+        "EPs": [
+            {
+                "title": "boygenius",
+                "year": "2018.10",
+                "cover": "https://p2.music.126.net/pLk8kpcppvrYKyNcX__4KA==/109951165566135438.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1agXO9tJaDZxvmLs9-dZbEQ?pwd=8023"
+            },
+            {
+                "title": "the rest [24-48]",
+                "year": "2023.10",
+                "cover": "https://p1.music.126.net/lduujN4G-nSZuhfrUDlOng==/109951168978404366.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1-Wz9P2Z_LeFPE_5JnxVkag?pwd=8023"
+            }
+        ],
+        "Singles (FLAC tracks)": [
+            {
+                "title": "Singles",
+                "year": "",
+                "cover": "",
+                "link": "https://pan.baidu.com/s/11HOk0hrN6sZZX5N-hILNMQ?pwd=8023"
+            }
+        ]
+    }
+}
