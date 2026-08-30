@@ -2889,7 +2889,7 @@ const musicDatabase = [
     },
     {
         id: "cn-shenjiarun",
-        name: "沈佳润",
+        name: "沈佳润Nina",
         pinyin: "S",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/Kd5YqAoroQAZa5kqBh3n9Q==/109951171891353521.jpg?param=600y600"
@@ -2963,5 +2963,110 @@ const musicDatabase = [
         pinyin: "A",
         category: "欧美之声",
         avatar: "https://y.gtimg.cn/music/photo_new/T001R300x300M000001rPmcg0bYZhj_1.jpg?max_age=2592000"
+    },
+    {
+        id: "cn-gtb",
+        name: "GTB",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/08/85/af/0885af95-f44b-2ede-e41c-28a1d5ecb2fa/733447750794.jpg/600x600bb.jpg"
+    },
+    {
+        id: "cn-shulili",
+        name: "树莉莉 Serrini",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/FDjTZ0NtbaXdtp30QrjXeQ==/109951172063975119.jpg?param=600y600"
+    },
+    {
+        id: "cn-ipiszhanglang",
+        name: "IPIS蟑螂",
+        pinyin: "I",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/4ryuUCeER9h5aEcezg08zw==/81363860473397.jpg?param=600y600"
+    },
+    {
+        id: "cn-guojing",
+        name: "郭静",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/bxDlRQcZ_-2WlyutwYjOEg==/109951168521701588.jpg?param=600y600"
+    },
+    {
+        id: "kr-alphadriveone",
+        name: "ALPHA DRIVE ONE",
+        pinyin: "A",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/Om4RnD70iE8Pgu-rZ0fslQ==/109951173735205071.jpg?param=600y600"
+    },
+    {
+        id: "us-alexwarren",
+        name: "Alex Warren",
+        pinyin: "A",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/Hg0fbeiFxrf4N4o-ZF9TyA==/109951173847291490.jpg?param=600y600"
+    },
+    {
+        id: "us-prince",
+        name: "Prince",
+        pinyin: "P",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/SIuQSrSdfggmkYI8QTw25Q==/109951171301606509.jpg?param=600y600"
+    },
+    {
+        id: "cn-chenbaiyu",
+        name: "陈柏宇",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/afa1A_NhOCyajlYHfgCPUw==/109951171813198385.jpg?param=600y600"
+    },
+    {
+        id: "cn-mchotdog",
+        name: "MC HotDog 热狗",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/5ViEXoj1xti2RzahxIMzZQ==/109951169161434274.jpg?param=600y600"
+    },
+    {
+        id: "jp-tamaki-koji",
+        name: "玉置浩二（Koji Tamaki）",
+        pinyin: "K",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/RpNRpP237wmpfVzlOzAwBQ==/109951167394280442.jpg?param=600y600"
+    },
+    {
+        id: "us-steviewonder",
+        name: "Stevie Wonder",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/R-evbmWSH9J5QTeaAZPb2w==/109951168224441683.jpg?param=600y600"
+    },
+    {
+        id: "us-bryanadams",
+        name: "Bryan Adams",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/R14HMOkIyOG6WBEaTc2jHA==/109951165915143705.jpg?param=600y600"
+    },
+    {
+        id: "us-dontoliver",
+        name: "Don Toliver",
+        pinyin: "D",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/t2LKqGJQpFkhem8xtIchxQ==/109951170123770275.jpg?param=600y600"
+    },
+    {
+        id: "cn-naying",
+        name: "那英",
+        pinyin: "N",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/0CloH0zYZ8rOF_dyEc8kJg==/109951169164936011.jpg?param=600y600"
+    },
+    {
+        id: "cn-fangdongdemao",
+        name: "房东的猫",
+        pinyin: "F",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/N_H3a9Wa2qEgYspPoM5OsQ==/109951173415048091.jpg?param=600y600"
     }
 ];

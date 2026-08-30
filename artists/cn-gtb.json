@@ -1,0 +1,39 @@
+{
+  "id": "cn-gtb",
+  "name": "GTB",
+  "pinyin": "G",
+  "category": "华语金曲",
+  "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/08/85/af/0885af95-f44b-2ede-e41c-28a1d5ecb2fa/733447750794.jpg/600x600bb.jpg",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "大香港精神",
+        "year": "2018.09",
+        "link": "https://pan.baidu.com/s/1F80JzG2esZwi5QNawSfktg?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/08/85/af/0885af95-f44b-2ede-e41c-28a1d5ecb2fa/733447750794.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Whoa",
+        "year": "2019.12",
+        "link": "https://pan.baidu.com/s/1TCCNIAhEfv0M2Qq8w2syqQ?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/66/d3/d7/66d3d7a4-fa64-083e-1acc-4d98f9623a33/733447750657.jpg/600x600bb.jpg"
+      }
+    ],
+    "EPs": [
+      {
+        "title": "大香港 X'mas [EP]",
+        "year": "2018.12",
+        "link": "https://pan.baidu.com/s/11n_zVE7qpsuD3Dv9tTzXPA?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0d/ed/9c0ded81-db04-8603-9092-3af8da0575c0/745051832971.jpg/600x600bb.jpg"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "祝福你哋",
+        "year": "2026.02",
+        "link": "https://pan.baidu.com/s/1476vmJvUBectrWjl8zkZ9w?pwd=8023",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/d0/34/bbd034e1-94dc-ccb5-e645-66a226152b16/754213535438.jpg/600x600bb.jpg"
+      }
+    ]
+  }
+}

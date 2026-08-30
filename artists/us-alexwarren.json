@@ -1,0 +1,23 @@
+{
+    "id": "us-alexwarren",
+    "name": "Alex Warren",
+    "pinyin": "A",
+    "category": "欧美之声",
+    "avatar": "https://p1.music.126.net/Hg0fbeiFxrf4N4o-ZF9TyA==/109951173847291490.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "You'll Be Alright, Kid",
+                "year": "2025.07",
+                "cover": "https://p1.music.126.net/bumXUcjIO6gPWK9nOsD4NA==/109951171470652351.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1Ivpt1uBf80uBHH1yEOramw?pwd=8023"
+            },
+            {
+                "title": "WILDCHILD",
+                "year": "2026.08",
+                "cover": "https://p1.music.126.net/_cM2K5-rdbRkSA07H03xUA==/109951173829497446.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1NIW2C910OHQsNa6V5tJYdg?pwd=8023"
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": "cn-ipiszhanglang",
+    "name": "IPIS蟑螂",
+    "pinyin": "I",
+    "category": "华语金曲",
+    "avatar": "https://p1.music.126.net/4ryuUCeER9h5aEcezg08zw==/81363860473397.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "IPIS蟑螂 同名专辑",
+                "year": "1997.11",
+                "cover": "https://p1.music.126.net/jfJIF6jgjqKoWXbU5lcaFQ==/109951167343081500.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1CJ8_zJXSk5FpvJCK90rdCw?pwd=8023"
+            },
+            {
+                "title": "IPIS第2蟑",
+                "year": "1998.06",
+                "cover": "https://p1.music.126.net/jtwe9MLxTr_arFxlJ_KRAQ==/76965813945431.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1wRNnVu_rMmkqulnd6zEBVA?pwd=8023"
+            },
+            {
+                "title": "帮个忙",
+                "year": "1999.04",
+                "cover": "https://p1.music.126.net/GAXWRPC1C3saAmuTK5LLkw==/109951167343071452.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1KH2pmvM4U6f-a9yik1fSwA?pwd=8023"
+            },
+            {
+                "title": "忘了我是谁",
+                "year": "2001.01",
+                "cover": "https://p1.music.126.net/_ayOV0m4_ORtTEwpIJoS4Q==/109951167343075099.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/15hmn3x1dpzBacUgwc43fDg?pwd=8023"
+            },
+            {
+                "title": "爱重生",
+                "year": "2005.01",
+                "cover": "https://p1.music.126.net/Lxqp2cra5WzO2XvNo4C20A==/59373627903150.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/16Xov96P8kaAc3zumQK2Cig?pwd=8023"
+            }
+        ]
+    }
+}
