@@ -3,6 +3,8 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2023 - 热烈 电影原声大碟 [24-48]", link: "https://pan.baidu.com/s/1JB8Z6Fr1Cq14zTFK__KsDA?pwd=8023" },
+    { title: "2026.04 - 逆天邪神年番 动漫原声带", link: "https://pan.baidu.com/s/11O-WPwyCcdtrrhzcMSYlSA?pwd=8023" },
     { title: "1998 B计划 电影原声大碟 [香港首版]", link: "https://pan.baidu.com/s/18IiecfBUzrjw-8tKLFZXhA?pwd=8023" },
     { title: "2025 龙门诀之大漠风云变 音乐专辑", link: "https://pan.baidu.com/s/1KSfBLArIMfZtgXc2eMcLkg?pwd=8023" },
     { title: "2005.06 - Batman Begins (Original Motion Picture Soundtrack)", link: "https://pan.baidu.com/s/1FUtKp1zhKT3F45hKCiMSBw?pwd=8023" },

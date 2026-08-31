@@ -3068,5 +3068,40 @@ const musicDatabase = [
         pinyin: "F",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/N_H3a9Wa2qEgYspPoM5OsQ==/109951173415048091.jpg?param=600y600"
+    },
+    {
+        id: "cn-liudonghong",
+        name: "刘冬虹与沙子2.0",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/FkJahZBy8ITiClSWW_xZJg==/109951170916069586.jpg?param=600y600"
+    },
+    {
+        id: "cn-linyujia",
+        name: "林宥嘉",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/X4nYvd_9RM82ENo3W0AnDQ==/109951172019936396.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhaoxueer",
+        name: "赵学而",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/HO9eCrgIDcm-FAEt3t7Edg==/189115999994687.jpg?param=600y600"
+    },
+    {
+        id: "us-hermeshouseband",
+        name: "Hermes House Band",
+        pinyin: "H",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/VbC241KRMjMTp4UW-gU_nA==/109951168847471116.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhangchu",
+        name: "张楚",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/YDNSM1VuvF2lAmAtDZwZVQ==/109951168978198696.jpg?param=600y600"
     }
 ];
