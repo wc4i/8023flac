@@ -3,6 +3,9 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2021.09 - 云南虫谷 电视剧原声带", link: "https://pan.baidu.com/s/1MSJ6eE7qNYiTdeAk9IEobA?pwd=8023" },
+    { title: "2023.02 - 北京卫视 博物馆之城 兰天奇作品原声大碟 [24-44.1kHz]", link: "https://pan.baidu.com/s/1B5WWmsU3Am1mClIm8g4vUA?pwd=8023" },
+    { title: "2025 - 风与潮 电视原声带", link: "https://pan.baidu.com/s/1YVgPE17vCo_Ssm2oQe0bcg?pwd=8023" },
     { title: "2023 - 热烈 电影原声大碟 [24-48]", link: "https://pan.baidu.com/s/1JB8Z6Fr1Cq14zTFK__KsDA?pwd=8023" },
     { title: "2026.04 - 逆天邪神年番 动漫原声带", link: "https://pan.baidu.com/s/11O-WPwyCcdtrrhzcMSYlSA?pwd=8023" },
     { title: "1998 B计划 电影原声大碟 [香港首版]", link: "https://pan.baidu.com/s/18IiecfBUzrjw-8tKLFZXhA?pwd=8023" },

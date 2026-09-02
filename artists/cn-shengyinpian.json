@@ -1,0 +1,62 @@
+{
+  "id": "cn-shengyinpian",
+  "name": "声音碎片乐队",
+  "pinyin": "S",
+  "avatar": "https://p1.music.126.net/heeFPkWRUEKGcn42dLGdzg==/1376588572545206.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "世界是噪音的花园",
+        "year": "2002.08",
+        "cover": "https://p1.music.126.net/b9tEnz0Qz23rdMGERm0XHA==/109951166567027797.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/141exvncX9PeSqoMuqBDwRA?pwd=8023"
+      },
+      {
+        "title": "优美的低于生活",
+        "year": "2005.07",
+        "cover": "https://p1.music.126.net/OCYYwkuV4jpMxRQAaN3j0Q==/109951166577975199.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1RsnM3-e9t-CBE4SECd7qTw?pwd=8023"
+      },
+      {
+        "title": "把光芒洒向更开阔的地方",
+        "year": "2008.09",
+        "cover": "https://p1.music.126.net/UY_4i9FhyvvwtTCdLKbK8g==/109951170026907666.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1VKtBBmw__BsNgeRHMu5-vA?pwd=8023"
+      },
+      {
+        "title": "没有鸟鸣，关上窗吧",
+        "year": "2019.05",
+        "cover": "https://p1.music.126.net/e-GWWho4yVqJ3kdulh5tVg==/109951172945790968.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1d8ma6pCDWif2eHQ9zs_LiQ?pwd=8023"
+      },
+      {
+        "title": "遍地风流 [24-48]",
+        "year": "2020.12",
+        "cover": "https://p1.music.126.net/wfcwGrzrBQRve-kpc1EqNw==/109951172945877495.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/140i8u2VlIOPmzftWHd0r5Q?pwd=8023"
+      },
+      {
+        "title": "有限身 无穷念",
+        "year": "2022.08",
+        "cover": "https://p1.music.126.net/BAG-5AbK1fqvIC4NAVw-rg==/109951172952620145.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1DCJyTs-oSG-15eBHG0Q2KQ?pwd=8023"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "《昔日我曾苍老》二十周年精选集 [24-44.1]",
+        "year": "2021.05",
+        "cover": "https://p1.music.126.net/PAtjiHlMRbx5V-B16bx7nQ==/109951166032565536.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1zwSPii-8WkSGZSgnv-qskg?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Single - 呜呜呜",
+        "year": "2022.02",
+        "cover": "https://p1.music.126.net/XIX3m9oDuZVCq3bjYgszfg==/109951167027591157.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1slsgL1raJub3N0mCdjtc9Q?pwd=8023"
+      }
+    ]
+  }
+}

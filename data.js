@@ -3103,5 +3103,40 @@ const musicDatabase = [
         pinyin: "Z",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/YDNSM1VuvF2lAmAtDZwZVQ==/109951168978198696.jpg?param=600y600"
+    },
+    {
+        id: "cn-shengyinpian",
+        name: "声音碎片乐队",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/heeFPkWRUEKGcn42dLGdzg==/1376588572545206.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhengzhihua",
+        name: "郑智化",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/OIWgfWdEaYcE4otKUnFQiw==/109951168978186672.jpg?param=600y600"
+    },
+    {
+        id: "cn-xueyue",
+        name: "薛岳",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/taLT8HOBC-I8xYMxJHhuyw==/624522604601066.jpg?param=600y600"
+    },
+    {
+        id: "cn-wangyitai",
+        name: "王以太",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/mf_zWF3REZJQU5Ge38KX_g==/109951166114595166.jpg?param=600y600"
+    },
+    {
+        id: "cn-songnianyu",
+        name: "宋念宇",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/edpUwzzn0I7R3HxyC0k5lw==/109951173686721455.jpg?param=600y600"
     }
 ];

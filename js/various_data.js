@@ -3,6 +3,12 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const variousDatabase = [
+    { title: "2023.06 - 赤梦华夏 [24-48]", link: "https://pan.baidu.com/s/1xdJq61nVW_HddgtvhdGDOg?pwd=8023" },
+    { title: "2022.04 - Birth of Meteor", link: "https://pan.baidu.com/s/1qo4WrXuZZX8ft4vMuaW93w?pwd=8023" },
+    { title: "2022.02 - Lost Track Vol.1", link: "https://pan.baidu.com/s/1TqHmS1AmQprLIj-52YsPxA?pwd=8023" },
+    { title: "2020.04 - V I R T U A L.Ⅱ_ _ _ [24-44.1kHz]", link: "https://pan.baidu.com/s/1qMrghCOsHW84z4Uf32j5Kg?pwd=8023" },
+    { title: "2023.05 - Spirituality [24-44.1kHz]", link: "https://pan.baidu.com/s/1smip-mG6tqMh2fu2166J5g?pwd=8023" },
+    { title: "2022.03 - Bite's World [24-48kHz]", link: "https://pan.baidu.com/s/1ObEied_C5KRFltC6CcBCHA?pwd=8023" },
     { title: "2023.10 - D.N.A", link: "https://pan.baidu.com/s/1LhnfUAS9dE13Wwlztl9f4Q?pwd=8023" },
     { title: "2017.01 - 达明一代", link: "https://pan.baidu.com/s/1D1HiBW85JKa7QFlTzBrCxw?pwd=8023" },
     { title: "2019 - 《青春为祖国歌唱》第一辑经典篇", link: "https://pan.baidu.com/s/1IIwbvELubW1dct7WHFs5Eg?pwd=8023" },
