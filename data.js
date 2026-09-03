@@ -3138,5 +3138,96 @@ const musicDatabase = [
         pinyin: "S",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/edpUwzzn0I7R3HxyC0k5lw==/109951173686721455.jpg?param=600y600"
+    },
+    {
+        id: "cn-lsgcsikoriot",
+        name: "LSGCsikoriot",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/RpbP04i9fQ3nDhlKBAmpDA==/109951165055716458.jpg?param=600y600"
+    },
+    {
+        id: "cn-taizhengxiao",
+        name: "邰正宵",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/yKXgYRmUD75fnaUXHL004g==/109951168314010486.jpg?param=600y600"
+    },
+    {
+        id: "cn-8bite",
+        name: "8bite",
+        pinyin: "8",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/FRletvlPH7pAUGustApq0A==/109951165506599159.jpg?param=600y600"
+    },
+    {
+        id: "cn-longdanzi",
+        name: "龙胆紫",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/bt0alkOntLkeUZTWBBAG-w==/109951167535659871.jpg?param=600y600"
+    },
+    {
+        id: "cn-ghost",
+        name: "Ghost (王琳凯)",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/-sXwBLaYV4kVEba7tZ3Naw==/109951173027926976.jpg?param=600y600"
+    },
+    {
+        id: "cn-weichen",
+        name: "魏晨",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/Q0qEPyP5IPjDu7IgOyDFpQ==/109951163403163078.jpg?param=600y600"
+    },
+    {
+        id: "cn-baijugang",
+        name: "白举纲",
+        pinyin: "B",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/mkfH3oGtBK-FfVAs_b5HmQ==/109951163880162753.jpg?param=600y600"
+    },
+    {
+        id: "ww-ekdevlimbu",
+        name: "Ekdev Limbu",
+        pinyin: "E",
+        category: "环球探索",
+        avatar: "https://p2.music.126.net/xYhob6TRpkWUMTPpA1KhxA==/109951167735969002.jpg?param=600y600"
+    },
+    {
+        id: "us-blur",
+        name: "Blur",
+        pinyin: "B",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/IrGE1Eym0x8pG0Us8zmsIw==/109951166217916641.jpg?param=600y600"
+    },
+    {
+        id: "us-ladygaga",
+        name: "Lady Gaga",
+        pinyin: "L",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/la9HCTl6TKvScAqEpRKDCw==/109951170431194817.jpg?param=600y600"
+    },
+    {
+        id: "us-stoneroses",
+        name: "The Stone Roses",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/AdvnhHd4bIOzraUYls-RlA==/109951166155695474.jpg?param=600y600"
+    },
+    {
+        id: "us-soundgarden",
+        name: "Soundgarden",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/HTwgJZyJi1kQ1xM37vr7aw==/18814842975744980.jpg?param=600y600"
+    },
+    {
+        id: "cn-jiangyuheng",
+        name: "姜育恒",
+        pinyin: "J",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/MnEUrsdE5GL_eW5LdijOvQ==/109951168281905545.jpg?param=600y600"
     }
 ];

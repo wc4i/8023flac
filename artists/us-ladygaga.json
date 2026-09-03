@@ -1,0 +1,93 @@
+{
+  "id": "us-ladygaga",
+  "name": "Lady Gaga",
+  "avatar": "https://p2.music.126.net/la9HCTl6TKvScAqEpRKDCw==/109951170431194817.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "The Fame [24-44.1]",
+        "year": "2008.08",
+        "cover": "https://p1.music.126.net/lZoITcqUuO3JvVTtEtsayQ==/109951167102426866.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/17lLIR1WlYdPkzRF64bjguA?pwd=8023"
+      },
+      {
+        "title": "The Fame Monster [24-44.1]",
+        "year": "2009.11",
+        "cover": "https://p2.music.126.net/ZDpuP4YR8Sz9-FPOecAdWg==/109951173114580801.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1lGnZGKJIB5UIdFnJ7YCfZA?pwd=8023"
+      },
+      {
+        "title": "Born This Way [24-44.1]",
+        "year": "2011.05",
+        "cover": "https://p2.music.126.net/UXeOm5hy2nvf524Uj1358w==/109951166161964174.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1VbI29RNnIRqhQrTh7id1fg?pwd=8023"
+      },
+      {
+        "title": "ARTPOP",
+        "year": "2013.11",
+        "cover": "https://p1.music.126.net/E-A30drf7Yh57SEc4vxChA==/109951167148132297.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1I5_y38L9cMyPjCSpsC0WqA?pwd=8023"
+      },
+      {
+        "title": "Joanne",
+        "year": "2016.10",
+        "cover": "https://p1.music.126.net/uAfW09c_7PJ18bvwFspYQw==/109951166162939168.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1u3qIZsE1_fjf0koOR4PeDQ?pwd=8023"
+      },
+      {
+        "title": "Chromatica [24-48]",
+        "year": "2020.05",
+        "cover": "https://p1.music.126.net/IeRnZyxClyoTwqZ76Qcyhw==/109951166161936990.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/14nzQOqD9gcpISDA_qj_uaQ?pwd=8023"
+      },
+      {
+        "title": "Harlequin [24-48]",
+        "year": "2024.09",
+        "cover": "https://p2.music.126.net/Dk6crj--FIdZ7N5pwZH8AQ==/109951169992494642.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1wMA47P14x9cISqdEq34WAg?pwd=8023"
+      },
+      {
+        "title": "MAYHEM [17首+歌版][24-44.1]",
+        "year": "2025.09",
+        "cover": "https://p2.music.126.net/UvlfGAT3Q3CdW9ElL1jByg==/109951171840884668.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1EARxttyB50ASPiGyjZHVow?pwd=8023"
+      }
+    ],
+    "Collaborative Albums (FLAC tracks)": [
+      {
+        "title": "Cheek To Cheek (Deluxe) （feat. Tony Bennett）",
+        "year": "2014.09",
+        "cover": "https://p1.music.126.net/3e3Zgq_eKqegrnFnrpbnKA==/109951163221171920.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/16kO0tPUzCOHSfIxtx-2-uQ?pwd=8023"
+      },
+      {
+        "title": "A Star Is Born Soundtrack [24-48]",
+        "year": "2018.10",
+        "cover": "https://p1.music.126.net/D0D1u0iejEYaAiTnQ41Nmg==/109951169817866663.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1uoCHZhIuMU4wx-e5pPuvfw?pwd=8023"
+      },
+      {
+        "title": "Love For Sale (Deluxe) feat. Tony Bennett",
+        "year": "2021.10",
+        "cover": "https://p2.music.126.net/AU-xneC4I47xkV0vceZjeQ==/109951166538112178.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1JoqjpeXDDZ-Hpe1XRCQYMg?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "Apple Music Live：MAYHEM Requiem [24-48]",
+        "year": "2026.05",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/12/80/08128053-d7df-489d-bfde-be6f45f075be/26UMGIM57129.rgb.jpg/600x600bb.jpg",
+        "link": "https://pan.baidu.com/s/16srizmT2qyYJ6290aAB1nw?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 260410)",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1BM_YfmQjti3YjTL0f9zwLQ?pwd=8023"
+      }
+    ]
+  }
+}

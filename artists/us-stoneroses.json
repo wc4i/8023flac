@@ -1,0 +1,35 @@
+{
+  "id": "us-stoneroses",
+  "name": "The Stone Roses",
+  "avatar": "https://p2.music.126.net/AdvnhHd4bIOzraUYls-RlA==/109951166155695474.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "The Stone Roses [日版]",
+        "year": "1989.05",
+        "cover": "https://p1.music.126.net/uVWzssOaFTG_LkZIEh_Sqg==/109951165995498739.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1TkhduhBd9ToZj-dOIEpiYQ?pwd=8023"
+      },
+      {
+        "title": "Second Coming [日版]",
+        "year": "1994.12",
+        "cover": "https://p1.music.126.net/z8sfLNYUd8r0zLuYBjIing==/109951165334445391.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1BbnrFCMtvtM_Y7tJTDyuXg?pwd=8023"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "Turns Into Stone",
+        "year": "1992.07",
+        "cover": "https://p1.music.126.net/tMJJ2qm4p39MkQb3USoCFg==/109951165967183474.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1FEFCoRiuNlFHEhJwzwmlQQ?pwd=8023"
+      },
+      {
+        "title": "Collection",
+        "year": "2010.08",
+        "cover": "https://p2.music.126.net/RzBWbMUEc-jy-wv5odaqQw==/109951165992883239.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1vmpeZb5bmGDjI4fEJdUdxA?pwd=8023"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "us-soundgarden",
+  "name": "Soundgarden",
+  "avatar": "https://p1.music.126.net/HTwgJZyJi1kQ1xM37vr7aw==/18814842975744980.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Ultramega OK",
+        "year": "1988.10",
+        "cover": "https://p1.music.126.net/kZp7u18ZdOUt4YzvJEVi3A==/579442627847890.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1ao6Qvc4BVh5DGx3ClFfqKQ?pwd=8023"
+      },
+      {
+        "title": "Louder Than Love",
+        "year": "1989.01",
+        "cover": "https://p1.music.126.net/21-KY-_dCpEIAwGOJC-uTA==/109951170929566094.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Kk0iI2dOAcu3PgowVCS_oQ?pwd=8023"
+      },
+      {
+        "title": "Badmotorfinger",
+        "year": "1991.10",
+        "cover": "https://p1.music.126.net/TRH1tAxHZG_8TIoDLSqhQQ==/634418209236481.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Qq7n6BBlnyOiR9BdYdvdXQ?pwd=8023"
+      },
+      {
+        "title": "Superunknown",
+        "year": "1994.03",
+        "cover": "https://p1.music.126.net/Ed2aM19q3OQYqE4MXjyGuA==/2528876745030037.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1I9XzU6dRIXCwzp822awwaw?pwd=8023"
+      },
+      {
+        "title": "Down On The Upside",
+        "year": "1996.05",
+        "cover": "https://p1.music.126.net/HcfABIwXqIJbxaCO372rdQ==/6638851209432563.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1pP0-y87tkcTPsSz50UntGQ?pwd=8023"
+      }
+    ],
+    "EPs (FLAC tracks)": [
+      {
+        "title": "Screaming Life/Fopp",
+        "year": "1990.11",
+        "cover": "https://p1.music.126.net/q7mNhfk5A0EhUd37NWGSMw==/109951163831896043.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1H9CVpplhQwdopXiR5CMYLQ?pwd=8023"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "A-Sides",
+        "year": "1997.01",
+        "cover": "https://p1.music.126.net/NaKVM1aitsEm5VJW_8inHg==/109951171270103815.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/14hg_ChRBcmKrQSTqAVMfwQ?pwd=8023"
+      },
+      {
+        "title": "Echo Of Miles: Scattered Tracks Across The Path",
+        "year": "2014.11",
+        "cover": "https://p1.music.126.net/vOE1U-ujSWDJL0SujL3VIA==/17981413160908491.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1qsRrw7FZuYBeBNPVWvvniQ?pwd=8023"
+      }
+    ]
+  }
+}

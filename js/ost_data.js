@@ -3,6 +3,12 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2026 - 师兄太稳健 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1dXxKmOmJ69Ypbt-y_21vIw?pwd=8023" },
+    { title: "2026 - 早春晴朗 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1d-XCiCuY9I8ZoO-C_UtDwA?pwd=8023" },
+    { title: "2026 - 蝉 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1fe82hZwdrojaddKAgCOOHQ?pwd=8023" },
+    { title: "2013.11 - 怒放2013 电影原声碟", link: "https://pan.baidu.com/s/1uV5FpA1UjZq26jlEma6FIw?pwd=8023" },
+    { title: "2024.09 - 《野孩子》电影原声专辑 [24-48kHz]", link: "https://pan.baidu.com/s/1Woaw4ccQaz9YeEgD9X7mEg?pwd=8023" },
+    { title: "2026.05 - 《吞噬星空剧场版：决战原始星》动画原声带", link: "https://pan.baidu.com/s/1KOR-FfCRunIg5aJ0dFTBOw?pwd=8023" },
     { title: "2021.09 - 云南虫谷 电视剧原声带", link: "https://pan.baidu.com/s/1MSJ6eE7qNYiTdeAk9IEobA?pwd=8023" },
     { title: "2023.02 - 北京卫视 博物馆之城 兰天奇作品原声大碟 [24-44.1kHz]", link: "https://pan.baidu.com/s/1B5WWmsU3Am1mClIm8g4vUA?pwd=8023" },
     { title: "2025 - 风与潮 电视原声带", link: "https://pan.baidu.com/s/1YVgPE17vCo_Ssm2oQe0bcg?pwd=8023" },
