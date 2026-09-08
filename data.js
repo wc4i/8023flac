@@ -3306,5 +3306,12 @@ const musicDatabase = [
         pinyin: "E",
         category: "日韩风尚",
         avatar: "https://p2.music.126.net/uUrr7jcQ476zUKZ_okEavw==/109951173443244766.jpg?param=600y600"
+    },
+    {
+        id: "cn-heyong",
+        name: "何勇",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/g39Uu9lPIIhGABoBvz69tw==/64871186056200.jpg?param=600y600"
     }
 ];
