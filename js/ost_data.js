@@ -3,6 +3,9 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2006 微笑Pasta 电视剧原声带 [台湾首版]", link: "https://pan.baidu.com/s/185ur2o2d5v-eEThLkexxLw?pwd=8023" },
+    { title: "2004 天国的嫁衣 电视原声带 [引进版]", link: "https://pan.baidu.com/s/1d2OJCKTSxxchTgfdJEDxvA?pwd=8023" },
+    { title: "2025 - 树影迷宫 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1wErpAtqpVCjM1CmEidTj7w?pwd=8023" },
     { title: "2026 - 师兄太稳健 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1dXxKmOmJ69Ypbt-y_21vIw?pwd=8023" },
     { title: "2026 - 早春晴朗 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1d-XCiCuY9I8ZoO-C_UtDwA?pwd=8023" },
     { title: "2026 - 蝉 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1fe82hZwdrojaddKAgCOOHQ?pwd=8023" },

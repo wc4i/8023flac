@@ -3229,5 +3229,82 @@ const musicDatabase = [
         pinyin: "J",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/MnEUrsdE5GL_eW5LdijOvQ==/109951168281905545.jpg?param=600y600"
+    },
+    {
+        id: "jp-official-hige-dandism",
+        name: "Official髭男dism（Official HIGE DANdism）",
+        pinyin: "O",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/NT5oTBxuSitUJtEkshOZYA==/109951171478514587.jpg?param=600y600"
+    },
+    {
+        id: "us-jasonmraz",
+        name: "Jason Mraz",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/zGJE_Cm9HJiwCfvEKsfJIA==/109951168313254487.jpg?param=600y600"
+    },
+    {
+        id: "us-helenefischer",
+        name: "Helene Fischer",
+        pinyin: "H",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/YK0p4f2iNSJ6IiU0U0fOnw==/109951165894797313.jpg?param=600y600"
+    },
+    {
+        id: "us-savatage",
+        name: "Savatage",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/femW0A7_pOAxHa5iFfa1LA==/136339441860965.jpg?param=600y600"
+    },
+    {
+        id: "cn-matiao",
+        name: "马条",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/lVaEk_kOgAMqztTCbFcCTg==/1399678312004754.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhongjiaxin",
+        name: "钟嘉欣",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/vKP0hbEOn-QnNRi8STEhGw==/109951171867795710.jpg?param=600y600"
+    },
+    {
+        id: "cn-wangxinling",
+        name: "王心凌",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/dzjzjbnYZ28R1FqkMyGXeg==/109951169421837848.jpg?param=600y600"
+    },
+    {
+        id: "cn-wuwei",
+        name: "武玮",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/5-hrJAHxrKUzdGVyMJUrtQ==/2919203372695135.jpg?param=600y600"
+    },
+    {
+        id: "cn-guanjuying",
+        name: "关菊英",
+        pinyin: "G",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/m0nfBdB18XGVhCRVX2KImw==/606930418558449.jpg?param=600y600"
+    },
+    {
+        id: "kr-soyeon",
+        name: "田小娟（전소연, SOYEON）",
+        pinyin: "S",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/fh0dEEQ5vJEhz8q3KAr7Ng==/109951173880707952.jpg?param=600y600"
+    },
+    {
+        id: "kr-evan",
+        name: "EVAN",
+        pinyin: "E",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/uUrr7jcQ476zUKZ_okEavw==/109951173443244766.jpg?param=600y600"
     }
 ];
