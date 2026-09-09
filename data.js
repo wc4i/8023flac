@@ -3313,5 +3313,47 @@ const musicDatabase = [
         pinyin: "H",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/g39Uu9lPIIhGABoBvz69tw==/64871186056200.jpg?param=600y600"
+    },
+    {
+        id: "cn-rongzuer",
+        name: "容祖儿",
+        pinyin: "R",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/FK3gKIL8k5WgVpZmq3nlLg==/109951170514231795.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhouyanting",
+        name: "周殷廷",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/OjDj_4aWbU49f8WG0zmJgw==/7862607650704780.jpg?param=600y600"
+    },
+    {
+        id: "cn-huangyaoming",
+        name: "黄耀明",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/08/3a/02/083a0285-482a-f8d4-e670-7860878a67fe/EEGV104D1.jpg/600x600bb.jpg"
+    },
+    {
+        id: "cn-taopaojihua",
+        name: "逃跑计划",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/l89POCK3VNYjwwxiI68qdA==/109951169989662184.jpg?param=600y600"
+    },
+    {
+        id: "kr-82major",
+        name: "82MAJOR",
+        pinyin: "8",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/D6UYG_Jslj4_2a9LnXkrqw==/109951173746021543.jpg?param=600y600"
+    },
+    {
+        id: "us-travisscott",
+        name: "Travis Scott",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/y_Ew2QXqvWvyY01IeDjUbg==/109951169806256554.jpg?param=600y600"
     }
 ];

@@ -1,0 +1,47 @@
+{
+  "id": "us-travisscott",
+  "name": "Travis Scott",
+  "avatar": "https://p1.music.126.net/y_Ew2QXqvWvyY01IeDjUbg==/109951169806256554.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "DAYS BEFORE RODEO [24-48]",
+        "year": "2014.08",
+        "cover": "https://p2.music.126.net/Mq8fZKwVc4ht7P1hlDzFxw==/109951163958930566.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1AM6nty_dliOf_6nNNtOm0w?pwd=8023"
+      },
+      {
+        "title": "Rodeo [24-44.1]",
+        "year": "2015.09",
+        "cover": "https://p2.music.126.net/GHaDe3oW5M9UukjN6j7sPQ==/7978056373265266.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1-wGvR2c-V1AQDqJADBRbxw?pwd=8023"
+      },
+      {
+        "title": "Birds In The Trap Sing McKnight [24-44.1]",
+        "year": "2016.09",
+        "cover": "https://p1.music.126.net/HT0QIlDZsOqNuNh2MIUjIg==/109951165975888203.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1KvUudF5T1gl8LvF8lHEQvg?pwd=8023"
+      },
+      {
+        "title": "ASTROWORLD [24-88.2]",
+        "year": "2018.08",
+        "cover": "https://p2.music.126.net/hFKgE1OcyvibwrtLJuZQ1w==/109951165984655844.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/15LlpZCA6ma-RjRykiKua9g?pwd=8023"
+      },
+      {
+        "title": "UTOPIA [24-88.2]",
+        "year": "2023.07",
+        "cover": "https://p2.music.126.net/5Ax6aNOMn-mwF6IwYWJKMg==/109951168771978885.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1_Lp07h-vnsch-hYqjFAuGQ?pwd=8023"
+      }
+    ],
+    "Collaborative Albums (FLAC tracks)": [
+      {
+        "title": "Huncho Jack, Jack Huncho [24-44.1]",
+        "year": "2017.12",
+        "cover": "https://p2.music.126.net/RM5kRqXaHFzmoICwMy7E5A==/17922039533014470.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1kOJ5bfi8m0HNLbxlLCbcNA?pwd=8023"
+      }
+    ]
+  }
+}
