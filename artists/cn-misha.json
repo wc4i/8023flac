@@ -1,0 +1,48 @@
+{
+    "id": "cn-misha",
+    "name": "米莎",
+    "pinyin": "M",
+    "avatar": "https://p2.music.126.net/YgkUQJ35SoSmJ3uhBO_kPQ==/109951164589603024.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "戆仔船 [24-44.1]",
+                "year": "2019.12",
+                "cover": "https://p2.music.126.net/GzSlBGmshgENeP7qcWci-Q==/109951167425149063.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1_5sfgYfoP8NXAZN62ERExA?pwd=8023"
+            },
+            {
+                "title": "蝓螺 [24-48]",
+                "year": "2022.12",
+                "cover": "https://p2.music.126.net/Ah_Upppc3c6LGTsvun_hRg==/109951168147482131.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1Fd1apxxw38CxishgGv_P6g?pwd=8023"
+            }
+        ],
+        "Collaborative Albums (FLAC tracks)": [
+            {
+                "title": "在路项（ft.地下河）",
+                "year": "2014.08",
+                "cover": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1xBs8GwxDwaoIcybtMHSzRg?pwd=8023"
+            },
+            {
+                "title": "百夜生（ft.地下河）",
+                "year": "2016.12",
+                "cover": "https://p2.music.126.net/TSiQRMy6aZlwEazc4z3RQw==/19122706230471661.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/14lzKxh8MlK6o8ui_eFVKug?pwd=8023"
+            },
+            {
+                "title": "亲爱的企鹅（ft.早川彻）",
+                "year": "2024.12",
+                "cover": "https://p2.music.126.net/RB_wth49E5OdZxzfFr1AZg==/109951170290714459.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/138N2pLVkPoNiEzBx4-CzlA?pwd=8023"
+            },
+            {
+                "title": "米莎 x 早川彻 on CINEMAPHONIC (Live)",
+                "year": "2025.10",
+                "cover": "https://p2.music.126.net/N0hdpHb-FVlqOo4x_-6CnA==/109951172062323235.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/11EZVVY3eQTRxNZCWJ1HcBw?pwd=8023"
+            }
+        ]
+    }
+}

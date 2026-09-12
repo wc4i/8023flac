@@ -1,0 +1,62 @@
+{
+    "id": "cn-yehaizi",
+    "name": "野孩子",
+    "pinyin": "Y",
+    "avatar": "https://p2.music.126.net/8j2zg8fUa8S4AghtymVXwA==/109951163269454900.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "In The Loft",
+                "year": "2000.08",
+                "cover": "https://p2.music.126.net/Ei4UkszOwO9yJIRFxwwbFA==/115448720932221.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1UYVxKkXcS9XxOhXbL8fS_Q?pwd=8023"
+            },
+            {
+                "title": "咒语",
+                "year": "2000.12",
+                "cover": "https://p2.music.126.net/baYU1os73NA4NtiPoj24aA==/109951170145113037.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1PNojiHptDIdnbKZuxIRprg?pwd=8023"
+            },
+            {
+                "title": "平等路",
+                "year": "2014.01",
+                "cover": "https://p1.music.126.net/Hr-RcdUoEfYy9vkHgy6POA==/109951163580412936.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1LFPfN_kznlBE00kPxTwzjg?pwd=8023"
+            },
+            {
+                "title": "大桥下面",
+                "year": "2018.06",
+                "cover": "https://p1.music.126.net/HZ7pQdteoNCUmuQl__FaKg==/109951163326927205.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1juLybfkD4b2bbOmCj6QqKg?pwd=8023"
+            },
+            {
+                "title": "燃烧的石头",
+                "year": "2025.06",
+                "cover": "https://p1.music.126.net/3b34s9sqqim4w5ypaLJnmA==/109951171301586870.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1YCbqWUamNwVFb7PQJrOE1g?pwd=8023"
+            }
+        ],
+        "Live Albums (FLAC tracks)": [
+            {
+                "title": "Ark Live 上海现场 [Live]",
+                "year": "2002.11",
+                "cover": "https://p2.music.126.net/DRMKEqqCIiacKnZrBHN6TQ==/30786325591443.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/14l0ENj_TBqhONtVjhXGkNw?pwd=8023"
+            },
+            {
+                "title": "黄河谣 [Live]",
+                "year": "2004.12",
+                "cover": "https://p2.music.126.net/03nuMjmgYKKbyXB52ACr8A==/109951170145109618.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/18pFko5bMpC7X3pBBhlwWDQ?pwd=8023"
+            }
+        ],
+        "Soundtrack (FLAC tracks)": [
+            {
+                "title": "电影《燃比娃》原声音乐 [24-48]",
+                "year": "2026.04",
+                "cover": "https://p1.music.126.net/ekdwdI3sRfOhWjxpy-uwxQ==/109951173114544007.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1xzYGPq9T4nUsP6JSRkV1kQ?pwd=8023"
+            }
+        ]
+    }
+}

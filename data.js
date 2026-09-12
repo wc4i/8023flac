@@ -3355,5 +3355,68 @@ const musicDatabase = [
         pinyin: "T",
         category: "欧美之声",
         avatar: "https://p1.music.126.net/y_Ew2QXqvWvyY01IeDjUbg==/109951169806256554.jpg?param=600y600"
+    },
+    {
+        id: "cn-xiaoxiao",
+        name: "萧潇",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/Uv3JRWgqyFlYgLgzU82ExA==/109951163577016661.jpg?param=600y600"
+    },
+    {
+        id: "cn-liyuhuan",
+        name: "李雨寰",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/a2/33/c3/a233c360-5790-20ac-c4c6-9447f51bd0ac/4712978498067.jpg/600x600bb.jpg"
+    },
+    {
+        id: "cn-zanshi",
+        name: "赞诗",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/uhiJ0VaMlEO2l_3K4VZxGQ==/109951167741081567.jpg?param=600y600"
+    },
+    {
+        id: "cn-shayiting",
+        name: "沙一汀EL",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/FWsjo25wumC67z53LXXRUQ==/109951165694813396.jpg?param=600y600"
+    },
+    {
+        id: "cn-lianma",
+        name: "连麻Swimming",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/QgDeFC-ZOKFugn9nmwk-CA==/109951165303641065.jpg?param=600y600"
+    },
+    {
+        id: "cn-yehaizi",
+        name: "野孩子",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/8j2zg8fUa8S4AghtymVXwA==/109951163269454900.jpg?param=600y600"
+    },
+    {
+        id: "cn-misha",
+        name: "米莎",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/YgkUQJ35SoSmJ3uhBO_kPQ==/109951164589603024.jpg?param=600y600"
+    },
+    {
+        id: "jp-tube",
+        name: "TUBE",
+        pinyin: "T",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/OBp1RF9-QZJbHMreasM-sA==/109951165141751969.jpg?param=600y600"
+    },
+    {
+        id: "us-screamingtrees",
+        name: "Screaming Trees",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/1xQoMPZJHO80covbHZEr2Q==/460695372049452.jpg?param=600y600"
     }
 ];

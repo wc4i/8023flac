@@ -1,0 +1,42 @@
+{
+  "id": "cn-zanshi",
+  "name": "赞诗",
+  "pinyin": "Z",
+  "avatar": "https://p2.music.126.net/uhiJ0VaMlEO2l_3K4VZxGQ==/109951167741081567.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "神农尝百草·卷一 [24-48]",
+        "year": "2025.03",
+        "cover": "https://p2.music.126.net/u6NvvBqgTQUzgZV3eyAQtw==/109951170536289030.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1agA-96qf7C0S3o7RzLpxng?pwd=8023"
+      },
+      {
+        "title": "神农尝百草·卷二 [24-48]",
+        "year": "2026.06",
+        "cover": "https://p2.music.126.net/baY_btc4SqfPO7PeFdzNxg==/109951173406179425.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/14YVFDxBWCa4MDRiKO0hJ8A?pwd=8023"
+      }
+    ],
+    "EPs (FLAC tracks)": [
+      {
+        "title": "幸运狗[EP]",
+        "year": "2022.02",
+        "cover": "https://p2.music.126.net/BFwsXbQKuw69QrKLL-HhuA==/109951168131342073.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/163OhwDSr0VLPqZi9yleE1g?pwd=8023"
+      },
+      {
+        "title": "跳金水[EP] [24-48]",
+        "year": "2022.02",
+        "cover": "https://p2.music.126.net/DFpdhkhqy80_AZnZ_zZsjg==/109951168088220687.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1JtgQjTvwRCLtGW676M0yOg?pwd=8023"
+      },
+      {
+        "title": "梦遗·初潮[EP]",
+        "year": "2022.07",
+        "cover": "https://p2.music.126.net/ZpL_qiOU_CQIEGhG8STa7A==/109951167709769440.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/17jTyZRhu1hEC0USW0n5sSQ?pwd=8023"
+      }
+    ]
+  }
+}

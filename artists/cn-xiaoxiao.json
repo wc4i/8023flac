@@ -1,0 +1,36 @@
+{
+  "id": "cn-xiaoxiao",
+  "name": "萧潇",
+  "pinyin": "X",
+  "avatar": "https://p1.music.126.net/Uv3JRWgqyFlYgLgzU82ExA==/109951163577016661.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Beautiful Angel",
+        "year": "2003.01",
+        "cover": "https://p1.music.126.net/7XL7NVSgsUdzvgbr0kKTpw==/109951170618602533.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1WR4moyTyU79Zstu41v-o4g?pwd=8023"
+      },
+      {
+        "title": "I'm 萧萧",
+        "year": "2006.01",
+        "cover": "https://p1.music.126.net/C9KHFBm6LUpl-4sEcXCJjA==/109951173525881962.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1ZMjo0_QjC4Ly2i7b_VoMrw?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Love me like i'm not made of stone",
+        "year": "2018.10",
+        "cover": "https://p1.music.126.net/ui5FgduZK2Li667IH7Dm8Q==/109951163590805879.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1eTHRsO9MdZUVltrETezNqg?pwd=8023"
+      },
+      {
+        "title": "爱要坦荡荡DJ版 [24-48]",
+        "year": "2026.03",
+        "cover": "https://p1.music.126.net/yesJy2LDX8Kgnd_Gha--OQ==/109951172841085491.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1FmmZc15P7e9AEBGUFNXg6A?pwd=8023"
+      }
+    ]
+  }
+}
