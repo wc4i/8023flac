@@ -1,0 +1,48 @@
+{
+    "id": "cn-kirit",
+    "name": "Kiri T",
+    "pinyin": "K",
+    "avatar": "https://p2.music.126.net/xbnitGtR8DcZNKzmaErohw==/109951169504791018.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "Golden Kiri",
+                "year": "2019.04",
+                "cover": "https://p2.music.126.net/RezObbLHu5GWpiTbmqbwtA==/109951168992576882.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1AUcqXgDqujvBxpiFG1yeVQ?pwd=8023"
+            },
+            {
+                "title": "Sugar Tapes [24-48]",
+                "year": "2019.11",
+                "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/1b/c4/60/1bc46037-71dd-676a-56be-0367153086e8/artwork.jpg/600x600bb.jpg",
+                "link": "https://pan.baidu.com/s/1IqykGGeL7cLustK9qsQJ_g?pwd=8023"
+            },
+            {
+                "title": "CHILI T [24-44.1]",
+                "year": "2021.02",
+                "cover": "https://p2.music.126.net/q6aiDszqx20QeE_BsE3sNQ==/109951171931621735.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1v-UIir29Q7Iu1feKs88jbQ?pwd=8023"
+            },
+            {
+                "title": "not so xmas xmas (ft.moon tang) [24-48]",
+                "year": "2023.12",
+                "cover": "https://p1.music.126.net/0S4E__7M-qgMNXw_ALWJ1w==/109951169127702765.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/12AWn37NHwkhhq4-sHcd6dA?pwd=8023"
+            },
+            {
+                "title": "a kiridiculous distance [24-48]",
+                "year": "2025.11",
+                "cover": "https://p2.music.126.net/YbiY2qCl2F3hKOEd1l4xvQ==/109951172291629262.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/11d_eKsiZ6tf-hRZxExcP3Q?pwd=8023"
+            }
+        ],
+        "Singles (FLAC tracks)": [
+            {
+                "title": "Singles (as of 260703)",
+                "year": "2026.07",
+                "cover": "",
+                "link": "https://pan.baidu.com/s/1tfoKk6rRAjZN12rh1o6UfA?pwd=8023"
+            }
+        ]
+    }
+}

@@ -3418,5 +3418,194 @@ const musicDatabase = [
         pinyin: "S",
         category: "欧美之声",
         avatar: "https://p1.music.126.net/1xQoMPZJHO80covbHZEr2Q==/460695372049452.jpg?param=600y600"
+    },
+    {
+        id: "jp-spitz",
+        name: "スピッツ（Spitz）",
+        pinyin: "S",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/wwsodat_a8TjoIfKVDSmbw==/109951172175104852.jpg?param=600y600"
+    },
+    {
+        id: "cn-wangruolin",
+        name: "王若琳",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/urVvChQcvxKepipvYGiOqQ==/109951169891930720.jpg?param=600y600"
+    },
+    {
+        id: "cn-dongwuyuandingzihu",
+        name: "动物园钉子户",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/XtxMhf1QvSv_I6fTosiZOg==/109951167828266070.jpg?param=600y600"
+    },
+    {
+        id: "cn-kirit",
+        name: "Kiri T",
+        pinyin: "K",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/xbnitGtR8DcZNKzmaErohw==/109951169504791018.jpg?param=600y600"
+    },
+    {
+        id: "cn-qianshui",
+        name: "浅水ShallowEnd",
+        pinyin: "Q",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/fxmErJA1GLURpDvYN6ug-w==/109951168947345886.jpg?param=600y600"
+    },
+    {
+        id: "cn-jinjibewaterxun",
+        name: "JinJiBeWater_隼",
+        pinyin: "J",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/ZUoltERaDfCrXMVuWjoxkg==/109951165781191908.jpg?param=600y600"
+    },
+    {
+        id: "cn-taozhe",
+        name: "陶喆",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/7FWLQ9Vm_po0VS7ptLTFiQ==/109951170606711717.jpg?param=600y600"
+    },
+    {
+        id: "cn-xuweixiang",
+        name: "徐暐翔",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/fPo2wM8TPCvXFyg0GwY5aw==/109951169891927467.jpg?param=600y600"
+    },
+    {
+        id: "cn-moxizishi",
+        name: "莫西子诗",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/GoExyTvIbYyMN2rXNigsPQ==/109951163346312690.jpg?param=600y600"
+    },
+    {
+        id: "cn-yunlisi",
+        name: "云力思",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://y.qq.com/music/photo_new/T001R500x500M0000005IWqX2ELhn0_3.jpg?max_age=2592000"
+    },
+    {
+        id: "cn-lijianfu",
+        name: "李建复",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/dXuvHmUklxtgrD6CgEfB5g==/613527488326014.jpg?param=600y600"
+    },
+    {
+        id: "cn-chenjinglin",
+        name: "陈静琳",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/I6jRajQXVBvEUgP4LgTb9A==/109951170239610290.jpg?param=600y600"
+    },
+    {
+        id: "cn-woguidihuoche",
+        name: "卧轨的火车",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/nXC4dUzkgU9Jof18ow987w==/109951169024379368.jpg?param=600y600"
+    },
+    {
+        id: "us-adela",
+        name: "ADÉLA",
+        pinyin: "A",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/AJKvtVIbDusmYRXAKrlW3w==/109951171028303243.jpg?param=600y600"
+    },
+    {
+        id: "us-jheneaiko",
+        name: "Jhené Aiko",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/Sqb2OEGaHpiZOFblALG6PQ==/109951163412824024.jpg?param=600y600"
+    },
+    {
+        id: "us-pergessle",
+        name: "Per Gessle",
+        pinyin: "P",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/nnMlcknyd0b8RiaEt2yEWQ==/716881581330003.jpg?param=600y600"
+    },
+    {
+        id: "us-mariefredriksson",
+        name: "Marie Fredriksson",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/Pv8WioFCrNEf-HNB-L_BNg==/109951164542792136.jpg?param=600y600"
+    },
+    {
+        id: "us-roxette",
+        name: "Roxette",
+        pinyin: "R",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/BrTguns5a5Jj7cOqPQeDmA==/501377302265899.jpg?param=600y600"
+    },
+    {
+        id: "us-nineinchnails",
+        name: "Nine Inch Nails",
+        pinyin: "N",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/PgRc9B2G05wdZVm8OT66iA==/109951172444089317.jpg?param=600y600"
+    },
+    {
+        id: "us-aphextwin",
+        name: "Aphex Twin",
+        pinyin: "A",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/ZdlsR9TGKzfbGC4DWmVUOQ==/719080604569450.jpg?param=600y600"
+    },
+    {
+        id: "us-elliegoulding",
+        name: "Ellie Goulding",
+        pinyin: "E",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/VwHab3s8cut2NzqoI5Zlyw==/109951173819193174.jpg?param=600y600"
+    },
+    {
+        id: "us-rebeccablack",
+        name: "Rebecca Black",
+        pinyin: "R",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/AwGBReqyXo9Wq_YEoQAM4Q==/109951170363171728.jpg?param=600y600"
+    },
+    {
+        id: "cn-baihaoxian",
+        name: "白浩贤",
+        pinyin: "B",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/SFuFbYau-c_yykbUwxnCDw==/109951173951476724.jpg?param=600y600"
+    },
+    {
+        id: "cn-zengyike",
+        name: "曾轶可",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/uFriLST6eayNkQsezAEB9Q==/109951170079615872.jpg?param=600y600"
+    },
+    {
+        id: "us-carlyraejepsen",
+        name: "Carly Rae Jepsen",
+        pinyin: "C",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/ODqxhmnbyq8ZZVukpx7n9A==/109951168931336754.jpg?param=600y600"
+    },
+    {
+        id: "cn-februaryfanboyu",
+        name: "February樊博屿",
+        pinyin: "F",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/BdX38mS7DdMT0oi-fgPuWQ==/109951169990322180.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhangfangzhao",
+        name: "张方钊",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/ZENpbkoMj3xHYV6bdmQgvQ==/109951173955160849.jpg?param=600y600"
     }
 ];

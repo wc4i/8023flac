@@ -1,0 +1,27 @@
+{
+  "id": "us-mariefredriksson",
+  "name": "Marie Fredriksson",
+  "avatar": "https://p2.music.126.net/Pv8WioFCrNEf-HNB-L_BNg==/109951164542792136.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "The Change",
+        "year": "2004.10",
+        "cover": "https://p1.music.126.net/6RiIgmWL2lrGXu9MuyRECQ==/109951163983923685.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1OmduUp3ESvnsBDiiRH-jTQ?pwd=8023"
+      },
+      {
+        "title": "Den Ständiga Resan",
+        "year": "1992.10",
+        "cover": "https://p1.music.126.net/BLNrnsFkyg4kv4sOz3iNKA==/109951164077182452.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/122CrlZoJDN8takSZZb-VMw?pwd=8023"
+      },
+      {
+        "title": "I En Tid Som Vår",
+        "year": "1996.11",
+        "cover": "https://p1.music.126.net/1t8H0w0C9uxvYoo3ezp6xg==/109951167225585459.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Oy2sOHmxI3ywemy0SSl8SQ?pwd=8023"
+      }
+    ]
+  }
+}

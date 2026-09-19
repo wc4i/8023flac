@@ -1,0 +1,43 @@
+{
+  "id": "us-pergessle",
+  "name": "Per Gessle",
+  "avatar": "https://p1.music.126.net/nnMlcknyd0b8RiaEt2yEWQ==/716881581330003.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "The World According To Gessle",
+        "year": "1997.05",
+        "cover": "https://p2.music.126.net/IR8DJDlxpyq0DbWiWtR5_Q==/2533274791192952.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1dTF4vy1f1iPQnyMsqpPfPw?pwd=8023"
+      },
+      {
+        "title": "Son Of A Plumber",
+        "year": "2005.11",
+        "cover": "https://p1.music.126.net/YiacYIg8SUAxCJ4GddlnwQ==/18192519393741316.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/15aTKQiDYdMzF-T6HdQLIqA?pwd=8023"
+      },
+      {
+        "title": "Party Crasher",
+        "year": "2008.11",
+        "cover": "https://p1.music.126.net/4ji1Y0kd_MWhkYexIv9irQ==/2558563557868382.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1NLsv2raDnS05u3N_MgruqA?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "Gessle Over Europe",
+        "year": "2009.10",
+        "cover": "https://p1.music.126.net/bYMAoRDuBr7WSqUvfK2QNg==/109951167787583237.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/18DAtu50dRZEw1TFLmZBDPw?pwd=8023"
+      }
+    ],
+    "Collaborative Albums (FLAC tracks)": [
+      {
+        "title": "The Lonely Boys（ft.Nisse Hellberg）",
+        "year": "1995.12",
+        "cover": "https://p1.music.126.net/cEEUoF7lJ_g45wfALbxJZA==/109951165624545300.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1G5PmM9C8xdA4Ap-8yWvoNg?pwd=8023"
+      }
+    ]
+  }
+}

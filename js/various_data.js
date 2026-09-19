@@ -3,6 +3,8 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const variousDatabase = [
+    { title: "2023.06 - Great The Wall [24-48]", link: "https://pan.baidu.com/s/1kT2KwRa2B7-pSZ6zsPQD4w?pwd=8023" },
+    { title: "2024.03 - 「呐声(Nation)」·民族融合音乐企划 [24-48]", link: "https://pan.baidu.com/s/13JJSI2gviCNr6GO0W0Flpg?pwd=8023" },
     { title: "2024.05 - 日落后的20分钟 [24-48]", link: "https://pan.baidu.com/s/1mhGtH5vfLhRE0y9nh4o7qQ?pwd=8023" },
     { title: "2024.09 - 我们来自不同地方：江南诗意 [24-96]", link: "https://pan.baidu.com/s/1_eUksWQCLcMAgPoVzFb_CA?pwd=8023" },
     { title: "2024.01 - HOW随便LIVE 2023(SEASON I) [24-48]", link: "https://pan.baidu.com/s/1qPeVUqXXcrtMRLU-0RKoSA?pwd=8023" },
