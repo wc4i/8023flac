@@ -1,0 +1,35 @@
+{
+  "id": "cn-mujita",
+  "name": "木吉他",
+  "avatar": "https://p1.music.126.net/hWeVdMWz5AQBSEVPI2EBFg==/5934064255537213.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "记得我",
+        "year": "1993.01",
+        "link": "https://pan.baidu.com/s/1SjRzwCzVByIVOEDv0TBgzA?pwd=8023",
+        "cover": "https://p2.music.126.net/DyvbVspYRw2UXjWb1_L6VQ==/109951163909400017.jpg?param=600y600"
+      },
+      {
+        "title": "梦田",
+        "year": "1994.01",
+        "link": "https://pan.baidu.com/s/15WvDYcRt4XDxorEVViXLUQ?pwd=8023",
+        "cover": "https://p2.music.126.net/bfWqzps_-xkg2QuyNFyf_w==/18193618905357276.jpg?param=600y600"
+      }
+    ],
+    "Compilation (FLAC tracks)": [
+      {
+        "title": "木吉他作品全集",
+        "year": "1994.05",
+        "link": "https://pan.baidu.com/s/1skSNld7BV2D1Oa8DFpeJIw?pwd=8023",
+        "cover": "https://p2.music.126.net/FMI6iYS0O5uz4PpY2qaAww==/109951173053661629.jpg?param=600y600"
+      },
+      {
+        "title": "重逢 木吉他民歌精选辑",
+        "year": "1998.08",
+        "link": "https://pan.baidu.com/s/1d5UHlf4aMvlYWg1PFWkLeA?pwd=8023",
+        "cover": "https://p2.music.126.net/C3jFSSfpV1FLmL_4s8u4OA==/109951172137180431.jpg?param=600y600"
+      }
+    ]
+  }
+}

@@ -3,12 +3,112 @@
   "name": "Red Velvet",
   "avatar": "https://p1.music.126.net/_orn5sSfaUVOXsYqkul1Ow==/109951170290688256.jpg?param=640y640",
   "groups": {
+    "Full Albums": [
+      {
+        "title": "The Red [The 1st Album]",
+        "year": "2015.09",
+        "cover": "https://p1.music.126.net/QRNIeZhoW461fvVPOxjeMw==/109951168277007599.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/11ei5BM7JR_Pd7cGTWbayXQ?pwd=8023"
+      },
+      {
+        "title": "The Perfect Red Velvet [2nd Album Repackage]",
+        "year": "2018.01",
+        "cover": "https://p2.music.126.net/LxaEKs8u_p2DX2HesMmI8Q==/109951168210661385.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Xn4kVV66XmbxHRrkaIBbJQ?pwd=8023"
+      },
+      {
+        "title": "The ReVe Festival [Finale]",
+        "year": "2019.12",
+        "cover": "https://p2.music.126.net/p3m7nswR_S2VjHqu71kKxg==/109951167760346730.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1ROHHw3lbrkl9iFs146EtjQ?pwd=8023"
+      },
+      {
+        "title": "Chill Kill [The 3rd Album]",
+        "year": "2023.11",
+        "cover": "https://p1.music.126.net/uT5xC9X_L398C5K534-qYQ==/109951169154049511.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1qLUC-ZYOL8qiLNJ0zm3PJw?pwd=8023"
+      }
+    ],
     "Mini Albums": [
+      {
+        "title": "Ice Cream Cake [The 1st Mini Album]",
+        "year": "2015.03",
+        "cover": "https://p1.music.126.net/cnmTvz-VY1fFLNOsLdolzA==/109951168277002826.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Zkx1R02wwiVAYeXEnC8Bsw?pwd=8023"
+      },
+      {
+        "title": "The Velvet [The 2nd Mini Album]",
+        "year": "2016.03",
+        "cover": "https://p1.music.126.net/MPiXdidPcoWbnvFDlFcSdQ==/109951168269299603.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/15w7pz_g9Lo5CBG4LYZFnnA?pwd=8023"
+      },
+      {
+        "title": "Russian Roulette [The 3rd Mini Album]",
+        "year": "2016.09",
+        "cover": "https://p1.music.126.net/OYra7-fbjsoCMnsM46labA==/109951168271743576.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1O86FkC2z1P5HN6xTQqz3iQ?pwd=8023"
+      },
+      {
+        "title": "The Red Summer [Summer Mini Album]",
+        "year": "2017.07",
+        "cover": "https://p2.music.126.net/K4H0igvBh5VB93vmX0iRUQ==/109951168231765737.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Rg5y_ukuklrv2af-1G_e-w?pwd=8023"
+      },
+      {
+        "title": "Summer Magic [Summer Mini Album]",
+        "year": "2018.08",
+        "cover": "https://p2.music.126.net/5y4sZ7Yv8rquD4Arxbd8mg==/109951168224384708.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1TQkh4K26ByQhKzbhBnbMHg?pwd=8023"
+      },
+      {
+        "title": "RBB [The 5th Mini Album]",
+        "year": "2018.11",
+        "cover": "https://p2.music.126.net/jxKSbEeQP7QuzICY_qYeyg==/109951168210719040.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1FRgMPbYO9psjEFmhE6KMYA?pwd=8023"
+      },
+      {
+        "title": "Queendom [The 6th Mini Album]",
+        "year": "2021.08",
+        "cover": "https://p1.music.126.net/gSricw7tobAwllHKPex99A==/109951167574488537.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1uWXmwSYF2SplTmySw4Ns-Q?pwd=8023"
+      },
+      {
+        "title": "The ReVe Festival 2022 [Feel My Rhythm]",
+        "year": "2022.03",
+        "cover": "https://p1.music.126.net/qskH8-FwRevG8iHvojyMdg==/109951167257095709.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1qmU3Eby24O-byYL8-oQgrw?pwd=8023"
+      },
+      {
+        "title": "The ReVe Festival 2022 [Birthday]",
+        "year": "2022.11",
+        "cover": "https://p1.music.126.net/qaSRmd6tX2HLskOa4V-lwQ==/109951168179714611.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1_W0q3jWRc09ShRNeMb28zg?pwd=8023"
+      },
+      {
+        "title": "Cosmic [24-96]",
+        "year": "2024.06",
+        "cover": "https://p1.music.126.net/Vgu-0uEEbEp8eB7vXWGalg==/109951169806585813.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1LycCt6twn2XnQyMT-EsNeg?pwd=8023"
+      },
       {
         "title": "Velvet Summer - Summer Mini Album",
         "year": "2026.08",
         "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bc/cd/10/bccd1053-e9f5-cbff-1cfd-23f83b726c99/888735956256.png/500x500bb.jpg",
         "link": "https://pan.baidu.com/s/10cmVVIe2mroiqfZgVVgrMg?pwd=8023"
+      }
+    ],
+    "EPs & Singles": [
+      {
+        "title": "iScreaM Vol.12：Bad Boy Remixes [Remix]",
+        "year": "2021.11",
+        "cover": "https://p1.music.126.net/iWlf6AMrcoR9cH_dOTcnqQ==/109951166578130311.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/15yg7f1UyJuFgtgH6yHxzcg?pwd=8023"
+      },
+      {
+        "title": "Singles (as of 2110)",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1168xguCaMyg5ClfIdjO2Tw?pwd=8023"
       }
     ]
   }

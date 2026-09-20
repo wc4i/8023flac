@@ -1,0 +1,37 @@
+{
+  "id": "cn-yinwu",
+  "name": "尹吾",
+  "avatar": "https://p2.music.126.net/SutLLrSpaCrOgGdDlFIsvw==/5682276092470621.jpg?param=600y600",
+  "groups": {
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "『生于中国 • 走遍中国』全国巡演·南昌黑铁站Live",
+        "year": "2020.06",
+        "link": "https://pan.baidu.com/s/1MEU_Rt4xPV29l1tpwr9wnQ?pwd=8023",
+        "cover": "https://p2.music.126.net/wnsgjIz34uboCps0JRWDQA==/109951165032050800.jpg?param=600y600"
+      }
+    ],
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "每个人的一生 都是一次远行",
+        "year": "2000.07",
+        "link": "https://pan.baidu.com/s/1UaGYvTugrzRaPICabB_rRQ?pwd=8023",
+        "cover": "https://p1.music.126.net/kyAQ8iEzdk0L-kB-BntMtg==/127543348822879.jpg?param=600y600"
+      },
+      {
+        "title": "生于中国 [24-48]",
+        "year": "2018.11",
+        "link": "https://pan.baidu.com/s/1JuCqwLy7oxrgKdiNYFSnog?pwd=8023",
+        "cover": "https://imge.kugou.com/stdmusic/600/20190516/20190516165914257673.jpg"
+      }
+    ],
+    "EPs (FLAC tracks)": [
+      {
+        "title": "繁殖吧，生命短促啊！[EP]",
+        "year": "2007.03",
+        "link": "https://pan.baidu.com/s/1CTc0RXA9CA0IVfqhmzlAOA?pwd=8023",
+        "cover": "https://p1.music.126.net/NtXuR5KF5BDR7wbfeZESCQ==/93458488373103.jpg?param=600y600"
+      }
+    ]
+  }
+}

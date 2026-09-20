@@ -3607,5 +3607,124 @@ const musicDatabase = [
         pinyin: "Z",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/ZENpbkoMj3xHYV6bdmQgvQ==/109951173955160849.jpg?param=600y600"
+    },
+    {
+        id: "cn-lizongsheng",
+        name: "李宗盛",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/stNNqycH0MNowWja5UC2GA==/109951168184972373.jpg?param=600y600"
+    },
+    {
+        id: "cn-mujita",
+        name: "木吉他",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/hWeVdMWz5AQBSEVPI2EBFg==/5934064255537213.jpg?param=600y600"
+    },
+    {
+        id: "cn-sasioverlxrd",
+        name: "SASIOVERLXRD",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/VSWNU8cLz6arkK6L2Dh3HA==/109951173348504450.jpg?param=600y600"
+    },
+    {
+        id: "cn-yinwu",
+        name: "尹吾",
+        pinyin: "Y",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/SutLLrSpaCrOgGdDlFIsvw==/5682276092470621.jpg?param=600y600"
+    },
+    {
+        id: "cn-lin_xintong",
+        name: "林欣彤",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/roQP1iigZoQpWaq5LR92SQ==/109951165777194744.jpg?param=600y600"
+    },
+    {
+        id: "jp-zard",
+        name: "ZARD",
+        pinyin: "Z",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/0yO7rV7gdlg02UBEMneBOA==/109951169611192746.jpg?param=600y600"
+    },
+    {
+        id: "jp-day_after_tomorrow",
+        name: "day after tomorrow",
+        pinyin: "D",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/n-oNX-R78qfhQRu4HSbhQg==/747667906910138.jpg?param=600y600"
+    },
+    {
+        id: "us-samsmith",
+        name: "Sam Smith",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/epUdgAhWi37ABJ2NQVV3Rw==/109951173676470977.jpg?param=600y600"
+    },
+    {
+        id: "us-slayer",
+        name: "Slayer",
+        pinyin: "S",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/wnSB7y7RLgseG_vlYX_UuA==/109951171492041567.jpg?param=600y600"
+    },
+    {
+        id: "us-jascharichter",
+        name: "Jascha Richter",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/VuJvrKfBEGdSoZbrhS3S6g==/109951164355155591.jpg?param=600y600"
+    },
+    {
+        id: "us-michaellearnstorock",
+        name: "Michael Learns To Rock",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/IIRGZUVc93FydAMFK3K2mA==/109951170124298301.jpg?param=600y600"
+    },
+    {
+        id: "kr-jennie",
+        name: "JENNIE",
+        pinyin: "J",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/0KYkhGO7PpDOuf43V-nFCw==/109951173627697180.jpg?param=600y600"
+    },
+    {
+        id: "kr-rose",
+        name: "ROSÉ",
+        pinyin: "R",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/nxZCqZuICOvik_b1rpAijA==/109951173960668134.jpg?param=600y600"
+    },
+    {
+        id: "kr-sikk",
+        name: "Sik-K",
+        pinyin: "S",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/0xT-mEeFUKiUpa078fSJNQ==/109951168618455408.jpg?param=600y600"
+    },
+    {
+        id: "kr-ive",
+        name: "IVE",
+        pinyin: "I",
+        category: "日韩风尚",
+        avatar: "https://p3.music.126.net/rIWG-S8jJXDKUlXlf3imjg==/109951172719905220.jpg?param=600y600"
+    },
+    {
+        id: "cn-tianxuning",
+        name: "田栩宁",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p4.music.126.net/pbf0Aiviz0rte2gqgS7-TA==/109951172218805057.jpg?param=600y600"
+    },
+    {
+        id: "cn-fengmaniu",
+        name: "风马牛",
+        pinyin: "F",
+        category: "华语金曲",
+        avatar: "https://p3.music.126.net/q0cqKVAk7L2erxaZWm6XbQ==/109951173482866162.jpg?param=600y600"
     }
 ];

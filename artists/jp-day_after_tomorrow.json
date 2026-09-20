@@ -1,0 +1,34 @@
+{
+    "id": "jp-day_after_tomorrow",
+    "name": "day after tomorrow",
+    "pinyin": "D",
+    "avatar": "https://p1.music.126.net/n-oNX-R78qfhQRu4HSbhQg==/747667906910138.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "elements",
+                "year": "2003.03",
+                "cover": "https://p2.music.126.net/_U5LbMekBtrVJRmn1sqN4A==/672901116221621.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1K2zyleGyRQHqIiF5X2NQDA?pwd=8023"
+            },
+            {
+                "title": "day alone",
+                "year": "2005.03",
+                "cover": "https://p2.music.126.net/6aiwE-NZTG0x6XIo3cpmEg==/909296116194409.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1AmZ5Dlcj1VEEb4oYhInjvw?pwd=8023"
+            },
+            {
+                "title": "primary colors",
+                "year": "2004.02",
+                "cover": "https://p2.music.126.net/9ANKZcXtpXCUOUCtakc29w==/924689278984605.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1gGvkTIKvFNtKPHxIp_lhLg?pwd=8023"
+            },
+            {
+                "title": "lost angel",
+                "year": "2004.08",
+                "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/93/d5/27/93d52767-d7ad-4064-db47-f1c1efde4e74/AVCD-30614.jpg/600x600bb.jpg",
+                "link": "https://pan.baidu.com/s/1HOPqcBI8uhZmRTRq8kpQww?pwd=8023"
+            }
+        ]
+    }
+}

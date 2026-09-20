@@ -5,10 +5,66 @@
   "groups": {
     "Studio Albums (FLAC tracks)": [
       {
+        "title": "Tug Of War",
+        "year": "2008.09",
+        "cover": "https://p2.music.126.net/g1ZqJJpM-43_fTxh2pctEg==/109951163354218884.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1fjg_zPtpxrLYfruHRiXqBA?pwd=8023"
+      },
+      {
+        "title": "Kiss (Deluxe Version)",
+        "year": "2012.09",
+        "cover": "https://p2.music.126.net/qCew4-jsL-kLh3l7SbVREQ==/109951166631341472.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1-WeNKDCNi6WKocj26UrISg?pwd=8023"
+      },
+      {
+        "title": "E•MO•TION (Deluxe Expanded Edition)",
+        "year": "2015.08",
+        "cover": "https://p2.music.126.net/xitMjHqUd_WqLWkNdyOYQw==/109951171850460419.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/101VRUvMRf9uRwD0WGwcRDg?pwd=8023"
+      },
+      {
+        "title": "E•MO•TION (Side B) [24-44.1]",
+        "year": "2016.07",
+        "cover": "https://p1.music.126.net/YvKkUGAInOVvHVcFjT989Q==/109951166028528091.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1AX3MHgo0STtLmeTDx2aKWg?pwd=8023"
+      },
+      {
+        "title": "Dedicated [24-44.1]",
+        "year": "2019.05",
+        "cover": "https://p1.music.126.net/rnDX1lVJOo0PPa9bjIY1vA==/109951164079501609.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1sp_zVxuiVKP7eZlzJfpPlw?pwd=8023"
+      },
+      {
+        "title": "Dedicated Side B [24-44.1]",
+        "year": "2020.05",
+        "cover": "https://p1.music.126.net/dSYzuSLfhlRkBOFPYEvGoA==/109951165125472369.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1vC-vkZg0OOrvu21xXumwjg?pwd=8023"
+      },
+      {
+        "title": "The Loneliest Time [24-48]",
+        "year": "2022.10",
+        "cover": "https://p1.music.126.net/AGinWE6Ohn8xMXtH2jEfYg==/109951173375283765.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1VSiwLQD1b8v9g4uvWMoKiw?pwd=8023"
+      },
+      {
+        "title": "The Loveliest Time [24-48]",
+        "year": "2023.09",
+        "cover": "https://p1.music.126.net/1arj0N-NgbmKg1SoTSYa-A==/109951168812934848.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1cGCaX8NotV1EnG5zJnv4cA?pwd=8023"
+      },
+      {
         "title": "Day and Night",
         "year": "2026.09",
         "cover": "https://p2.music.126.net/1VVA13ToczApXC1z53lPBw==/109951173959859928.jpg?param=600y600",
         "link": "https://pan.baidu.com/s/1HRA7FYIPna13f1uKLUPnAg?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1sKWY7C8PoHLJdUZtXurBJg?pwd=8023"
       }
     ]
   }

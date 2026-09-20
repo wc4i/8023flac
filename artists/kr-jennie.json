@@ -1,0 +1,43 @@
+{
+    "id": "kr-jennie",
+    "name": "JENNIE",
+    "avatar": "https://p2.music.126.net/0KYkhGO7PpDOuf43V-nFCw==/109951173627697180.jpg?param=600y600",
+    "groups": {
+        "Full Albums": [
+            {
+                "title": "Ruby [24-48]",
+                "year": "2025.03",
+                "cover": "https://p1.music.126.net/yznsPdSBCAQA4OI_AwWLyA==/109951170513781357.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1G1e4Op_9gUo3T0RYkHqF5A?pwd=8023"
+            },
+            {
+                "title": "Ruby (The Complete Collection)[新增部分]",
+                "year": "2026.03",
+                "cover": "https://p1.music.126.net/jdSf_Z8TRXXwAeVNhG-kKw==/109951172863212652.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1ti93k3d_PNxXaAe78vY6rA?pwd=8023"
+            }
+        ],
+        "Mini Albums": [
+            {
+                "title": "Fallen Angel (Digital EP)",
+                "year": "2026.08",
+                "cover": "https://p1.music.126.net/d4k2_0W68j4QnT6CMObp2w==/109951173846753314.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1UXEUoC9JRWO6qy9ku4CXbw?pwd=8023"
+            }
+        ],
+        "EPs & Singles": [
+            {
+                "title": "One of the Girls （ft.The Weeknd&Lily-Rose Depp）[24-88.2]",
+                "year": "2023.12",
+                "cover": "https://p1.music.126.net/xY92yJ91xVso01id7kX86A==/109951169145743798.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1OhQxTzeLUFzzkPe8aFr9Og?pwd=8023"
+            },
+            {
+                "title": "Singles (as of 250221)",
+                "year": "",
+                "cover": "",
+                "link": "https://pan.baidu.com/s/1TSZWtbrTAo1fjREHmYu5lQ?pwd=8023"
+            }
+        ]
+    }
+}

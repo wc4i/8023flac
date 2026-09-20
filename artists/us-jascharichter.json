@@ -1,0 +1,21 @@
+{
+    "id": "us-jascharichter",
+    "name": "Jascha Richter",
+    "avatar": "https://p1.music.126.net/VuJvrKfBEGdSoZbrhS3S6g==/109951164355155591.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "Planet Blue",
+                "year": "2002.03",
+                "cover": "https://p1.music.126.net/w8wwuEldLnzFVxKPcTg4Mw==/109951165717833939.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1QhfOBmwIVDifVeSGk69Z_w?pwd=8023"
+            },
+            {
+                "title": "Where I Belong",
+                "year": "2006.09",
+                "cover": "https://p1.music.126.net/cFkiDxB6yEkf2_y9D7FyHg==/109951172950578799.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/18ZW3cNg3rbFyMWoyP4kaCg?pwd=8023"
+            }
+        ]
+    }
+}
