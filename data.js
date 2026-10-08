@@ -591,13 +591,6 @@ const musicDatabase = [
         avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000003TrPd01f3OYo.jpg"
     },
     { 
-        id: "cn-zhanghexuan",
-        name: "张赫煊",
-        pinyin: "Z",
-        category: "华语金曲",
-        avatar: "https://y.gtimg.cn/music/photo_new/T001R500x500M000000SJp6n49rDgl.jpg"
-    },
-    { 
         id: "cn-yunhaoying",
         name: "云浩影",
         pinyin: "Y",
@@ -3726,5 +3719,54 @@ const musicDatabase = [
         pinyin: "F",
         category: "华语金曲",
         avatar: "https://p3.music.126.net/q0cqKVAk7L2erxaZWm6XbQ==/109951173482866162.jpg?param=600y600"
+    },
+    {
+        id: "cn-fanchengcheng",
+        name: "范丞丞",
+        pinyin: "F",
+        category: "华语金曲",
+        avatar: "https://p4.music.126.net/5_AdxdNvi8qz2UO_8JA0gw==/109951173886337289.jpg?param=600y600"
+    },
+    {
+        id: "cn-wangjunkai",
+        name: "王俊凯",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/Ou7tn3d31-uB3yD__ywb9w==/109951164219793180.jpg?param=600y600"
+    },
+    {
+        id: "cn-wangchenyi",
+        name: "王晨艺",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/DVoJayFycQVzzBEy42tFNw==/109951164137710757.jpg?param=600y600"
+    },
+    {
+        id: "cn-songyuqi",
+        name: "宋雨琦",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/MlGxb1Dy_HRRZmUHFgDR1A==/109951174034789407.jpg?param=600y600"
+    },
+    {
+        id: "cn-liuxianhua",
+        name: "HENRY刘宪华",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/iILD9M1SDtHLPPb6t8qL8g==/109951173296169849.jpg?param=600y600"
+    },
+    {
+        id: "cn-ouhuiqiang",
+        name: "区瑞强",
+        pinyin: "O",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/yHMveNdI6HK3aDrL9s1mTg==/18577348463987507.jpg?param=600y600"
+    },
+    {
+        id: "cn-zongguanxian",
+        name: "纵贯线",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/kX1OtZvHf0w_hbtFvFsl2g==/259484744172241.jpg?param=600y600"
     }
 ];

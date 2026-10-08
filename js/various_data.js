@@ -3,6 +3,10 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const variousDatabase = [
+    { title: "2020.10 - 风吹走的城市 [24-48]", link: "https://pan.baidu.com/s/1IjnAGnUgM0QN332t-Qc4IA?pwd=8023" },
+    { title: "1987 我有话要说 [台湾版]", link: "https://pan.baidu.com/s/1tpnVVHcr9T_lAPlhJTwGkA?pwd=8023" },
+    { title: "2022.01 - DIGI GHETTO [24-48]", link: "https://pan.baidu.com/s/1ThhqBd6VTDnYgti7E4z5-g?pwd=8023" },
+    { title: "2022.08 - 情调 [24-48]", link: "https://pan.baidu.com/s/1Z9OoX2tPb6bmUVExRzwibA?pwd=8023" },
     { title: "2023.06 - Great The Wall [24-48]", link: "https://pan.baidu.com/s/1kT2KwRa2B7-pSZ6zsPQD4w?pwd=8023" },
     { title: "2024.03 - 「呐声(Nation)」·民族融合音乐企划 [24-48]", link: "https://pan.baidu.com/s/13JJSI2gviCNr6GO0W0Flpg?pwd=8023" },
     { title: "2024.05 - 日落后的20分钟 [24-48]", link: "https://pan.baidu.com/s/1mhGtH5vfLhRE0y9nh4o7qQ?pwd=8023" },

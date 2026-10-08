@@ -3,6 +3,19 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2026 借命而生 电视剧原声带 [24-48]", link: "https://pan.baidu.com/s/11ihO6aHp-xvgIEYs2rRbJw?pwd=8023" },
+    { title: "1992 妖兽都市 电影原声大碟 [台湾首版]", link: "https://pan.baidu.com/s/1h_a4vjKRpvu7VgQyy6Yk3A?pwd=8023" },
+    { title: "2026 无可替代 影视原声带", link: "https://pan.baidu.com/s/19Stgza3V82NqoWJNaJ0aqg?pwd=8023" },
+    { title: "2026 大唐妖探 电影原声音乐大碟 [24-48]", link: "https://pan.baidu.com/s/1CZ3h0ziavL6_mweSjnD0gA?pwd=8023" },
+    { title: "2026 交锋 影视剧原声带", link: "https://pan.baidu.com/s/1WDQBilb0SYpcTnyho7fwhA?pwd=8023" },
+    { title: "2026 一瓯春 电视剧原声带 [24-48]", link: "https://pan.baidu.com/s/1Z043G67pEJp6QmryQ937XQ?pwd=8023" },
+    { title: "2026 花开锦绣 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1ewOKkAQKxGE7S0fmrAKa_g?pwd=8023" },
+    { title: "2026 兰香如故 影视剧原声带", link: "https://pan.baidu.com/s/1Jv8oCV3vdScjGl3W9fI0jw?pwd=8023" },
+    { title: "2026 深渊无间 影视原声带 [24-48]", link: "https://pan.baidu.com/s/10NNpx-KwqfNAJ9pglJFXJg?pwd=8023" },
+    { title: "2026 空枪 电影原声带", link: "https://pan.baidu.com/s/1NBMFC9PozrKRnKbjsTcHvQ?pwd=8023" },
+    { title: "2026 生逢其时 影视原声大碟 [24-48]", link: "https://pan.baidu.com/s/1z0yntkrc3-jS8myFdYALgw?pwd=8023" },
+    { title: "2026 我不是大师 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1E9nyb4JzgK4ZNMAhLNqLBQ?pwd=8023" },
+    { title: "2026 余红旧事 影视原声带 [24-48]", link: "https://pan.baidu.com/s/1lW2ASnPxeKStpf6MbczmUg?pwd=8023" },
     { title: "2024.02 - 目中无人2 电影原声带 [24-48]", link: "https://pan.baidu.com/s/1R638sgyTzLJfajomCrWoTQ?pwd=8023" },
     { title: "2019.04 - 一场遇见爱情的旅行 影视原声带", link: "https://pan.baidu.com/s/1vUKRSWPg5SuVIDZ8p9PzGA?pwd=8023" },
     { title: "2006 微笑Pasta 电视剧原声带 [台湾首版]", link: "https://pan.baidu.com/s/185ur2o2d5v-eEThLkexxLw?pwd=8023" },
