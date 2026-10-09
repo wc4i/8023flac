@@ -3768,5 +3768,33 @@ const musicDatabase = [
         pinyin: "Z",
         category: "华语金曲",
         avatar: "https://p2.music.126.net/kX1OtZvHf0w_hbtFvFsl2g==/259484744172241.jpg?param=600y600"
+    },
+    {
+        id: "cn-tanjianci",
+        name: "檀健次",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/beFFymTlMYDPz9sYHLX2gw==/109951166135126022.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhouhuajian",
+        name: "周华健",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/2HmmBPFzyRltr0nO4Mo8lA==/109951167948437076.jpg?param=600y600"
+    },
+    {
+        id: "cn-xuruyi",
+        name: "许茹芸",
+        pinyin: "X",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/zdVBEXCsHGN6-pQBe4nIoA==/109951168788221498.jpg?param=600y600"
+    },
+    {
+        id: "cn-aizhiheng",
+        name: "艾志恒Asen",
+        pinyin: "A",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/alpJxinPEXCuYkeEMnCDWA==/109951172058047957.jpg?param=600y600"
     }
 ];
