@@ -1,0 +1,29 @@
+{
+  "id": "cn-guichaoyao",
+  "name": "Nancy Kwai",
+  "avatar": "https://p1.music.126.net/65_IMfn7BIXXO_BFqktdZQ==/109951170951766100.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "Blossoming [24-48]",
+        "year": "2025.04",
+        "cover": "https://p1.music.126.net/Y_6bO9xU6tSAquXHJZuhPg==/109951170715872909.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1KyoS2fPOqir8ZRcXoAVaBA?pwd=8023"
+      },
+      {
+        "title": "Huh? [24-48]",
+        "year": "2026.09",
+        "cover": "https://p1.music.126.net/-6iTPCCjbu_-Ho9hjeEGeg==/109951173936152142.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1xfPeiNafZVDoyLYnjbpivQ?pwd=8023"
+      }
+    ],
+    "EPs": [
+      {
+        "title": "premiere [24-48]",
+        "year": "2024.02",
+        "cover": "https://p1.music.126.net/Fv0pw970wQGdzxsACUrgbA==/109951169294977019.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1O0dlGp9JKlrjCWJyO5aiQg?pwd=8023"
+      }
+    ]
+  }
+}

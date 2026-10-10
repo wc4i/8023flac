@@ -1,0 +1,67 @@
+{
+  "id": "kr-yesung",
+  "name": "艺声",
+  "avatar": "https://p1.music.126.net/2wAapsytEKPGnXr1iKgl2Q==/109951170103893019.jpg?param=600y600",
+  "groups": {
+    "Full Albums": [
+      {
+        "title": "Sensory Flows - The 1st Album",
+        "year": "2023.01",
+        "cover": "https://p2.music.126.net/FwZo5v5GJx0yHSakIFUv3A==/109951168381624833.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1ExdCTI6_QaE-HtMAw4OGxw?pwd=8023"
+      },
+      {
+        "title": "Floral Sense - The 1st Album Special Ver.",
+        "year": "2023.02",
+        "cover": "https://p2.music.126.net/wd0kzK2Suw-8goQ-P6X85A==/109951168500567581.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1qwuig3OoT-nMMTFFUOcyXg?pwd=8023"
+      }
+    ],
+    "Mini Albums": [
+      {
+        "title": "Here I am - The 1st Mini Album",
+        "year": "2016.04",
+        "cover": "https://p1.music.126.net/OCnqgHDZv7Z-JVjaczOrWg==/109951168269289981.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1bEJgESX9yS-OflGtfdBJNw?pwd=8023"
+      },
+      {
+        "title": "Spring Falling - The 2nd Mini Album",
+        "year": "2017.04",
+        "cover": "https://p1.music.126.net/vVj_IL_BJfP5aXNBCIuvHw==/109951168231761888.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1OtBbhj5muOI8Km_njbq4wQ?pwd=8023"
+      },
+      {
+        "title": "Pink Magic",
+        "year": "2019.06",
+        "cover": "https://p1.music.126.net/LpphWRaB2eE2HB0_mmuQ7w==/109951167793711199.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1H0F610vfydV6t5euP9Zlig?pwd=8023"
+      },
+      {
+        "title": "Beautiful Night - The 4th Mini Album",
+        "year": "2021.05",
+        "cover": "https://p2.music.126.net/pXf-ABZ-tNm5pQpRS0UrBw==/109951167574485163.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1xZF0Ohx6VPkY5lJWqczPMg?pwd=8023"
+      },
+      {
+        "title": "Unfading Sense - The 5th Mini Album",
+        "year": "2023.10",
+        "cover": "https://p2.music.126.net/G6SHkL_hL-OO5Y9SrpuXSA==/109951169021524733.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Fq_AhGUHrm-eMNqG9FhsRg?pwd=8023"
+      },
+      {
+        "title": "It’s Complicated - The 6th Mini Album",
+        "year": "2024.11",
+        "cover": "https://p2.music.126.net/ImNxtunYH9ZELuf8Kx8x2A==/109951170220252014.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1aYmABXwgoRkfr0MNL471Aw?pwd=8023"
+      }
+    ],
+    "Singles (as of 221020)": [
+      {
+        "title": "Singles (as of 221020)",
+        "year": "2022.10",
+        "cover": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg?param=350y350",
+        "link": "https://pan.baidu.com/s/1teMVK5jLdarRgMmYPh7gsA?pwd=8023"
+      }
+    ]
+  }
+}

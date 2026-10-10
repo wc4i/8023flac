@@ -3796,5 +3796,40 @@ const musicDatabase = [
         pinyin: "A",
         category: "华语金曲",
         avatar: "https://p1.music.126.net/alpJxinPEXCuYkeEMnCDWA==/109951172058047957.jpg?param=600y600"
+    },
+    {
+        id: "cn-wuzhuoling",
+        name: "吴卓玲",
+        pinyin: "W",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/qDbqtT5WAqgI7nPH2k3jwQ==/109951163522223451.jpg?param=600y600"
+    },
+    {
+        id: "cn-guichaoyao",
+        name: "Nancy Kwai",
+        pinyin: "N",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/65_IMfn7BIXXO_BFqktdZQ==/109951170951766100.jpg?param=600y600"
+    },
+    {
+        id: "cn-leowang",
+        name: "Leo王",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/s2nJB5DHk1SBm-4bxJ8Swg==/109951172582288745.jpg?param=600y600"
+    },
+    {
+        id: "kr-yesung",
+        name: "艺声",
+        pinyin: "Y",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/2wAapsytEKPGnXr1iKgl2Q==/109951170103893019.jpg?param=600y600"
+    },
+    {
+        id: "kr-superjunior",
+        name: "SUPER JUNIOR",
+        pinyin: "S",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/4s7430J3e21cYqopJHtqTw==/109951169677030602.jpg?param=600y600"
     }
 ];

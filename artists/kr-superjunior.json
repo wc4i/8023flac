@@ -1,0 +1,169 @@
+{
+  "id": "kr-superjunior",
+  "name": "SUPER JUNIOR",
+  "avatar": "https://p1.music.126.net/4s7430J3e21cYqopJHtqTw==/109951169677030602.jpg?param=600y600",
+  "groups": {
+    "Full Albums": [
+      {
+        "title": "SUPER JUNIOR 05",
+        "year": "2005.12",
+        "cover": "https://p1.music.126.net/0ulln74Gu2KL1wbvrCFy5g==/624522604597969.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1CPthhzq-3lZDU1unX0Rj7w?pwd=8023"
+      },
+      {
+        "title": "돈 돈! (Don`t Don) (Repackage)",
+        "year": "2007.11",
+        "cover": "https://p1.music.126.net/f8Yj-XeY4SlE6QQFOfCF1Q==/6624557557468169.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1F9ScOnV1_I-Hu2mRLZwa9Q?pwd=8023"
+      },
+      {
+        "title": "SORRY, SORRY - The 3rd Album",
+        "year": "2009.03",
+        "cover": "https://p1.music.126.net/OxKm7CQmRLjA7I3D2n2Nsg==/5749346301698405.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1wEOOcbevnm7_QCspbfBlYw?pwd=8023"
+      },
+      {
+        "title": "미인아 (Bonamana) [The 4th Album Repackage]",
+        "year": "2010.06",
+        "cover": "https://p1.music.126.net/lIEBpb4V98d4jWOLMA-a1g==/601432860404642.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Tb2JZdimIA4B7R3vq-WLdg?pwd=8023"
+      },
+      {
+        "title": "'Mr. Simple' The 5th Album (Repackage)",
+        "year": "2011.09",
+        "cover": "https://p1.music.126.net/H7IxWELMCRwaZgA6gCOETw==/109951168273985837.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1hrF0Z_5bnPaAeuBpwAHAdw?pwd=8023"
+      },
+      {
+        "title": "'SPY' The 6th Album Repackage",
+        "year": "2012.08",
+        "cover": "https://p1.music.126.net/1S3PNQJeyWMvqr5YMLNXYQ==/109951168273989767.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1jkMiGUGZdlS0BSXcwIflJw?pwd=8023"
+      },
+      {
+        "title": "The 7th Album Special Edition 'THIS IS LOVE'",
+        "year": "2014.10",
+        "cover": "https://p1.music.126.net/0gqNRHpUf5YK3ZITqgCsFw==/109951163270000708.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1HnDMnkjff8xskD5ibSj1xA?pwd=8023"
+      },
+      {
+        "title": "REPLAY - The 8th Repackage Album",
+        "year": "2018.04",
+        "cover": "https://p2.music.126.net/h3HM-hQysRDoVT42B-vaKQ==/109951168210924417.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1FFbvUwX5qrxj6Ef5YDficg?pwd=8023"
+      },
+      {
+        "title": "TIMELESS - The 9th Album Repackage",
+        "year": "2020.01",
+        "cover": "https://p2.music.126.net/2lnKKglrEW9mC6crcfNQZQ==/109951167724446221.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1uOU4FymZTFATM8D7BZyPxA?pwd=8023"
+      },
+      {
+        "title": "The Renaissance - The 10th Album",
+        "year": "2021.03",
+        "cover": "https://p2.music.126.net/5ixkXNE0kqgOvRSe7XpQtA==/109951167607755373.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1TCbNueotoIVwBw0GdTvtBw?pwd=8023"
+      },
+      {
+        "title": "The Road : Keep on Going - The 11th Album Vol.1",
+        "year": "2022.07",
+        "cover": "https://p2.music.126.net/O1xA-AJ13cWPJfUMMP06Yw==/109951167769675246.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1eQ4xv7mpg3T6iGkW8ESIQw?pwd=8023"
+      },
+      {
+        "title": "The Road : Celebration - The 11th Album Vol.2",
+        "year": "2022.12",
+        "cover": "https://p2.music.126.net/oKae54T1RGQFNXNV75N9hg==/109951168150001231.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Jjfh7QaJsFtw9mEpCX3iWA?pwd=8023"
+      },
+      {
+        "title": "Super Junior25 - The 12th Album [24-48]",
+        "year": "2025.07",
+        "cover": "https://p2.music.126.net/p8eO4GHtagcdqAOY-hWPvA==/109951171420846328.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1wtq2u5MmENwKtp5PZFrtiQ?pwd=8023"
+      }
+    ],
+    "Special Albums": [
+      {
+        "title": "DEVIL - SUPER JUNIOR SPECIAL ALBUM",
+        "year": "2015.07",
+        "cover": "https://p1.music.126.net/Fc4H5s4w16Fv6VjFdU5Tuw==/109951168276999377.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1NwpeTtnSSrbnydHUSe-H8A?pwd=8023"
+      },
+      {
+        "title": "MAGIC - SUPER JUNIOR SPECIAL ALBUM PART.2",
+        "year": "2015.09",
+        "cover": "https://p1.music.126.net/TOLFUD8D7lmzregHNNduow==/109951168277004341.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1hEwQMEyJiaN2kJRV53wRQQ?pwd=8023"
+      }
+    ],
+    "Mini Albums": [
+      {
+        "title": "One More Time - Special Mini Album",
+        "year": "2018.10",
+        "cover": "https://p2.music.126.net/PpcxfLGit6ZDyWTT0vVZOw==/109951168210706449.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1JeCs5VbdeHca64rIDjdOVg?pwd=8023"
+      }
+    ],
+    "Live Albums": [
+      {
+        "title": "The 2nd Asia Tour Concert Album `Super Show 2`",
+        "year": "2009.12",
+        "cover": "https://p1.music.126.net/2qIUH4czJ_mxUVIqScVCwA==/665204534827196.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1y8Wbh6v2TJyit1H9AqtGMA?pwd=8023"
+      },
+      {
+        "title": "Super Junior World Tour `Super Show 4`",
+        "year": "2013.06",
+        "cover": "https://p1.music.126.net/7H5EH8CQdjS0mYbBai07tA==/3296335860202281.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/13GxRjAcQNeSSjrsBJqg2LQ?pwd=8023"
+      },
+      {
+        "title": "SUPER SHOW 5 - SUPER JUNIOR The 5th WORLD TOUR",
+        "year": "2015.11",
+        "cover": "https://p1.music.126.net/p2WEMaOKij55rbV_NppxNA==/3294136839861161.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1WAiWVt86bImUCo0vbp2MCg?pwd=8023"
+      },
+      {
+        "title": "SUPER SHOW 6 - SUPER JUNIOR The 6th WORLD TOUR",
+        "year": "2015.11",
+        "cover": "https://p1.music.126.net/T76YD-9HmuKSSXhAERHHgw==/3262251003166555.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1QM32YTKJobdSMNhkXmqZwQ?pwd=8023"
+      }
+    ],
+    "EPs & Singles": [
+      {
+        "title": "U",
+        "year": "2006.06",
+        "cover": "https://p1.music.126.net/saVtaIYX_ZqjHxyzATLnDA==/109951163269920825.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/14USzFrYMMDMptkg2Edf6JQ?pwd=8023"
+      },
+      {
+        "title": "너라고",
+        "year": "2009.05",
+        "cover": "https://p1.music.126.net/dxJ3O7YX_5VQa9rvTjZp9A==/6663040464438666.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/11ruEwmDLGM0KRhb5-NGQwQ?pwd=8023"
+      },
+      {
+        "title": "꿈은 이루어진다 OST",
+        "year": "2010.05",
+        "cover": "https://p1.music.126.net/K5wDYKn7GZhqfStik_5z2w==/5499757162210903.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1S7zCwx-QUfyIjFO-LcxfdQ?pwd=8023"
+      },
+      {
+        "title": "The Road : Winter for Spring",
+        "year": "2022.02",
+        "cover": "https://p2.music.126.net/azy2G56237iYPw0KGFd68A==/109951167550861826.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1QOh1ZQ1L5mjP7GCBEqDdmg?pwd=8023"
+      }
+    ],
+    "Singles (as of 240611)": [
+      {
+        "title": "Singles (as of 240611)",
+        "year": "2024.06",
+        "cover": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg?param=350y350",
+        "link": "https://pan.baidu.com/s/1Mrth8bNHH1svHwi45yIBXw?pwd=8023"
+      }
+    ]
+  }
+}
