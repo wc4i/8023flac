@@ -3820,7 +3820,7 @@ const musicDatabase = [
     },
     {
         id: "kr-yesung",
-        name: "艺声",
+        name: "예성（艺声, Ye Sung）",
         pinyin: "Y",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/2wAapsytEKPGnXr1iKgl2Q==/109951170103893019.jpg?param=600y600"
@@ -3831,5 +3831,40 @@ const musicDatabase = [
         pinyin: "S",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/4s7430J3e21cYqopJHtqTw==/109951169677030602.jpg?param=600y600"
+    },
+    {
+        id: "kr-baekjiyoung",
+        name: "백지영（白智英, Baek Ji Young）",
+        pinyin: "B",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/h-1nU-quiO5Q2yDe2GgNVA==/109951170483973483.jpg?param=600y600"
+    },
+    {
+        id: "cn-jingguan-xiangtongdie",
+        name: "憬观：像同叠",
+        pinyin: "J",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/KdQw74kIZmo5Up_aX7Y9iA==/109951169116731317.jpg?param=600y600"
+    },
+    {
+        id: "cn-liguoxiang",
+        name: "李国祥",
+        pinyin: "L",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/X6Hp239bVn-lYSB-dWMAHw==/5787829208849967.jpg?param=600y600"
+    },
+    {
+        id: "jp-shogohamada",
+        name: "浜田省吾（Shogo Hamada）",
+        pinyin: "S",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/fhLOKw0dq0y-aNDbHngZwQ==/907097092938620.jpg?param=600y600"
+    },
+    {
+        id: "us-juicewrld",
+        name: "Juice WRLD",
+        pinyin: "J",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/U02Y9eY_vp9IHEWnxDMEMw==/109951165792031173.jpg?param=600y600"
     }
 ];
