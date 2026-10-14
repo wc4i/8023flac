@@ -3866,5 +3866,26 @@ const musicDatabase = [
         pinyin: "J",
         category: "欧美之声",
         avatar: "https://p2.music.126.net/U02Y9eY_vp9IHEWnxDMEMw==/109951165792031173.jpg?param=600y600"
+    },
+    {
+        id: "cn-tanyonglin",
+        name: "谭咏麟",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/tdQuw4E-oDbPYf_Oi0XKqw==/109951168274710345.jpg?param=600y600"
+    },
+    {
+        id: "cn-zhouchuanxiong",
+        name: "周传雄",
+        pinyin: "Z",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/kYc19-cfIMCDoSFwq1vgTg==/109951173061600160.jpg?param=600y600"
+    },
+    {
+        id: "us-marvingaye",
+        name: "Marvin Gaye",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/V2PTPt5diTvaYgbDMpV4zA==/526666069706777.jpg?param=600y600"
     }
 ];

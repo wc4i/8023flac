@@ -3,6 +3,8 @@
 // 💡 提示：链接必须包含 http:// 或 https:// 开头。
 
 const ostDatabase = [
+    { title: "2021 西游记之再世妖王 电影音乐原声带", link: "https://pan.baidu.com/s/1Bl4nXXhx7uZI0wF5pX-zGw?pwd=8023" },
+    { title: "1991.07 - 牯岭街少年S人事件 电影原声带 [台湾K字首版]", link: "https://pan.baidu.com/s/1t1Q0lo94xdNCOnBH_K-GKQ?pwd=8023" },
     { title: "2026 借命而生 电视剧原声带 [24-48]", link: "https://pan.baidu.com/s/11ihO6aHp-xvgIEYs2rRbJw?pwd=8023" },
     { title: "1992 妖兽都市 电影原声大碟 [台湾首版]", link: "https://pan.baidu.com/s/1h_a4vjKRpvu7VgQyy6Yk3A?pwd=8023" },
     { title: "2026 无可替代 影视原声带", link: "https://pan.baidu.com/s/19Stgza3V82NqoWJNaJ0aqg?pwd=8023" },
