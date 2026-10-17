@@ -1,0 +1,51 @@
+{
+    "id": "us-mia",
+    "name": "M.I.A.",
+    "avatar": "https://p3.music.126.net/Nvqfn4NZeBJbeh_pcxljlQ==/109951173443944168.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "Arular [qobuz]",
+                "year": "2005.04",
+                "cover": "https://p4.music.126.net/dzS13lwuMi0UVp6xI5qULg==/109951170645427413.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/12Z2X9g4GlNnWXG9HSuHBeQ?pwd=8023"
+            },
+            {
+                "title": "Kala [qobuz]",
+                "year": "2007.08",
+                "cover": "https://p3.music.126.net/Lff3gU2m_mUQPb39nfp4rA==/109951168708250700.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/12WaWPyenSujYhFdmq5q9Xw?pwd=8023"
+            },
+            {
+                "title": "/\\/\\ /\\ Y /\\ (Deluxe Edition) [qobuz]",
+                "year": "2010.07",
+                "cover": "https://p4.music.126.net/VTFRuGMlLTaFl1pmmuNKhw==/109951166465198233.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1fZ9JWyhfpqWeEj8CBWmEJw?pwd=8023"
+            },
+            {
+                "title": "Matangi [qobuz]",
+                "year": "2013.11",
+                "cover": "https://p3.music.126.net/gLMAPgOE8a9G1g63O44AGw==/109951167002549822.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/17Uo_FHVxDjQJstsh4VZtMA?pwd=8023"
+            },
+            {
+                "title": "AIM (Deluxe) [qobuz]",
+                "year": "2016.09",
+                "cover": "https://p3.music.126.net/4FqJoljIbmq6I-4xir0UMQ==/109951166025401405.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1oK4g6f6fS6opcOI05jaklg?pwd=8023"
+            },
+            {
+                "title": "MATA [qobuz]",
+                "year": "2022.10",
+                "cover": "https://p4.music.126.net/P5lORoFYerZ_p9Kd1LFBIg==/109951168508865250.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1i5knCtsAeeURCnFnqY3gNA?pwd=8023"
+            },
+            {
+                "title": "M.I.7 [24-44.1][qobuz]",
+                "year": "2026.04",
+                "cover": "https://p3.music.126.net/FpKSHlYcgld26VowF0eiUQ==/109951173014907683.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1xmwT6CplfPpp_MinCX13RQ?pwd=8023"
+            }
+        ]
+    }
+}

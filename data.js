@@ -3887,5 +3887,82 @@ const musicDatabase = [
         pinyin: "M",
         category: "欧美之声",
         avatar: "https://p2.music.126.net/V2PTPt5diTvaYgbDMpV4zA==/526666069706777.jpg?param=600y600"
+    },
+    {
+        id: "us-daughtry",
+        name: "Daughtry",
+        pinyin: "D",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/BDffSqUJqxzgwRTi7EdAoA==/109951166055775004.jpg?param=600y600"
+    },
+    {
+        id: "us-thesmiths",
+        name: "The Smiths",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/gN23tbex5ARqi02A-WxreQ==/171523813954991.jpg?param=600y600"
+    },
+    {
+        id: "us-mia",
+        name: "M.I.A.",
+        pinyin: "M",
+        category: "欧美之声",
+        avatar: "https://p3.music.126.net/Nvqfn4NZeBJbeh_pcxljlQ==/109951173443944168.jpg?param=600y600"
+    },
+    {
+        id: "us-theweeknd",
+        name: "The Weeknd",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p3.music.126.net/IImWXkozPVul_8KkPNRiLg==/109951173214106294.jpg?param=600y600"
+    },
+    {
+        id: "us-camel",
+        name: "Camel",
+        pinyin: "C",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/pj5yqygKJbe1gyC3d4pwgg==/109951173049018941.jpg?param=600y600"
+    },
+    {
+        id: "us-gunna",
+        name: "Gunna",
+        pinyin: "G",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/eoBd28NkRMmFYO8Zpv2igg==/109951170951783056.jpg?param=600y600"
+    },
+    {
+        id: "us-celinedion",
+        name: "Céline Dion",
+        pinyin: "C",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/uCnd0vSDYTBZoUqKzTRbWg==/109951169703713296.jpg?param=600y600"
+    },
+    {
+        id: "us-lany",
+        name: "LANY",
+        pinyin: "L",
+        category: "欧美之声",
+        avatar: "https://p4.music.126.net/uLJGektT5RA4XoG2Inw2Rw==/109951171558567441.jpg?param=600y600"
+    },
+    {
+        id: "us-talkingheads",
+        name: "Talking Heads",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p3.music.126.net/jhxEFY2uSyKpaNEMFN5-ng==/109951170501426752.jpg?param=600y600"
+    },
+    {
+        id: "us-depechemode",
+        name: "Depeche Mode",
+        pinyin: "D",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/_QHa7P-ndDqImj9cOMm90w==/321057395316189.jpg?param=600y600"
+    },
+    {
+        id: "jp-bright",
+        name: "BRIGHT",
+        pinyin: "B",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/n6fJ_oCPt9NQjzcwXvYSlQ==/881808325499548.jpg?param=600y600"
     }
 ];

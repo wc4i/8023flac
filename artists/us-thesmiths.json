@@ -1,0 +1,33 @@
+{
+    "id": "us-thesmiths",
+    "name": "The Smiths",
+    "avatar": "https://p2.music.126.net/gN23tbex5ARqi02A-WxreQ==/171523813954991.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "Meat Is Murder [qobuz]",
+                "year": "1985.02",
+                "cover": "https://p1.music.126.net/tR7vLb_3tNHUCmQfJ9vrUg==/109951169608233603.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1tdYpLUTQxnwDDe5kZmHsGQ?pwd=8023"
+            },
+            {
+                "title": "The Smiths (2011 Remaster) [qobuz]",
+                "year": "1984.02",
+                "cover": "https://p1.music.126.net/TMG7fCjamu0K0e8FKo4aMw==/109951173226505751.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1VXv05waFAx9uMm-T9bQwVw?pwd=8023"
+            },
+            {
+                "title": "The Queen Is Dead (2011 Remaster) [qobuz]",
+                "year": "1986.06",
+                "cover": "https://p1.music.126.net/VXIdIrgs4An-tD0j5ctTuA==/109951174017759458.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1l08OGy2Mo0u-SoymsgPAcA?pwd=8023"
+            },
+            {
+                "title": "Strangeways, Here We Come (2011 Remaster) [qobuz]",
+                "year": "1987.09",
+                "cover": "https://p1.music.126.net/CHb-qtu2ciyStAVuwvUrOw==/109951163860483447.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1U-S7RyXxrLcuVKC2DlQjnw?pwd=8023"
+            }
+        ]
+    }
+}

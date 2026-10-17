@@ -1,0 +1,85 @@
+{
+    "id": "us-theweeknd",
+    "name": "The Weeknd",
+    "avatar": "https://p3.music.126.net/IImWXkozPVul_8KkPNRiLg==/109951173214106294.jpg?param=600y600",
+    "groups": {
+        "Studio Albums (FLAC tracks)": [
+            {
+                "title": "Kiss Land (Deluxe)",
+                "year": "2012.12",
+                "cover": "https://p3.music.126.net/plq-a4rbnzamYlABtgrxwQ==/7716372604710412.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1agyTuW8Zl6UXJaZizK_nyA?pwd=8023"
+            },
+            {
+                "title": "Beauty Behind The Madness [24-44.1]",
+                "year": "2015.08",
+                "cover": "https://p4.music.126.net/2_pKLMgt9HdgprUctWr5Ig==/109951167961039679.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1BAtFZw3OJlOx7MdpCF-Pxg?pwd=8023"
+            },
+            {
+                "title": "Starboy (Deluxe) [24-44.1]",
+                "year": "2016.11",
+                "cover": "https://p3.music.126.net/Z87MeS2837lE0LfHDq29Ew==/109951174069692778.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1eSkpMxOYs23auu-IjW8MRA?pwd=8023"
+            },
+            {
+                "title": "My Dear Melancholy,",
+                "year": "2018.03",
+                "cover": "https://p3.music.126.net/SM0hSbA-UthHrIBhfNCiVQ==/109951169318024922.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1wgTA6s1mQdIGxIWHUNysRg?pwd=8023"
+            },
+            {
+                "title": "After Hours [24-44.1]",
+                "year": "2020.02",
+                "cover": "https://p4.music.126.net/Hnul3GnOuBjJX2hS-2Jevw==/109951164820901649.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1DXpWMFZ_BsO04sUwzFtA4g?pwd=8023"
+            },
+            {
+                "title": "Dawn FM (Alternate World) [24-44.1]",
+                "year": "2022.01",
+                "cover": "https://p3.music.126.net/WyiuvKtx1JmKhi6iDEfMLw==/109951173675217759.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1870K0DJnxClYVg9Y87jFXw?pwd=8023"
+            },
+            {
+                "title": "Hurry Up Tomorrow [24-88.2]",
+                "year": "2025.02",
+                "cover": "https://p4.music.126.net/RP5qj76Muby1DWpX9ivScQ==/109951173144798445.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1xn38Z8zR4mYRmsp-ltXkyA?pwd=8023"
+            }
+        ],
+        "Mixtape (FLAC tracks)": [
+            {
+                "title": "House Of Balloons [24-44.1][Mixtape]",
+                "year": "2011.03",
+                "cover": "https://p4.music.126.net/fsce5ly28Sz69ejLQXPIMQ==/109951165966147526.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1O-5xHF8CPFCmeSgd8ccf3g?pwd=8023"
+            },
+            {
+                "title": "Thursday [24-44.1][Mixtape]",
+                "year": "2011.08",
+                "cover": "https://p3.music.126.net/9D_tjmCx3EZtiUgaiCD4Kw==/109951167480902753.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/14Tn1uDfjReZp1fKIHPbq0w?pwd=8023"
+            },
+            {
+                "title": "Echoes Of Silence [24-44.1][Mixtape]",
+                "year": "2011.12",
+                "cover": "https://p3.music.126.net/1bRlT0pG2cN2mSAnRSXMFQ==/109951167499332754.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/160EV-fSXBVU1E6KmjGewtA?pwd=8023"
+            }
+        ],
+        "Compilation (FLAC tracks)": [
+            {
+                "title": "Trilogy",
+                "year": "2012.11",
+                "cover": "https://p3.music.126.net/jNvgyJ62gUHEHAV4CMTVeQ==/109951169028499685.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/112_5ZMcB5AmqNla1ODdVpw?pwd=8023"
+            },
+            {
+                "title": "The Highlights [24-44.1]",
+                "year": "2021.02",
+                "cover": "https://p4.music.126.net/e08253sx5kolF0qrC9RBcg==/109951165698093196.jpg?param=600y600",
+                "link": "https://pan.baidu.com/s/1RUriNY6BvpDW5ErCptT-_g?pwd=8023"
+            }
+        ]
+    }
+}
