@@ -1,0 +1,45 @@
+{
+  "id": "cn-chaozaiyuedui",
+  "name": "超载乐队",
+  "pinyin": "C",
+  "category": "华语金曲",
+  "avatar": "https://p2.music.126.net/VqlBM1_hA67pd8lWAfs_TQ==/943380976668654.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "1996.08 - 超载 同名专辑",
+        "year": "1996.08",
+        "cover": "https://p1.music.126.net/hqhJYWe64gEvyWJ63DZy9Q==/109951173950545489.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1ptZBzTBy62H2ivNVSyIXBw?pwd=8023"
+      },
+      {
+        "title": "1999.05 - 魔幻蓝天",
+        "year": "1999.05",
+        "cover": "https://p1.music.126.net/BUjL-Zc6V7z2aeIRhezlgA==/109951170118056609.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1c32AJA9fCItZFn1jxNSJcA?pwd=8023"
+      },
+      {
+        "title": "2002.11 - 生命是一次奇遇",
+        "year": "2002.11",
+        "cover": "https://p1.music.126.net/kKAD1qrHRM-XbL37JvlWaw==/109951170118048840.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1NjuEnlp6yD77E3bN_EgqXQ?pwd=8023"
+      }
+    ],
+    "Live Albums (FLAC tracks)": [
+      {
+        "title": "2006.10 - 生命之诗Unplugged现场",
+        "year": "2006.10",
+        "cover": "https://p1.music.126.net/wxdIkZ8-DW04_7BK8nnS5A==/109951165434809783.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1OZrksLPXnXtwOBKSNU5aEA?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 160708)",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/16wIETqziy6TXmHcXINGHyA?pwd=8023"
+      }
+    ]
+  }
+}

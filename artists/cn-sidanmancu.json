@@ -1,0 +1,45 @@
+{
+  "id": "cn-sidanmancu",
+  "name": "斯丹曼簇",
+  "pinyin": "S",
+  "category": "华语金曲",
+  "avatar": "https://p1.music.126.net/8_2f8PyDmS6o_HU5CSAxCw==/109951166155720987.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "2023.11 - 斯丹曼簇单身记",
+        "year": "2023.11",
+        "cover": "https://p1.music.126.net/xTenk8W8VwDb-4zkg3Ye9A==/109951169080092617.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1drvUlpJ1okpKMW065FAQFw?pwd=8023"
+      },
+      {
+        "title": "2026.09 - 鲜花与牛粪 [24-48]",
+        "year": "2026.09",
+        "cover": "https://p2.music.126.net/0xiCsu5WzSN8Me9PCVnvSA==/109951173971233652.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1YQhpIykJol4R88TCkUjubA?pwd=8023"
+      }
+    ],
+    "EPs (FLAC tracks)": [
+      {
+        "title": "2021.10 - 他 [EP][24-48]",
+        "year": "2021.10",
+        "cover": "https://p2.music.126.net/XkwBM_2_922Rhhby7tn-yg==/109951166469004902.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1fIkMljCfhJJi75u6NXWp7A?pwd=8023"
+      },
+      {
+        "title": "2024.03 - Justin Bieber Pt.1 [EP][24-48]",
+        "year": "2024.03",
+        "cover": "https://p1.music.126.net/kSlAK52T0UeWIfKK04RtUQ==/109951169395852261.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1FWlema-qu_XHaxOt2DJsEw?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 260725)",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1ETok3kAycHhPwEpHXsMrRw?pwd=8023"
+      }
+    ]
+  }
+}

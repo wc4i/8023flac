@@ -1,0 +1,43 @@
+{
+  "id": "cn-bukechexiaoyuedui",
+  "name": "不可撤销乐队",
+  "pinyin": "B",
+  "category": "华语金曲",
+  "avatar": "https://p1.music.126.net/HCbEHppHUo2uGkTc05FN4A==/109951166712066484.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "2014.04 - 致敬梦想",
+        "year": "2014.04",
+        "cover": "https://p2.music.126.net/Hyn6EsjR9eKiYTmWxPJchg==/6016527627367575.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1gWCnu40ZaH0rMykLR06Zhg?pwd=8023"
+      },
+      {
+        "title": "2014.10 - 她 千鸟",
+        "year": "2014.10",
+        "cover": "https://p2.music.126.net/4x2X7W_VGHQeHoMR4a3Wbw==/3227066628477266.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1fLq4nYdt2PYIsy4Wm2tmIA?pwd=8023"
+      },
+      {
+        "title": "2023.01 - 我将无我",
+        "year": "2023.01",
+        "cover": "https://p2.music.126.net/MO-irx2CyHQfDqD7HN7ioA==/109951168207940223.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1XgHrqu0zZppU5jeAWymgjg?pwd=8023"
+      },
+      {
+        "title": "2026.05 - 白",
+        "year": "2026.05",
+        "cover": "https://p1.music.126.net/d9MZnhy4vY3NhxzU2uOM0w==/109951173188676636.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Rl3y20a8Ugrhqcyf07kLwA?pwd=8023"
+      }
+    ],
+    "Singles (FLAC tracks)": [
+      {
+        "title": "Singles (as of 260127)",
+        "year": "",
+        "cover": "",
+        "link": "https://pan.baidu.com/s/1awgKWgSnPqC3DBgGeKQuBw?pwd=8023"
+      }
+    ]
+  }
+}

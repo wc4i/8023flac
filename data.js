@@ -3964,5 +3964,110 @@ const musicDatabase = [
         pinyin: "B",
         category: "日韩风尚",
         avatar: "https://p1.music.126.net/n6fJ_oCPt9NQjzcwXvYSlQ==/881808325499548.jpg?param=600y600"
+    },
+    {
+        id: "cn-mylittleairport",
+        name: "My Little Airport",
+        pinyin: "M",
+        category: "华语金曲",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/30/49/42/304942a0-ef14-08e0-7b76-c3517cfd1240/5063011241119_cover.jpg/600x600bb.jpg"
+    },
+    {
+        id: "im-howardlevy",
+        name: "Howard Levy",
+        pinyin: "H",
+        category: "古典与纯音",
+        avatar: "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/09/11/5b/09115b4e-0073-97e9-0b8f-29e7fe3dfa92/700261468525.jpg/600x600bb.jpg"
+    },
+    {
+        id: "us-damienrice",
+        name: "Damien Rice",
+        pinyin: "D",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/HWVxT6tS3m_ktJ38WUIlcw==/109951168043964675.jpg?param=600y600"
+    },
+    {
+        id: "us-tinashe",
+        name: "Tinashe",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p2.music.126.net/mPNN5gEvNz2Tc7UCJhepEA==/109951173945626182.jpg?param=600y600"
+    },
+    {
+        id: "us-troyesivan",
+        name: "Troye Sivan",
+        pinyin: "T",
+        category: "欧美之声",
+        avatar: "https://p1.music.126.net/yDaXNi2LmroEEjVh06zIRw==/109951169426920702.jpg?param=600y600"
+    },
+    {
+        id: "jp-funkymonkeybabys",
+        name: "FUNKY MONKEY BABYS",
+        pinyin: "F",
+        category: "日韩风尚",
+        avatar: "https://p2.music.126.net/63JsNo-Gcp4LMCfbAJERbw==/109951169413441570.jpg?param=600y600"
+    },
+    {
+        id: "kr-ireneandseulgi",
+        name: "Red Velvet - IRENE & SEULGI",
+        pinyin: "R",
+        category: "日韩风尚",
+        avatar: "https://p1.music.126.net/sn-mrOFsPLRnA4qH3Q1JUQ==/109951171268051851.jpg?param=600y600"
+    },
+    {
+        id: "cn-tangchaoyuedui",
+        name: "唐朝乐队",
+        pinyin: "T",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/QAJ_itv0rHg54LPXaR-AUQ==/109951165789740394.jpg?param=600y600"
+    },
+    {
+        id: "cn-chenqizhen",
+        name: "陈绮贞",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/fPK0IO3wrFZ6du5p9xsRxw==/109951169959800223.jpg?param=600y600"
+    },
+    {
+        id: "cn-haiguixiansheng",
+        name: "海龟先生",
+        pinyin: "H",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/DRShMUyymEdM9ntQYj0gtw==/109951173106924630.jpg?param=600y600"
+    },
+    {
+        id: "cn-sidanmancu",
+        name: "斯丹曼簇",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/8_2f8PyDmS6o_HU5CSAxCw==/109951166155720987.jpg?param=600y600"
+    },
+    {
+        id: "cn-danbao",
+        name: "蛋堡",
+        pinyin: "D",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/FBMqVp-jY9NcrxcnWx7Mbg==/109951169249124048.jpg?param=600y600"
+    },
+    {
+        id: "cn-sweety",
+        name: "Sweety",
+        pinyin: "S",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/CKNRl0SJ30GKtCTquRKM9Q==/45079976757100.jpg?param=600y600"
+    },
+    {
+        id: "cn-chaozaiyuedui",
+        name: "超载乐队",
+        pinyin: "C",
+        category: "华语金曲",
+        avatar: "https://p2.music.126.net/VqlBM1_hA67pd8lWAfs_TQ==/943380976668654.jpg?param=600y600"
+    },
+    {
+        id: "cn-bukechexiaoyuedui",
+        name: "不可撤销乐队",
+        pinyin: "B",
+        category: "华语金曲",
+        avatar: "https://p1.music.126.net/HCbEHppHUo2uGkTc05FN4A==/109951166712066484.jpg?param=600y600"
     }
 ];

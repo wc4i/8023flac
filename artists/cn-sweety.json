@@ -1,0 +1,29 @@
+{
+  "id": "cn-sweety",
+  "name": "Sweety",
+  "pinyin": "S",
+  "category": "华语金曲",
+  "avatar": "https://p2.music.126.net/CKNRl0SJ30GKtCTquRKM9Q==/45079976757100.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "2003.08 - 嗨！Sweety [2003 福茂版]",
+        "year": "2003.08",
+        "cover": "https://p1.music.126.net/hlComj_FSAIR2BWvpY9fZQ==/109951163423039787.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1hLgTokTcIqaH-gWKRQa_JQ?pwd=8023"
+      },
+      {
+        "title": "2005.06 - 17岁不温柔 [2005 丰华版]",
+        "year": "2005.06",
+        "cover": "https://p1.music.126.net/VZ49ssjRL8zaceS3qU_qmw==/109951172325765110.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1mGs6LqfPKPyqh6W7iNwI2g?pwd=8023"
+      },
+      {
+        "title": "2006.06 - 花言乔语 [2006 丰华版]",
+        "year": "2006.06",
+        "cover": "https://p1.music.126.net/SvDDu5Qou0NAyukjRm58fw==/109951172325745499.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1yVosL4KyLd-kZD9lhoZspA?pwd=8023"
+      }
+    ]
+  }
+}

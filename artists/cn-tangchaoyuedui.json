@@ -1,0 +1,41 @@
+{
+  "id": "cn-tangchaoyuedui",
+  "name": "唐朝乐队",
+  "avatar": "https://p1.music.126.net/QAJ_itv0rHg54LPXaR-AUQ==/109951165789740394.jpg?param=600y600",
+  "groups": {
+    "Studio Albums (FLAC tracks)": [
+      {
+        "title": "唐朝 同名专辑",
+        "year": "1992.11",
+        "cover": "https://p2.music.126.net/LXcGUC-VTNuizrvuks_pig==/109951170216839320.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1QF0mUKdHBRRoIGMajM0-6g?pwd=8023"
+      },
+      {
+        "title": "演义",
+        "year": "1998.12",
+        "cover": "https://p2.music.126.net/c5kxMxdp4hyStVLDGDIYRA==/109951165611352981.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1FODm__yeXueotCLWlSh1XA?pwd=8023"
+      },
+      {
+        "title": "浪漫骑士",
+        "year": "2008.06",
+        "cover": "https://p2.music.126.net/vlrdJFU2y35cVbB_iSjf1Q==/71468255819937.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1RfHAcQnOLU020iGlgd_SBQ?pwd=8023"
+      },
+      {
+        "title": "芒刺",
+        "year": "2013.09",
+        "cover": "https://p2.music.126.net/X2m3RglDK_q43cpysUu2NA==/2091271116067758.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1Zg1bt3YecOQaWqDFT8TFnw?pwd=8023"
+      }
+    ],
+    "EPs (FLAC tracks)": [
+      {
+        "title": "演义 单曲纪念珍藏版 [EP]",
+        "year": "2000.03",
+        "cover": "https://p2.music.126.net/xS53F9t2eXsiOc-hgTzNrg==/130841883720233.jpg?param=600y600",
+        "link": "https://pan.baidu.com/s/1oT9qsp6W7NwMPnOIJ-Szmw?pwd=8023"
+      }
+    ]
+  }
+}
